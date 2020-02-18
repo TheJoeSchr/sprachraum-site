@@ -1,39 +1,31 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/home">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link
-          class="nav__link"
-          to="/"
-        >
-          Home
-        </g-link>
-        <g-link
-          class="nav__link"
-          to="/about/"
-        >
-          About
-        </g-link>
-
+  <div class="LayoutDefault">
+    <div class="d-flex align-items-center p-3 mb-3 mb-md-5 bg-white border-bottom box-shadow">
+      <span class="mr-auto">Fressmaus</span>
+      <nav class="ml-auto">
         <g-link
           v-for="(menu, key) in menuOptions"
           :key="key"
-          class="nav__link"
+          class="p-2 text-dark"
           :to="menu.route"
         >
           {{ menu.label }}
         </g-link>
       </nav>
-    </header>
-    <slot />
+    </div>
+    <div class="LayoutDefault__main mx-auto">
+      <slot />
+    </div>
+    <footer class="d-flex align-items-center p-3 bg-white border-top box-shadow">
+      &copy; Fressmaus
+    </footer>
+  </div>
   </div>
 </template>
 
 <script>
 export default {
+  name: "DefaultLayout",
   computed: {
     menuOptions () {
       return [
@@ -48,7 +40,14 @@ export default {
     edges () {
       return this.$static.allStoryblokEntry.edges || []
     }
-  }
+  },
+  metaInfo: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' },
+    ],
+  },
 }
 </script>
 
@@ -92,7 +91,11 @@ body {
   margin-bottom: 20px;
   height: 80px;
 }
-
+.LayoutDefault__main {
+  padding-right: 1em;
+  padding-left: 1em;
+  max-width: 52em;
+}
 .nav__link {
   margin-left: 20px;
 }

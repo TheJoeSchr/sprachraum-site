@@ -14,7 +14,6 @@ class StoryblokSource {
   }
 
   async fetchContent(store) {
-    debugger;
     const { addContentType } = store;
     const { accessToken } = this.options;
 
