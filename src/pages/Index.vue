@@ -1,92 +1,33 @@
 <template>
   <Layout>
-    <div class="Home">
-      <div class="Home__hero mb-4 mb-md-5 mx-auto text-center">
-        <h1 class="display-4">
-          {{ $page.landingPage.title }}
-        </h1>
-        <p class="lead">
-          {{ $page.landingPage.intro }}
-        </p>
-      </div>
 
-      <div class="Home__media-blocks mb-5">
-        <AppMediaBlock
-          v-for="mediaBlock in $page.landingPage.mediaBlocks"
-          :key="mediaBlock._uid"
-          v-bind="mediaBlock"
-        />
-      </div>
+    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
+    <g-image alt="Example image" src="~/favicon.png" width="135" />
 
-      <ul class="Home__teasers mb-5">
-        <li
-          v-for="teaser in $page.landingPage.teasers"
-          :key="teaser._uid"
-        >
-          <AppTeaser v-bind="teaser"/>
-        </li>
-      </ul>
-    </div>
+    <h1>Hello, world!</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
+    </p>
+
+    <p class="home-links">
+      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
+      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+    </p>
+
   </Layout>
 </template>
 
-<page-query>
-query LandingPage {
-  landingPage(path: "home") {
-    title
-    intro
-    mediaBlocks {
-      image
-      image_position
-      text
-      title
-    }
-    teasers {
-      image
-      link {
-        url
-      }
-      text
-      title
-    }
+<script>
+export default {
+  metaInfo: {
+    title: 'Hello, world!'
   }
 }
-</page-query>
-
-<script>
-import AppMediaBlock from '../components/AppMediaBlock.vue';
-import AppTeaser from '../components/AppTeaser.vue';
-
-export default {
-  components: {
-    AppMediaBlock,
-    AppTeaser,
-  },
-};
 </script>
 
 <style>
-.Home__hero {
-  max-width: 36em;
-}
-
-.Home__media-blocks > :not(:last-child) {
-  margin-bottom: 4em;
-}
-
-.Home__teasers {
-  display: flex;
-  margin-top: -1em;
-  margin-left: -1em;
-  padding-left: 0;
-  flex-wrap: wrap;
-  list-style-type: none;
-}
-
-.Home__teasers > * {
-  padding-top: 1em;
-  padding-left: 1em;
-  flex-basis: 16em;
-  flex-grow: 9999;
+.home-links a {
+  margin-right: 1rem;
 }
 </style>
