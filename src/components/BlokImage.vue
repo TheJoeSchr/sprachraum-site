@@ -1,19 +1,20 @@
 <template>
   <div>
-    <g-image :src="imageURL"></g-image>
+    <g-image :src="imageURL" />
   </div>
 </template>
 
 <script>
 export default {
-  props: ['blok'],
+  name:"BlokImage",
+  props: ['image'],
   computed: {
     imageURL () {
-      if (typeof this.blok.image === 'string') {
-        return this.blok.image
+      if (typeof this.image === 'string') {
+        return this.image
       }
 
-      const path = this.blok.image.path
+      const path = this.image.path
       return require('!!assets-loader?width=800&quality=100&fit=inside!~/' + path)
     }
   }

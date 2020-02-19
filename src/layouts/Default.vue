@@ -1,7 +1,7 @@
 <template>
   <div class="LayoutDefault">
     <div class="d-flex align-items-center p-3 mb-3 mb-md-5 bg-white border-bottom box-shadow">
-      <span class="mr-auto">Fressmaus</span>
+      <a href="/"><span class="mr-auto">Fressmaus</span></a>
       <nav class="ml-auto">
         <g-link
           v-for="(menu, key) in menuOptions"
@@ -20,7 +20,6 @@
       &copy; Fressmaus
     </footer>
   </div>
-  </div>
 </template>
 
 <script>
@@ -29,7 +28,7 @@ export default {
   computed: {
     menuOptions () {
       return [
-        ...this.edges.map(edge => {
+        ...this.edges.filter(({node}) => !node.full_slug.includes("blog")).map(edge => {
           return {
             label: edge.node.name,
             route: edge.node.full_slug
@@ -43,9 +42,22 @@ export default {
   },
   metaInfo: {
     link: [
-      {
+      { // bulma
         rel: 'stylesheet',
-        href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' },
+        href: 'https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css'
+      },
+      { // bulma blog theme: overlayscrollbars
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'
+      },
+      { // bulma blog theme: font
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Open+Sans'
+      },
+      { // bulma fontawesome icons
+        rel: 'script',
+        href: 'https://use.fontawesome.com/releases/v5.3.1/js/all.js'
+      },
     ],
   },
 }
