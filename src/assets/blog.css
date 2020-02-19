@@ -25,6 +25,7 @@ height: 500px;
     line-height: 1.9;
     margin: 15px 0;
 }
+
 .author-image {
     position: absolute;
     top: -30px;
@@ -62,6 +63,15 @@ div.column.is-8:first-child {
   line-height: 1.4;
   margin: 0 6rem;
 }
+
+@media screen and (max-width: 768px) {
+  .article-body {
+    line-height: 1.4;
+    margin: 0 1rem;
+  }
+}
+
+
 .promo-block .container {
   margin: 1rem 5rem;
 }

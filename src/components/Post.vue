@@ -14,7 +14,9 @@
                     </p>
                 </div>
             </div>
-            <img :src="blok.image">
+            <div class="content article-body has-text-centered" > 
+              <img class="content" :src="blok.image">
+            </div>
             <div class="content article-body" v-html="body"> </div>
         </div>
     </div>
