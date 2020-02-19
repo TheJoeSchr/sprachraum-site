@@ -10,6 +10,9 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
+   /**
+   * The code below will create pages for the StoryblokEntry data
+   */
   api.createPages(async ({ graphql, createPage }) => {
     const { data } = await graphql(`{
       allStoryblokEntry {
@@ -31,5 +34,31 @@ module.exports = function (api) {
         }
       })
     })
-  })
+  }); //createPages: storyBlockEntry
+
+  /**
+   * And this code below will create pages for the BlogEntry data
+   */
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allBlogEntry {
+        edges {
+          node {
+            id
+            full_slug
+          }
+        }
+      }
+    }`)
+
+    data.allBlogEntry.edges.forEach(({ node }) => {
+      createPage({
+        path: `/${node.full_slug}`,
+        component: './src/templates/BlogEntry.vue',
+        context: {
+          id: node.id
+        }
+      })
+    })
+  }); //createPages: BlogEntry
 }
