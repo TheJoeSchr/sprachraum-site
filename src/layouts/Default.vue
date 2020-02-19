@@ -1,25 +1,62 @@
 <template>
   <div class="LayoutDefault">
-    <div class="d-flex align-items-center p-3 mb-3 mb-md-5 bg-white border-bottom box-shadow">
-      <a href="/"><span class="mr-auto">Fressmaus</span></a>
-      <nav class="ml-auto">
-        <g-link
-          v-for="(menu, key) in menuOptions"
-          :key="key"
-          class="p-2 text-dark"
-          :to="menu.route"
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a
+            class="navbar-item"
+            href="/"
+          > Fressmaus </a>
+          <span
+            class="navbar-burger burger"
+            data-target="navbarMenu"
+          >
+            <span />
+            <span />
+            <span />
+          </span>
+        </div>
+        <div
+          id="navbarMenu"
+          class="navbar-menu"
         >
-          {{ menu.label }}
-        </g-link>
-      </nav>
-    </div>
-    <div class="LayoutDefault__main mx-auto">
+          <div class="navbar-end">
+            <g-link
+              v-for="(menu, key) in menuOptions"
+              :key="key"
+              class="navbar-item"
+              :to="menu.route"
+            >
+              {{ menu.label }}
+            </g-link>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAV -->
+    <section class="hero is-info is-medium is-bold">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Alle Highlights der Fressmaus an einem Ort
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- END TITLE -->
+    <div class="container">
+      <!-- Pages -->
       <slot />
     </div>
-    <footer class="d-flex align-items-center p-3 bg-white border-top box-shadow">
-      &copy; Fressmaus
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          &copy; Fressmaus 2020
+        </p>
+      </div>
     </footer>
-  </div>
+  </div> <!-- </div> LayoutDefault -->
 </template>
 
 <script>
