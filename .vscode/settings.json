@@ -3,5 +3,12 @@
     "page-query": "graphql",
     "static-query": "graphql"
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "vue"
+  ]
 }
