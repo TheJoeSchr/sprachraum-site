@@ -18,7 +18,7 @@ export default {
     Layout,
   },
   metaInfo: {
-    title: 'Hello, world!',
+    title: 'Home',
   },
 };
 </script>
