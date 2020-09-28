@@ -35,7 +35,7 @@
         <div
           id="content"
           class="z-0 h-screen pt-1"
-          style="padding-left: 265px; width: 1200px"
+          style="padding-left: 265px; width: 1465px"
         >
           <div class="bg-brand-green px-6">
             <slot />
