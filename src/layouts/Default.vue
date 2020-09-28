@@ -18,7 +18,7 @@
           />
         </div>
       </div>
-      <div class="fixed bg-brand-green h-full" style="margin-top: 265px">
+      <div class="absolute bg-brand-green h-full" style="margin-top: 265px">
         <!-- Sidebar Bar -->
         <div
           id="sidebar"
@@ -59,8 +59,8 @@
         <!--Main Content-->
         <div
           id="content"
-          class="z-0 h-screen pt-1"
-          style="padding-left: 265px; width: 1465px"
+          class="z-0 h-full pt-1"
+          style="padding-left: 265px; width: 1465px; overflow-y: auto"
         >
           <div class="bg-brand-green px-6">
             <slot />
@@ -95,7 +95,9 @@ query {
   letter-spacing: 0px;
   font-style: normal;
 }
-
+/* html {
+  overflow-y: scroll;
+} */
 .btn {
   @apply font-bold py-2 px-4  shadow;
 }
