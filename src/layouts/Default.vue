@@ -3,7 +3,7 @@
     <div style="max-width: 1465px; width: 1465px">
       <!-- Top Bar -->
       <div
-        class="fixed bg-brand-yellow w-full"
+        class="z-20 fixed bg-brand-yellow w-full"
         style="height: 265px; width: 1465px"
       >
         <div class="absolute top-0 left-0 bg-white">
@@ -18,10 +18,24 @@
           />
         </div>
       </div>
-      <div class="flex md:flex-row-reverse flex-wrap">
+      <div class="fixed bg-brand-green h-full" style="margin-top: 265px">
+        <!-- Sidebar Bar -->
+        <div
+          class="z-10 fixed bg-brand-yellow h-full pt-1"
+          style="width: 265px"
+        >
+          <div class="mx-auto px-2">
+            <ul>
+              <li>HOME</li>
+            </ul>
+          </div>
+        </div>
         <!--Main Content-->
-        <div class="w-full h-full bg-brand-green">
-          <div class="container bg-brand-green pt-16 px-6">
+        <div
+          class="z-0 h-screen pt-1"
+          style="padding-left: 265px; width: 1200px"
+        >
+          <div class="bg-brand-green px-6">
             <slot />
           </div>
         </div>
