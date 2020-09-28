@@ -1,5 +1,5 @@
 {
-  "name": "fressmaus-blog-gridsome",
+  "name": "sprachraum-site",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -7,13 +7,6 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0",
-    "gridsome-source-storyblok": "^0.2.2"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-vue": "^6.2.1",
-    "marked": "^0.8.0"
+    "gridsome": "^0.7.0"
   }
 }

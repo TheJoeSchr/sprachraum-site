@@ -1,70 +1,30 @@
 <template>
   <Layout>
-    <!-- START ARTICLE FEED -->
-    <section class="articles">
-      <div class="column is-8 is-offset-2">
-        <!-- START ARTICLE -->
-        <div
-          v-for="(item) in $page.allBlogEntry.edges"
-          :key="item.id"
-          class="card article"
-        >
-          <div class="card-content">
-            <div class="media">
-              <div class="media-center">
-                <img
-                  src="http://www.radfaces.com/images/avatars/daria-morgendorffer.jpg"
-                  class="author-image"
-                  alt="TODO: Use sad/happy fressmaus image"
-                >
-              </div>
-              <div class="media-content has-text-centered">
-                <p
-                  class="title article-title" >
-                  <a :href="item.node.full_slug" > {{ item.node.content.title }} </a>
-                </p>
-                <p class="subtitle is-6 article-subtitle">
-                  published  {{ item.node.published_at }}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      <!-- END ARTICLE -->
-      </div>
-    </section>
-  <!-- END ARTICLE FEED -->
+
+    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
+    <g-image alt="Example image" src="~/favicon.png" width="135" />
+
+    <h1>Hello, world!</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
+    </p>
+
+    <p class="home-links">
+      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
+      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+    </p>
+
   </Layout>
 </template>
 
 <script>
 export default {
-  name:"Posts",
   metaInfo: {
-    title: "Fressmaus'Blog"
-  },
-  computed: {
-    posts () {
-      return this.$page.allBlogEntry.edges || []
-    }
-  },
-}
-</script>
-
-<page-query>
-query {
-  allBlogEntry {
-    edges {
-      node {
-        id
-        content
-        published_at
-        full_slug
-      }
-    }
+    title: 'Hello, world!'
   }
 }
-</page-query>
+</script>
 
 <style>
 .home-links a {
