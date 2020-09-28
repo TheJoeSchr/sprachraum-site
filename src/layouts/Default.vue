@@ -25,11 +25,36 @@
           class="z-10 fixed bg-brand-yellow h-full pt-1"
           style="width: 265px"
         >
-          <div class="mx-auto px-2">
-            <ul>
-              <li>HOME</li>
-            </ul>
-          </div>
+          <ul class="container mx-auto text-center pt-6">
+            <li>
+              <a class="text-black hover:text-white" href="#">DEUTSCH</a>
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#">ITALIENISCH</a>
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#">KURSPROGRAMM</a>
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#">TEAM</a>
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#"
+                >EINSTUFUNGSTEST</a
+              >
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#">FIRMENKURSE</a>
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#"
+                >LEBEN & ARBEITEN</a
+              >
+            </li>
+            <li>
+              <a class="text-black hover:text-white" href="#"> WORK IT AUT </a>
+            </li>
+          </ul>
         </div>
         <!--Main Content-->
         <div
@@ -62,12 +87,26 @@ query {
   font-size: 18px;
   letter-spacing: 2px;
   font-style: normal;
+  line-height: 3.5em;
 }
 #content {
   font-family: D-DIN, DIN, Arial, Helvetica, sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
   font-style: normal;
+}
+
+.btn {
+  @apply font-bold py-2 px-4  shadow;
+}
+.btn-brand-yellow {
+  @apply bg-brand-yellow text-black border border-brand-green;
+}
+.btn-brand-yellow:hover {
+  @apply bg-transparent text-brand-yellow border border-brand-yellow;
+}
+.btn-brand-yellow:active {
+  @apply bg-transparent text-yellow-300 border border-brand-yellow;
 }
 
 h4 {
