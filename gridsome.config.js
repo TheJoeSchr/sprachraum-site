@@ -6,5 +6,15 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
-}
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+        tailwindConfig: './tailwind.config.js',
+        presetEnvConfig: {},
+        shouldImport: true,
+        shouldTimeTravel: true,
+      },
+    },
+  ],
+};

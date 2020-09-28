@@ -1,9 +1,13 @@
 {
   "root": true,
   "parserOptions": {
-    "ecmaVersion": 2017
+    "ecmaVersion": 2020
   },
-  "extends": [
-    "plugin:vue/recommended"
-  ]
+  "extends": ["plugin:vue/recommended", "plugin:prettier/recommended"],
+
+  "plugins": ["prettier"],
+
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
