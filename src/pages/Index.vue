@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Hello, world!</h1>
+    <h4>Hello, world!</h4>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur

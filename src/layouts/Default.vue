@@ -21,6 +21,7 @@
       <div class="fixed bg-brand-green h-full" style="margin-top: 265px">
         <!-- Sidebar Bar -->
         <div
+          id="sidebar"
           class="z-10 fixed bg-brand-yellow h-full pt-1"
           style="width: 265px"
         >
@@ -32,6 +33,7 @@
         </div>
         <!--Main Content-->
         <div
+          id="content"
           class="z-0 h-screen pt-1"
           style="padding-left: 265px; width: 1200px"
         >
@@ -53,30 +55,32 @@ query {
 </static-query>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+#sidebar {
+  font-family: 'Unica One', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+#content {
+  font-family: DIN, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+h4 {
+  font-family: 'Unica One', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-style: normal;
+  font-weight: bold;
+}
+
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
 }
 </style>
