@@ -64,7 +64,7 @@ query {
   font-style: normal;
 }
 #content {
-  font-family: DIN, Arial, Helvetica, sans-serif;
+  font-family: D-DIN, DIN, Arial, Helvetica, sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
   font-style: normal;

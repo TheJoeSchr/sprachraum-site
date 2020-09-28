@@ -9616,6 +9616,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-d-din@^0.0.67:
+  version "0.0.67"
+  resolved "https://registry.yarnpkg.com/typeface-d-din/-/typeface-d-din-0.0.67.tgz#02965b1a36a491b04fc33cc76b98c979223a2833"
+  integrity sha512-rHXPrklMHE9cRCtxz/jdpgS09Xqu9gn3XE/oI6Mnu3FyaQHrGzEenCf3nhRta67v79a+w+EJuzjPWG5HlR0SaA==
+
+typeface-unica-one@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-unica-one/-/typeface-unica-one-0.0.72.tgz#af89ee464166d2a27e22053df42579975a39ef41"
+  integrity sha512-/Km9gIQZAB+QnGP7fN/+16fOmWt6JIZcXXVcH31fn3P22FwW4Zb0WGUP6k6dA9pVzfGu13xsiF4U/n+m8NFn3Q==
+
 uglify-js@3.4.x:
   version "3.4.10"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.10.tgz#9ad9563d8eb3acdfb8d38597d2af1d815f6a755f"
