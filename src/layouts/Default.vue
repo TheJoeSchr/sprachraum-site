@@ -1,15 +1,32 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div class="container" style="min-width: 1465px; width: 1465px">
+    <div style="max-width: 1465px; width: 1465px">
+      <!-- Top Bar -->
+      <div
+        class="fixed bg-brand-yellow w-full"
+        style="height: 265px; width: 1465px"
+      >
+        <div class="absolute top-0 left-0 bg-white">
+          <g-image alt="Logo" src="~/assets/LogoOriginal.jpg" width="265" />
+        </div>
+        <div class="absolute top-0 bg-white" style="left: 265px">
+          <g-image
+            alt="Banner"
+            src="~/assets/BannerOriginal.jpg"
+            width="1200"
+            style="height: 265px; width: 1200px"
+          />
+        </div>
+      </div>
+      <div class="flex md:flex-row-reverse flex-wrap">
+        <!--Main Content-->
+        <div class="w-full h-full bg-brand-green">
+          <div class="container bg-brand-green pt-16 px-6">
+            <slot />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -23,9 +40,10 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
