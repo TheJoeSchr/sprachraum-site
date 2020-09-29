@@ -1,48 +1,9 @@
-const plugin = require('tailwindcss/plugin')
-const tailwind = require('tailwindcss')
-const purgecss = require('@fullhuman/postcss-purgecss')
-
-const postcssPlugins = [tailwind()]
-
-if (process.env.NODE_ENV === 'production')
-  postcssPlugins.push(purgecss(require('./purgecss.config.js')))
-
 module.exports = {
+  purge: ['./src/*.pug'],
   prefix: '',
   important: false,
   separator: ':',
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: [],
-  corePlugins: {},
-  plugins: [
-    plugin(function ({
-      addUtilities,
-      addComponents,
-      addBase,
-      addVariant,
-      e,
-      prefix,
-      theme,
-      variants,
-      config,
-      postcss,
-    }) {
-      // Add your custom styles here
-    }),
-  ],
   theme: {
-    extend: {
-      colors: {
-        'brand-green': '#70A81D',
-        'brand-yellow': '#FFDD00',
-      },
-    },
-    container: {
-      center: true,
-    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -56,28 +17,6 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
-      primary: {
-        100: '#f0fff4',
-        200: '#c6f6d5',
-        300: '#9ae6b4',
-        400: '#68d391',
-        500: '#48bb78',
-        600: '#38a169',
-        700: '#2f855a',
-        800: '#276749',
-        900: '#22543d',
-      },
-      secondary: {
-        100: '#ebf8ff',
-        200: '#bee3f8',
-        300: '#90cdf4',
-        400: '#63b3ed',
-        500: '#4299e1',
-        600: '#3182ce',
-        700: '#2b6cb0',
-        800: '#2c5282',
-        900: '#2a4365',
-      },
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -539,4 +478,6 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive'],
   },
+  corePlugins: {},
+  plugins: [],
 }

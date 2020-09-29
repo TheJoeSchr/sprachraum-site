@@ -101,16 +101,15 @@ query {
 .btn {
   @apply font-bold py-2 px-4  shadow;
 }
-.btn-brand-yellow {
-  @apply bg-brand-yellow text-black border border-brand-green;
+.btn-primary {
+  @apply bg-primary-600 text-black border border-brand-green;
 }
-.btn-brand-yellow:hover {
-  @apply bg-transparent text-brand-yellow border border-brand-yellow;
+.btn-primary:hover {
+  @apply bg-transparent bg-primary-600 text-black border border-brand-yellow;
 }
-.btn-brand-yellow:active {
-  @apply bg-transparent text-yellow-300 border border-brand-yellow;
+.btn-primary:active {
+  @apply bg-transparent text-primary-500 border border-brand-yellow;
 }
-
 h4 {
   font-family: 'Unica One', Arial, Helvetica, sans-serif;
   font-weight: 400;

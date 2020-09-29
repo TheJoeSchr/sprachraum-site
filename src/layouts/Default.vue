@@ -1,10 +1,11 @@
 <template lang="pug">
-.container(style='min-width: 1465px; width: 1465px')
+.bg-body.text-body.font-body
+  .container.mx-auto.px-4
   div(style='max-width: 1465px; width: 1465px')
     //  Top Bar
     .z-20.fixed.bg-brand-yellow.w-full(style='height: 265px; width: 1465px')
       .absolute.top-0.left-0.bg-white
-        g-image(alt='Logo' src='~/assets/LogoOriginal.jpg' width='265').
+        g-image(alt='Logo' src='~/assets/LogoOriginalDe.png' width='265').
 
 
       .absolute.top-0.bg-white(style='left: 265px')
@@ -69,14 +70,14 @@ query {
 .btn {
   @apply font-bold py-2 px-4  shadow;
 }
-.btn-brand-yellow {
-  @apply bg-brand-yellow text-black border border-brand-green;
+.btn-primary {
+  @apply bg-primary-600 text-black border border-brand-green;
 }
-.btn-brand-yellow:hover {
-  @apply bg-transparent text-brand-yellow border border-brand-yellow;
+.btn-primary:hover {
+  @apply bg-transparent bg-primary-600 text-black border border-brand-yellow;
 }
-.btn-brand-yellow:active {
-  @apply bg-transparent text-yellow-300 border border-brand-yellow;
+.btn-primary:active {
+  @apply bg-transparent text-primary-500 border border-brand-yellow;
 }
 
 h4 {
