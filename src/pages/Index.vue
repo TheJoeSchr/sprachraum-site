@@ -25,12 +25,12 @@ Layout
                   a(href="#" class="text-secondary-700 hover:underline") >> Einstufungstest
 
           div(class="lg:w-1/2 px-2")
-              img(src="images/SPRACHRAUM-GER-FINAL-NEU.png" alt="")
+              g-image(src="~/assets/images/LogoOriginalDe.png" alt="")
 
   section(class="py-12 px-4")
       div(class="flex flex-wrap items-center max-w-5xl mx-auto")
           div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
-              img(src="images/LaptopQuaderKlein.jpg" alt="" class="lg:max-w-sm mx-auto")
+              g-image(src="~/assets/images/LaptopQuaderKlein.jpg" alt="" class="lg:max-w-sm mx-auto")
 
           div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
               h3(class="text-2xl mb-2 font-heading") Check IT AUT
@@ -38,7 +38,7 @@ Layout
               a(href="#" class="text-secondary-700 hover:underline") >> Kursprogramm
 
           div(class="lg:w-1/2 px-8 mb-8 lg:mb-0 lg:order-1")
-              img(src="images/7_Firmenkurse_iStock-620402800.jpg" alt="" class="lg:max-w-sm mx-auto")
+              g-image(src="~/assets/images/7_Firmenkurse_iStock-620402800.jpg" alt="" class="lg:max-w-sm mx-auto")
 
           div(class="lg:w-1/2 px-8")
               h3(class="text-2xl mb-2 font-heading") Deutschkurse
@@ -51,71 +51,71 @@ Layout
 
       div(class="flex flex-wrap justify-center max-w-4xl mx-auto")
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
-              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md" style="background-image: url('images/1_Deutschkurs_blicksalzburg-1133549562.jpg')")
+              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md deutschkurse")
                   div(class="absolute inset-0 bg-white opacity-75 rounded")
                   div(class="z-10 w-full text-center")
-                      p(class="text-3xl leading-tight mb-2") Deutschkurse
-                      p Standardkurse A1 – C1 Deutsch für den Beruf Konversation Individual Coaching
-                      div(class="flex justify-center mt-4")
-                          img(src="placeholders/icons/message.svg" alt="" class="w-8 h-8 mx-2" )
-                          img(src="placeholders/icons/share.svg" alt="" class="w-8 h-8 mx-2" )
-                          img(src="placeholders/icons/star.svg" alt="" class="w-8 h-8 mx-2" )
-
+                      p(class="text-3xl leading-tight mb-2") Deutsch Kurse
+                      p
+                        //- ul
+                        //-   li Standardkurse A1 – C1
+                        //-   li Deutsch für den Beruf
+                        //-   li Konversation
+                        //-   li Individual Coaching
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
-              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md" style="background-image: url('placeholders/pictures/female_avatar.svg')" )
+              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md italienischkurse" )
                   div(class="hidden absolute inset-0 bg-white opacity-50 rounded")
-                  div(class="hidden z-10 w-full text-center")
-                      p(class="text-3xl leading-tight mb-2") Michael Scott
-                      p Regional Manager
-                      div(class="flex justify-center mt-4")
-                          img(src="placeholders/icons/message.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/share.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/star.svg" alt="" class="w-8 h-8 mx-2")
-
+                  div(class="z-10 w-full text-center")
+                      p(class="text-3xl leading-tight") Italienisch Kurse
+                      p
+                        ul.text-xs.text-white
+                          li Carbonara è senza crema!
+                          li Vacanza in Italia
+                          li La dolce vita e altre cose.
+                          li La Sardegna: cultura, sport e gente
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
-              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md" style="background-image: url('placeholders/pictures/male_avatar.svg')" )
-                  div(class="hidden absolute inset-0 bg-white opacity-50 rounded")
-                  div(class="hidden z-10 w-full text-center")
-                      p(class="text-3xl leading-tight mb-2") Michael Scott
-                      p Regional Manager
-                      div(class="flex justify-center mt-4")
-                          img(src="placeholders/icons/message.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/share.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/star.svg" alt="" class="w-8 h-8 mx-2")
-
+              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md kursprogramm")
+                  div(class="absolute inset-0 bg-white opacity-75 rounded")
+                  div(class="z-10 w-full text-center")
+                      p(class="text-3xl leading-tight mb-2") Kursprogramm
+                      p
+                        //- ul
+                        //-   li Standardkurse A1 – C1
+                        //-   li Deutsch für den Beruf
+                        //-   li Konversation
+                        //-   li Individual Coaching
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
-              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md" style="background-image: url('placeholders/pictures/female_avatar.svg')" )
-                  div(class="hidden absolute inset-0 bg-white opacity-50 rounded")
-                  div(class="hidden z-10 w-full text-center")
-                      p(class="text-3xl leading-tight mb-2") Michael Scott
-                      p Regional Manager
-                      div(class="flex justify-center mt-4")
-                          img(src="placeholders/icons/message.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/share.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/star.svg" alt="" class="w-8 h-8 mx-2")
-
+              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md firmenkurse")
+                  div(class="absolute inset-0 bg-white opacity-75 rounded")
+                  div(class="z-10 w-full text-center")
+                      p(class="text-3xl leading-tight mb-2") Firmenkurse
+                      p
+                        //- ul
+                        //-   li Standardkurse A1 – C1
+                        //-   li Deutsch für den Beruf
+                        //-   li Konversation
+                        //-   li Individual Coaching
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
-              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md" style="background-image: url('placeholders/pictures/male_avatar.svg')" )
-                  div(class="hidden absolute inset-0 bg-white opacity-50 rounded")
-                  div(class="hidden z-10 w-full text-center")
-                      p(class="text-3xl leading-tight mb-2") Michael Scott
-                      p Regional Manager
-                      div(class="flex justify-center mt-4")
-                          img(src="placeholders/icons/message.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/share.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/star.svg" alt="" class="w-8 h-8 mx-2")
-
+              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md team")
+                  div(class="absolute inset-0 bg-white opacity-75 rounded")
+                  div(class="z-10 w-full text-center")
+                      p(class="text-3xl leading-tight mb-2") Team
+                      p
+                        //- ul
+                        //-   li Standardkurse A1 – C1
+                        //-   li Deutsch für den Beruf
+                        //-   li Konversation
+                        //-   li Individual Coaching
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
-              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md" style="background-image: url('placeholders/pictures/female_avatar.svg')" )
-                  div(class="hidden absolute inset-0 bg-white opacity-50 rounded")
-                  div(class="hidden z-10 w-full text-center")
-                      p(class="text-3xl leading-tight mb-2") Michael Scott
-                      p Regional Manager
-                      div(class="flex justify-center mt-4")
-                          img(src="placeholders/icons/message.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/share.svg" alt="" class="w-8 h-8 mx-2")
-                          img(src="placeholders/icons/star.svg" alt="" class="w-8 h-8 mx-2")
-
+              div(class="relative flex items-center h-full p-8 bg-cover rounded shadow-md coaching")
+                  div(class="absolute inset-0 bg-white opacity-75 rounded")
+                  div(class="z-10 w-full text-center")
+                      p(class="text-3xl leading-tight mb-2") Coaching
+                      p
+                        //- ul
+                        //-   li Standardkurse A1 – C1
+                        //-   li Deutsch für den Beruf
+                        //-   li Konversation
+                        //-   li Individual Coaching
 </template>
 
 <script>
@@ -144,6 +144,33 @@ export default {
 </script>
 
 <style>
+.deutschkurse {
+  background-image: url('~@/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg');
+}
+.italienischkurse {
+  background-image: url('~@/assets/images/2_Italienischkurs_Gallura_home_o.jpg');
+}
+.kursprogramm {
+  background-image: url('~@/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg');
+}
+.anmeldung {
+  background-image: url('~@/assets/images/4_Anmeldung_iStock-1165005883.jpg');
+}
+.team {
+  background-image: url('~@/assets/images/5_Team_P1130070.jpg');
+}
+.einstufungstest {
+  background-image: url('~@/assets/images/6_Einstufungstest_P1120817.jpg');
+}
+.firmenkurse {
+  background-image: url('~@/assets/images/7_Firmenkurse_iStock-620402800.jpg');
+}
+.coaching {
+  background-image: url('~@/assets/images/8_Leben & Arbeiten_ReizendKaroVisit.jpg');
+}
+.salzburg-night {
+  background-image: url('~@/assets/images/9_50257207_282289765784856_3876881521411358720_o.jpg');
+}
 p {
   padding-top: 0.5em;
   padding-bottom: 2em;
