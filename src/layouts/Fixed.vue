@@ -7,12 +7,16 @@
         style="height: 265px; width: 1465px"
       >
         <div class="absolute top-0 left-0 bg-white">
-          <g-image alt="Logo" src="~/assets/LogoOriginalDe.png" width="265" />
+          <g-image
+            alt="Logo"
+            src="~/assets/images/LogoOriginalDe.png"
+            width="265"
+          />
         </div>
         <div class="absolute top-0 bg-white" style="left: 265px">
           <g-image
             alt="Banner"
-            src="~/assets/BannerOriginal.jpg"
+            src="~/assets/images/BannerOriginal.jpg"
             width="1200"
             style="height: 265px; width: 1200px"
           />
