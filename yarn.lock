@@ -890,7 +890,7 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
-"@fullhuman/postcss-purgecss@^3.0.0":
+"@fullhuman/postcss-purgecss@latest":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-3.0.0.tgz#e39bf7a7d2a2c664ed151b639785b2efcbca33ff"
   integrity sha512-cvuOgMwIVlfgWcUMqg5p33NbGUxLwMrKtDKkm3QRfOo4PRVNR6+y/xd9OyXTVZiB1bIpKNJ0ZObYPWD3DRQDtw==
@@ -4669,6 +4669,13 @@ gridsome-plugin-pug@^0.0.3:
   dependencies:
     pug-loader "^2.4.0"
     pug-plain-loader "^1.0.0"
+
+gridsome-plugin-purgecss@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-purgecss/-/gridsome-plugin-purgecss-1.0.12.tgz#dd927c2bd44e04ad08d67fbd5126fe0e1357feef"
+  integrity sha512-SWYUKV2jb0RJrxgLzOx6wKJzEtNu79bzZuZDNMyVH+NqouFGqJQDUUaQqZpKQmgGMdb0P8gAwLx4KQBTYWvFBw==
+  dependencies:
+    "@fullhuman/postcss-purgecss" latest
 
 gridsome-plugin-tailwindcss@^3.0.1:
   version "3.0.1"
