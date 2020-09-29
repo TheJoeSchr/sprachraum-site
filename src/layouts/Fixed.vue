@@ -81,7 +81,7 @@ query {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
-.navigation-font {
+#sidebar {
   font-family: 'Unica One', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -89,7 +89,7 @@ query {
   font-style: normal;
   line-height: 3.5em;
 }
-.content-font {
+#content {
   font-family: D-DIN, DIN, Arial, Helvetica, sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
