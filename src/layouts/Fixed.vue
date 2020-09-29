@@ -7,7 +7,7 @@
         style="height: 265px; width: 1465px"
       >
         <div class="absolute top-0 left-0 bg-white">
-          <g-image alt="Logo" src="~/assets/LogoOriginal.jpg" width="265" />
+          <g-image alt="Logo" src="~/assets/LogoOriginalDe.png" width="265" />
         </div>
         <div class="absolute top-0 bg-white" style="left: 265px">
           <g-image
