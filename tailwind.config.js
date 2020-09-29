@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -16,5 +17,9 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
-};
+  plugins: [
+    plugin(function ({ addUtilities, addComponents, e, prefix, config }) {
+      // Add your custom styles here
+    }),
+  ],
+}

@@ -12,6 +12,7 @@
     "typeface-unica-one": "^0.0.72"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-gridsome": "^1.5.0",
