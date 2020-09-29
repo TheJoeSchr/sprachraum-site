@@ -18,7 +18,18 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    plugin(function ({ addUtilities, addComponents, e, prefix, config }) {
+    plugin(function ({
+      addUtilities,
+      addComponents,
+      addBase,
+      addVariant,
+      e,
+      prefix,
+      theme,
+      variants,
+      config,
+      postcss,
+    }) {
       // Add your custom styles here
     }),
   ],
