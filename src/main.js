@@ -8,4 +8,20 @@ require('typeface-d-din')
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  head.meta.push({
+    charset: 'utf-8',
+  })
+  head.meta.push({
+    name: 'viewport',
+    content: 'width=device-width, initial-scale=1, shrink-to-fit=no',
+  })
+  head.meta.push({
+    name: 'description',
+    content: '',
+  })
+  head.meta.push({
+    name: 'author',
+    content: '',
+  })
 }
