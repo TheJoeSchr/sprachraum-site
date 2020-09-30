@@ -21,7 +21,7 @@ Layout
       div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
         h3(class="text-2xl mb-2 font-heading") Kursprogramm
         p(class="mb-4 text-gray-600 leading-relaxed") Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
-        a(href="#" class="text-primary-700 hover:underline") >> Stundenplan und Preise
+        g-link(to="/Kursprogramm/" class="text-primary-700 hover:underline") >> Stundenplan und Preise
 
   //- section(class="py-12 px-4 rounded overflow-hidden  shadow-md")
   //-   div(class="flex flex-wrap items-center max-w-5xl mx-auto")
