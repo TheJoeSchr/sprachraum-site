@@ -7,13 +7,13 @@
           div(class="flex flex-shrink-0 mr-6")
               g-image(src="~/assets/images/LogoAlphaLineDeKlein.png")
           div(class="block lg:hidden")
-              <button class="navbar-burger flex items-center py-2 px-3 text-primary-500 rounded border border-indigo-500"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
+              <button class="navbar-burger flex items-center py-2 px-3 text-secondary-500 rounded border border-secondary-500"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
           div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
-              div(class="lg:ml-auto")
-                  a(href="#" class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-secondary-900 hover:text-secondary-700") Deutschkurse
-                  a(href="#" class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-secondary-900 hover:text-secondary-700") Italienschkurse
-                  a(href="#" class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-secondary-900 hover:text-secondary-700") Team
-              div
+              //- div(class="lg:ml-auto")
+              //-     a(href="#" class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-secondary-900 hover:text-secondary-700") Deutschkurse
+              //-     a(href="#" class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-secondary-900 hover:text-secondary-700") Italienschkurse
+              //-     a(href="#" class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-secondary-900 hover:text-secondary-700") Team
+              div(class="lg:mr-auto")
                   a(href="#" class="inline-block py-3 px-5 mr-4 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") Kursprogramm
                   a(href="#" class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Anmelden
   //- CONTENT
