@@ -1,66 +1,41 @@
 <template lang="pug">
 Layout
-  //- section(class="py-12 px-4 text-center")
-  //-     div(class="w-full max-w-2xl mx-auto")
-  //-         span(class="text-sm bg-primary-500 font-semibold")
-  //-             | ++ SPRECHEN ++ SCHREIBEN ++ H&Ouml;REN ++ LESEN ++ PARLARE ++ SCRIVERE ++ ASCOLTARE ++ LEGGERE ++
-  //-         h2(class="text-5xl mt-2 mb-6 leading-tight font-heading")
-  //-             | Deutsch &amp; Italienisch
-  //-             br
-  //-             |  Kurse &amp; Coaching
-  //-             br
-  //-             |  Online &amp; Live
-  //-         a(class="text-secondary-700 hover:underline", href="#")
-  //-             | Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europ&auml;ischer Referenzrahmen f&uuml;r Sprachen.
-  section.text-center.banner
-    .relative.flex.items-center.py-24
-      .absolute.bg-black.opacity-50.inset-0
-      .z-10.max-w-2xl.mx-auto
-        span(class="text-sm bg-primary-500 font-semibold")
-          | ++ SPRECHEN ++ SCHREIBEN ++ H&Ouml;REN ++ LESEN ++ PARLARE ++ SCRIVERE ++ ASCOLTARE ++ LEGGERE ++
-        h2.text-3xl.py-8.leading-tight.font-heading.text-white
-          | Deutsch &amp; Italienisch
-          br
-          |  Kurse &amp; Coaching
-          br
-          |  Online &amp; Live
-        a.w-auto.inline-block.px-8.py-2.mt-auto.leading-none.text-white.text-center.bg-secondary-500.rounded.shadow(href='#' class=".hover:bg-secondary-600")
-          | Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europ&auml;ischer Referenzrahmen f&uuml;r Sprachen.
+  section(class="py-12 px-4 rounded overflow-hidden ")
+    div(class="flex flex-wrap items-center text-center lg:text-left mx-2")
+      div(class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none")
+        h2(class="text-5xl mb-6 leading-tight font-heading") Unsere Deutschkurse könnt ihr ab sofort Online besuchen
+        p(class="mb-8 text-gray-500 leading-relaxed") Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
 
-  section(class="py-12 px-4")
-      div(class="flex flex-wrap items-center text-center lg:text-left -mx-2")
-          div(class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none")
-              h2(class="text-5xl mb-6 leading-tight font-heading") Unsere Deutschkurse könnt ihr ab sofort Online besuchen
-              p(class="mb-8 text-gray-500 leading-relaxed") Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
+        div
+            a(href="#" class="inline-block py-4 px-8 mr-6 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Gleich anmelden!
+            a(href="#" class="text-secondary-700 hover:underline") >> Einstufungstest
 
-              div
-                  a(href="#" class="inline-block py-4 px-8 mr-6 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Gleich anmelden!
-                  a(href="#" class="text-secondary-700 hover:underline") >> Einstufungstest
+      div(class="lg:w-1/2 px-2")
+          g-image(src="~/assets/images/LogoOriginalDe.png" alt="")
 
-          div(class="lg:w-1/2 px-2")
-              g-image(src="~/assets/images/LogoOriginalDe.png" alt="")
+  section(class="py-12 px-4 rounded overflow-hidden shadow-md ")
+    div(class="flex flex-wrap items-center max-w-5xl mx-auto")
+      div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
+        g-image(src="~/assets/images/LaptopQuaderKlein.jpg" alt="" class="lg:max-w-sm mx-auto")
 
-  section(class="py-12 px-4")
-      div(class="flex flex-wrap items-center max-w-5xl mx-auto")
-          div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
-              g-image(src="~/assets/images/LaptopQuaderKlein.jpg" alt="" class="lg:max-w-sm mx-auto")
+      div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
+        h3(class="text-2xl mb-2 font-heading") Stundenplan
+        p(class="mb-4 text-gray-500 leading-relaxed") Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
+        a(href="#" class="text-secondary-700 hover:underline") >> Kursprogramm
 
-          div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
-              h3(class="text-2xl mb-2 font-heading") Check IT AUT
-              p(class="mb-4 text-gray-500 leading-relaxed") Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
-              a(href="#" class="text-secondary-700 hover:underline") >> Kursprogramm
+  section(class="py-12 px-4 rounded overflow-hidden  shadow-md")
+    div(class="flex flex-wrap items-center max-w-5xl mx-auto")
+      div(class="lg:w-1/2 px-8 mb-8 lg:mb-0 lg:order-1")
+          g-image(src="~/assets/images/7_Firmenkurse_iStock-620402800.jpg" alt="" class="lg:max-w-sm mx-auto")
 
-          div(class="lg:w-1/2 px-8 mb-8 lg:mb-0 lg:order-1")
-              g-image(src="~/assets/images/7_Firmenkurse_iStock-620402800.jpg" alt="" class="lg:max-w-sm mx-auto")
+      div(class="lg:w-1/2 px-8")
+          h3(class="text-2xl mb-2 font-heading") Deutschkurse
+          p(class="mb-4 text-gray-500 leading-relaxed") Die Inhalte &amp; Lehrunterlagen folgen den Vorgaben des Gemeinsamen Europäi- schen Referenzrahmen für Sprachen. Trainer_innen verfügen über DAF/DAZ Zertifizierung und /oder ÖIF (österreichischer Integrationsfond) Zertifizierung. Italienischkurse / Diese Kurse finden in Kooperation mit der One World Cagliari statt. www.oneworldcagliari.com
+          a(href="#" class="text-secondary-700 hover:underline") >> Deutschkurse
 
-          div(class="lg:w-1/2 px-8")
-              h3(class="text-2xl mb-2 font-heading") Deutschkurse
-              p(class="mb-4 text-gray-500 leading-relaxed") Die Inhalte &amp; Lehrunterlagen folgen den Vorgaben des Gemeinsamen Europäi- schen Referenzrahmen für Sprachen. Trainer_innen verfügen über DAF/DAZ Zertifizierung und /oder ÖIF (österreichischer Integrationsfond) Zertifizierung. Italienischkurse / Diese Kurse finden in Kooperation mit der One World Cagliari statt. www.oneworldcagliari.com
-              a(href="#" class="text-secondary-700 hover:underline") >> Deutschkurse
-
-  section(class="py-12 px-4 text-center")
-      h2(class="text-4xl mb-2 leading-tight font-heading") Angebote
-      p(class="max-w-xl mx-auto mb-8 text-gray-500") Deutsch &amp; Italienisch Kurse &amp; Coaching Online &amp; Live  Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europäischer Referenzrahmen für Sprachen.
+  section(class="py-12 px-4 text-center rounded overflow-hidden  shadow-md")
+    h2(class="text-4xl mb-2 leading-tight font-heading") Angebote
+    p(class="max-w-xl mx-auto mb-8 text-gray-500") Deutsch &amp; Italienisch Kurse &amp; Coaching Online &amp; Live  Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europäischer Referenzrahmen für Sprachen.
 
       div(class="flex flex-wrap justify-center max-w-4xl mx-auto")
           div(class="h-48 w-48 md:h-64 md:w-64 m-2")
