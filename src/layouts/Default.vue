@@ -18,7 +18,7 @@
                   a(href="#" class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Anmelden
   //- CONTENT
   .container.mx-auto
-    .mx-16
+    .mx-16.pt-32
       slot
   //- FOOTER
   footer
@@ -63,6 +63,9 @@ query {
   font-style: normal;
   line-height: 3.5em;
 }
+bodydebug {
+  @apply bg-red-600;
+}
 .content-font {
   font-family: D-DIN, DIN, Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -71,7 +74,7 @@ query {
 }
 
 section {
-  @apply shadow-md my-16  bg-white;
+  @apply shadow my-16  bg-white border;
 }
 
 /* html {
