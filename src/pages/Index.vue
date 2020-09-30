@@ -15,8 +15,8 @@ Layout
 
   section(class="py-12 px-4 rounded overflow-hidden shadow-md ")
     div(class="flex flex-wrap items-center max-w-5xl mx-auto")
-      div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
-        g-image(src="~/assets/images/LaptopQuaderKlein.jpg" alt="" class="lg:max-w-sm mx-auto")
+      div(class="lg:w-1/2 lg:h-2/5 px-8 mb-8 lg:mb-0 ")
+        g-image(src="~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg" class="lg:max-w-sm mx-auto" fit="inside" height="250" )
 
       div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
         h3(class="text-2xl mb-2 font-heading") Kursprogramm
@@ -26,7 +26,7 @@ Layout
   //- section(class="py-12 px-4 rounded overflow-hidden  shadow-md")
   //-   div(class="flex flex-wrap items-center max-w-5xl mx-auto")
   //-     div(class="lg:w-1/2 px-8 mb-8 lg:mb-0 lg:order-1")
-  //-         g-image(src="~/assets/images/7_Firmenkurse_iStock-620402800.jpg" alt="" class="lg:max-w-sm mx-auto")
+  //-         g-image(src="~/assets/images/7_Firmenkurse_iStock-620402800.jpg" alt="" class="lg:max-w-sm mx-auto" fit="inside" height="250" )
 
   //-     div(class="lg:w-1/2 px-8")
   //-         h3(class="text-2xl mb-2 font-heading") Deutschkurse
