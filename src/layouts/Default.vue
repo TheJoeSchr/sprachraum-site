@@ -5,7 +5,7 @@
     .container.mx-auto.w-full.text-center.pr-4
       nav(class="flex flex-wrap items-center justify-between bg-white shadow-xs w-full pb-4").border-b-2.border-gray-300
           div(class="flex flex-shrink-0 mr-6")
-              a(href="#" class="text-xl text-black font-semibold") Lass uns reden, Schatz!
+              g-image(src="~/assets/images/LogoAlphaLineDeKlein.png")
           div(class="block lg:hidden")
               <button class="navbar-burger flex items-center py-2 px-3 text-primary-500 rounded border border-indigo-500"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
           div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
