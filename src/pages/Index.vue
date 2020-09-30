@@ -7,7 +7,7 @@ Layout
         p(class="mb-8 text-gray-600 leading-relaxed") Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
 
         div
-            a(href="#" class="inline-block py-4 px-8 mr-6 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Gleich anmelden!
+            a(href="mailto:post@workitaut.at?subject=Kursanmeldung&body=KURSTITEL /  CORSO / %0A  zB.: A1.1 DEUTSCH GRUNDSTUFE%0A %0AVORNAME / NOME%0A  %0ANACHNAME / COGNOME%0A  %0AGEBURTSDATUM / DATA DI NASCITA%0A  %0ASTRASSE / VIA%0A   %0APLZ / CODICE POSTALE%0A %0AORT / CITÀ%0A %0ALAND / PAESE%0A  %0ATELEFON / TELEFONO%0A %0AE-MAIL%0A %0A%0ANACHRICHT / MESSAGO%0A%0A%0A%0A%0A%0A%0A%0A [X]  Ich bestätige, dass ich die Allgemeinen Geschäftsbedingungen WorkITAUT (AGB) zur Kenntnis genommen habe." class="inline-block py-4 px-8 mr-6 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Gleich anmelden!
             //- a(href="#" class="text-secondary-700 hover:underline") >> Einstufungstest
 
       div(class="lg:w-1/2 px-2")
