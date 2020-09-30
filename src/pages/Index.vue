@@ -1,9 +1,9 @@
 <template lang="pug">
 Layout
-  section(class="py-12 px-4 rounded overflow-hidden ")
+  section
     div(class="flex flex-wrap items-center text-center lg:text-left mx-2")
-      div(class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none")
-        h2(class="text-5xl mb-4 leading-tight font-heading") Unsere Deutschkurse könnt ihr ab sofort Online besuchen
+      div(class="lg:w-1/2 px-2 lg:pr-10  order-1 lg:order-none")
+        h2(class="lg:text-5xl text-2xl pb-2 lg:pb-0 leading-tight font-heading") Unsere Deutschkurse könnt ihr ab sofort Online besuchen
         p(class="mb-8 text-gray-600 leading-relaxed") Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
 
         div
@@ -13,10 +13,10 @@ Layout
       div(class="lg:w-1/2 px-2")
           g-image(src="~/assets/images/LogoOriginalDe.png" alt="")
 
-  section(class="py-12 px-4 rounded overflow-hidden shadow-md ")
-    div(class="flex flex-wrap items-center max-w-5xl mx-auto")
-      div(class="lg:w-1/2 lg:h-2/5 px-8 mb-8 lg:mb-0 sm:w-full")
-        g-image(src="~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg" class="max-w-sm mx-auto" fit="inside" height="250" )
+  section
+    div(class="flex flex-wrap items-center max-w-5xl mx-auto mb-8")
+      div(class="lg:w-1/2 lg:h-2/5 px-8 w-full")
+        g-image(src="~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg" class="hidden lg:block max-w-sm mx-auto" fit="inside" height="250" )
 
       div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
         h3(class="text-2xl mb-2 font-heading") Kursprogramm
@@ -132,45 +132,18 @@ export default {
 </script>
 
 <style>
-.banner {
-  background-image: url('~@/assets/images/Banner.jpg');
-  background-size: cover;
+section {
+  @apply my-4 pb-2 shadow  bg-white border  rounded overflow-hidden;
 }
-.deutschkurse {
-  background-image: url('~@/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg');
+
+@screen md {
+  section {
+    @apply my-8;
+  }
 }
-.italienischkurse {
-  background-image: url('~@/assets/images/2_Italienischkurs_Gallura_home_o.jpg');
-}
-.kursprogramm {
-  background-image: url('~@/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg');
-}
-.anmeldung {
-  background-image: url('~@/assets/images/4_Anmeldung_iStock-1165005883.jpg');
-}
-.team {
-  background-image: url('~@/assets/images/5_Team_P1130070.jpg');
-}
-.einstufungstest {
-  background-image: url('~@/assets/images/6_Einstufungstest_P1120817.jpg');
-}
-.firmenkurse {
-  background-image: url('~@/assets/images/7_Firmenkurse_iStock-620402800.jpg');
-}
-.coaching {
-  background-image: url('~@/assets/images/8_Leben & Arbeiten_ReizendKaroVisit.jpg');
-}
-.salzburg-night {
-  background-image: url('~@/assets/images/9_50257207_282289765784856_3876881521411358720_o.jpg');
-}
-p {
-  padding-top: 0.5em;
-  padding-bottom: 2em;
-  line-height: 1.5em;
-  font-weight: 500;
-}
-h4 {
-  color: #ffffff;
-  line-height: 2em;
+@screen lg {
+  section {
+    @apply py-4 px-8 my-16;
+  }
 }
 </style>

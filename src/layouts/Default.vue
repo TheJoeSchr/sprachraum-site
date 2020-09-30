@@ -19,11 +19,11 @@
                 a(href="mailto:post@workitaut.at?subject=Kursanmeldung&body=KURSTITEL /  CORSO / %0A  zB.: A1.1 DEUTSCH GRUNDSTUFE%0A %0AVORNAME / NOME%0A  %0ANACHNAME / COGNOME%0A  %0AGEBURTSDATUM / DATA DI NASCITA%0A  %0ASTRASSE / VIA%0A   %0APLZ / CODICE POSTALE%0A %0AORT / CITÀ%0A %0ALAND / PAESE%0A  %0ATELEFON / TELEFONO%0A %0AE-MAIL%0A %0A%0ANACHRICHT / MESSAGO%0A%0A%0A%0A%0A%0A%0A%0A [X]  Ich bestätige, dass ich die Allgemeinen Geschäftsbedingungen WorkITAUT (AGB) zur Kenntnis genommen habe." class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Anmelden
                 //- a(href="mailto:post@workitaut.at?subject=Kursanmeldung" class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Anmelden
   //- CONTENT
-  section.container.mx-auto.border-none.shadow-none
-    .mx-16(class="md:pt-1 lg:pt-16")
+  section.mx-auto.border-none.shadow-none(class="container")
+    div(class="pt-0 md:pt-16 lg:pt-24 mx-0 sm:mx-2  lg:mx-16")
       slot
   //- FOOTER
-  footer(class="flex flex-wrap items-center py-4 px-4 border-t")
+  footer(class="flex flex-wrap items-center pb-4 px-4 mt-16 border-t")
     .container.w-full.bottom-0.py-4.bg-white(style="max-width:100vw")
       .container.mx-auto.w-full.text-center
         div(class="w-full lg:w-1/5 text-center lg:text-left")
@@ -65,26 +65,6 @@ bodydebug {
   letter-spacing: 0px;
   font-style: normal;
 }
-
-section {
-  @apply shadow my-16  bg-white border;
-}
-
-/* html {
-  overflow-y: scroll;
-} */
-/* .btn {
-  @apply font-bold py-2 px-4  shadow;
-}
-.btn-primary {
-  @apply bg-primary-600 text-black border border-brand-green;
-}
-.btn-primary:hover {
-  @apply bg-transparent bg-primary-600 text-black border border-brand-yellow;
-}
-.btn-primary:active {
-  @apply bg-transparent text-primary-500 border border-brand-yellow;
-} */
 
 h4 {
   font-family: 'Unica One', Arial, Helvetica, sans-serif;
