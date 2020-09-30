@@ -130,19 +130,19 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 section {
-  @apply my-4 pb-2 shadow  bg-white border  rounded overflow-hidden;
+  @apply mb-8 shadow bg-white border rounded overflow-hidden;
 }
 
 @screen md {
   section {
-    @apply my-8;
+    @apply mb-16;
   }
 }
 @screen lg {
   section {
-    @apply py-4 px-8 my-16;
+    @apply py-0 px-8;
   }
 }
 </style>

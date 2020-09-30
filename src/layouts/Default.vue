@@ -21,7 +21,7 @@
                 //- a(href="mailto:post@workitaut.at?subject=Kursanmeldung" class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Anmelden
   //- CONTENT
   section.mx-auto.border-none.shadow-none(class="container")
-    div(class="pt-16 lg:pt-24 mx-0 sm:mx-2 lg:mx-16")
+    div(class="mt-24 md:mt-32 mx-0 sm:mx-2 lg:mx-16")
       div(class="visible sm:hidden mx-2 ")
         g-link(to="/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Kursprogramm
         g-link(to="/team/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") Team
