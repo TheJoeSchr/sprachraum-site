@@ -1,18 +1,31 @@
 <template lang="pug">
 Layout
-  section(class="py-12 px-4 text-center")
-      div(class="w-full max-w-2xl mx-auto")
-          span(class="text-sm bg-primary-500 font-semibold")
-              | ++ SPRECHEN ++ SCHREIBEN ++ H&Ouml;REN ++ LESEN ++ PARLARE ++ SCRIVERE ++ ASCOLTARE ++ LEGGERE ++
-          h2(class="text-5xl mt-2 mb-6 leading-tight font-heading")
-              | Deutsch &amp; Italienisch
-              br
-              |  Kurse &amp; Coaching
-              br
-              |  Online &amp; Live
-          a(class="text-secondary-700 hover:underline", href="#")
-              | Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europ&auml;ischer Referenzrahmen f&uuml;r Sprachen.
-
+  //- section(class="py-12 px-4 text-center")
+  //-     div(class="w-full max-w-2xl mx-auto")
+  //-         span(class="text-sm bg-primary-500 font-semibold")
+  //-             | ++ SPRECHEN ++ SCHREIBEN ++ H&Ouml;REN ++ LESEN ++ PARLARE ++ SCRIVERE ++ ASCOLTARE ++ LEGGERE ++
+  //-         h2(class="text-5xl mt-2 mb-6 leading-tight font-heading")
+  //-             | Deutsch &amp; Italienisch
+  //-             br
+  //-             |  Kurse &amp; Coaching
+  //-             br
+  //-             |  Online &amp; Live
+  //-         a(class="text-secondary-700 hover:underline", href="#")
+  //-             | Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europ&auml;ischer Referenzrahmen f&uuml;r Sprachen.
+  section.text-center.banner
+    .relative.flex.items-center.py-24
+      .absolute.bg-black.opacity-50.inset-0
+      .z-10.max-w-2xl.mx-auto
+        span(class="text-sm bg-primary-500 font-semibold")
+          | ++ SPRECHEN ++ SCHREIBEN ++ H&Ouml;REN ++ LESEN ++ PARLARE ++ SCRIVERE ++ ASCOLTARE ++ LEGGERE ++
+        h2.text-3xl.py-8.leading-tight.font-heading.text-white
+          | Deutsch &amp; Italienisch
+          br
+          |  Kurse &amp; Coaching
+          br
+          |  Online &amp; Live
+        a.w-auto.inline-block.px-8.py-2.mt-auto.leading-none.text-white.text-center.bg-secondary-500.rounded.shadow(href='#' class=".hover:bg-secondary-600")
+          | Zertifizierte DAF/DAZ Trainer*innen. Gemeinsamer europ&auml;ischer Referenzrahmen f&uuml;r Sprachen.
 
   section(class="py-12 px-4")
       div(class="flex flex-wrap items-center text-center lg:text-left -mx-2")
@@ -144,6 +157,10 @@ export default {
 </script>
 
 <style>
+.banner {
+  background-image: url('~@/assets/images/Banner.jpg');
+  background-size: cover;
+}
 .deutschkurse {
   background-image: url('~@/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg');
 }
