@@ -33,8 +33,8 @@
             a SPRACHRAUM.workitaut.at
             a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="#") Kontakt
             a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="#") Work IT AUT
-            a(class="inline-block mx-4 text-secondary-900 hover:text-secondary-700" href="#") Impressum
-            a(class="inline-block mx-4 text-secondary-900 hover:text-secondary-700" href="#") AGB
+            a(class="inline-block mx-4 hover:text-primary-700" href="#") Impressum
+            a(class="inline-block mx-4 hover:text-primary-700" href="#") AGB
 
 </template>
 
