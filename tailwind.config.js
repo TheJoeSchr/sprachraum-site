@@ -49,7 +49,7 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
-      primary: {
+      secondary: {
         100: '#FFF7C2',
         200: '#FFF4B0',
         300: '#FFF090',
@@ -60,7 +60,7 @@ module.exports = {
         800: '#9C8701',
         900: '#675000',
       },
-      secondary: {
+      primary: {
         100: '#BFD59F',
         200: '#A1BC79',
         300: '#86A853',

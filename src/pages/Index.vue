@@ -3,8 +3,8 @@ Layout
   section(class="py-12 px-4 rounded overflow-hidden ")
     div(class="flex flex-wrap items-center text-center lg:text-left mx-2")
       div(class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none")
-        h2(class="text-5xl mb-6 leading-tight font-heading") Unsere Deutschkurse könnt ihr ab sofort Online besuchen
-        p(class="mb-8 text-gray-500 leading-relaxed") Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
+        h2(class="text-5xl mb-4 leading-tight font-heading") Unsere Deutschkurse könnt ihr ab sofort Online besuchen
+        p(class="mb-8 text-gray-600 leading-relaxed") Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
 
         div
             a(href="#" class="inline-block py-4 px-8 mr-6 leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Gleich anmelden!
@@ -20,8 +20,8 @@ Layout
 
       div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
         h3(class="text-2xl mb-2 font-heading") Kursprogramm
-        p(class="mb-4 text-gray-500 leading-relaxed") Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
-        a(href="#" class="text-secondary-700 hover:underline") >> Stundenplan und Preise
+        p(class="mb-4 text-gray-600 leading-relaxed") Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
+        a(href="#" class="text-primary-700 hover:underline") >> Stundenplan und Preise
 
   //- section(class="py-12 px-4 rounded overflow-hidden  shadow-md")
   //-   div(class="flex flex-wrap items-center max-w-5xl mx-auto")
