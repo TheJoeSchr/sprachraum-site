@@ -24,15 +24,18 @@
         td.border-t.px-2.py-2 Mo bis Do*
         td.border-t.px-2.py-2 30,-
 
+    KursprogrammKarte
 
 </template>
 
 <script>
 import KursprogrammTable from '~/components/KursprogrammTable.vue'
+import KursprogrammKarte from '~/components/KursprogrammKarte.vue'
 
 export default {
   components: {
     KursprogrammTable,
+    KursprogrammKarte,
   },
   metaInfo: {
     title: 'Kursprogramm',
