@@ -1,9 +1,9 @@
 <template lang="pug">
 .bg-body.text-body.font-body.bg-white
   //- HEADER
-  header.fixed.container.w-full.top-0.bg-white.border-b-2.border-gray-300(style="max-width:100vw")
+  header.fixed.container.w-full.top-0.bg-white.border-b-2.border-gray-300.shadow-xs(style="max-width:100vw")
     .container.mx-auto.w-full.text-center
-      nav(class="flex flex-wrap items-center justify-between bg-white shadow-xs w-full pb-4")
+      nav(class="flex flex-wrap items-center justify-between bg-white w-full pb-4")
         div(class="flex flex-shrink-0 mr-6")
             g-image(src="~/assets/images/LogoAlphaLineDeKlein.png")
         div(class="block lg:hidden")
