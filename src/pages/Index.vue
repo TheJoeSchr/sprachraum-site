@@ -14,8 +14,8 @@ Layout
 
   section
     div(class="flex flex-wrap items-center max-w-5xl mx-auto mb-8")
-      div(class="lg:w-1/2 lg:h-2/5 px-8 w-full")
-        g-image(src="~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg" class="hidden lg:block max-w-sm mx-auto" fit="inside" height="250" )
+      div(class="lg:w-1/2 lg:h-3/5 pt-8 px-8 w-full")
+        g-image(src="~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg" class="hidden lg:block max-w-sm mx-auto" fit="inside" width="250" height="250" )
 
       div(class="lg:w-1/2 px-8 mb-8 lg:mb-0")
         h3(class="text-2xl mb-2 font-heading") Kursprogramm
