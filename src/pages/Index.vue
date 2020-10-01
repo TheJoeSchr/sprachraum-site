@@ -6,8 +6,8 @@ Layout
         h2.text-2xl.pb-2.leading-tight.font-heading(class='md:text-5xl md:pb-0') Unsere Deutschkurse könnt ihr ab sofort Online besuchen
         p.mb-8.text-gray-600.leading-relaxed Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
         .mb-2
-          a.inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow(
-            href='mailto:post@workitaut.at?subject=Kursanmeldung&body=KURSTITEL /  CORSO %0A %0A %0AVORNAME / NOME%0A  %0ANACHNAME / COGNOME%0A  %0AGEBURTSDATUM / DATA DI NASCITA%0A  %0ASTRASSE / VIA%0A   %0APLZ / CODICE POSTALE%0A %0AORT / CITÀ%0A %0ALAND / PAESE%0A  %0ATELEFON / TELEFONO%0A %0AE-MAIL%0A %0A%0ANACHRICHT / MESSAGO%0A%0A%0A%0A%0A%0A%0A%0A [X]  Ich bestätige, dass ich die Allgemeinen Geschäftsbedingungen WorkITAUT (AGB) zur Kenntnis genommen habe.',
+          g-link.inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow(
+            to="/kursprogramm/"
             class='hover:bg-primary-600'
           ) Gleich anmelden!
             //- a(href="#" class="text-secondary-700 hover:underline") >> Einstufungstest
