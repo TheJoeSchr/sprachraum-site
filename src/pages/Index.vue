@@ -54,7 +54,7 @@ export default {
       {
         title: 'Kursprogramm',
         link: '/kursprogramm/',
-        linkText: '>> Studenplan & Preise',
+        linkText: '>> Stundenplan & Preise',
         content: `Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können`,
       },
     ],
