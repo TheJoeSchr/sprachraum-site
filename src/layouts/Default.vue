@@ -36,10 +36,10 @@
                 g-image(src="~/assets/images/LogoAlphaFull.png" alt="SPRACHRAUM.workitaut.at" width="100")
         div(class="w-full lg:w-4/5 mt-4 lg:mt-0 text-center")
             a SPRACHRAUM.workitaut.at
-            a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="#") Kontakt
-            a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="#") Work IT AUT
-            a(class="inline-block mx-4 hover:text-primary-700" href="#") Impressum
-            a(class="inline-block mx-4 hover:text-primary-700" href="#") AGB
+            a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="mailto:eli@workitaut.eu") Kontakt
+            a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="http://www.workitaut.eu" target="_blank") Work IT AUT
+            //- a(class="inline-block mx-4 hover:text-primary-700" href="#") Impressum
+            a(class="inline-block mx-4 hover:text-primary-700" href="/agb/") AGB
 
 </template>
 
