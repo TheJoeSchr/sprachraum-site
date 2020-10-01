@@ -12,11 +12,13 @@ Layout
           ) Gleich anmelden!
             //- a(href="#" class="text-secondary-700 hover:underline") >> Einstufungstest
 
+
       .px-2.hidden(class='md:w-1/2 md:block')
-        g-image(src='~/assets/images/LogoOriginalDe.png', alt='')
+        g-link(to="/kursprogramm/")
+          g-image(src='~/assets/images/LogoOriginalDe.png', alt='')
 
   section
-    .flex.flex-wrap.items-center.max-w-5xl.mx-auto.mb-8
+    g-link(to="/kursprogramm/" ).flex.flex-wrap.items-center.max-w-5xl.mx-auto.mb-8
       .pt-8.px-8.w-full(class='md:w-1/2 md:h-3/5')
         g-image.hidden.max-w-sm.mx-auto(
           src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg',
@@ -27,7 +29,8 @@ Layout
         )
 
       .px-8.mb-8(class='md:w-1/2 md:mb-0')
-        h3.text-2xl.mb-2.font-heading Kursprogramm
+        h3.text-2xl.mb-2.font-heading
+          Kursprogramm
         p.mb-4.text-gray-600.leading-relaxed Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
         g-link.text-primary-700(to='/Kursprogramm/', class='hover:underline') >> Stundenplan und Preise
 
