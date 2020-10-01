@@ -14,7 +14,7 @@ Layout
           ) {{ hero.linkText }}
       .px-2.hidden(class='md:w-1/2 md:block order-first')
         g-link(to="/kursprogramm/")
-          g-image(src='~/assets/images/LogoOriginalDe.png', alt='')
+          g-image(src='~/assets/images/laura-chouette-MIzyUBE5jYI-unsplash.jpg', alt='')
 
   MinorHero(:value="{...miniDeutsch, isLeft: false }" )
     g-image(src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
