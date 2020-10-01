@@ -15,7 +15,13 @@
 export default {
   props: ['value'],
   data: function () {
-    const { content, title, link, linkText, isLeft } = this.value
+    const {
+      content = '',
+      title = '',
+      link = '',
+      linkText = '',
+      isLeft = 'false',
+    } = this.value
     return { content, title, link, linkText, isLeft }
   },
 }
