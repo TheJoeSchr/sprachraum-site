@@ -1,7 +1,7 @@
 <template lang="pug">
 Layout
   section
-    .flex.flex-wrap.items-center.text-center.mx-2(class='md:text-left')
+    .flex.flex-wrap.items-center.text-center.mx-2(class='md:text-left md:my-8')
       .px-2.order-1(class='md:w-1/2 md:pr-10 md:order-none')
         h2.text-2xl.pb-2.leading-tight.font-heading(class='md:text-5xl md:pb-0') Unsere Deutschkurse könnt ihr ab sofort Online besuchen
         p.mb-8.text-gray-600.leading-relaxed Trefft Elke, Laura &amp; Kolleg_innen live in den virtuellen Work IT AUT Klassenzimmern.
