@@ -1,47 +1,28 @@
 <template lang="pug">
-  Layout
-    KursprogrammTable(title='FRÜHER VOGEL' subtitle='Kurse am Morgen' times='08:00 – 08:50')
-      tr.text-left
-        td.border-t.px-2.py-2 Individual - Coaching - Einzelstunden
-        td.border-t.px-2.py-2 ab 12.10
-        td.border-t.px-2.py-2 Mo bis Do*
-        td.border-t.px-2.py-2 30,-
-      tr.text-left
-        td.border-t.px-2.py-2 Konversation Einzelstunden
-        td.border-t.px-2.py-2 ab 12.10
-        td.border-t.px-2.py-2 Mo bis Do*
-        td.border-t.px-2.py-2 30,-
-
-    KursprogrammTable(title='GABELFRÜHSTÜCK' subtitle='Kurse am Morgen' times='08:00 – 08:50')
-      tr.text-left
-        td.border-t.px-2.py-2 Individual - Coaching - Einzelstunden
-        td.border-t.px-2.py-2 ab 12.10
-        td.border-t.px-2.py-2 Mo bis Do*
-        td.border-t.px-2.py-2 30,-
-      tr.text-left
-        td.border-t.px-2.py-2 Konversation Einzelstunden
-        td.border-t.px-2.py-2 ab 12.10
-        td.border-t.px-2.py-2 Mo bis Do*
-        td.border-t.px-2.py-2 30,-
-
-    KursprogrammKarte
-
+Layout
+  .container.my-0(v-for='(section,index) in timetable' :key='section.title')
+    section(:class="{'bg-yellow-100':(index%2==1) }" class="mb-0")
+      h2.text-center.text-lg.mb-4.font-heading.font-semibold {{ section.title}}:  {{ section.subtitle }} von {{ section.times}}
+      ul
+        li(v-for='course in section.courses' :key="course.name")
+          KursprogrammKarte(:value="course")
 </template>
 
 <script>
-import KursprogrammTable from '~/components/KursprogrammTable.vue'
 import KursprogrammKarte from '~/components/KursprogrammKarte.vue'
+import timetable from '@/content/Kurse.yaml'
 
 export default {
   components: {
-    KursprogrammTable,
     KursprogrammKarte,
   },
   metaInfo: {
     title: 'Kursprogramm',
   },
-  data: () => ({}),
+  data() {
+    return {
+      timetable,
+    }
+  },
 }
 </script>
-
-<style></style>

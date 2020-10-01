@@ -1,4 +1,25 @@
-- title: Cheerios
-  price: 2.99
-- title: Lucky Charms
-  price: 3.99
+- title: FRÜHER VOGEL
+  subtitle: Kurse am Morgen
+  times: 08:00 – 08:50
+  courses:
+    - name: Individual – Coaching
+      date: ab 12.10.
+      days: Mo bis Do*
+      cost: 30,-
+    - name: Minikurs Niveau A2 5 EH + 5 HÜ
+      date: ab 12.10.
+      days: Mo bis Do*
+      cost: 120,-
+
+- title: GABELFRÜHSTÜCK
+  subtitle: Kurse am Vormittag
+  times: 09:00 – 10:40
+  courses:
+    - name: Individual – Coaching
+      date: ab 12.10.
+      days: Mo bis Do*
+      cost: 30,-
+    - name: Minikurs Niveau A2 5 EH + 5 HÜ
+      date: ab 12.10.
+      days: Mo bis Do*
+      cost: 120,-
