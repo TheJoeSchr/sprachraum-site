@@ -1,0 +1,100 @@
+- name: Elke Oberleitner
+  id: elke
+  kurzbio: |-
+    Studium Kommunikationswissenschaften und Philosophie.
+    Univ. Salzburg / AT
+    Zertifizierte DAF/DAZ Trainerin, BFI OÖ.
+    Kursleiterin / Sprachkurse &amp; Bewerbungscoaching
+  sprachraum: |-
+    Deutsch Standardkurse A1 – C1
+    Deutsch für den Beruf
+  zitat: Warum sind die Sterne so unordentlich verteilt?
+  zitatAuthor: Peter Fischli. Findet mich das Glück?
+  verb: gestalten
+  adjektiv: klar
+  substantiv: Vanillekipferl
+
+- name: Johannes Minichmair
+  id: johannes
+  kurzbio: |-
+    Studium der Theater-, Film u. Medienwissenschaften
+    Universität Wien / AT
+    Schauspiel am Lee Strasberg Theatre &amp; Film Institut, New York / US
+    Ausbildung zum diplomierten Trainer f. Basisbildung und
+    Alphabetisierung, BIFEB / AUT
+    Freier Schauspieler und Regisseur / AT
+    Trainer in der Erwachsenenbildung Deutsch &amp; Englisch. BFI OÖ / AT
+  sprachraum: |-
+    Deutsch Standardkurse A1 – C1
+    Deutsch Coaching
+    Englisch Konversation
+  zitat: Ich habe eine Wassermelone getragen.
+  zitatAuthor: Jennifer Grey als Baby. Dirty Dancing, 1978.
+  verb: erfahren
+  adjektiv: hübsch
+  substantiv: Kinoleinwand
+
+- name: Heidi Schweitzer
+  id: heidi
+  kurzbio: |-
+    Studium Ethnologie und Afrikanistik. Univ. Wien / AT
+    Studium Product &amp; Furniture Design. Kingston University, London / GB
+    Ausbildung Freizeitpädagogin, Montessoripädagogin
+    Kommunikationstrainerin, Malpädagogin, Eltern-Kind-Workshops,
+  sprachraum: |-
+    Deutsch Coaching
+    Konversation &amp; Teamteaching
+  zitat: Wenn von einer Maschine erwartet wird, dass sie unfehlbar ist, kann sie nicht gleichzeitig intelligent sein.
+  zitatAuthor: Alan Turing
+  verb: spielen
+  adjektiv: spannend
+  substantiv: Farbstift
+
+- name: Laura Zidda
+  id: laura
+  kurzbio: |-
+    Ausbildung:
+    Studium der Malerei
+    Accademia di Belle Arti di Rom / IT
+    Pädagogisches Propädeutikum als Regelschullehrerin / IT
+    Aktuell: Ausbildung zur DAF/DAZ Trainerin
+    Malerei &amp; Trainerin für Deutsch (in Ausbildung) und Italienisch
+  sprachraum: |-
+    Kurspraktikantin
+    Deutsch im Teamteaching
+  zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell&#39;opera, non l&#39;intera opera.
+  zitatAuthor: Maurizio Cattelan. Artista
+  verb: sorridere / lächeln
+  adjektiv: colorato / herzlich
+  substantiv: asciugamano / Handtuch
+
+- name: Giorgio Marica
+  id: giorgio
+  kurzbio: |-
+    Studium der Politikwissenschaften. Univ. Cagliari, Sardinien / IT
+    Pädagogisches Institut, Lehramt, Univ. Cagliari
+    Lehrer an der Höheren Schule f. Wirtschafts- und Tourismusberufe
+    I.T.S Enrico Mattei, Decimomannu. Sardinien / IT
+  sprachraum: |-
+    Italienisch Kurse ab November
+    Best boy Übersetzungen &amp; Administration
+  zitat: Ho sempre sognato di pronunciare correttamente „Schweinsteiger“, ma è impossibile. .
+  zitatAuthor: Gio Marica
+  verb: leggere
+  adjektiv: comprensibili
+  substantiv: Litoranea
+
+- name: Richard Bautista
+  id: richard
+  ausbildung: |-
+    Studium Prozess und Projektmanagement FH Vorarlberg, Dornbirn / AT
+    Basketball Profi, AUT &amp; ES
+    Lehrer an der LBSFE Feldkirch, Vlbg/AT
+  sprachraum: |-
+    Englisch alle Niveaustufen ab Jänner 21
+    Englisch Konversation ab Jänner 21
+  zitat: You can`t win if you don´t play as an unit.
+  zitatAuthor: Kareem Abdul-Jabbar. Athlete
+  verb: to play
+  adjektiv: succeeded
+  nomen: playground
