@@ -1,7 +1,7 @@
 <template lang="pug">
 Layout
-  MinorHero(:value="{...content}")
-    g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg')
+  MinorHero(:value="{...content,link:'/kursprogramm/',linkText:'>> zu unseren Kursen'}")
+    g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg' height=300)
   .container.pt-2(v-for='(section,index) in content.sections' :key='section.title')
     section.py-4.px-4
       div(class='md:w-1/2 md:px-4 mb-8 lg:mb-0')
