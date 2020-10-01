@@ -1,14 +1,14 @@
 <template lang="pug">
 section(class="pt-2")
   .flex.flex-wrap.max-w-4xl.mx-auto
-    .w-full.py-1.mb-1.px-2(class='md:w-full md:mb-0')
+    .w-full.py-1.mb-1.px-2(class='md:w-full md:mb-2')
       .py-1.border
         g-image.ml-auto(src='~/assets/placeholders/icons/badge.svg' class="-mt-6")
         h3.text-lg.pl-3.mb-1.font-heading.font-bold.left-0(class="w-full") {{value.name}}
         h4.pl-3.mb-3.text-sm.font-heading.font-semibold  {{ value.date }}
         div.pr-3.mr-3.text-lg.text-gray-900.text-right
           .ml-auto.mb-1(class="w-2/5") {{ value.cost }}
-        div.ml-auto.text-right(class='md:mx-32 w-2/5')
+        div.ml-auto.text-right(class='w-2/5 ')
           p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary
             | {{ value.days }}
           p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary
