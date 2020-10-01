@@ -12,16 +12,14 @@ Layout
             to='/kursprogramm/'
             class='hover:bg-primary-600'
           ) {{ hero.linkText }}
-
-
-      .px-2.hidden(class='md:w-1/2 md:block')
+      .px-2.hidden(class='md:w-1/2 md:block order-first')
         g-link(to="/kursprogramm/")
           g-image(src='~/assets/images/LogoOriginalDe.png', alt='')
 
-  template(v-for='(section,index) in cards' )
-    MinorHero(:value="{...section, isLeft: (index%2==0)}" )
-      g-image(v-if="0==index", src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
-      g-image(v-if="1==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
+  MinorHero(:value="{...miniDeutsch, isLeft: false }" )
+    g-image(src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
+  MinorHero(:value="{...miniKurs, isLeft: true }" )
+    g-image(src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
 </template>
 
 <script>
@@ -44,20 +42,18 @@ export default {
       link: 'kursprogramm',
       linkText: 'Gleich anmelden!',
     },
-    cards: [
-      {
-        title: 'Deutschkurse',
-        link: '/deutschkurse/',
-        linkText: '>> Mehr Infos',
-        content: `Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN. `,
-      },
-      {
-        title: 'Kursprogramm',
-        link: '/kursprogramm/',
-        linkText: '>> Stundenplan & Preise',
-        content: `Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können`,
-      },
-    ],
+    miniDeutsch: {
+      title: 'Deutschkurse',
+      link: '/deutschkurse/',
+      linkText: '>> Mehr Infos',
+      content: `Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN. `,
+    },
+    miniKurs: {
+      title: 'Kursprogramm',
+      link: '/kursprogramm/',
+      linkText: '>> Stundenplan & Preise',
+      content: `Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können`,
+    },
   }),
 }
 </script>
