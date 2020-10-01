@@ -7,7 +7,7 @@ Layout
         h3.text-center.text-lg.pb-1.font-heading {{ section.subtitle }} von {{ section.times}}
         ul
           li(v-for='course in section.courses' :key="course.name")
-            KursprogrammKarte(:value="course")
+            KursprogrammKarte(:value="{...course,times:section.times}")
 </template>
 
 <script>
