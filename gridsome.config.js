@@ -6,7 +6,15 @@
 
 module.exports = {
   siteName: 'Sprachraum',
+  templates: {},
   plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Kurse',
+        path: './src/content/**/*.yaml',
+      },
+    },
     {
       use: 'gridsome-plugin-tailwindcss',
       options: {
