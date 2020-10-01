@@ -2,8 +2,8 @@
 Layout
   MinorHero(:value="{...content,link:'/kursprogramm/',linkText:'>> zu unseren Kursen'}")
     g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg' height=300)
-  div.flex.flex-wrap
-    .container.pt-2(v-for='(section,index) in content.sections' :key='section.title' :class="{'md:w-1/3 md:px-4': (section.list),'md:w-full md:px-1': (section.content)}")
+  div.flex.flex-wrap(class='md:justify-center md:justify-between')
+    .container.pt-2(v-for='(section,index) in content.sections' :key='section.title' :class="{'md:w-auto md:px-4': (section.list),'md:w-full md:px-1': (section.content)}")
       section.py-4.px-4.w-full
         div(class='mb-8 lg:mb-0')
           h3.text-2xl.mb-4 {{ section.title }}
