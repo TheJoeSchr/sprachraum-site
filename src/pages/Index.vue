@@ -16,9 +16,9 @@ Layout
         g-link(to="/kursprogramm/")
           g-image(src='~/assets/images/laura-chouette-MIzyUBE5jYI-unsplash.jpg', alt='')
 
-  MinorHero(:value="{...miniDeutsch, isLeft: false }" )
+  MinorHero(:value="miniDeutsch" )
     g-image(src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
-  MinorHero(:value="{...miniKurs, isLeft: true }" )
+  MinorHero(:value="miniKurs" )
     g-image(src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
 </template>
 
@@ -47,12 +47,14 @@ export default {
       link: '/deutschkurse/',
       linkText: '>> Mehr Infos',
       content: `Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN. `,
+      isLeft: false,
     },
     miniKurs: {
       title: 'Kursprogramm',
       link: '/kursprogramm/',
       linkText: '>> Stundenplan & Preise',
       content: `Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können`,
+      isLeft: true,
     },
   }),
 }
