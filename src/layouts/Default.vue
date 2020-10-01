@@ -33,6 +33,12 @@ export default {
 </script>
 
 <style>
+.btn-translate {
+  @apply text-center inline-block mb-3 py-3 px-6 w-1/5 ml-auto leading-none text-black bg-secondary-200  rounded shadow;
+}
+.btn-translate:hover {
+  @apply bg-primary-600;
+}
 body {
   margin: 0;
   padding: 0;

@@ -14,7 +14,7 @@ section(class="pt-2")
           p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary
             | {{value.times }}
         .mx-auto.mb-2(class='w-2/5')
-          a(:href='mailto(value)' class='hover:bg-indigo-200').inline-block.w-full.py-3.px-5.leading-none.text-center.text-primary-900.bg-primary-100.rounded.shadow BUCHEN
+          a(:href='mailto(value)' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow BUCHEN
 </template>
 
 <script>
