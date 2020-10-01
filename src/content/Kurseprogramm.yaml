@@ -1,122 +1,130 @@
 - title: FRÜHER VOGEL
-  subtitle: Kurse am Morgen
+  subtitle: Corsi primo mattina
   times: 08:00 – 08:50
   courses:
-    - name: Individual – Coaching
-      date: ab 12.10.
-      days: Mo bis Do*
-      cost: € 30
-    - name: Minikurs Niveau A2 5 EH + 5 HÜ
-      date: ab 12.10.
-      days: Mo bis Do*
+    - name: Mini corso conversazione B1 / 10 unità
+      date: dal 12/10
+      days: dal lun a ven* 
       cost: € 120
+    - name: Coaching individuale 
+      date: dal 12/10
+      days: dal lun a ven*
+      cost: € 30
 
 - title: GABELFRÜHSTÜCK
-  subtitle: Kurse am Vormittag
+  subtitle: Corsi al mattino
   times: 09:00 – 10:40
   courses:
-    - name: Standardkurs A2 intensiv / 46 EH + 10 HÜ
-      date: 19.10 – 19.11
-      days: Mo bis Fr / tgl.
+    - name: Corso standard A2 intensivo / 46 unità + 10 SI
+      date: 19/10 – 19/11
+      days: da lun a ven
       cost: € 370
-    - name: Deutsch Startup A1 / 36 EH + 10 HÜ
-      date: 20.10 - 27.11
-      days: Mo & Di & Fr
+    - name: Corso "Startup" A1 / 36 unità + 10 SI
+      date: 20/10 - 27/11
+      days: lun & mar & ven
       cost: € 299
-    - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
-      date: 21.10 – 27.11
-      days: Mo & Mi
+    - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
+      date: 21/10 – 27/11
+      days: lun & mer
       cost: € 299
-    - name: Individual-Coaching Einzelstunden
-      date: ab 17.10
-      days: Samstag
+    - name: Coaching individuale
+      date: dal 17/10
+      days: sabato
       cost: € 30
-    - name: Minikurs 5 EH B1 / 5 EH + 5 HÜ
-      date: ab 17.10
-      days: Samstag
-      cost: € 120
+    - name: Mini corso 5 EH B1 / 5 unità + 5 SI
+      date: dal 17/10
+      days: sabato
+      cost: € 130
 
 - title: MAHLZEIT, LEUTE!
-  subtitle: Kurse zu Mittag
+  subtitle: Corsi all´ora di pranzo
   times: 12:00 – 13:40
   courses:
-    - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
-      date: 20.10 - 27.11
-      days: Mo & Di & Fr
+    - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
+      date: 20/10 - 27/11
+      days: lun & mar & ven
       cost: € 299
-    - name: Deutsch f. Tourismusberufe B1 / 36 EH + 10 HÜ
-      date: 21.10 – 27.11
-      days: Mo & Mi & Do
+    - name: Corso per le professioni turistiche B1 / 36 unità + 10 SI
+      date: 21/10 – 27/11
+      days: lun & mer & gio
       cost: € 299
-    - name: Individual-Coaching Einzelstunden
-      date: ab 12.10
-      days: Mo bis Do*
+    - name: Coaching individuale
+      date: dal 12/10
+      days: da lun a ven* 
       cost: € 30
-    - name: Konversation Einzelstunden
-      date: ab 12.10
-      days: Mo bis Do*
-      cost: € 30
+    - name: Mini corso per tutti i livelli / 5 unità + 5 SI
+      date: ab 12/10
+      days: dal lun a gio*
+      cost: € 130
 
 - title: BROTZEIT!
-  subtitle: Kurse am Nachmittag
+  subtitle: Corsi al pomeriggio
   times: 17:00 – 18:40
   courses:
-    - name: Standard A1.2 / 46 EH + 10 HÜ
-      date: 12.10 – 27.11
-      days: Mo & Mi & Fr + 4 T***
-      cost: € 370,--
-    - name: Standard A2.2 / 46 EH + 10 HÜ
-      date: 13.10 – 27.11
-      days: Di & Do + 1 T***
-      cost: € 370,--
-    - name: Individual Coaching / Einzelstunden
-      date: ab 14.10
-      days: Mittwoch
-      cost: € 30,--
-    - name: Konversation Einzelstunden
-      date: ab 14.10
-      days: Mittwoch
-      cost: € 30,--
+    - name: Corso standard A1.2 / 46 unità + 10 SI
+      date: 12/10 – 27/11
+      days: lun & mer & ven + 4 g***
+      cost: € 370
+    - name: Corso standard A2.2 / 46 unità + 10 SI
+      date: 13/10 – 27/11
+      days: mar & gio + 1 g***
+      cost: € 370
+    - name: Coaching individuale
+      date: dal 14/10
+      days: mercoledì
+      cost: € 30
+    - name: Mini corso conversazione / B2 10 unità
+      date: dal 14/10
+      days: mercoledì
+      cost: € 120
 
-- title: AUSMAUS, FEIERABEND!
-  subtitle: Kurse am Abend
+- title: AUS MAUS, FEIERABEND!
+  subtitle: Corsi serali
   times: 19:00 – 20:40
   courses:
-    - name: Standard B1.1 / 46 EH + 10 HÜ
-      date: 12.10 – 27.11
-      days: Mo & Mi & Fr + 4 T***
-      cost: € 370,--
-    - name: Standard B1.2 / 46 EH + 10 HÜ
-      date: 13.10 – 27.11
-      days: Di & Do + 1 T***
-      cost: € 370,--
-    - name: Individual Coaching / Einzelstunden
-      date: ab 14.10
-      days: Mittwoch
-      cost: € 30,--
-    - name: Konversation Einzelstunden
-      date: ab 14.10
-      days: Mittwoch
-      cost: € 30,--
+    - name: Corso standard B1.1 / 46 unità + 10 SI
+      date: 12/10 – 27/11
+      days: lun & mer & ven + 4 g***
+      cost: € 370
+    - name: Corso standard B1.2 / 46 unità + 10 SI
+      date: 13/10 – 27/11
+      days: mar & gio + 1 g***
+      cost: € 370
+    - name: Coaching individuale
+      date: dal 14/10 
+      days: mercoledì
+      cost: € 30
+    - name: Mini corso per tutti i livelli / 5 unitá + 5 SI
+      date: dal 14/10
+      days: mercoledì
+      cost: € 130
 
-- title: COACHING PACKET
-  subtitle: nach Vereinbahrung
+- title: Pacchetto Coaching individuale
+  subtitle: 
+  times: previo accordo
+  courses:
+    - name: Coaching individuale / 10 unità + 5 SI
+      date: dal 17/10
+      days: previo accordo
+      cost: € 275
+    - name: Coaching individuale / 6 EH + 3 SI
+      date: dal 17/10
+      days: previo accordo
+      cost: € 155
+
+- title: MINI-CORSO 
+  subtitle: previo accordo
   times: 9:00 bis 17:00
   courses:
-    - name: Coaching / 10 EH
-      date: ab 17.10
-      days: nach Vereinbarung
-      cost: € 275,--
-    - name: Coaching / 6 EH
-      date: ab 17.10
-      days: nach Vereinbarung
-      cost: € 155,--
-
-- title: MINI-KURS – EXTRA PREIS
-  subtitle: nach Vereinbahrung
-  times: 9:00 bis 17:00
-  courses:
-    - name: Deutsch f. alle Niveaustufen / 5 EH + 5 HÜ
-      date: ab 17.10
-      days: nach Vereinbarung***
-      cost: € 120,--
+    - name: Corsi per tutti i livelli / 5 unità + 5 SI
+      date: dal 17.10
+      days: previo accordo***
+      cost: € 130
+Informazioni
+Corsi di gruppo / partecipanti min. 3 max. 6
+I corsi non si terranno nei giorni / 8 dic; e dal 21 dic al 11 gen. 
+Legenda / unità = 50min; SI = studio individuale.
+A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato. 
+* L´appuntamento sarà concordato con i partecipanti.
+** Non sono inclusi i libri da utilizzare nei corsi. Il prezzo dei libri per i corsi sarà compreso tra 17,- e 24,- euro. 
+*** Le date di questi giorni-extra saranno concordato con i partecipanti al gruppo. 
