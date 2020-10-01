@@ -1,0 +1,122 @@
+- title: FRÜHER VOGEL
+  subtitle: Kurse am Morgen
+  times: 08:00 – 08:50
+  courses:
+    - name: Individual – Coaching
+      date: ab 12.10.
+      days: Mo bis Do*
+      cost: € 30
+    - name: Minikurs Niveau A2 5 EH + 5 HÜ
+      date: ab 12.10.
+      days: Mo bis Do*
+      cost: € 120
+
+- title: GABELFRÜHSTÜCK
+  subtitle: Kurse am Vormittag
+  times: 09:00 – 10:40
+  courses:
+    - name: Standardkurs A2 intensiv / 46 EH + 10 HÜ
+      date: 19.10 – 19.11
+      days: Mo bis Fr / tgl.
+      cost: € 370
+    - name: Deutsch Startup A1 / 36 EH + 10 HÜ
+      date: 20.10 - 27.11
+      days: Mo & Di & Fr
+      cost: € 299
+    - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
+      date: 21.10 – 27.11
+      days: Mo & Mi
+      cost: € 299
+    - name: Individual-Coaching Einzelstunden
+      date: ab 17.10
+      days: Samstag
+      cost: € 30
+    - name: Minikurs 5 EH B1 / 5 EH + 5 HÜ
+      date: ab 17.10
+      days: Samstag
+      cost: € 120
+
+- title: MAHLZEIT, LEUTE!
+  subtitle: Kurse zu Mittag
+  times: 12:00 – 13:40
+  courses:
+    - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
+      date: 20.10 - 27.11
+      days: Mo & Di & Fr
+      cost: € 299
+    - name: Deutsch f. Tourismusberufe B1 / 36 EH + 10 HÜ
+      date: 21.10 – 27.11
+      days: Mo & Mi & Do
+      cost: € 299
+    - name: Individual-Coaching Einzelstunden
+      date: ab 12.10
+      days: Mo bis Do*
+      cost: € 30
+    - name: Konversation Einzelstunden
+      date: ab 12.10
+      days: Mo bis Do*
+      cost: € 30
+
+- title: BROTZEIT!
+  subtitle: Kurse am Nachmittag
+  times: 17:00 – 18:40
+  courses:
+    - name: Standard A1.2 / 46 EH + 10 HÜ
+      date: 12.10 – 27.11
+      days: Mo & Mi & Fr + 4 T***
+      cost: € 370,--
+    - name: Standard A2.2 / 46 EH + 10 HÜ
+      date: 13.10 – 27.11
+      days: Di & Do + 1 T***
+      cost: € 370,--
+    - name: Individual Coaching / Einzelstunden
+      date: ab 14.10
+      days: Mittwoch
+      cost: € 30,--
+    - name: Konversation Einzelstunden
+      date: ab 14.10
+      days: Mittwoch
+      cost: € 30,--
+
+- title: AUSMAUS, FEIERABEND!
+  subtitle: Kurse am Abend
+  times: 19:00 – 20:40
+  courses:
+    - name: Standard B1.1 / 46 EH + 10 HÜ
+      date: 12.10 – 27.11
+      days: Mo & Mi & Fr + 4 T***
+      cost: € 370,--
+    - name: Standard B1.2 / 46 EH + 10 HÜ
+      date: 13.10 – 27.11
+      days: Di & Do + 1 T***
+      cost: € 370,--
+    - name: Individual Coaching / Einzelstunden
+      date: ab 14.10
+      days: Mittwoch
+      cost: € 30,--
+    - name: Konversation Einzelstunden
+      date: ab 14.10
+      days: Mittwoch
+      cost: € 30,--
+
+- title: COACHING PACKET
+  subtitle: nach Vereinbahrung
+  times: 9:00 bis 17:00
+  courses:
+    - name: Coaching / 10 EH
+      date: ab 17.10
+      days: nach Vereinbarung
+      cost: € 275,--
+    - name: Coaching / 6 EH
+      date: ab 17.10
+      days: nach Vereinbarung
+      cost: € 155,--
+
+- title: MINI-KURS – EXTRA PREIS
+  subtitle: nach Vereinbahrung
+  times: 9:00 bis 17:00
+  courses:
+    - name: Deutsch f. alle Niveaustufen / 5 EH + 5 HÜ
+      date: ab 17.10
+      days: nach Vereinbarung***
+      cost: € 120,--
