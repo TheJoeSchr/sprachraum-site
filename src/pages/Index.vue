@@ -17,46 +17,20 @@ Layout
         g-link(to="/kursprogramm/")
           g-image(src='~/assets/images/LogoOriginalDe.png', alt='')
 
-  section
-    g-link(to="/kursprogramm/" ).flex.flex-wrap.items-center.max-w-5xl.mx-auto.mb-8
-      .pt-8.px-8.w-full(class='md:w-1/2 md:h-3/5')
-        g-image.hidden.max-w-sm.mx-auto(
-          src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg',
-          class='md:block',
-          fit='inside',
-          width='250',
-          height='250'
-        )
-      .px-8.mb-8(class='md:w-1/2 md:mb-0')
-        h3.text-2xl.mb-2.font-heading Deutschkurse
-        p.mb-4.text-gray-600.leading-relaxed.
-          Die Inhalte & Lehrunterlagen folgen den Vorgaben des Gemeinsamen Europäi-
-          schen Referenzrahmen für Sprachen. Trainer_innen verfügen über DAF/DAZ Zertifizierung
-        g-link.text-primary-700(to='/Kursprogramm/', class='hover:underline') >> Mehr Infos
-  section
-    g-link(to="/kursprogramm/" ).flex.flex-wrap.items-center.max-w-5xl.mx-auto.mb-8
-      .px-8.mb-8(class='md:w-1/2 md:mb-0')
-        h3.text-2xl.mb-2.font-heading Kursprogramm
-        p.mb-4.text-gray-600.leading-relaxed Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können
-        g-link.text-primary-700(to='/Kursprogramm/', class='hover:underline') >> Stundenplan und Preise
-      .pt-8.px-8.w-full(class='md:w-1/2 md:h-3/5')
-        g-image.hidden.max-w-sm.mx-auto(
-          src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg',
-          class='md:block',
-          fit='inside',
-          width='250',
-          height='250'
-        )
+  template(v-for='(section,index) in cards' )
+    MinorHero(:value="{...section, isLeft: (index%2==0)}" )
+      g-image(v-if="0==index", src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg')
+      g-image(v-if="1==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg')
 </template>
 
 <script>
-import IconCard from '~/components/IconCard.vue'
+import MinorHero from '~/components/MinorHero.vue'
 import Layout from '~/layouts/Default.vue'
 
 export default {
   components: {
-    IconCard,
     Layout,
+    MinorHero,
   },
   metaInfo: {
     title: 'Home',
@@ -64,9 +38,15 @@ export default {
   data: () => ({
     cards: [
       {
-        imageUrl: '/assets/1_Deutschkurse.jpg',
-        imageAlt: 'Deutschkurse',
+        title: 'Kursprogramm',
+        link: '/kursprogramm/',
+        linkText: '>> Mehr Infos',
+        content: `A1–C1`,
+      },
+      {
         title: 'Deutschkurse',
+        link: '/deutschkurse/',
+        linkText: '>> Mehr Infos',
         content: `A1–C1`,
       },
     ],
