@@ -62,6 +62,7 @@ Layout
 
 <script>
 import team from '@/content/Team.yaml'
+import { toBr } from '@/helpers'
 
 export default {
   metaInfo: {
@@ -73,7 +74,7 @@ export default {
     }
   },
   methods: {
-    toBr: (str) => (str ? str.replace(/(?:\r\n|\r|\n)/g, '<br>') : ''),
+    toBr,
     schlagworte(person) {
       return this.toBr(
         `Verb: ${person.verb}\nSubstantiv: ${person.substantiv}\nAdjektiv: ${person.adjektiv}`
