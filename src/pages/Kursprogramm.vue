@@ -12,7 +12,7 @@ Layout
 
 <script>
 import KursprogrammKarte from '~/components/KursprogrammKarte.vue'
-import timetable from '@/content/Kurse.yaml'
+import timetable from '@/content/Kurseprogramm.yaml'
 
 export default {
   components: {
