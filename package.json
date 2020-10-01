@@ -25,6 +25,7 @@
     "gridsome-plugin-pug": "^0.0.3",
     "gridsome-plugin-purgecss": "^1.0.12",
     "gridsome-plugin-tailwindcss": "^3.0.1",
+    "http-server": "^0.12.3",
     "prettier": "^2.1.2",
     "pug": "^3.0.0"
   }
