@@ -9,7 +9,7 @@ Layout
             {{ person.name }}
           .py-8.px-4(class="md:pl-0")
             .max-w-2xl.pl-12.py-4.mx-auto.border-l-4(class="md:pl-8")
-              p.text-xl.mb-6 {{ person.zitat }}
+              p.text-xl.mb-6(v-html="person.zitat")
               p.text-sm.text-gray-600
                 span.mr-2  - {{ person.zitatAuthor}}
                 //- span.font-semibold CEO at Realweb
