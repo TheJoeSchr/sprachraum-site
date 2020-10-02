@@ -18,7 +18,7 @@ export default {
     return {
       timetable,
       messages: {
-        btnTranslate: 'Deutsch',
+        btnTranslate: '🇩🇪 Deutsch',
         btnBooking: 'Iscrizione',
       },
     }
