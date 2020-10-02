@@ -141,21 +141,21 @@ layout
           p.
             10.4 Sollten Sie ohne sich zu melden dem Kurs fernbleiben fällt die gesamte Kursgebühr an.
         .px-8.mb-8(class="lg:w-1/2")
-          h3.text-lg.mb-1.font-heading.font-semibold 12 Ich akzeptiere die Allgemeinen Geschäftsbedingungen
+          h3.text-lg.mb-1.font-heading.font-semibold 11 Ich akzeptiere die Allgemeinen Geschäftsbedingungen
           p.
             in der hier vorliegenden Fassung und stimme den darin enthaltenen Bestimmungen zu.
 
         .px-8.mb-8(class="lg:w-1/2")
-          h3.text-lg.mb-1.font-heading.font-semibold 13 Mit der Akzeptanz der AGB von WIA KompeTrend GmbH
+          h3.text-lg.mb-1.font-heading.font-semibold 12 Mit der Akzeptanz der AGB von WIA KompeTrend GmbH
           p.
             stimmt der/die Vertragspartner_in ausdrücklich dem Erhalt von elektronischem Informations- und
             Werbematerial an der von ihr/ihm bekannt gegebenen E-Mail-Adresse zu. Diese kann
             jederzeit schriftlich widerrufen werden.
         .px-8.mb-8(class="lg:w-1/2")
-          h3.text-lg.mb-1.font-heading.font-semibold 14 Für sämtliche Rechtsstreitigkeiten
+          h3.text-lg.mb-1.font-heading.font-semibold 13 Für sämtliche Rechtsstreitigkeiten
           p wird die Zuständigkeit des sachlich zuständigen Gerichts von KompeTrend GmbH vereinbart.
         .px-8.mb-8(class="lg:w-1/2")
-          h3.text-lg.mb-1.font-heading.font-semibold 15 Auf sämtliche Rechtsstreitigkeiten aus dieser Vereinbarung
+          h3.text-lg.mb-1.font-heading.font-semibold 14 Auf sämtliche Rechtsstreitigkeiten aus dieser Vereinbarung
           p ist ausschließlich österreichisches Recht anwendbar.
 </template>
 
