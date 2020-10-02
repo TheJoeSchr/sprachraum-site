@@ -80,7 +80,7 @@ timeslots:
       - name: Minikurs refresher A2 / 10 EH + 5 HÜ
         date: ab 14.10
         days: Mittwoch
-        cost: 130
+        cost: € 130
       - name: Individual Coaching
         date: ab 14.10
         days: Mittwoch
