@@ -34,7 +34,7 @@ export default {
 
 <style>
 .btn-translate {
-  @apply text-center inline-block mb-3 py-3 px-6 w-1/5 ml-auto leading-none text-black bg-secondary-200  rounded shadow;
+  @apply text-center inline-block mb-3 py-3 px-6 w-2/5 mx-auto leading-none text-black bg-secondary-200  rounded shadow;
 }
 .btn-translate:hover {
   @apply bg-primary-600;

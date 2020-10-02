@@ -1,6 +1,7 @@
 <template lang="pug">
 div
-  g-link(:to="translateLink" class="btn-translate") {{messages.btnTranslate}}
+  .flex
+    g-link(:to="translateLink" ).btn-translate {{messages.btnTranslate}}
   .divide-y.divide-gray-400
     .container.py-2(v-for='(timeslot,index) in timeslots' :key='timeslot.title').pt-8
       section(:class="{'bg-yellow-100':(index%2==1), 'shadow-lg':(index%2==1) ,'shadow-inner':(index%2==0) }" class="mb-0").my-2.pt-1
