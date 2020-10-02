@@ -28,7 +28,6 @@ export default {
       linkText = '>> zu unseren Kursen',
       sections,
     } = this.value
-    console.log(this.value)
     return { title, cardContent, link, linkText, sections }
   },
   methods: {
