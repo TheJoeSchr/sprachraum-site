@@ -1,10 +1,12 @@
 info:
   title: Wichtige Information
-  content: Legende
+  content: |-
+    <b>Kosten:</b> Nicht inkludiert sind die Lehrbücher. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können.
+
+    <b>Legende:</b>
   list:
     - '* Innerhalb dieser Wochentage sind individuelle Coachingtermine möglich.'
-    - '** Nicht inkludiert sind die Lehrbücher. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können.'
-    - '*** Diese Tage werden mit der Gruppe individuell vereinbart.'
+    - '** Diese Tage werden mit der Gruppe individuell vereinbart.'
 timeslots:
   - title: FRÜHER VOGEL
     subtitle: Kurse am Morgen
@@ -33,7 +35,7 @@ timeslots:
         cost: € 299
       - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
         date: 21.10 – 27.11
-        days: Mo & Mi + 2T***
+        days: Mo & Mi + 2T**
         cost: € 299
       - name: Individual Coaching
         date: ab 17.10
@@ -71,11 +73,11 @@ timeslots:
     courses:
       - name: Standardkurs intensiv A1.2 / 46 EH + 10 HÜ
         date: 12.10 – 27.11
-        days: Mo & Mi & Fr + 4 T***
+        days: Mo & Mi & Fr + 4 T**
         cost: € 370
       - name: Standard A2.2 intensiv / 46 EH + 10 HÜ
         date: 13.10 – 27.11
-        days: Di & Mi & Do + 4 T***
+        days: Di & Mi & Do + 4 T**
         cost: € 370
       - name: Minikurs refresher A2 / 10 EH + 5 HÜ
         date: ab 14.10
@@ -92,11 +94,11 @@ timeslots:
     courses:
       - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
         date: 12.10 – 27.11
-        days: Mo & Mi & Fr + 4 T***
+        days: Mo & Mi & Fr + 4 T**
         cost: € 370,--
       - name: Standard B1.2 intensiv / 46 EH + 10 HÜ
         date: 13.10 – 27.11
-        days: Di & Mi & Do + 4 T***
+        days: Di & Mi & Do + 4 T**
         cost: € 370,--
       - name: Individual Coaching
         date: ab 14.10

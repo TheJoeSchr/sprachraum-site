@@ -12,13 +12,14 @@ div
             KursprogrammKarte(:value="{...course,times:timeslot.times, messages}")
         div.text-sm.mx-2.py-4
           h3.text-lg {{ info.title }}
-          h3 {{ info.content }}
+          h3(v-html="toBr(info.content)")
           ul
             li(v-for='(item,index) in info.list' :key='index') {{ item }}
 </template>
 
 <script>
 import KursprogrammKarte from '~/components/KursprogrammKarte.vue'
+import { toBr } from '~/helpers'
 
 export default {
   components: {
@@ -32,5 +33,6 @@ export default {
     const { timetable, messages, translateLink } = this.value
     return { ...timetable, messages, translateLink }
   },
+  methods: { toBr },
 }
 </script>
