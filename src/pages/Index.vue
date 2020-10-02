@@ -27,6 +27,7 @@ Layout
 <script>
 import MinorHero from '~/components/MinorHero.vue'
 import Layout from '~/layouts/Default.vue'
+import content from '@/content/Index.yaml'
 
 export default {
   components: {
@@ -36,29 +37,7 @@ export default {
   metaInfo: {
     title: 'Home',
   },
-  data: () => ({
-    hero: {
-      title: 'Unsere Deutschkurse könnt ihr ab sofort Online besuchen!',
-      content:
-        'Trefft Elke, Laura, Johannes, Heidi & ihre Kolleg*innen in den virtuellen Klassenzimmern von Work IT AUT',
-      link: 'kursprogramm',
-      linkText: 'Gleich anmelden!',
-    },
-    cards: [
-      {
-        title: 'Deutschkurse',
-        link: '/deutschkurse/',
-        linkText: '>> Mehr Infos',
-        content: `Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN. `,
-      },
-      {
-        title: 'Kursprogramm',
-        link: '/kursprogramm/',
-        linkText: '>> Stundenplan & Preise',
-        content: `Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können`,
-      },
-    ],
-  }),
+  data: () => ({ hero: content['hero'], cards: content['cards'] }),
 }
 </script>
 
