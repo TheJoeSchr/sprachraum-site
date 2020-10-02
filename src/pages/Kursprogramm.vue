@@ -5,7 +5,7 @@ Layout
 
 <script>
 import Courses from '~/components/Courses.vue'
-import timetable from '@/content/Kurseprogramm.yaml'
+import timetable from '@/content/Kursprogramm.yaml'
 
 export default {
   components: {
