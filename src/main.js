@@ -5,9 +5,14 @@ import DefaultLayout from '~/layouts/Default.vue'
 require('typeface-unica-one')
 require('typeface-d-din')
 
-export default function (Vue, { router, head, isClient }) {
+import IT from '@/content/it/Interface.yaml'
+import DE from '@/content/Interface.yaml'
+export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  // ...
+  appOptions.i18n.setLocaleMessage('it-it', IT)
+  appOptions.i18n.setLocaleMessage('de-de', DE)
 
   head.meta.push({
     charset: 'utf-8',

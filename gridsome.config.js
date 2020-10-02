@@ -12,6 +12,26 @@ module.exports = {
   templates: {},
   plugins: [
     {
+      use: 'gridsome-plugin-i18n',
+      options: {
+        locales: [
+          // locales list
+          'it-it',
+          'de-de',
+        ],
+        pathAliases: {
+          // path segment alias for each locales
+          'it-it': 'it',
+          'de-de': 'de',
+        },
+        fallbackLocale: 'de-de', // fallback language
+        defaultLocale: 'de-de', // default language
+        enablePathRewrite: false, // rewrite path with locale prefix, default: true
+        rewriteDefaultLanguage: false, // rewrite default locale, default: true
+        messages: {},
+      },
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Kurse',
