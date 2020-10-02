@@ -77,7 +77,7 @@ export default {
     toBr,
     schlagworte(person) {
       return this.toBr(
-        `Verb: ${person.verb}\nSubstantiv: ${person.substantiv}\nAdjektiv: ${person.adjektiv}`
+        `Verb: ${person.verb}\nAdjektiv: ${person.adjektiv}\nSubstantiv: ${person.substantiv}`
       )
     },
   },
