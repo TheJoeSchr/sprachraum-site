@@ -4,17 +4,18 @@ section(class="pt-2")
     .w-full.py-1.mb-1.px-2(class='md:w-full md:mb-2')
       .py-1.border
         g-image.ml-auto(src='~/assets/placeholders/icons/badge.svg' class="-mt-6")
-        h3.text-lg.pl-3.mb-1.font-heading.font-bold.left-0(class="w-full") {{value.name}}
-        h4.pl-3.mb-3.text-sm.font-heading.font-semibold  {{ value.date }}
+        h3.text-lg.pl-3.mb-1.font-heading.font-bold.left-0(class="w-full") {{name}}
+        h4.pl-3.mb-3.text-sm.font-heading.font-semibold  {{ date }}
         div.pr-3.mr-3.text-lg.text-gray-900.text-right
-          .ml-auto.mb-1(class="w-2/5") {{ value.cost }}
+          .ml-auto.mb-1(class="w-2/5") {{ cost }}
         div.ml-auto.text-right(class='w-2/5 ')
           p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary
-            | {{ value.days }}
+            | {{ days }}
           p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary
-            | {{value.times }}
+            | {{times }}
         .mx-auto.mb-2(class='w-2/5')
-          a(:href='mailto(value)' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow BUCHEN
+          a(:href='mailto(value)' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow.
+            {{ messages.btnBooking }}
 </template>
 
 <script>
@@ -35,6 +36,10 @@ export default {
     title: 'KursprogrammKarte',
   },
   props: ['value'],
+  data() {
+    const { name, date, cost, days, times, messages } = this.value
+    return { name, date, cost, days, times, messages }
+  },
   methods: {
     mailto: (course) =>
       `mailto:${EMAIL}?${mailSubject(course)}&${mailBody(course)}`,
