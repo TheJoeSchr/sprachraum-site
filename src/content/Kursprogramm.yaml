@@ -96,19 +96,19 @@ timeslots:
       - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
         date: 12.10 – 27.11
         days: Mo & Mi & Fr + 4 T**
-        cost: € 370,--
+        cost: € 370
       - name: Standard B1.2 intensiv / 46 EH + 10 HÜ
         date: 13.10 – 27.11
         days: Di & Mi & Do + 4 T**
-        cost: € 370,--
+        cost: € 370
       - name: Individual Coaching
         date: ab 14.10
         days: Mittwoch
-        cost: € 30,--
+        cost: € 30
       - name: Minikurs refresher B2 / 10 EH + 5 HÜ
         date: ab 14.10
         days: Mittwoch
-        cost: € 130,--
+        cost: € 130
 
   - title: COACHING PACKET
     subtitle: nach Vereinbahrung
@@ -117,11 +117,11 @@ timeslots:
       - name: Coaching / 10 EH + 5 HÜ
         date: ab 17.10
         days: nach Vereinbarung
-        cost: € 275,--
+        cost: € 275
       - name: Coaching / 6 EH + 5 HÜ
         date: ab 17.10
         days: nach Vereinbarung
-        cost: € 155,--
+        cost: € 155
 
   - title: MINIKURSE
     subtitle: nach Vereinbahrung
@@ -130,4 +130,4 @@ timeslots:
       - name: Deutsch f. alle Niveaustufen / 5 EH + 5 HÜ
         date: ab 17.10
         days: nach Vereinbarung
-        cost: € 130,--
+        cost: € 130
