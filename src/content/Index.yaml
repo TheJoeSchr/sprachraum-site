@@ -3,7 +3,7 @@ hero:
   content: >
     Trefft Elke, Laura, Johannes, Heidi & ihre Kolleg*innen in den virtuellen
     Klassenzimmern von Work IT AUT
-  link: kursprogramm
+  link: '/kursprogramm/'
   linkText: 'Gleich anmelden!'
 cards:
   - title: Deutschkurse
