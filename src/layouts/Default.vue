@@ -9,7 +9,8 @@
     a(href="https://sprachraum.workitaut.at") SPRACHRAUM.workitaut.at
     a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="mailto:eli@workitaut.eu") Kontakt
     a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="http://www.workitaut.eu" target="_blank") Work IT AUT
-    a(class="inline-block mx-4 hover:text-primary-700" href="/agb/") AGB
+    g-link(to="/impressum/" class="inline-block mx-4 hover:text-primary-700" ) Impressum
+    g-link(to="/agb/" class="inline-block mx-4 hover:text-primary-700" ) AGB
 
 </template>
 
@@ -34,7 +35,7 @@ export default {
 
 <style>
 .btn-translate {
-  @apply text-center inline-block mb-3 py-3 px-6 w-1/5 ml-auto leading-none text-black bg-secondary-200  rounded shadow;
+  @apply text-center inline-block mb-3 py-3 px-6 w-2/5 mx-auto leading-none text-black bg-secondary-200  rounded shadow;
 }
 .btn-translate:hover {
   @apply bg-primary-600;

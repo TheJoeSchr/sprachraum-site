@@ -12,19 +12,22 @@ Layout
             to='/kursprogramm/'
             class='hover:bg-primary-600'
           ) {{ hero.linkText }}
-      .px-2.hidden(class='md:w-1/2 md:block order-first')
+
+
+      .px-2.hidden(class='md:w-1/2 md:block')
         g-link(to="/kursprogramm/")
           g-image(src='~/assets/images/laura-chouette-MIzyUBE5jYI-unsplash.jpg', alt='')
 
-  MinorHero(:value="miniDeutsch" )
-    g-image(src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
-  MinorHero(:value="miniKurs" )
-    g-image(src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
+  template(v-for='(section,index) in cards' )
+    MinorHero(:value="{...section, isLeft: (index%2==0)}" )
+      g-image(v-if="0==index", src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
+      g-image(v-if="1==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
 </template>
 
 <script>
 import MinorHero from '~/components/MinorHero.vue'
 import Layout from '~/layouts/Default.vue'
+import content from '@/content/Index.yaml'
 
 export default {
   components: {
@@ -34,29 +37,7 @@ export default {
   metaInfo: {
     title: 'Home',
   },
-  data: () => ({
-    hero: {
-      title: 'Unsere Deutschkurse könnt ihr ab sofort Online besuchen!',
-      content:
-        'Trefft Elke, Laura, Johannes, Heidi & ihre Kolleg*innen in den virtuellen Klassenzimmern von Work IT AUT',
-      link: 'kursprogramm',
-      linkText: 'Gleich anmelden!',
-    },
-    miniDeutsch: {
-      title: 'Deutschkurse',
-      link: '/deutschkurse/',
-      linkText: '>> Mehr Infos',
-      content: `Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN. `,
-      isLeft: false,
-    },
-    miniKurs: {
-      title: 'Kursprogramm',
-      link: '/kursprogramm/',
-      linkText: '>> Stundenplan & Preise',
-      content: `Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten. Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ Kurse ONLINE &amp; LIVE anbieten zu können`,
-      isLeft: true,
-    },
-  }),
+  data: () => ({ hero: content['hero'], cards: content['cards'] }),
 }
 </script>
 
