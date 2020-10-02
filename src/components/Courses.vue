@@ -26,9 +26,6 @@ export default {
     KursprogrammKarte,
   },
   props: ['value'],
-  metaInfo: {
-    title: 'Kursprogramm',
-  },
   data() {
     const { timetable, messages, translateLink } = this.value
     return { ...timetable, messages, translateLink }
