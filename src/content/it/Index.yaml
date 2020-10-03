@@ -1,21 +1,21 @@
 hero:
-  title: 'Unsere Deutschkurse könnt ihr ab sofort Online besuchen!'
+  title: 'Ora potete frequentare i nostri corsi ONLINE!'
   content: >
-    Trefft Elke, Laura, Johannes, Heidi & ihre Kolleg*innen in den virtuellen
-    Klassenzimmern von Work IT AUT
+    Incontrerete Elke, Johannes, Heidi, Laura e i loro colleghi
+    nelle aule virtuali di SPRACHRAUM - Work IT AUT. 
   link: '/kursprogramm/'
-  linkText: 'Gleich anmelden!'
+  linkText: 'Iscriviti ora!'
 cards:
-  - title: Deutschkurse
+  - title: Corsi di tedesco
     content: |
-      Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche
-      trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN.
-    link: '/deutschkurse/'
+      Il nostro team formato da insegnanti qualificati è sempre aggiornato e progetta per voi corsi e lezioni di lingua tedesca con metodi moderni e innovati, 
+      sulla base del quadro comune europeo di riferimento per le lingue (GER). Inoltre, frequentando i nostri corsi scoprirete interessanti e peculiari informazioni
+      sulla cultura, sulla vita quotidiana, e sulla vita professionale nei paesi di lingua tedesca, per tutti coloro che desiderano vivere e lavorare nell´area DACH (Germ./Aust/Svizz.).
+    link: '/corsi di tedesco/'
     linkText: '>> Mehr Infos'
-  - title: Kursprogramm
-    link: '/kursprogramm/'
-    linkText: '>> Stundenplan & Preise'
+  - title: Programma di corsi
+    link: '/programma/'
+    linkText: '>> calendario & importo'
     content: |
-      Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten.
-      Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ
-      Kurse ONLINE & LIVE anbieten zu können
+      Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera. 
+      Scegli dal programma il corso giusto per te. Scegli quello che più conviene. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze. 
