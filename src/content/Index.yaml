@@ -1,21 +1,18 @@
 hero:
   title: 'Unsere Deutschkurse könnt ihr ab sofort Online besuchen!'
   content: >
-    Trefft Elke, Laura, Johannes, Heidi & ihre Kolleg*innen in den virtuellen
-    Klassenzimmern von Work IT AUT
+    Trefft Elke, Johannes, Heidi, Laura & ihre Kolleg*innen in den virtuellen
+    Klassenzimmern von Sprachraum - Work IT AUT.
   link: '/kursprogramm/'
   linkText: 'Gleich anmelden!'
 cards:
   - title: Deutschkurse
     content: |
-      Wir legen im Unterricht großen Wert darauf, dass alle vier wichtigen Kernbereiche
-      trainiert werden: die rezeptiven LESEN und HÖREN und die produktiven SPRECHEN und SCHREIBEN.
-    link: '/deutschkurse/'
+      Das Trainer*innen-Team gestaltet für euch modernen Sprachunterricht auf der Grundlage des gemeinsamen europäischen Referenzrahmens für Sprachen (GER). Darüber hinaus gibt es für alle, die im DACHRAUM (D/A/CH) leben und arbeiten möchten, interessante Infos rund um Alltag, Berufsleben und die Kultur der deutschsprachigen Länder.   
+    link: '/deutschkurse/' 
     linkText: '>> Mehr Infos'
   - title: Kursprogramm
     link: '/kursprogramm/'
     linkText: '>> Stundenplan & Preise'
     content: |
-      Die Lebens- und Arbeitswelten sind in den letzten Monaten durcheinander geraten.
-      Wir haben unser Projekt erweitert und freuen uns euch ab sofort unsere DAF/DAZ
-      Kurse ONLINE & LIVE anbieten zu können
+      Unseren Kurskalender haben wir in TAGESZEITEN eingeteilt. Es gibt Kurse & Coachings am Morgen, zu Mittag, am Nachmittag oder Abend. Wählt aus einem umfangreichen Programm den passenden Kurs zur optimalen Zeit. 
