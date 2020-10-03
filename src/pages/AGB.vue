@@ -50,7 +50,7 @@ layout
             4.1 Die Zeiteinheit unserer Veranstaltungen sind als „EH“ bei allen Angeboten auf der
             Website angegeben und umfassen jeweils 50 Minuten.
           p.
-            4.2 Gruppenkurse sind auf ein Minimum von 3 und auf ein Maximum von 6
+            4.2 Gruppenkurse sind auf ein Minimum von 4 und auf ein Maximum von 6
             Teilnehmer_innen beschränkt.
           p.
             4.3 Etwaiige Änderungen sind extra auf dem jeweiligen Angebot gekennzeichnet. Auch die
