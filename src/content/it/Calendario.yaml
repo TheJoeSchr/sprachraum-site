@@ -88,7 +88,7 @@ timeslots:
       - name: Coaching individuale / 1 unità
         date: dal 14/10
         days: mercoledì
-        cost: € 30 
+        cost: € 30
 
   - title: AUS MAUS, FEIERABEND!
     subtitle: Corsi serali
@@ -111,8 +111,8 @@ timeslots:
         days: mercoledì
         cost: € 130
 
-  - title: Pacchetto Coaching individuale
-    subtitle:previo accordo
+  - title: PACCHETTO COACHING INDIVIDUALE
+    subtitle: previo accordo
     times: previo accordo
     courses:
       - name: Coaching individuale / 10 unità + 5 SI
