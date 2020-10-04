@@ -7,8 +7,8 @@ info:
     Non sono inclusi i libri da utilizzare nei corsi. Il prezzo dei libri per i corsi sarà compreso tra 17,- e 24,- euro.
   list:
     - A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.
-    - '* L´appuntamento sarà concordate con i partecipanti.'
-    - '** Le date di questi giorni-extra saranno concordato con i partecipanti al gruppo.'
+    - '* L´appuntamento sarà concordato con i partecipanti.'
+    - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
 timeslots:
   - title: FRÜHER VOGEL
     subtitle: Corsi primo mattino
