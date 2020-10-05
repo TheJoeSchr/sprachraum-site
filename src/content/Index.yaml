@@ -16,13 +16,17 @@ cards:
     linkText: '>> Stundenplan & Preise'
     content: |
       Unseren Kurskalender haben wir in TAGESZEITEN eingeteilt. Es gibt Kurse & Coachings am Morgen, zu Mittag, am Nachmittag oder Abend. Wählt aus einem umfangreichen Programm den passenden Kurs zur optimalen Zeit.
-  - title: Eignungstest / Test di lingua
+  - title: |-
+      Einstufungstest
+      Test di lingua
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
      Hier könnt ihr euer Deutschniveau überprüfen.
-  - title: Firmenkurse 
+
+     <i>Metti alla prova il tuo tedesco!</i>
+  - title: Firmenkurse
     link: '/firmenkurse/'
     linkText: '>> Zu unseren Firmenkursen'
     content: |
-     Firmenkurse DAF für euren Staff 
+     Firmenkurse DAF für euren Staff!
