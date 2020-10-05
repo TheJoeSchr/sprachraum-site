@@ -22,6 +22,8 @@ Layout
     MinorHero(:value="{...section, isLeft: (index%2==0)}" )
       g-image(v-if="0==index", src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
       g-image(v-if="1==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
+      g-image(v-if="2==index", src='~/assets/images/4_Anmeldung_iStock-1165005883.jpg' height=300 center="top" fit="inside")
+      g-image(v-if="3==index", src='~/assets/images/LaptopKlein.jpg' height=300 center="top" fit="inside")
 </template>
 
 <script>
