@@ -16,11 +16,11 @@ timeslots:
     courses:
       - name: Mini corso conversazione B1 / 5 unità
         date: dal 12/10
-        days: dal lun a ven*
+        days: dal lun al ven*
         cost: € 120
       - name: Coaching individuale / 1 unitá
         date: dal 12/10
-        days: dal lun a ven*
+        days: dal lun al ven*
         cost: € 30
 
   - title: GABELFRÜHSTÜCK
@@ -29,7 +29,7 @@ timeslots:
     courses:
       - name: Corso standard A2 intensivo / 46 unità + 10 SI
         date: 19/10 – 19/11
-        days: da lun a ven
+        days: da lun al ven
         cost: € 370
       - name: Corso "Startup" A1 / 36 unità + 10 SI
         date: 20/10 - 27/11
@@ -62,11 +62,11 @@ timeslots:
         cost: € 299
       - name: Mini corso RINFRESCO A1 / 5 unità + 5 SI
         date: dal 12/10
-        days: dal lun a gio*
+        days: dal lun al gio*
         cost: € 130
       - name: Coaching individuale / 1 unità
         date: dal 12/10
-        days: dal lun a ven*
+        days: dal lun al ven*
         cost: € 30
 
   - title: BROTZEIT!
@@ -124,7 +124,7 @@ timeslots:
 
   - title: MINI-CORSO
     subtitle: previo accordo
-    times: 9:00 bis 17:00
+    times: dalle 9:00 alle 17:00
     courses:
       - name: Corsi per tutti i livelli / 5 unità + 5 SI
         date: dal 17.10
