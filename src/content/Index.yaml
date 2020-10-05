@@ -8,8 +8,8 @@ hero:
 cards:
   - title: Deutschkurse
     content: |
-      Das Trainer*innen-Team gestaltet für euch modernen Sprachunterricht auf der Grundlage des gemeinsamen europäischen Referenzrahmens für Sprachen (GER). Darüber hinaus gibt es für alle, die im DACHRAUM (D/A/CH) leben und arbeiten möchten, interessante Infos rund um Alltag, Berufsleben und die Kultur der deutschsprachigen Länder.   
-    link: '/deutschkurse/' 
+      Das Trainer*innen-Team gestaltet für euch modernen Sprachunterricht auf der Grundlage des gemeinsamen europäischen Referenzrahmens für Sprachen (GER). Darüber hinaus gibt es für alle, die im DACHRAUM (D/A/CH) leben und arbeiten möchten, interessante Infos rund um Alltag, Berufsleben und die Kultur der deutschsprachigen Länder.
+    link: '/deutschkurse/'
     linkText: '>> Mehr Infos'
   - title: Kursprogramm
     link: '/kursprogramm/'
@@ -21,3 +21,8 @@ cards:
     linkText: '>> Klick'
     content: |
      Hier könnt ihr euer Deutschniveau überprüfen.
+  - title: Firmenkurse 
+    link: '/firmenkurse/'
+    linkText: '>> Zu unseren Firmenkursen'
+    content: |
+     Firmenkurse DAF für euren Staff 

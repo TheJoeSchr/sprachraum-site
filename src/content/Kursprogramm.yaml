@@ -13,7 +13,7 @@ timeslots:
     subtitle: Kurse am Morgen
     times: 08:00 – 08:50
     courses:
-      - name: Minikurs Konversation B1 / 10 EH
+      - name: Minikurs Konversation B1 / 5 EH
         date: ab 12.10.
         days: Mo bis Do*
         cost: € 120
@@ -80,7 +80,7 @@ timeslots:
         date: 13.10 – 27.11
         days: Di & Mi & Do + 4 T**
         cost: € 370
-      - name: Minikurs refresher A2 / 10 EH + 5 HÜ
+      - name: Minikurs refresher A2 / 5 EH + 5 HÜ
         date: ab 14.10
         days: Mittwoch
         cost: € 130
@@ -105,7 +105,7 @@ timeslots:
         date: ab 14.10
         days: Mittwoch
         cost: € 30
-      - name: Minikurs refresher B2 / 10 EH + 5 HÜ
+      - name: Minikurs refresher B2 / 5 EH + 5 HÜ
         date: ab 14.10
         days: Mittwoch
         cost: € 130
