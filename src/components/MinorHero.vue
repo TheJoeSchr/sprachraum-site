@@ -6,13 +6,13 @@
           g-link(:to='link' )
             slot
       .px-8(class='md:w-1/2 md:mb-0').align-top
-        h3.text-2xl.mb-2.mt-8.font-heading(class="lg:text-4xl lg:mt-0") {{ title }}
-        p.mb-4.text-gray-600.leading-relaxed.
-          {{ content }}
+        h3.text-2xl.mb-2.mt-8.font-heading(class="lg:text-4xl lg:mt-0" v-html='toBr(title)')
+        p.mb-4.text-gray-600.leading-relaxed(v-html='toBr(content)')
         g-link.text-primary-700(:to='link', class='hover:underline') {{ linkText }}
 </template>
 
 <script>
+import {toBr} from '~/helpers'
 export default {
   props: ['value'],
   data: function () {
@@ -25,5 +25,8 @@ export default {
     } = this.value
     return { content, title, link, linkText, isLeft }
   },
+  methods: {
+    toBr,
+  }
 }
 </script>

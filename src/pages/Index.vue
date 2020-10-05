@@ -3,10 +3,8 @@ Layout
   section
     .flex.flex-wrap.items-center.text-center.mx-2(class='md:text-left md:my-8')
       .px-2.order-1(class='md:w-1/2 md:pr-10 md:order-none')
-        h2.text-3xl.py-4.mt-4.leading-tight.font-heading(class='md:text-5xl md:pb-0').
-          {{ hero.title }}
-        p.mb-8.text-gray-600.leading-relaxed.
-          {{ hero.content }}
+        h2.text-3xl.py-4.mt-4.leading-tight.font-heading(class='md:text-5xl md:pb-0' v-html="toBr(hero.title)")
+        p.mb-8.text-gray-600.leading-relaxed(v-html="toBr(hero.content)")
         .mb-8
           g-link.inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow(
             to='/kursprogramm/'
@@ -30,6 +28,7 @@ Layout
 import MinorHero from '~/components/MinorHero.vue'
 import Layout from '~/layouts/Default.vue'
 import content from '@/content/Index.yaml'
+import { toBr } from '~/helpers'
 
 export default {
   components: {
@@ -40,6 +39,9 @@ export default {
     title: 'Home',
   },
   data: () => ({ hero: content['hero'], cards: content['cards'] }),
+  methods: {
+    toBr,
+  }
 }
 </script>
 
