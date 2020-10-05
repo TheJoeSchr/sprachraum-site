@@ -29,7 +29,7 @@ timeslots:
     courses:
       - name: Corso standard A2 intensivo / 46 unità + 10 SI
         date: 19/10 – 19/11
-        days: da lun al ven
+        days: dal lun al ven
         cost: € 370
       - name: Corso "Startup" A1 / 36 unità + 10 SI
         date: 20/10 - 27/11
