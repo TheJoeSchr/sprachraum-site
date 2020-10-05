@@ -16,3 +16,8 @@ cards:
     linkText: '>> Stundenplan & Preise'
     content: |
       Unseren Kurskalender haben wir in TAGESZEITEN eingeteilt. Es gibt Kurse & Coachings am Morgen, zu Mittag, am Nachmittag oder Abend. Wählt aus einem umfangreichen Programm den passenden Kurs zur optimalen Zeit. 
+  - title: Firmenkurse
+    link: '/firmenkurse/'
+    linkText: '>> zu unseren Firmenkursen'
+    content: |
+     Platzhalter Firmenkurse
