@@ -7,7 +7,7 @@
   //- FOOTER
   Footer
     a(href="https://sprachraum.workitaut.at") SPRACHRAUM.workitaut.at
-    a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="mailto:eli@workitaut.eu") Kontakt
+    g-link(to="/kontakt/" class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700") Kontakt
     a(class="inline-block mx-4 mb-4 lg:mb-0  hover:text-primary-700" href="http://www.workitaut.eu" target="_blank") Work IT AUT
     g-link(to="/impressum/" class="inline-block mx-4 hover:text-primary-700" ) Impressum
     g-link(to="/agb/" class="inline-block mx-4 hover:text-primary-700" ) AGB
