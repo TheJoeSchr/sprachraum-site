@@ -15,4 +15,9 @@ cards:
     link: '/kursprogramm/'
     linkText: '>> Stundenplan & Preise'
     content: |
-      Unseren Kurskalender haben wir in TAGESZEITEN eingeteilt. Es gibt Kurse & Coachings am Morgen, zu Mittag, am Nachmittag oder Abend. Wählt aus einem umfangreichen Programm den passenden Kurs zur optimalen Zeit. 
+      Unseren Kurskalender haben wir in TAGESZEITEN eingeteilt. Es gibt Kurse & Coachings am Morgen, zu Mittag, am Nachmittag oder Abend. Wählt aus einem umfangreichen Programm den passenden Kurs zur optimalen Zeit.
+  - title: Eignungstest / Test di lingua
+    link: 'https://hueber.de/menschen/einstufungstest'
+    linkText: '>> Klick'
+    content: |
+     Hier könnt ihr euer Deutschniveau überprüfen.
