@@ -14,7 +14,7 @@ Layout
           ) {{ hero.linkText }}
 
 
-      .px-2.hidden(class='md:w-1/2 md:block')
+      .px-2(class='md:w-1/2 w-full block')
         g-link(to="/kursprogramm/")
           g-image(src='~/assets/images/laura-chouette-MIzyUBE5jYI-unsplash.jpg', alt='')
 
@@ -23,7 +23,7 @@ Layout
       g-image(v-if="0==index", src='~/assets/images/7_Firmenkurse_iStock-620402800.jpg' height=300  center="bottom" fit="inside")
       g-image(v-if="1==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
       g-image(v-if="2==index", src='~/assets/images/4_Anmeldung_iStock-1165005883.jpg' height=300 center="top" fit="inside")
-      g-image(v-if="3==index", src='~/assets/images/LaptopKlein.jpg' height=300 center="top" fit="inside")
+      g-image(v-if="3==index", src='~/assets/images/LaptopQuaderKlein.jpg' height=300 center="top" fit="inside")
 </template>
 
 <script>
