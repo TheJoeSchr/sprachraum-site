@@ -21,8 +21,8 @@ cards:
     linkText: '>> Klick'
     content: |
      Hier könnt ihr euer Deutschniveau überprüfen.
-  - title: Firmenkurse DAF für euren Staff 
+  - title: Firmenkurse 
     link: '/firmenkurse/'
     linkText: '>> Zu unseren Firmenkursen'
     content: |
-     Firmenkurse
+     Firmenkurse DAF für euren Staff 
