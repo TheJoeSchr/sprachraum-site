@@ -14,7 +14,7 @@ timeslots:
     subtitle: Corsi primo mattino
     times: 08:00 – 08:50
     courses:
-      - name: Mini corso conversazione B1 / 10 unità
+      - name: Mini corso conversazione B1 / 5 unità
         date: dal 12/10
         days: dal lun a ven*
         cost: € 120
@@ -81,7 +81,7 @@ timeslots:
         date: 13/10 – 27/11
         days: mar & mer & gio + 4 g**
         cost: € 370
-      - name: Mini corso RINFRESCO A2 / 10 unità + 5 SI
+      - name: Mini corso RINFRESCO A2 / 5 unità + 5 SI
         date: dal 14/10
         days: mercoledì
         cost: € 130
