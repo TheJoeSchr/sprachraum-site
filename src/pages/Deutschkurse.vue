@@ -1,10 +1,12 @@
 <template lang="pug">
 Layout
-  Info(:value="content")
+  Info(:value="{ ...content, translateLink:'/it/corsiditedesco/'}")
 </template>
 <script>
 import Info from '~/components/CourseInfo.vue'
-import content from '@/content/Deutschkurse.yaml'
+import deutschkurse from '~/content/Deutschkurse.yaml'
+import { message } from '~/content/Interface.yaml'
+
 export default {
   components: {
     Info,
@@ -14,7 +16,10 @@ export default {
   },
   data() {
     return {
-      content,
+      content: {
+      ...deutschkurse,
+      messages: message,
+      },
     }
   },
 }

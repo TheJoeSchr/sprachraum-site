@@ -32,9 +32,7 @@ function mailSubject({ name, date, days }) {
   return `subject=Anmeldung für ${name}:${date}, ${days}`
 }
 export default {
-  metaInfo: {
-    title: 'KursprogrammKarte',
-  },
+  name: 'KursprogrammKarte',
   props: ['value'],
   data() {
     const { name, date, cost, days, times, messages } = this.value

@@ -1,11 +1,12 @@
 <template lang="pug">
 Layout
-  Courses(:value="{timetable,messages, translateLink:'/it/kursprogramm/'}")
+  Courses(:value="{ ...content, translateLink:'/it/kursprogramm/'}")
 </template>
 
 <script>
 import Courses from '~/components/Courses.vue'
 import timetable from '@/content/Kursprogramm.yaml'
+import { message } from '@/content/Interface.yaml'
 
 export default {
   components: {
@@ -16,12 +17,11 @@ export default {
   },
   data() {
     return {
-      timetable,
-      messages: {
-        btnTranslate: '🇮🇹 Italiano',
-        btnBooking: 'Buchen',
-      },
+      content: {
+        timetable,
+        messages: message,
+      }
     }
-  },
+  }
 }
 </script>
