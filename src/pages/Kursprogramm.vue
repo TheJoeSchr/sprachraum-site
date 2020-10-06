@@ -6,7 +6,9 @@ Layout
 <script>
 import Courses from '~/components/Courses.vue'
 import timetable from '@/content/Kursprogramm.yaml'
+import { message } from '@/content/Interface.yaml'
 
+console.log(message)
 export default {
   components: {
     Courses,
@@ -18,10 +20,9 @@ export default {
     return {
       timetable,
       messages: {
-        btnTranslate: '🇮🇹 Italiano',
-        btnBooking: 'Buchen',
-      },
+        ...message,
+      }
     }
-  },
+  }
 }
 </script>
