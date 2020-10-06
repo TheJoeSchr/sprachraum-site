@@ -8,14 +8,14 @@ hero:
 cards:
   - title: Corsi di tedesco
     content: |
-      Il nostro team formato da insegnanti qualificati è sempre aggiornato e progetta per voi corsi e lezioni di lingua tedesca con metodi moderni e innovati, 
-      sulla base del quadro comune europeo di riferimento per le lingue (GER). Inoltre, frequentando i nostri corsi scoprirete interessanti e peculiari informazioni
-      sulla cultura, sulla vita quotidiana, e sulla vita professionale nei paesi di lingua tedesca, per tutti coloro che desiderano vivere e lavorare nell´area DACH (Germ./Aust/Svizz.).
+      Il nostro team formato da insegnanti qualificati è sempre aggiornato e progetta per voi corsi e lezioni di lingua tedesca con metodi moderni e innovativi, 
+      sulla base del QUADRO COMUNE EUROPEO DI RIFERIMENTO PER LE LINGUE. Inoltre, frequentando i nostri corsi scoprirete interessanti e peculiari informazioni
+      sulla cultura, sulla vita quotidiana, e sulla vita professionale nei paesi di lingua tedesca, per tutti coloro che desiderano vivere e lavorare nell´area DACH (D/AUT/CH)
     link: '/corsi di tedesco/'
-    linkText: '>> Mehr Infos'
-  - title: Programma di corsi
+    linkText: '>> Scopri di piu'
+  - title: Programma dei corsi
     link: '/programma/'
-    linkText: '>> calendario & importo'
+    linkText: '>> calendario & importi'
     content: |
       Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera. 
-      Scegli dal programma il corso giusto per te. Scegli quello che più conviene. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze. 
+      Scegli dal programma il corso giusto per te. Scegli quello che più ti è congeniale. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze. 
