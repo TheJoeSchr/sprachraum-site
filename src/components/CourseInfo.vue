@@ -1,5 +1,7 @@
 <template lang="pug">
 div
+  .flex
+    g-link(:to="translateLink" ).btn-translate {{ messages.btnTranslate }}
   MinorHero(:value="{...title, content:cardContent,link,linkText}")
     g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg' height=300)
   div.flex.flex-wrap(class='md:justify-between')
@@ -26,9 +28,11 @@ export default {
       content: cardContent,
       link = '/kursprogramm/',
       linkText = '>> zu unseren Kursen',
+      messages = { btnTranslate:'' },
       sections,
+      translateLink
     } = this.value
-    return { title, cardContent, link, linkText, sections }
+    return { title, cardContent, link, linkText,messages, sections, translateLink }
   },
   methods: {
     toBr,
