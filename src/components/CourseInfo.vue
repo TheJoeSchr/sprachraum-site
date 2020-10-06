@@ -32,7 +32,15 @@ export default {
       sections,
       translateLink
     } = this.value
-    return { title, cardContent, link, linkText,messages, sections, translateLink }
+    return {
+      title,
+      cardContent,
+      link,
+      linkText,
+      messages,
+      sections,
+      translateLink
+    }
   },
   methods: {
     toBr,
