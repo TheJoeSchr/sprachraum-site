@@ -9,7 +9,7 @@ div
         p.mb-8.text-gray-600.leading-relaxed(v-html="toBr(hero.content)")
         .mb-8
           g-link.inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow(
-            to='/kursprogramm/'
+            :to='hero.link'
             class='hover:bg-primary-600'
           ) {{ hero.linkText }}
 

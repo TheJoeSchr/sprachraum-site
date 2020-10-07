@@ -2,20 +2,21 @@ hero:
   title: 'Ora potete frequentare i nostri corsi ONLINE!'
   content: >
     Incontrerete Elke, Johannes, Heidi, Laura e i loro colleghi
-    nelle aule virtuali di SPRACHRAUM - Work IT AUT. 
-  link: '/kursprogramm/'
+    nelle aule virtuali di SPRACHRAUM - Work IT AUT.
+  link: '/it/kursprogramm/'
   linkText: 'Iscriviti ora!'
 cards:
   - title: Corsi di tedesco
     content: |
-      Il nostro team formato da insegnanti qualificati è sempre aggiornato e progetta per voi corsi e lezioni di lingua tedesca con metodi moderni e innovativi, 
+      Il nostro team formato da insegnanti qualificati è sempre aggiornato e progetta per voi corsi e lezioni di lingua tedesca con metodi moderni e innovativi,
       sulla base del QUADRO COMUNE EUROPEO DI RIFERIMENTO PER LE LINGUE. Inoltre, frequentando i nostri corsi scoprirete interessanti e peculiari informazioni
       sulla cultura, sulla vita quotidiana, e sulla vita professionale nei paesi di lingua tedesca, per tutti coloro che desiderano vivere e lavorare nell´area DACH (D/AUT/CH)
-    link: '/corsi di tedesco/'
+    link: '/it/corsiditedesco/'
     linkText: '>> Scopri di piu'
+
   - title: Programma dei corsi
-    link: '/programma/'
+    link: '/it/kursprogramm/'
     linkText: '>> calendario & importi'
     content: |
-      Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera. 
-      Scegli dal programma il corso giusto per te. Scegli quello che più ti è congeniale. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze. 
+      Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera.
+      Scegli dal programma il corso giusto per te. Scegli quello che più ti è congeniale. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze.
