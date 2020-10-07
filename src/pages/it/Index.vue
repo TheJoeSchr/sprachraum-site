@@ -12,7 +12,7 @@ export default {
     Landing,
   },
   metaInfo: {
-    title: 'Benvenuto',
+    title: 'Benvenuti',
   },
   data() {
     return {
