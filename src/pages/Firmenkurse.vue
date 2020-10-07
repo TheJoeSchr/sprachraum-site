@@ -1,6 +1,7 @@
 <template lang="pug">
 Layout
-  Info(:value="{ ...content, translateLink:'/it/firmenkurse/'}")
+  Info(:value="{ ...content, translateLink:'/tba/' }")
+    g-image(src='~/assets/images/LaptopQuaderKlein.jpg' height=300)
 </template>
 <script>
 import Info from '~/components/CourseInfo.vue'

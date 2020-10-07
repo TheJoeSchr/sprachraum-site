@@ -1,6 +1,7 @@
 <template lang="pug">
 Layout
   Info(:value="{ ...content, translateLink:'/it/corsiditedesco/'}")
+    g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg' height=300)
 </template>
 <script>
 import Info from '~/components/CourseInfo.vue'
