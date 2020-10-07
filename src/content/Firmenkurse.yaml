@@ -1,21 +1,37 @@
-DAZ & DAF für den Staff (fett)
-Deutschkursformate für Unternehmen (Unterzeile)
-(diese ersten zwei Zeilen, links neben dem Bild, wie die anderen Rubriken)
-Speziell für Unternehmen haben wir verschiedene Kursformate entwickelt. Diese sind zeitlich individuell vereinbar und vorrangig als ONLINE-Lehrveranstaltungen konzipiert. Einige Präsenzunterricht-Module* sind ebenfalls im Programm. 
-Flexibel, wie wir sind freuen wir uns nach einem persönlichen Gespräch die Anforderungen an euren Mitarbeiter*innen Kurs optimal zu gestalten.
+title: DAZ & DAF für den Staff
+content: Deutschkursformate für Unternehmen
+link: '/kursprogramm'
+linkText: '>> Zu unseren Kursen'
+sections:
+  - title: Firmenkurse
+    content: |-
+      Speziell für Unternehmen haben wir verschiedene Kursformate entwickelt. Diese sind zeitlich individuell vereinbar und vorrangig als ONLINE-Lehrveranstaltungen konzipiert. Einige Präsenzunterricht-Module* sind ebenfalls im Programm.
 
-Formate für Hotellerie, Gastronomie & Tourismus (Zwischen-Headline - dann als Punkte aufzählen, siehe Text in der Klammer )
-Spezialseminare mit jeweils 36 Einheiten für die Bereiche : Service, Küche, Rezeption, Housekeeping, Kosmetik- & Wellnessberufe (Punkt 1)
-"Deutschtrainer*in in the house. 1 wöchige Crashkurse / Wir kommen zu euch ins Haus und erarbeiten mit euren Mitarbeiter*innen den "sprachlichen" Arbeitsalltag am Ort des Geschehens. 10 EH Theorie & 10 EH praktische sprachliche Erkundung der Arbeitsrealität. (Punkt 2)
-Formate für Deutsch in Gesundheitsberufen (Zwischen-Headline - dann wieder als Punkte aufzählen, siehe Text in der Klammer)
-Spezialseminare für Mitarbeiter*innen. Deutsch für Gesundheitsberufe für die Sprachniveaus A2 bis B2. 36 EH (Punkt 1)
-Vorbereitung auf Zertifikatsprüfungen A2 / B1 / B2 / C1. Pakete mit 10 EH, als Individual Coaching oder in der Kleingruppe. (Punkt 2)
-Kommunikation "Alltag in pflegenden Berufen" Anfänger*innen mit leichten Grundkenntnissen, sowie leichte und fortgeschrittene Kenntnisse. 20 EH (Punkt 3)
+      Flexibel, wie wir sind freuen wir uns nach einem persönlichen Gespräch die Anforderungen an euren Mitarbeiter*innen Kurs optimal zu gestalten.
 
-Darüber hinaus: Deutsch für Techniker*innen, Standardkurse und individuelle Pakete. (Letzte Zwischen-Head)
+      Wir besprechen gerne eure individuellen Wünsche, freuen uns über eine Nachricht und stehen für weitere Infos gerne zur Verfügung.
+      <a href='/kontakt/' class='hover:bg-primary-600 inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow'> Elke Oberleitner. eli@workitaut.eu +43 676 716 74 12</a>
 
-Wir besprechen gerne eure individuellen Wünsche, freuen uns über eine Nachricht und stehen für weitere Infos gerne zur Verfügung.
-Elke Oberleitner. eli@workitaut.eu +43 676 716 74 12
+  - title: 'Formate für Hotellerie, Gastronomie & Tourismus'
+    list:
+      - 'Spezialseminare mit jeweils 36 Einheiten für die Bereiche : Service, Küche, Rezeption, Housekeeping, Kosmetik- & Wellnessberufe'
+      - Deutschtrainer*in in the house. 1 wöchige Crashkurse / Wir kommen zu euch ins Haus und erarbeiten mit euren Mitarbeiter*innen den "sprachlichen" Arbeitsalltag am Ort des Geschehens. 10 EH Theorie & 10 EH praktische sprachliche Erkundung der Arbeitsrealität.
+  - title: Formate für Deutsch in Gesundheitsberufen
+    list:
+      - Spezialseminare für Mitarbeiter*innen. Deutsch für Gesundheitsberufe für die Sprachniveaus A2 bis B2. 36 EH
+      - Vorbereitung auf Zertifikatsprüfungen A2 / B1 / B2 / C1. Pakete mit 10 EH, als Individual Coaching oder in der Kleingruppe.
+      - Kommunikation "Alltag in pflegenden Berufen" Anfänger*innen mit leichten Grundkenntnissen, sowie leichte und fortgeschrittene Kenntnisse. 20 EH
 
-*Präsenzkurse könnt ihr in folgenden Zeiträumen buchen. (das ist der Hinweis von oben)
-Jeweils zwischen 1. und 20. Dezember 2020 & 7. und 25. Jänner 2021 & 10. und 25. Juli 2021 & leicht abweichende Termine nach telefonischer Absprache. 
+  - title: 'Darüber hinaus:'
+    list:
+      - Deutsch für Techniker*innen,
+      - Standardkurse
+      - individuelle Pakete
+
+  - title: '*Präsenzkurse könnt ihr in folgenden Zeiträumen buchen. '
+    list:
+      - (jeweils zwischen)
+      - 1. und 20. Dezember 2020
+      - 7. und 25. Jänner 2021
+      - 10. und 25. Juli 2021
+      - leicht abweichende Termine nach telefonischer Absprache.

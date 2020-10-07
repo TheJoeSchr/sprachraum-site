@@ -13,6 +13,7 @@ div
             div(class="lg:ml-auto")
               g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Startseite
               g-link(to="/deutschkurse/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Deutschkurse
+              g-link(to="/firmenkurse/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Firmenkurse
               g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Team
             div
               g-link(to="/kursprogramm/" class="inline-block py-3 px-5 mr-4 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") Kursprogramm
