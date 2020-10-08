@@ -3,7 +3,7 @@ div
   .flex
     g-link(:to="translateLink" ).btn-translate {{ messages.btnTranslate }}
   MinorHero(:value="{...title, content:cardContent,link,linkText}")
-    g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg' height=300)
+    slot
   div.flex.flex-wrap(class='md:justify-between')
     .container.pt-2(v-for='(section,index) in sections' :key='section.title' :class="{'md:w-auto md:px-4': (section.list),'md:w-full md:px-1': (section.content)}")
       section.py-4.px-4.w-full

@@ -9,8 +9,8 @@ Layout
         h3.text-2xl.mb-2.font-heading Für weitere Auskünfte stehen wir gerne zur Verfügung
         ul
           li.mb-2
-            span 
-              a(href='mailto:eli@workitaut.eu') EMAIL eli@workitaut.eu
+            span
+              a(href='mailto:eli@workitaut.eu' class='hover:bg-primary-600 inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow') EMAIL eli@workitaut.eu
           li.mb-2
             span.
               TEL +43 676 716 74 12 / AUT
