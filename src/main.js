@@ -31,4 +31,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     name: 'author',
     content: '',
   })
+  head.meta.push({
+    name: 'google-site-verification',
+    content: 'jD3IP-RG3TCLjbunA_9wTwWERy2SRHXOO66Q8yj3s4I',
+  })
 }
