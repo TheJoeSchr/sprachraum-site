@@ -9,8 +9,28 @@ module.exports = {
     config.mode('development')
   },
   siteName: 'Sprachraum',
+  siteUrl: 'https://sprachraum.workitaut.at',
   templates: {},
   plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        // Example
+        // exclude: ['/exclude-me'],
+        // config: {
+        //   '/articles/*': {
+        //     changefreq: 'weekly',
+        //     priority: 0.5,
+        //     lastmod: '2020-02-19',
+        //   },
+        //   '/about': {
+        //     changefreq: 'monthly',
+        //     priority: 0.7,
+        //     lastmod: '2020-05-12',
+        //   },
+        // },
+      },
+    },
     // {
     //   use: 'gridsome-plugin-i18n',
     //   options: {
