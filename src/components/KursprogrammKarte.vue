@@ -14,33 +14,37 @@ section(class="pt-2")
           p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary
             | {{ times }}
         .mx-auto.mb-2(class='w-2/5')
-          a(:href='mailto(value)' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow.
+          a(:href='mailto({ ...value, legalText: value.messages.legalText })' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow.
             {{ messages.btnBooking }}
 </template>
 
 <script>
+import { toEmailLinebreak } from '~/helpers'
+
 const EMAIL = 'eli@workitaut.eu'
 const TEMPLATE =
-  '%0AVORNAME / NOME%0A  %0ANACHNAME / COGNOME%0A  %0AGEBURTSDATUM / DATA DI NASCITA%0A  %0ASTRASSE / VIA%0A   %0APLZ / CODICE POSTALE%0A %0AORT / CITÀ%0A %0ALAND / PAESE%0A  %0ATELEFON / TELEFONO%0A %0AE-MAIL%0A %0A%0ANACHRICHT / MESSAGO%0A%0A%0A%0A%0A%0A%0A%0A [X]  Ich bestätige, dass ich die Allgemeinen Geschäftsbedingungen WorkITAUT (AGB) zur Kenntnis genommen habe.'
+  '\nVORNAME / NOME\n  \nNACHNAME / COGNOME\n  \nGEBURTSDATUM / DATA DI NASCITA\n  \nSTRASSE / VIA\n   \nPLZ / CODICE POSTALE\n \nORT / CITÀ\n \nLAND / PAESE\n  \nTELEFON / TELEFONO\n \nE-MAIL\n \n\nNACHRICHT / MESSAGO\n\n\n\n\n\n\n\n'
 
-function mailBody({ name, date, days }) {
-  return (
-    `body=KURSTITEL /  CORSO %0A ${name}%0A ${date}%0A ${days}%0A` + TEMPLATE
+const mailBody = ({ name, date, days, legalText = '' }) => {
+  const body = `${TEMPLATE} \n\n\n\n${legalText}`
+  return encodeURIComponent(
+    `KURSTITEL /  CORSO \n ${name}\n ${date}\n ${days}\n${body}`
   )
 }
+
 function mailSubject({ name, date, days }) {
-  return `subject=Anmeldung für ${name}:${date}, ${days}`
+  return `Anmeldung für ${name}:${date}, ${days}`
 }
 export default {
   name: 'KursprogrammKarte',
   props: ['value'],
   data() {
-    const { name, date, cost, days, times, messages } = this.value
-    return { name, date, cost, days, times, messages }
+    const { name, date, cost, days, legalText, messages, times } = this.value
+    return { name, date, cost, days, legalText, messages, times }
   },
   methods: {
     mailto: (course) =>
-      `mailto:${EMAIL}?${mailSubject(course)}&${mailBody(course)}`,
+      `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(course)}`,
   },
 }
 </script>

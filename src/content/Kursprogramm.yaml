@@ -36,7 +36,7 @@ timeslots:
         cost: € 299
       - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
         date: 21.10 – 27.11
-        days: Mo & Mi + 2T**
+        days: Mo & Mi & DO
         cost: € 299
       - name: Individual Coaching
         date: ab 17.10
@@ -73,11 +73,11 @@ timeslots:
     times: 17:00 – 18:40
     courses:
       - name: Standardkurs intensiv A1.2 / 46 EH + 10 HÜ
-        date: 12.10 – 27.11
+        date: 02.11 – 18.12
         days: Mo & Mi & Fr + 4 T**
         cost: € 370
       - name: Standard A2.2 intensiv / 46 EH + 10 HÜ
-        date: 13.10 – 27.11
+        date: 03.11 – 18.12
         days: Di & Mi & Do + 4 T**
         cost: € 370
       - name: Minikurs refresher A2 / 5 EH + 5 HÜ
@@ -94,11 +94,11 @@ timeslots:
     times: 19:00 – 20:40
     courses:
       - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
-        date: 12.10 – 27.11
+        date: 02.11 – 18.12
         days: Mo & Mi & Fr + 4 T**
         cost: € 370
       - name: Standard B1.2 intensiv / 46 EH + 10 HÜ
-        date: 13.10 – 27.11
+        date: 03.11 – 18.12
         days: Di & Mi & Do + 4 T**
         cost: € 370
       - name: Individual Coaching
