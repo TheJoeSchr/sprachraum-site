@@ -22,19 +22,21 @@ sections:
       - Wir unterrichten vorrangig auf ZoomPro
       - Am besten arbeitet ihr an einem Computer.
       - Ihr braucht eine verlässliche Internetverbindung
-      - Wir verwenden für kurze Gruppenmitteilungen "Whatsapp"
-      
- - title: Allgemeine Geschäftsbedingungen AGB 
-   list:
-    - Die Kursgebühr ist nach der Anmeldebestätigung fällig. Die Kurse können in max. 2 Raten bezahlt werden. Bitte geben Sie uns schriftlich kurz Bescheid. Die erste Rate beträgt 60% der Kursgebühr und ist vor Kursbeginn fällig. Ausgenommen von Ratenzahlungen sind Coachings und Minikurse.
-    - Rabatte
-      ab dem 2. Kurs, eines Coachings oder sonstiger Angebote:  5%
-      ab dem 4. Kurs, eines Coachings oder sonstiger Angebote:  10%
-      Weiter: wenn ein Familienmitglied im selben Kalenderjahr einen Kurs besucht: minus 5%
-      Wenn Sie den Kurs aufgrund eines Arbeitseinsatzes bei einem Partner
-      oder „best friend“ - Unternehmen von Sprachraum Work IT AUT - KompeTrend GmbH in Österreich absolvieren: 15%
-      Wenn Sie Mitarbeiter_in eines Partners oder "best friend" Unternehmens von Sprachraum Work IT AUT - KompeTrend GmbH in Österreich oder Italien sind: 10%
-      Schüler_innen & Student_innen: 5 %
-    - RÜCKTRITTSRECHT / STORNOBEDINGUNGEN
-      Sie können bis zu 5 Werktage vor Kursbeginn kostenfrei von ihrem Vertrag zurücktreten. Bei Rücktritt zwischen dem 4. Tag vor Kursbeginn und dem 1. Tag des Kurses (Kursbeginn) verrechnen wir 40% der Kurskosten. Ab dem 2. Kurstag ist keine Rückzahlung mehr möglich. Sollten Sie ohne sich zu melden dem Kurs fernbleiben fällt die gesamte Kursgebühr an.
-    - Auf sämtliche Rechtsstreitigkeiten aus dieser Vereinbarung ist ausschließlich österreichisches Recht anwendbar.
+      - 'Wir verwenden für kurze Gruppenmitteilungen "Whatsapp"'
+
+  - title: Allgemeine Geschäftsbedingungen AGB
+    list:
+      - Die Kursgebühr ist nach der Anmeldebestätigung fällig. Die Kurse können in max. 2 Raten bezahlt werden. Bitte geben Sie uns schriftlich kurz Bescheid. Die erste Rate beträgt 60% der Kursgebühr und ist vor Kursbeginn fällig. Ausgenommen von Ratenzahlungen sind Coachings und Minikurse.
+      - |-
+        Rabatte
+        ab dem 2. Kurs, eines Coachings oder sonstiger Angebote:  5%
+        ab dem 4. Kurs, eines Coachings oder sonstiger Angebote:  10%
+        Weiter: wenn ein Familienmitglied im selben Kalenderjahr einen Kurs besucht: minus 5%
+        Wenn Sie den Kurs aufgrund eines Arbeitseinsatzes bei einem Partner
+        oder „best friend“ - Unternehmen von Sprachraum Work IT AUT - KompeTrend GmbH in Österreich absolvieren: 15%
+        Wenn Sie Mitarbeiter_in eines Partners oder "best friend" Unternehmens von Sprachraum Work IT AUT - KompeTrend GmbH in Österreich oder Italien sind: 10%
+        Schüler_innen & Student_innen: 5 %
+      - |-
+        RÜCKTRITTSRECHT / STORNOBEDINGUNGEN
+        Sie können bis zu 5 Werktage vor Kursbeginn kostenfrei von ihrem Vertrag zurücktreten. Bei Rücktritt zwischen dem 4. Tag vor Kursbeginn und dem 1. Tag des Kurses (Kursbeginn) verrechnen wir 40% der Kurskosten. Ab dem 2. Kurstag ist keine Rückzahlung mehr möglich. Sollten Sie ohne sich zu melden dem Kurs fernbleiben fällt die gesamte Kursgebühr an.'
+      - Auf sämtliche Rechtsstreitigkeiten aus dieser Vereinbarung ist ausschließlich österreichisches Recht anwendbar.

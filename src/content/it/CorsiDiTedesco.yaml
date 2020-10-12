@@ -26,17 +26,19 @@ sections:
   - title: AGB Termini e condizioni secondo la legge austriaca
     list:
       - Gli importi dei corsi possono essere suddivisi in max 2 quote. Se si intende usufruire del pagamento diviso in due rate è necessario farci pervenire la richiesta via email. La prima rata è pari al 60% dell’importo e va effettuata prima dell’inizio del corso. Sono esclusi dal pagamento rateale i coaching e i mini corsi.
-      - SCONTI
+      - |-
+        SCONTI
         dopo 2  corsi o coaching: 5% sconto
         dopo 4 corsi o coaching: 10% sconto
         Nel caso in cui, nello stesso anno solare un familiare o amico/a del partecipante frequenti un corso di Sprachraum Work IT AUT KompeTrend GmbH: 5% sconto
         Se vuoi frequentare il corso per un incarico di lavoro da parte di un´azienda “partner” o “best friend” di Sprachraum Work IT AUT – KompeTrend GmbH: 15% sconto
         Se sei un dipendente di un'azienda “partner” o “best friend” di Sprachraum Work IT AUT - KompeTrend GmbH: 10% sconto
-        Studenti scuola superiore o studenti universitaria: 5% sconto
-      - DIRITTO DI RECESSO
+        Studenti scuola superiore o studenti universitaria: 5% sconto"
+      - |-
+        DIRITTO DI RECESSO
         Puoi recedere dal tuo contratto gratuitamente fino a 5 giorni lavorativi prima dell'inizio del corso.
         Se non si partecipa al corso dopo essersi registrati, non sono più possibile rimborsi dopo il 2° appuntamento del corso.
       - A tutte le controversie legali che possono  derivare dal presente contratto si applica esclusivamente la legislazione austriaca.
-      - Allgemeine Geschäftsbedingungen / Termini e condizioni secondo la legge austriaca:  https://sprachraum.workitaut.at/agb/
-
-    
+      - |-
+        Allgemeine Geschäftsbedingungen / Termini e condizioni secondo la legge austriaca:
+        https://sprachraum.workitaut.at/agb/
