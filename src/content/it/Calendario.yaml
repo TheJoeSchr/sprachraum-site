@@ -37,7 +37,7 @@ timeslots:
         cost: € 299
       - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
         date: 21/10 – 27/11
-        days: lun & mer
+        days: lun & mer & ven
         cost: € 299
       - name: Coaching individuale / 1 unità
         date: dal 17/10
