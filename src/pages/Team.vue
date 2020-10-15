@@ -7,11 +7,11 @@ Layout
         .w-full.px-4(class='md:w-1/2 ')
           h2.text-2xl.pt-4.font-heading.font-semibold.text-center.mx-auto(class="md:text-4xl md:pt-0 md:text-left").
             {{ person.name }}
-          .py-8.px-4(class="md:pl-0")
+          .py-8.px-4(class="md:pl-0" v-if="person.zitat")
             .max-w-2xl.pl-12.py-4.mx-auto.border-l-4(class="md:pl-8")
               p.text-xl.mb-6(v-html="person.zitat")
               p.text-sm.text-gray-600
-                span.mr-2  - {{ person.zitatAuthor}}
+                span(v-if="person.zitatAuthor").mr-2  - {{ person.zitatAuthor}}
                 //- span.font-semibold CEO at Realweb
       .flex.flex-wrap.w-full(class="md:-mx-4")
         .shorty(class='md:-mx-4')

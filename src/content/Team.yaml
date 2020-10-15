@@ -72,8 +72,8 @@
   verb: sorridere / lächeln
   adjektiv: colorato / bunt
   substantiv: asciugamano / Handtuch
-  
-  - name: Maura Bagnone
+
+- name: Maura Bagnone
   id: maura
   kurzbio: |-
     Blindtext der Politikwissenschaften. Univ. Cagliari, Sardinien / IT
@@ -83,29 +83,27 @@
     Lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
     Italienischkurse A2 - C1
-    La carbonara è senza panna!Die italienische Küche, Rezepte & Essgewohnheiten. Basiskenntnisse und leicht Fortgeschrittene. 
+    La carbonara è senza panna!Die italienische Küche, Rezepte & Essgewohnheiten. Basiskenntnisse und leicht Fortgeschrittene.
     Vacanze in Italia. Alles über das Reisen und das "sprachliche" Überleben in bella Italia. Basiskenntnisse A1-A2 & für Fortgeschrittene A2-B1.
-  zitat: offen
-  zitatAuthor: offen
   verb: offen
   adjektiv: offen
   substantiv: offen
-  
-  - name: Laura Sedda
-  id: laura
+
+- name: Laura Sedda
+  id: lauraSedda
   kurzbio: |-
-  Blindtext Archäologin, Studium an der philosophischen Universität in Cagliari
-  Blindtext freiberufliche Italienisch Lehrerin in Madrid
-  Bindtext Tourguide bei Inside Sardegna
-  Lebt und arbeitet in Cagliari auf Sardinien
+    Blindtext Archäologin, Studium an der philosophischen Universität in Cagliari
+    Blindtext freiberufliche Italienisch Lehrerin in Madrid
+    Bindtext Tourguide bei Inside Sardegna
+    Lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
-  Vacanze in Sardegna. Cose che fare nell Isola dei Nuraghe. Die schönsten Regionen, Trekking & Fahrradtouren, Kunst & Kultur. Wetter & Wind & Traumstrände. Italienisch für Teilnehmer*innen mit Basiskenntnissen und Fortgeschrittene.
+    Vacanze in Sardegna. Cose che fare nell Isola dei Nuraghe. Die schönsten Regionen, Trekking & Fahrradtouren, Kunst & Kultur. Wetter & Wind & Traumstrände. Italienisch für Teilnehmer*innen mit Basiskenntnissen und Fortgeschrittene.
   zitat: Non sono stata ovunque, ma è sulla mia lista.
   zitatAuthor: Susan Sontag
   verb: conoscere
   adjektiv: naturale
   substantiv: bosco
-    
+
 - name: Giorgio Marica
   id: giorgio
   kurzbio: |-
@@ -129,7 +127,7 @@
     Studium Prozess und Projektmanagement FH Vorarlberg, Dornbirn / AT
     Basketball Profi, AUT &amp; ES
     Lehrer an der LBSFE Feldkirch, Vorarlberg
-    Nativspeaker Englisch/Deutsch. Aufgewachsen in Pasadena/Karlifornien und Österreich. 
+    Nativspeaker Englisch/Deutsch. Aufgewachsen in Pasadena/Karlifornien und Österreich.
     Lebt und arbeitet in Bregenz / AUT
   sprachraum: |-
     Englisch: alle Niveaustufen ab Jänner 21
