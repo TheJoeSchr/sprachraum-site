@@ -22,12 +22,18 @@ cards:
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
-     Hier könnt ihr euer Deutschniveau überprüfen.
+      Hier könnt ihr euer Deutschniveau überprüfen.
 
-     <i>Metti alla prova il tuo tedesco!</i>
+      <i>Metti alla prova il tuo tedesco!</i>
   - title: Firmenkurse
     link: '/firmenkurse/'
     linkText: '>> Zu unseren Firmenkursen'
     content: |
       DAZ und DAF für den STAFF!
       Mitarbeiter*innenkurse für alle Branchen & Teams.
+
+  - title: Italienischkurse
+    link: '/italienischkurse/'
+    linkText: '>> Zu unseren Italienischkursen'
+    content: |
+      Corsi di Italiano PLATZHALTER

@@ -1,0 +1,133 @@
+info:
+  title: Wichtige Information
+  content: |-
+    <b>Kosten:</b>
+    Gruppenkurse min 4 max 6 Teilnehmer_innen. Einheiten à 50min. Nicht inkludiert sind die Lehrbücher. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können.
+
+    <b>Legende:</b>
+  list:
+    - '* Innerhalb dieser Wochentage sind individuelle Coachingtermine möglich.'
+    - '** Diese Tage werden mit der Gruppe individuell vereinbart.'
+timeslots:
+  - title: MATTINIERO
+    subtitle: Corsi mattutini
+    times: 08:00 – 08:50
+    courses:
+      - name: Minikurs Konversation B1 / 5 EH
+        date: ab 12.10.
+        days: Mo bis Do*
+        cost: € 120
+      - name: Individual Coaching
+        date: ab 12.10.
+        days: Mo bis Do*
+        cost: € 30
+
+  - title: GABELFRÜHSTÜCK
+    subtitle: Kurse am Vormittag
+    times: 09:00 – 10:40
+    courses:
+      - name: Standardkurs A2 intensiv / 46 EH + 10 HÜ
+        date: 19.10 – 19.11
+        days: Mo bis Fr / tgl.
+        cost: € 370
+      - name: Deutsch Startup A1 / 36 EH + 10 HÜ
+        date: 20.10 - 27.11
+        days: Mo & Di & Fr
+        cost: € 299
+      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
+        date: 21.10 – 27.11
+        days: Mo & Mi & DO
+        cost: € 299
+      - name: Individual Coaching
+        date: ab 17.10
+        days: Samstag
+        cost: € 30
+      - name: Minikurs refresher B1 / 5 EH + 5 HÜ
+        date: ab 17.10
+        days: Samstag
+        cost: € 130
+
+  - title: MAHLZEIT, LEUTE!
+    subtitle: Kurse zu Mittag
+    times: 12:00 – 13:40
+    courses:
+      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
+        date: 20.10 - 27.11
+        days: Mo & Di & Fr
+        cost: € 299
+      - name: Deutsch f. Tourismusberufe B1 / 36 EH + 10 HÜ
+        date: 21.10 – 27.11
+        days: Mo & Mi & Do
+        cost: € 299
+      - name: Minikurs refresher A1 / 5 EH + 5 HÜ
+        date: ab 12.10
+        days: Mo bis Do*
+        cost: € 130
+      - name: Coaching individuale
+        date: ab 12.10
+        days: Mo bis Do*
+        cost: € 30
+
+  - title: BROTZEIT!
+    subtitle: Kurse am Nachmittag
+    times: 17:00 – 18:40
+    courses:
+      - name: Standardkurs intensiv A1.2 / 46 EH + 10 HÜ
+        date: 02.11 – 18.12
+        days: Mo & Mi & Fr + 4 T**
+        cost: € 370
+      - name: Standard A2.2 intensiv / 46 EH + 10 HÜ
+        date: 03.11 – 18.12
+        days: Di & Mi & Do + 4 T**
+        cost: € 370
+      - name: Minikurs refresher A2 / 5 EH + 5 HÜ
+        date: ab 14.10
+        days: Mittwoch
+        cost: € 130
+      - name: Individual Coaching
+        date: ab 14.10
+        days: Mittwoch
+        cost: € 30
+
+  - title: AUS MAUS, FEIERABEND!
+    subtitle: Kurse am Abend
+    times: 19:00 – 20:40
+    courses:
+      - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
+        date: 02.11 – 18.12
+        days: Mo & Mi & Fr + 4 T**
+        cost: € 370
+      - name: Standard B1.2 intensiv / 46 EH + 10 HÜ
+        date: 03.11 – 18.12
+        days: Di & Mi & Do + 4 T**
+        cost: € 370
+      - name: Individual Coaching
+        date: ab 14.10
+        days: Mittwoch
+        cost: € 30
+      - name: Minikurs refresher B2 / 5 EH + 5 HÜ
+        date: ab 14.10
+        days: Mittwoch
+        cost: € 130
+
+  - title: COACHING PACKET
+    subtitle: nach Vereinbahrung
+    times: 8:00 bis 19:00
+    courses:
+      - name: Coaching / 10 EH + 5 HÜ
+        date: ab 17.10
+        days: nach Vereinbarung
+        cost: € 275
+      - name: Coaching / 6 EH + 5 HÜ
+        date: ab 17.10
+        days: nach Vereinbarung
+        cost: € 155
+
+  - title: MINIKURSE
+    subtitle: nach Vereinbahrung
+    times: 8:00 bis 19:00
+    courses:
+      - name: Deutsch f. alle Niveaustufen / 5 EH + 5 HÜ
+        date: ab 17.10
+        days: nach Vereinbarung
+        cost: € 130
