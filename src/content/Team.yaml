@@ -62,10 +62,10 @@
     Accademia di Belle Arti di Roma / IT
     Pädagogisches Propädeutikum als Regelschullehrerin / IT
     Ausbildung zur DAF/DAZ Trainerin (seit Nov. 2020 laufend)Le
+    Sprachen / Deutsch und Englisch
     Lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
-    Kurspraktikantin
-    Deutschkurse im Teamteaching
+    Kurspraktikantin / Deutschkurse im Teamteaching
     Italienischkurse ab November 20
   zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
   zitatAuthor: Maurizio Cattelan. Artista
@@ -76,34 +76,55 @@
 - name: Maura Bagnone
   id: maura
   kurzbio: |-
-    Blindtext der Politikwissenschaften. Univ. Cagliari, Sardinien / IT
-    Blindtext nstitut, Lehramt, Univ. Cagliari
-    Blindtext Höheren Schule f. Wirtschafts- und Tourismusberufe
-    Blindtext ttei, Decimomannu. Sardinien / IT
+    Studium der Translationswissenschaften Italienisch, Englisch & Spanisch. Univ. Cagliari, Sardinien / IT
+    Dolmetscherin. Lektorin an der Univ. Cagliari. 
+    Freelancer, Zertifizierte Sprachtrainerin f. Italienisch, Englisch & Spanisch.  
     Lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
-    Italienischkurse A2 - C1
-    La carbonara è senza panna!Die italienische Küche, Rezepte & Essgewohnheiten. Basiskenntnisse und leicht Fortgeschrittene.
-    Vacanze in Italia. Alles über das Reisen und das "sprachliche" Überleben in bella Italia. Basiskenntnisse A1-A2 & für Fortgeschrittene A2-B1.
-  verb: offen
-  adjektiv: offen
-  substantiv: offen
+    La carbonara è senza panna!Die italienische Küche, Rezepte & Essgewohnheiten. Fortgeschrittene A2-B1
+    Vacanze in Italia. Alles über das Reisen und das "sprachliche" Überleben in bella Italia. Fortgeschrittene A2-B1.
+    Minikurse & Individual Coaching
+  zitat: La vita è ciò che ti accade quando sei tutto intento a fare altri piani. 
+  zitatAuthor: Allen Saunders. Writer & Cartoonist. 
+  verb: condividere
+  adjektiv: socievole
+  substantiv: empatia
 
 - name: Laura Sedda
   id: lauraSedda
   kurzbio: |-
-    Blindtext Archäologin, Studium an der philosophischen Universität in Cagliari
-    Blindtext freiberufliche Italienisch Lehrerin in Madrid
-    Bindtext Tourguide bei Inside Sardegna
-    Lebt und arbeitet in Cagliari auf Sardinien
+    Archäologin, Studium an der philosophischen Universität in Cagliari
+    Tourguide und Projektentwicklung Inside Sardegna
+    Trainerin für Italienisch mit langjähriger Unterrichtserfahrung
+    Sprachen / Englisch und Spanisch
+    Freelancer, lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
-    Vacanze in Sardegna. Cose che fare nell Isola dei Nuraghe. Die schönsten Regionen, Trekking & Fahrradtouren, Kunst & Kultur. Wetter & Wind & Traumstrände. Italienisch für Teilnehmer*innen mit Basiskenntnissen und Fortgeschrittene.
+    Vacanze in Sardegna. Cose che fare nell Isola dei Nuraghe. Die schönsten Regionen, Trekking & Fahrradtouren, Kunst & Kultur. Wetter & Wind & Traumstrände. Italienisch für Teilnehmer*innen mit Basiskenntnissen sowie Fortgeschrittene.
   zitat: Non sono stata ovunque, ma è sulla mia lista.
   zitatAuthor: Susan Sontag
   verb: conoscere
   adjektiv: naturale
   substantiv: bosco
-
+  
+- name: Nadja Maffei
+  id: nadjaMaffei
+  kurzbio: |- 
+    Studium der Sprachwissenschaften an der Univ. Turin. Ph.D Postcolonial Studies, Univ. Turin. 
+    Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch. 
+    Seit 2011 selbständig mit dem Sprachstudio Enjoy languages - dialogando in Cagliari.
+    Organisation von Sprach-Adventure Reisen auf Sardinien / Präsenz Yoga & Italienisch, Segeln & Italienisch, Kochen & Italienisch
+    Sprachen / Deutsch, Englisch
+    Lebt und arbeitet in Cagliari auf Sardinien
+  sprachraum: |-
+    Deutsch A1 - C1 Refresher. La carbonara è senza panna!Die italienische Küche, Rezepte & Essgewohnheiten. Fortgeschrittene A2-B1
+    Vacanze in Italia. Alles über das Reisen und das "sprachliche" Überleben in bella Italia. Fortgeschrittene A2-B1.
+    Minikurse & Konversation für Anfänger*innen
+  zitat: Il corpo ricorda ciò che la mente dimentica
+  zitatAuthor: Jacob Levi Moreno
+  verb: vivere
+  adjektiv: magnetica
+  substantiv: tiramisù
+  
 - name: Giorgio Marica
   id: giorgio
   kurzbio: |-
