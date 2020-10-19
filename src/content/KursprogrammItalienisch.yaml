@@ -9,26 +9,28 @@ info:
     - '* Innerhalb dieser Wochentage sind individuelle Coachingtermine möglich.'
     - '** Diese Tage werden mit der Gruppe individuell vereinbart.'
 timeslots:
-  - title: MATTINIERO
-    subtitle: Corsi mattutini
+  - title: PRIMA COLAZIONE
+    subtitle: Frühstücksgespräche
     times: 08:00 – 08:50
     courses:
-      - name: Minikurs Konversation B1 / 5 EH
-        date: ab 12.10.
-        days: Mo bis Do*
+      - name: Minikurs Konversation B1 / 5 EH / min. 2 max 4 Teilnehmer*innen
+        date: ab 23.11
+        days: Mo oder Mi / 1 Termin pro Woche
         cost: € 120
-      - name: Individual Coaching
-        date: ab 12.10.
-        days: Mo bis Do*
-        cost: € 30
+      - name: Minikurs Konversation A2 / 5 EH / min. 2 max 4 Teilnehmer*innen
+        date: ab 24.11
+        days: Di oder Do / 1 Termin pro Woche
+        cost: € 120 
 
-  - title: GABELFRÜHSTÜCK
-    subtitle: Kurse am Vormittag
-    times: 09:00 – 10:40
+  - title: AL BAR
+    subtitle: Vormittagskurse
+    times: 09:00 – 10:50
     courses:
-      - name: Standardkurs A2 intensiv / 46 EH + 10 HÜ
-        date: 19.10 – 19.11
-        days: Mo bis Fr / tgl.
+      - name: La carbonara è senza panna! 10 Termine / 15EH / min. 2 max 6 Teilnehmer*innen
+        date: ab 25.11
+        date: ab 13.01.2021
+        date: ab 03.02.2021
+        days: Mittwoch
         cost: € 370
       - name: Deutsch Startup A1 / 36 EH + 10 HÜ
         date: 20.10 - 27.11
