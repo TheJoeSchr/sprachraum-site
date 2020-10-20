@@ -58,6 +58,15 @@ Layout
 .richard {
   background-image: url('~@/assets/portraits/Richard.jpg?width=300&height=300');
 }
+.maura {
+  background-image: url('~@/assets/portraits/Maura_Bagnone.jpg?width=300&height=300');
+}
+.nadjaMaffei {
+  background-image: url('~@/assets/portraits/Nadja_Maffei.jpg?width=300&height=300');
+}
+.lauraSedda {
+  background-image: url('~@/assets/portraits/Laura_Sedda.jpg?width=300&height=300');
+}
 </style>
 
 <script>
