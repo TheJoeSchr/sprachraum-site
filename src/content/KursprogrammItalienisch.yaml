@@ -2,65 +2,65 @@ info:
   title: Wichtige Information
   content: |-
     <b>Kosten:</b>
-    Gruppenkurse min 4 max 6 Teilnehmer_innen. Einheiten à 50min. Nicht inkludiert sind die Lehrbücher. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können.
+    Einheiten à 50min. Kosten pro Person. Materialien werden von den Trainer*innen aufbereitet und sind im Preis inkludiert. Nicht inkludiert sind die Lehrbücher in den klassischen Kursen. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können.
 
     <b>Legende:</b>
   list:
-    - '* Innerhalb dieser Wochentage sind individuelle Coachingtermine möglich.'
+    - '* Nach Vereinbarung mit der Gruppe: auch 2 Termine pro Woche möglich.'
     - '** Diese Tage werden mit der Gruppe individuell vereinbart.'
 timeslots:
   - title: PRIMA COLAZIONE
-    subtitle: Frühstücksgespräche
+    subtitle: Chiacchierare. Frühstücksgespräche
     times: 08:00 – 08:50
     courses:
-      - name: Minikurs Konversation B1 / 5 EH / min. 2 max 4 Teilnehmer*innen
+      - name: Minikurs Konversation B1 / 6 EH / min. 2 max 4 TN*innen
         date: ab 23.11
         days: Mo oder Mi / 1 Termin pro Woche
         cost: € 120
-      - name: Minikurs Konversation A2 / 5 EH / min. 2 max 4 Teilnehmer*innen
+      - name: Minikurs Konversation A2 / 6 EH / min. 2 max 4 TN*innen
         date: ab 24.11
         days: Di oder Do / 1 Termin pro Woche
         cost: € 120 
 
   - title: AL BAR
-    subtitle: Vormittagskurse
-    times: 09:00 – 10:50
+    subtitle: Macchiato per favore! Vormittagskurse
+    times: 09:00 – 10:15
     courses:
-      - name: La carbonara è senza panna! 10 Termine / 15EH / min. 2 max 6 Teilnehmer*innen
+      - name: La carbonara è senza panna! 12 EH / 8 Meetings min. 3 max 6 TN*innen
         date: ab 25.11
-        date: ab 13.01.2021
         date: ab 03.02.2021
-        days: Mittwoch
-        cost: € 370
-      - name: Deutsch Startup A1 / 36 EH + 10 HÜ
-        date: 20.10 - 27.11
-        days: Mo & Di & Fr
-        cost: € 299
-      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
-        date: 21.10 – 27.11
-        days: Mo & Mi & DO
-        cost: € 299
-      - name: Individual Coaching
-        date: ab 17.10
-        days: Samstag
-        cost: € 30
-      - name: Minikurs refresher B1 / 5 EH + 5 HÜ
-        date: ab 17.10
-        days: Samstag
-        cost: € 130
+        days: Mittwoch 
+        cost: € 160
+      - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
+        date: ab 25.11 
+        date: ab 14.01.2021
+        date: ab 03.02.2021
+        days: Mi oder Do / 1 Termin pro Woche
+        cost: € 160 
+      - name: Italienisch Refresher A2 / 15 EH / 10 Meetings min. 4 max 6 TN*innen
+        date: ab 23.11 
+        days: Mo, Mi, Do / 1 Termin pro Woche* 
+        cost: € 220
+      - name: Italienisch Refresher B1 / 15 EH / 10 Meetings min. 4 max 6 TN*innen
+        date: ab 24.11
+        days: Di, Fr / 1 Termin pro Woche*
+        cost: € 220
 
-  - title: MAHLZEIT, LEUTE!
-    subtitle: Kurse zu Mittag
-    times: 12:00 – 13:40
+  - title: PAUSA CAFÈ!
+    subtitle: Un caffè normale, grazie! Vormittagskurse
+    times: 10:30 – 11:20
     courses:
-      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
-        date: 20.10 - 27.11
-        days: Mo & Di & Fr
-        cost: € 299
-      - name: Deutsch f. Tourismusberufe B1 / 36 EH + 10 HÜ
-        date: 21.10 – 27.11
-        days: Mo & Mi & Do
-        cost: € 299
+      - name: Vacanze in Italia. 12 EH / 12 Meetings min. 3 max 6 TN*innen
+        date: ab 25.11 - Mittwoch 
+        date: ab 12.01.2021 - Donnerstag
+        date: ab 03.02.2021 - Mittwoch  
+        days: Mi oder Do / 1 Termin pro Woche 
+        cost: € 160 
+       - name: La carbonara è senza panna! 12 EH / 12 Meetings min. 3 max 6 TN*innen
+        date: ab 24.11 
+        date: ab 02.02.2021 
+        days: Dienstag
+        cost: € 160
       - name: Minikurs refresher A1 / 5 EH + 5 HÜ
         date: ab 12.10
         days: Mo bis Do*
@@ -70,8 +70,8 @@ timeslots:
         days: Mo bis Do*
         cost: € 30
 
-  - title: BROTZEIT!
-    subtitle: Kurse am Nachmittag
+  - title: COME APERITIVO!
+    subtitle: Vino Frizzante & pasta sfoglia! Kurse am frühen Abend
     times: 17:00 – 18:40
     courses:
       - name: Standardkurs intensiv A1.2 / 46 EH + 10 HÜ
@@ -91,8 +91,8 @@ timeslots:
         days: Mittwoch
         cost: € 30
 
-  - title: AUS MAUS, FEIERABEND!
-    subtitle: Kurse am Abend
+  - title: BUON APPETITO!
+    subtitle: Cena fuori o a casa? Abendkurse
     times: 19:00 – 20:40
     courses:
       - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
