@@ -20,26 +20,23 @@ timeslots:
       - name: Minikurs Konversation A2 / 6 EH / min. 2 max 4 TN*innen
         date: ab 24.11
         days: Di oder Do / 1 Termin pro Woche*
-        cost: € 120 
+        cost: € 120
 
   - title: AL BAR
     subtitle: Macchiato per favore! Vormittagskurse
     times: 09:00 – 10:15
     courses:
       - name: La carbonara è senza panna! 12 EH / 8 Meetings min. 3 max 6 TN*innen
-        date: ab 25.11
-        date: ab 03.02.2021
-        days: Mittwoch 
+        date: ab 25.11.2020 / ab 03.02.2021
+        days: Mittwoch
         cost: € 180
       - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
-        date: ab 25.11 
-        date: ab 14.01.2021
-        date: ab 03.02.2021
+        date: ab 25.11 / ab 14.01.2021 / ab 03.02.2021
         days: Mi oder Do / 1 Termin pro Woche
-        cost: € 180 
+        cost: € 180
       - name: Italienisch Refresher A2 / 15 EH + 5 EH HÜ / 10 Meetings min. 4 max 6 TN*innen
-        date: ab 23.11 
-        days: Mo, Mi, Do / 1 Termin pro Woche* 
+        date: ab 23.11
+        days: Mo, Mi, Do / 1 Termin pro Woche*
         cost: € 230
       - name: Italienisch Refresher B1 / 15 EH + 5 EH HÜ / 10 Meetings min. 4 max 6 TN*innen
         date: ab 24.11
@@ -51,14 +48,11 @@ timeslots:
     times: 10:30 – 11:20
     courses:
       - name: Vacanze in Italia. 12 EH / 12 Meetings min. 3 max 6 TN*innen
-        date: ab 25.11 - Mittwoch 
-        date: ab 12.01.2021 - Donnerstag
-        date: ab 03.02.2021 - Mittwoch  
-        days: Mi oder Do / 1 Termin pro Woche 
-        cost: € 180 
+        date: ab 25.11 - Mittwoch / ab 12.01.2021 - Donnerstag / ab 03.02.2021 - Mittwoch
+        days: Mi oder Do / 1 Termin pro Woche
+        cost: € 180
       - name: La carbonara è senza panna! 12 EH / 12 Meetings min. 3 max 6 TN*innen
-        date: ab 24.11 
-        date: ab 02.02.2021 
+        date: ab 24.11 / ab 02.02.2021
         days: Dienstag
         cost: € 180
       - name: Minikurs Konversation B1 / 6 EH / min. 2 max 4 TN*innen
@@ -68,28 +62,24 @@ timeslots:
       - name: Minikurs Konversation A2 / 6 EH / min. 2 max 4 TN*innen
         date: ab 24.11
         days: Di oder Do / 1 Termin pro Woche*
-        cost: € 120 
+        cost: € 120
 
   - title: COME APERITIVO!
     subtitle: Vino Frizzante & pasta sfoglia! Kurse am frühen Abend
     times: 17:00 – 18:40
     courses:
-      - name: Italienisch A2 PDL-Methode / 20 EH / 15 Meetings 
-        date: 24.11.20 – 28.01.2021
-        date: 02.02 – 23.03.2021
+      - name: Italienisch A2 PDL-Methode / 20 EH / 15 Meetings
+        date: 24.11.20 – 28.01.2021 / 02.02 – 23.03.2021
         days: Di & Do
         cost: € 310
-      - name: Italienisch Standard A1 / 20 EH / 15 Meetings 
-        date: 23.11.20 – 27.01.2021
-        date: 01.02. – 22.03.2021
-        days: Mo & Mi 
+      - name: Italienisch Standard A1 / 20 EH / 15 Meetings
+        date: 23.11.20 – 27.01.2021 / 01.02. – 22.03.2021
+        days: Mo & Mi
         cost: € 310
       - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
-        date: ab 24.11 - Dienstag 
-        date: ab 11.01.2021 - Montag
-        date: ab 26.01.2021 - Dienstag
+        date: ab 24.11 - Dienstag / ab 11.01.2021 - Montag / ab 26.01.2021 - Dienstag
         days: Mo, Di / 1 Termin pro Woche*
-        cost: € 180 
+        cost: € 180
       - name: Individual Coaching
         date: ab 14.10
         days: Mittwoch
@@ -99,34 +89,27 @@ timeslots:
     subtitle: Cena fuori o a casa? Abendkurse
     times: 18:45 – 20:00
     courses:
-      - name: Italienisch B1 PDL-Methode / 20 EH / 15 Meetings 
-        date: 24.11.20 – 28.01.2021
-        date: 02.02 – 23.03.2021
+      - name: Italienisch B1 PDL-Methode / 20 EH / 15 Meetings
+        date: 24.11.20 – 28.01.2021 / 02.02 – 23.03.2021
         days: Di & Do
         cost: € 290
-      - name: Italienisch Standard A2 / 20 EH / 15 Meetings 
-        date: 23.11.20 – 27.01.2021
-        date: 01.02. – 22.03.2021
-        days: Mo & Mi 
+      - name: Italienisch Standard A2 / 20 EH / 15 Meetings
+        date: 23.11.20 – 27.01.2021 / 01.02. – 22.03.2021
+        days: Mo & Mi
         cost: € 290
       - name: La carbonara è senza panna! 12 EH / 12 Meetings min. 3 max 6 TN*innen
-        date: ab 24.11 
-        date: ab 02.02.2021 
+        date: ab 24.11 / ab 02.02.2021
         days: Dienstag
         cost: € 180
       - name: Vacanze in Italia. 12 EH / 8 Meetings min. 3 max 6 TN*innen
-        date: ab 25.11 - Mittwoch 
-        date: ab 12.01.2021 - Donnerstag
-        date: ab 03.02.2021 - Mittwoch  
-        days: Mi oder Do / 1 Termin pro Woche 
-        cost: € 180  
+        date: ab 25.11 - Mittwoch / ab 12.01.2021 - Donnerstag / ab 03.02.2021 - Mittwoch
+        days: Mi oder Do / 1 Termin pro Woche
+        cost: € 180
       - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
-        date: ab 24.11 - Dienstag 
-        date: ab 11.01.2021 - Montag
-        date: ab 26.01.2021 - Dienstag
+        date: ab 24.11 - Dienstag / ab 11.01.2021 - Montag / ab 26.01.2021 - Dienstag
         days: Mo, Di / 1 Termin pro Woche*
-        cost: € 180 
-        
+        cost: € 180
+
 
   - title: COACHING PACKET
     subtitle: nach Vereinbahrung
