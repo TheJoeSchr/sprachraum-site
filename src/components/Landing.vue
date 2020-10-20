@@ -16,7 +16,7 @@ div
 
       .px-2(class='md:w-1/2 w-full block')
         g-link(to="/kursprogramm/")
-          g-image(src='~/assets/images/laura-chouette-MIzyUBE5jYI-unsplash.jpg', alt='')
+          g-image(src='~/assets/images/LandingPage.jpg', alt='')
 
   template(v-for='(section,index) in cards' )
     MinorHero(:value="{...section, isLeft: (index%2==0)}" )
@@ -24,6 +24,7 @@ div
       g-image(v-if="1==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 center="top" fit="inside")
       g-image(v-if="2==index", src='~/assets/images/4_Anmeldung_iStock-1165005883.jpg' height=300 center="top" fit="inside")
       g-image(v-if="3==index", src='~/assets/images/LaptopQuaderKlein.jpg' height=300 center="top" fit="inside")
+      g-image(v-if="4==index", src='~/assets/images/2_Italienischkurs.jpg' height=300 center="top" fit="inside")
 </template>
 
 <script>

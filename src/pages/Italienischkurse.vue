@@ -1,7 +1,7 @@
 <template lang="pug">
 Layout
   CourseInfo(:value="{ ...content, translateLink:'/it/corsidiitaliano'}")
-    g-image(src='~/assets/images/2_Italienischkurs_Gallura_home_o.jpg' height=300)
+    g-image(src='~/assets/images/2_Italienischkurs.jpg' height=300)
 </template>
 <script>
 import CourseInfo from '~/components/CourseInfo.vue'
