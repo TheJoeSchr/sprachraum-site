@@ -15,11 +15,11 @@ timeslots:
     courses:
       - name: Minikurs Konversation B1 / 6 EH / min. 2 max 4 TN*innen
         date: ab 23.11
-        days: Mo oder Mi / 1 Termin pro Woche
+        days: Mo oder Mi / 1 Termin pro Woche*
         cost: € 120
       - name: Minikurs Konversation A2 / 6 EH / min. 2 max 4 TN*innen
         date: ab 24.11
-        days: Di oder Do / 1 Termin pro Woche
+        days: Di oder Do / 1 Termin pro Woche*
         cost: € 120 
 
   - title: AL BAR
@@ -30,21 +30,21 @@ timeslots:
         date: ab 25.11
         date: ab 03.02.2021
         days: Mittwoch 
-        cost: € 160
+        cost: € 180
       - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
         date: ab 25.11 
         date: ab 14.01.2021
         date: ab 03.02.2021
         days: Mi oder Do / 1 Termin pro Woche
-        cost: € 160 
-      - name: Italienisch Refresher A2 / 15 EH / 10 Meetings min. 4 max 6 TN*innen
+        cost: € 180 
+      - name: Italienisch Refresher A2 / 15 EH + 5 EH HÜ / 10 Meetings min. 4 max 6 TN*innen
         date: ab 23.11 
         days: Mo, Mi, Do / 1 Termin pro Woche* 
-        cost: € 220
-      - name: Italienisch Refresher B1 / 15 EH / 10 Meetings min. 4 max 6 TN*innen
+        cost: € 230
+      - name: Italienisch Refresher B1 / 15 EH + 5 EH HÜ / 10 Meetings min. 4 max 6 TN*innen
         date: ab 24.11
         days: Di, Fr / 1 Termin pro Woche*
-        cost: € 220
+        cost: € 230
 
   - title: PAUSA CAFÈ!
     subtitle: Un caffè normale, grazie! Vormittagskurse
@@ -55,37 +55,41 @@ timeslots:
         date: ab 12.01.2021 - Donnerstag
         date: ab 03.02.2021 - Mittwoch  
         days: Mi oder Do / 1 Termin pro Woche 
-        cost: € 160 
-       - name: La carbonara è senza panna! 12 EH / 12 Meetings min. 3 max 6 TN*innen
+        cost: € 180 
+      - name: La carbonara è senza panna! 12 EH / 12 Meetings min. 3 max 6 TN*innen
         date: ab 24.11 
         date: ab 02.02.2021 
         days: Dienstag
-        cost: € 160
-      - name: Minikurs refresher A1 / 5 EH + 5 HÜ
-        date: ab 12.10
-        days: Mo bis Do*
-        cost: € 130
-      - name: Coaching individuale
-        date: ab 12.10
-        days: Mo bis Do*
-        cost: € 30
+        cost: € 180
+      - name: Minikurs Konversation B1 / 6 EH / min. 2 max 4 TN*innen
+        date: ab 23.11
+        days: Mo oder Mi / 1 Termin pro Woche*
+        cost: € 120
+      - name: Minikurs Konversation A2 / 6 EH / min. 2 max 4 TN*innen
+        date: ab 24.11
+        days: Di oder Do / 1 Termin pro Woche*
+        cost: € 120 
 
   - title: COME APERITIVO!
     subtitle: Vino Frizzante & pasta sfoglia! Kurse am frühen Abend
     times: 17:00 – 18:40
     courses:
-      - name: Standardkurs intensiv A1.2 / 46 EH + 10 HÜ
-        date: 02.11 – 18.12
-        days: Mo & Mi & Fr + 4 T**
-        cost: € 370
-      - name: Standard A2.2 intensiv / 46 EH + 10 HÜ
-        date: 03.11 – 18.12
-        days: Di & Mi & Do + 4 T**
-        cost: € 370
-      - name: Minikurs refresher A2 / 5 EH + 5 HÜ
-        date: ab 14.10
-        days: Mittwoch
-        cost: € 130
+      - name: Italienisch A2 PDL-Methode / 20 EH / 15 Meetings 
+        date: 24.11.20 – 28.01.2021
+        date: 02.02 – 23.03.2021
+        days: Di & Do
+        cost: € 310
+      - name: Italienisch Standard A1 / 20 EH / 15 Meetings 
+        date: 23.11.20 – 27.01.2021
+        date: 01.02. – 22.03.2021
+        days: Mo & Mi 
+        cost: € 310
+      - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
+        date: ab 24.11 - Dienstag 
+        date: ab 11.01.2021 - Montag
+        date: ab 26.01.2021 - Dienstag
+        days: Mo, Di / 1 Termin pro Woche*
+        cost: € 180 
       - name: Individual Coaching
         date: ab 14.10
         days: Mittwoch
@@ -93,24 +97,36 @@ timeslots:
 
   - title: BUON APPETITO!
     subtitle: Cena fuori o a casa? Abendkurse
-    times: 19:00 – 20:40
+    times: 18:45 – 20:00
     courses:
-      - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
-        date: 02.11 – 18.12
-        days: Mo & Mi & Fr + 4 T**
-        cost: € 370
-      - name: Standard B1.2 intensiv / 46 EH + 10 HÜ
-        date: 03.11 – 18.12
-        days: Di & Mi & Do + 4 T**
-        cost: € 370
-      - name: Individual Coaching
-        date: ab 14.10
-        days: Mittwoch
-        cost: € 30
-      - name: Minikurs refresher B2 / 5 EH + 5 HÜ
-        date: ab 14.10
-        days: Mittwoch
-        cost: € 130
+      - name: Italienisch B1 PDL-Methode / 20 EH / 15 Meetings 
+        date: 24.11.20 – 28.01.2021
+        date: 02.02 – 23.03.2021
+        days: Di & Do
+        cost: € 290
+      - name: Italienisch Standard A2 / 20 EH / 15 Meetings 
+        date: 23.11.20 – 27.01.2021
+        date: 01.02. – 22.03.2021
+        days: Mo & Mi 
+        cost: € 290
+      - name: La carbonara è senza panna! 12 EH / 12 Meetings min. 3 max 6 TN*innen
+        date: ab 24.11 
+        date: ab 02.02.2021 
+        days: Dienstag
+        cost: € 180
+      - name: Vacanze in Italia. 12 EH / 8 Meetings min. 3 max 6 TN*innen
+        date: ab 25.11 - Mittwoch 
+        date: ab 12.01.2021 - Donnerstag
+        date: ab 03.02.2021 - Mittwoch  
+        days: Mi oder Do / 1 Termin pro Woche 
+        cost: € 180  
+      - name: Vacanze in Sardegna. 12 EH / 8 Meetings min. 3 max 6 TN*innen
+        date: ab 24.11 - Dienstag 
+        date: ab 11.01.2021 - Montag
+        date: ab 26.01.2021 - Dienstag
+        days: Mo, Di / 1 Termin pro Woche*
+        cost: € 180 
+        
 
   - title: COACHING PACKET
     subtitle: nach Vereinbahrung
@@ -127,9 +143,9 @@ timeslots:
 
   - title: MINIKURSE
     subtitle: nach Vereinbahrung
-    times: 8:00 bis 19:00
+    times: 8:00 bis 20:00
     courses:
-      - name: Deutsch f. alle Niveaustufen / 5 EH + 5 HÜ
-        date: ab 17.10
+      - name: Italienisch für alle Niveaustufen  / 5 EH + 5 HÜ / min. 3 max. 6 TN*innen
+        date: ab 25.11
         days: nach Vereinbarung
         cost: € 130
