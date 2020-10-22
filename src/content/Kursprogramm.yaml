@@ -36,7 +36,7 @@ timeslots:
         cost: € 299
       - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
         date: 12.11 – 21.12 / 19.01 - 01.03.21
-        days: Mo & Mi & DO
+        days: Mo & Mi & Do
         cost: € 299
       - name: Individual Coaching
         date: ab 17.10
