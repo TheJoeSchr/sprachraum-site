@@ -2,7 +2,7 @@
 div
   .flex
     g-link(:to="translateLink" ).btn-translate {{ messages.btnTranslate }}
-  MinorHero(:value="{...title, content:cardContent,link,linkText}")
+  MinorHero(:value="{title, content:cardContent,link,linkText}")
     slot
   div.flex.flex-wrap(class='md:justify-between')
     .container.pt-2(v-for='(section,index) in sections' :key='section.title' :class="{'md:w-auto md:px-4': (section.list),'md:w-full md:px-1': (section.content)}")
@@ -27,9 +27,9 @@ export default {
       content: cardContent,
       link = '/kursprogramm/',
       linkText = '>> zu unseren Kursen',
-      messages = { btnTranslate:'' },
+      messages = { btnTranslate: '' },
       sections,
-      translateLink
+      translateLink,
     } = this.value
     return {
       title,
@@ -38,7 +38,7 @@ export default {
       linkText,
       messages,
       sections,
-      translateLink
+      translateLink,
     }
   },
   methods: {

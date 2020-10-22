@@ -8,7 +8,7 @@ hero:
 cards:
   - title: Deutschkurse
     content: |
-      Das Trainer*innen-Team gestaltet für euch modernen Sprachunterricht auf der Grundlage des gemeinsamen europäischen Referenzrahmens für Sprachen (GER). Darüber hinaus gibt es für alle, die im DACHRAUM (D/A/CH) leben und arbeiten möchten, interessante Infos rund um Alltag, Berufsleben und die Kultur der deutschsprachigen Länder.
+      Das Trainer*innen-Team gestaltet für euch modernen Unterricht auf der Grundlage des gemeinsamen europäischen Referenzrahmens für Sprachen (GER). Darüber hinaus gibt es für alle, die im DACHRAUM (D/A/CH) leben und arbeiten möchten, interessante Infos rund um Alltag, Berufsleben und die Kultur der deutschsprachigen Länder.
     link: '/deutschkurse/'
     linkText: '>> Mehr Infos'
   - title: Kursprogramm
@@ -22,12 +22,19 @@ cards:
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
-     Hier könnt ihr euer Deutschniveau überprüfen.
+      Hier könnt ihr euer Deutschniveau überprüfen.
 
-     <i>Metti alla prova il tuo tedesco!</i>
+      <i>Metti alla prova il tuo tedesco!</i>
   - title: Firmenkurse
     link: '/firmenkurse/'
     linkText: '>> Zu unseren Firmenkursen'
     content: |
       DAZ und DAF für den STAFF!
       Mitarbeiter*innenkurse für alle Branchen & Teams.
+
+  - title: Italienischkurse
+    link: '/italienischkurse/'
+    linkText: '>> Zu unseren Italienischkursen'
+    content: |
+      Allora, in unserem ONLINE Italienisch Kursprogramm findet ihr neben den Standardkursen ein facettenreiches Angebot an Spezialseminaren: Italienisch & Küche, Reisen, Kultur und "dolce vita". 
+      Bequem und für alle Lernniveaus könnt ihr den passenden Kurs zur für euch optimalen Tageszeit buchen. Unsere Sprachtrainer*innen begrüßen euch auf Sardinien, vi aspettiamo! 
