@@ -21,7 +21,7 @@ div
 
   //- Part of CONTENT section
   section.mx-auto.border-none.shadow-none(class="container")
-    div(class="mt-24 md:mt-32 mx-0 sm:mx-2 lg:mx-16")
+    div(class="mt-24 md:mt-40 xl:mt-32 mx-0 sm:mx-2 lg:mx-16")
       //- Nav Buttons for Mobile
       div(class="visible lg:hidden mx-2 ")
         g-link(to="/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Kursprogramm
