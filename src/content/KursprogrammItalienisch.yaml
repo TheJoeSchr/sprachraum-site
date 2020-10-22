@@ -76,7 +76,7 @@ timeslots:
         date: 23.11.20 – 27.01.2021 / 01.02. – 22.03.2021
         days: Mo & Mi
         cost: € 195
-      - name: Vacanze in Sardegna. 12 EH / 8 Meetings min.
+      - name: Vacanze in Sardegna. 12 EH, 8 Meetings min.
         date: ab 24.11 - Dienstag / ab 11.01.2021 - Montag / ab 26.01.2021 - Dienstag
         days: Mo, Di / 1 Termin pro Woche*
         cost: € 160
@@ -93,20 +93,23 @@ timeslots:
         date: 23.11.20 – 27.01.2021 / 01.02. – 22.03.2021
         days: Mo & Mi
         cost: € 195
-      - name: La carbonara è senza panna! 12 EH / 12 Meetings
+      - name: La carbonara è senza panna! 12 EH, 8 Meetings
         date: ab 23.11 / ab 02.02.2021
         days: Montag
         cost: € 160
-      - name: Vacanze in Italia. 12 EH / 8 Meetings
+      - name: Vacanze in Italia. 12 EH, 8 Meetings
         date: ab 25.11 - Mittwoch / ab 12.01.2021 - Donnerstag / ab 03.02.2021 - Mittwoch
         days: Mi oder Do / 1 Termin pro Woche
         cost: € 160
-      - name: Vacanze in Sardegna. 12 EH / 8 Meetings
+      - name: Vacanze in Sardegna. 12 EH, 8 Meetings
         date: ab 24.11 - Dienstag / ab 11.01.2021 - Montag / ab 26.01.2021 - Dienstag
         days: Mo, Di / 1 Termin pro Woche*
         cost: € 160
-
-
+      - name: PARLIAMO DI CALCIO! 9 EH, 6 Meetings / max 4 TN*innen
+        date: ab 26.11 / ab 21.01.21 / ab 04.02.21
+        days: Donnerstag
+        cost: € 110 
+        
   - title: COACHING PACKET
     subtitle: nach Vereinbahrung
     times: 8:00 bis 19:00
