@@ -2,7 +2,7 @@ info:
   title: Wichtige Information
   content: |-
     <b>Kosten:</b>
-    Einheiten à 50min. Kosten pro Person. Materialien werden von den Trainer*innen aufbereitet und sind im Preis inkludiert. Nicht inkludiert sind die Lehrbücher in den klassischen Kursen. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können. Alle Veranstaltungen min. 4 max 6 TN*innen; ausgenommen Indiviudual Coaching. 
+    Einheiten à 50min. Kosten pro Person. Materialien werden von den Trainer*innen aufbereitet und sind im Preis inkludiert. Nicht inkludiert sind die Lehrbücher in den klassischen Kursen. Die Kosten dafür betragen zwischen 17,00 und 24,00 Euro. Die Kursbücher werden nach der Anmeldung bekannt gegeben, damit sie rechtzeitig vor Kursbeginn besorgt werden können. Alle Veranstaltungen min. 4 max 6 TN*innen; ausgenommen Indiviudual Coaching.
 
     <b>Legende:</b>
   list:
@@ -13,11 +13,11 @@ timeslots:
     subtitle: Chiacchierare. Frühstücksgespräche
     times: 08:00 – 08:50
     courses:
-      - name: Minikurs Konversation B1 / 10 EH 
+      - name: Minikurs Konversation B1 / 10 EH
         date: ab 16.11 / ab 11.01.21 / ab 22.02.21
         days: Mo oder Mi / 1 Termin pro Woche*
         cost: € 120
-      - name: Minikurs Konversation A2 / 10 EH 
+      - name: Minikurs Konversation A2 / 10 EH
         date: ab 27.11 / ab 12.01.21 / ab 23.02.21
         days: Di oder Do / 1 Termin pro Woche*
         cost: € 120
@@ -26,11 +26,11 @@ timeslots:
     subtitle: Macchiato, per favore! Vormittagskurse
     times: 09:00 – 10:15
     courses:
-      - name: La carbonara è senza panna! Niveau: A2-B1 / 12 EH, 8 Meetings
+      - name: "La carbonara è senza panna! Niveau: A2-B1 / 12 EH, 8 Meetings"
         date: ab 25.11.2020 / ab 03.02.2021
         days: Mittwoch
         cost: € 160
-      - name: Vacanze in Sardegna. Niveau: A1-A2 / 12 EH, 8 Meetings 
+      - name: "Vacanze in Sardegna. Niveau: A1-A2 / 12 EH, 8 Meetings"
         date: ab 25.11 / ab 14.01.2021 / ab 03.02.2021
         days: Mi oder Do / 1 Termin pro Woche*
         cost: € 160
@@ -47,11 +47,11 @@ timeslots:
     subtitle: Facciamo una passeggiata lungo mare! Vormittagskurse
     times: 10:30 – 11:20
     courses:
-      - name: Vacanze in Italia. 12 EH, 12 Meetings 
+      - name: Vacanze in Italia. 12 EH, 12 Meetings
         date: ab 25.11 - Mittwoch / ab 12.01.2021 - Donnerstag / ab 03.02.2021 - Mittwoch
         days: Mi oder Do / 1 Termin pro Woche
         cost: € 160
-      - name: La carbonara è senza panna! 12 EH, 12 Meetings 
+      - name: La carbonara è senza panna! 12 EH, 12 Meetings
         date: ab 24.11 / ab 02.02.2021
         days: Dienstag
         cost: € 160
@@ -108,8 +108,8 @@ timeslots:
       - name: PARLIAMO DI CALCIO! 9 EH, 6 Meetings / max 4 TN*innen
         date: ab 26.11 / ab 21.01.21 / ab 04.02.21
         days: Donnerstag
-        cost: € 110 
-        
+        cost: € 110
+
   - title: COACHING PACKET
     subtitle: nach Vereinbahrung
     times: 8:00 bis 19:00
@@ -127,7 +127,7 @@ timeslots:
     subtitle: nach Vereinbahrung
     times: 8:00 bis 20:00
     courses:
-      - name: Italienisch für alle Niveaustufen  / 10 EH + 5 HÜ 
+      - name: Italienisch für alle Niveaustufen  / 10 EH + 5 HÜ
         date: ab 25.11
         days: nach Vereinbarung
         cost: € 120
