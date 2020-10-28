@@ -21,7 +21,7 @@ section(class="pt-2")
 <script>
 import { toEmailLinebreak } from '~/helpers'
 
-const EMAIL = 'eli@workitaut.eu'
+const EMAIL = 'elke@workitaut.at'
 const TEMPLATE =
   '\nVORNAME / NOME\n  \nNACHNAME / COGNOME\n  \nGEBURTSDATUM / DATA DI NASCITA\n  \nSTRASSE / VIA\n   \nPLZ / CODICE POSTALE\n \nORT / CITÀ\n \nLAND / PAESE\n  \nTELEFON / TELEFONO\n \nE-MAIL\n \n\nNACHRICHT / MESSAGO\n\n\n\n\n\n\n\n'
 

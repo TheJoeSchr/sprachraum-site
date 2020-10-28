@@ -80,7 +80,7 @@ Layout
   h4
     | Web-Analyse
   p
-    | Unsere Website verwendet Funktionen des Webanalysedienstes 
+    | Unsere Website verwendet Funktionen des Webanalysedienstes
     | Matomo und Google
     em .
     | Dazu werden Cookies verwendet, die eine
@@ -109,7 +109,7 @@ Layout
   p
     | Die Nutzerdaten werden für die Dauer von 14 Monaten aufbewahrt und
     | dann automatisch gelöscht.
-    em  
+    em
   h4
     | Ihre Rechte
   p
@@ -118,7 +118,7 @@ Layout
     | Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben,
     | dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt
     | oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise
-    | verletzt worden sind, können Sie sich bei der uns eli@workitaut.eu
+    | verletzt worden sind, können Sie sich bei der uns elke@workitaut.at
     | oder der Datenschutzbehörde beschweren.
   h4
     | Sie erreichen uns unter folgenden Kontaktdaten:
@@ -129,10 +129,10 @@ Layout
     | Head | Business contacts &
     |           Job applications
     br
-    a(href='mailto:eli@workitaut.eu') eli@workitaut.eu
-    |  
+    a(href='mailto:elke@workitaut.at') elke@workitaut.at
+    |
     br
-    |  
+    |
     a(href='https://www.workitaut.eu/') www.workitaut.eu
   p
     | +43 676 716 74 12
