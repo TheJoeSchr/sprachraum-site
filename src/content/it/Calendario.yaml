@@ -28,8 +28,7 @@ timeslots:
     times: 09:00 – 10:40
     courses:
       - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03
-        date: 15/02 - 07/04
+        date: 01/02 - 24/03 & 15/02 - 07/04
         days: lunedì e mercoledì e venerdì 
         cost: € 370 St. Valentino sconto 299
       - name: Corso "Startup" A1 / 36 unità + 10 SI
@@ -48,8 +47,7 @@ timeslots:
     times: 12:00 – 13:40
     courses:
       - name: Corso standard A2.2 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03
-        date: 15/02 - 07/04
+        date: 01/02 - 24/03 & 15/02 - 07/04
         days: lunedì e mercoldì e venerdì
         cost: € 370 St. Valentino sconto 299 
       - name: Corso per le professioni turistiche B1 / 36 unità + 10 SI
@@ -68,18 +66,15 @@ timeslots:
     times: 15:00 – 16:40
     courses:
       - name: Corso standard B1.1 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03
-        date: 15/02 - 07/04
+        date: 01/02 - 24/03 & 15/02 - 07/04
         days: lunedì e mercoldì e venerdì
         cost: € 370 St. Valentino sconto 299 
       - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 02/02 - 01/04
-        date: 16/02 - 15/04
+        date: 02/02 - 01/04 & 16/02 - 15/04
         days: martedì e giovedì
         cost: € 299 St. Valentino sconto 249
       - name: Mini corso RINFRESCO B1 / 6 unità + 5 SI 
-        date: dal 06/02 al 13/03
-        date: dal 20/02 al 27/03
+        date: dal 06/02 al 13/03 & dal 20/02 al 27/03
         days: sabato 
         cost: € 180 St. Valentio sconto 120 
 
@@ -88,18 +83,15 @@ timeslots:
     times: 17:00 – 18:40
     courses:
       - name: Corso standard B1.2 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03
-        date: 15/02 - 07/04
+        date: 01/02 - 24/03 & 15/02 - 07/04
         days: lunedì e mercoldì e venerdì
         cost: € 370 St. Valentino sconto 299 
       - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 02/02 - 01/04
-        date: 16/02 - 15/04
+        date: 02/02 - 01/04 & 16/02 - 15/04
         days: martedì e giovedì
         cost: € 299 St. Valentino sconto 249
       - name: Mini corso RINFRESCO A1 / 6 unità + 5 SI 
-        date: dal 06/02 al 13/03
-        date: dal 20/02 al 27/03
+        date: dal 06/02 al 13/03 & dal 20/02 al 27/03
         days: sabato 
         cost: € 180 St. Valentio sconto 120 
 
@@ -108,13 +100,11 @@ timeslots:
     times: 19:00 – 20:40
     courses:
       - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: 02/02 - 01/04
-        date: 16/02 - 15/04
+        date: 02/02 - 01/04 & 16/02 - 15/04
         days: martedì e giovedì
         cost: € 299 St. Valentino sconto 250
       - name: Mini corso RINFRESCO B2 / 12 unità + 5 SI 
-        date: 01/02 - 17/02
-        date: 22/02 - 10/03
+        date: 01/02 - 17/02 & 22/02 - 10/03
         days: lunedì e mercoledì
         cost: € 230 St. Valentio sconto 199 
       
