@@ -58,7 +58,7 @@ timeslots:
         days: sabato 
         cost: € 180 St. Valentio sconto 120 
         
- - title: MITTAGSPAUSE
+  - title: MITTAGSPAUSE
     subtitle: Corsi dopo all´ora di pranzo
     times: 15:00 – 16:40
     courses:
