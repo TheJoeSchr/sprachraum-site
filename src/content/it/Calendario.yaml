@@ -16,13 +16,11 @@ timeslots:
     times: 08:00 – 08:50
     courses:
       - name: Mini corso conversazione B1 / 6 unità / 3 partecipanti
-        date: dal 02/02 al 18/02
-        date: dal 23/02 al 11/03
+        date: dal 02/02 al 18/02 & dal 23/02 al 11/03
         days: martedì e giovedì
         cost: € 180 St. Valentino sconto*** 99 
       - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
-        date: dal 01/02 al 17/02
-        date: dal 22/02 al 10/03
+        date: dal 01/02 al 17/02 && dal 22/02 al 10/03
         days: lunedì e mercoledì
         cost: € 180 St. Valentino sconto*** 99
 
@@ -32,7 +30,6 @@ timeslots:
     courses:
       - name: Corso standard A2 intensivo / 46 unità + 10 SI
         date: 08/02 - 08/03
-        date: 
         days: dal lun al gio
         cost: € 370
       - name: Corso "Startup" A1 / 36 unità + 10 SI
