@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "prHourlyLimit": 5,
+  "prConcurrentLimit": 5,
+  "prCreation": "immediate",
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "schedule": ["after 1am and before 7am every weekday"]
+}
