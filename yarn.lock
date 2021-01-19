@@ -3828,12 +3828,13 @@ eslint-module-utils@^2.6.0:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-gridsome@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-gridsome/-/eslint-plugin-gridsome-1.5.0.tgz#17d20e3e08bbffd0e81fbffac6f150068a8c3dcd"
-  integrity sha512-OS6Eqx3ksX7shkIGvgOWNrzm5ovz/fWnPVhGHrgHPHiEWCdSY8moZZUs2YVt3dRnoJZFNdq039vcBhuhV9lkgQ==
+eslint-plugin-gridsome@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-gridsome/-/eslint-plugin-gridsome-1.6.1.tgz#30563aff1d6e97589cbdf40e016c4bd9377cd32d"
+  integrity sha512-ZpE9XjrOPiXxXNTJJdFxk6zvovdaaRu4q9/YeDROcqm3FnOA9Btifbsms7n2okOPSq1EoiZa984eGqEnXf/Tmw==
   dependencies:
     "@typescript-eslint/experimental-utils" "^3.3.0"
+    minimatch "^3.0.4"
     prettier "^2.0.5"
     vue-eslint-parser "^7.1.0"
 
