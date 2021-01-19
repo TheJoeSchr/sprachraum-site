@@ -4,7 +4,7 @@
   ],
   "prHourlyLimit": 5,
   "prConcurrentLimit": 5,
-  "prCreation": "not-pending",
+  "prCreation": "immediate",
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "pin", "digest"],
