@@ -8,113 +8,99 @@ info:
   list:
     - '* Innerhalb dieser Wochentage sind individuelle Coachingtermine möglich.'
     - '** Diese Tage werden mit der Gruppe individuell vereinbart.'
+    - '*** St. Valentins Rabatte für alle die ihren Kurs - oder einen Gutschein - bis einschließlich 14/02 buchen. 
 timeslots:
   - title: FRÜHER VOGEL
     subtitle: Kurse am Morgen
     times: 08:00 – 08:50
     courses:
-      - name: Minikurs Konversation B1 / 5 EH
-        date: ab 12.10.
-        days: Mo bis Do*
-        cost: € 120
-      - name: Individual Coaching
-        date: ab 12.10.
-        days: Mo bis Do*
-        cost: € 30
+      - name: Minikurs Konversation B1 / 6 EH / 3 TN*innen
+        date: von 02/02 bis 18/02 & von 23/02 bis 11/03
+        days: Di & Do
+        cost: € 180 St. Valentin € 99
+      - name: Minikurs Konversation für Gastronomieberufe / 6 EH / 3 TN*innen
+        date: von 01/02 bis 17/02 & von 22/02 bis 10/03
+        days: Mo & Mi
+        cost: € 180 St. Valentin € 99
 
   - title: GABELFRÜHSTÜCK
     subtitle: Kurse am Vormittag
     times: 09:00 – 10:40
     courses:
-      - name: Standardkurs A2 intensiv / 46 EH + 10 HÜ
-        date: 16.11 – 23.12 / 18.01 - 24.02.21 / 01.03 - 08.04.21
-        days: Mo bis Do 
-        cost: € 370
+      - name: Standardkurs B1.1 intensiv / 46 EH + 10 HÜ
+        date: 01/02 - 24/03 & 15/02 - 07/04
+        days: Mo & Mi & Fr
+        cost: € 370 St. Valentin € 299
       - name: Deutsch Startup A1 / 36 EH + 10 HÜ
-        date: 13.11 - 22.12 / 19.01 - 01.03.21
-        days: Mo & Di & Fr
-        cost: € 299
-      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
-        date: 12.11 – 21.12 / 19.01 - 01.03.21
-        days: Mo & Mi & Do
-        cost: € 299
-      - name: Individual Coaching
-        date: ab 17.10
+        date: 02/02 - 01/04 & 16/02 - 15/04
+        days: Di & Do
+        cost: € 299 St. Valentin € 250
+      - name: Minikurs refresher B1 / 6 EH + 5 HÜ
+        date: 06/02 - 13/03 & 20/02 - 27/03
         days: Samstag
-        cost: € 30
-      - name: Minikurs refresher B1 / 5 EH + 5 HÜ
-        date: ab 17.10 / ab 14.11 / ab 16.01.21
-        days: Samstag
-        cost: € 130
+        cost: € 180 St. Valentin 150
 
   - title: MAHLZEIT, LEUTE!
     subtitle: Kurse zu Mittag
     times: 12:00 – 13:40
     courses:
-      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
-        date: 13.11 - 22.12 / 19.01 - 01.03.21
-        days: Mo & Di & Fr
-        cost: € 299
+      - name: Standardkurs A2.2 intensiv / 46 EH + 10 HÜ
+        date: 01/02 - 01/04 & 16/02 - 15/04
+        days: Mo & Mi & Fr
+        cost: € 370 St. Valentin € 299
       - name: Deutsch f. Tourismusberufe B1 / 36 EH + 10 HÜ
-        date: 12.11 – 21.12 / 19.01 - 01.03.21
-        days: Mo & Mi & Do
+        date: 02/02 - 01/04 & 16/02 - 15/04 
+        days: Di & Do
         cost: € 299
-      - name: Minikurs refresher A1 / 5 EH + 5 HÜ
-        date: ab 12.10 / ab 16.11 / ab 18.01.21
-        days: Mo bis Do*
-        cost: € 130
-      - name: Coaching individuale
-        date: ab 12.10
-        days: Mo bis Do*
-        cost: € 30
+      - name: Minikurs refresher A2 / 6 EH + 5 HÜ
+        date: 06/02 - 13/03 & 20/02 - 27/03 
+        days: Samstag
+        cost: € 180 St. Valentin 150
+        
+  - title: SIESTA!
+    subtitle: Kurse am späten Nachmittag
+    times: 15:00 – 16:40
+    courses:
+      - name: Standardkurs intensiv A2.1 / 46 EH + 10 HÜ
+        date: 01/02 - 24/03 & 15/02 - 07/04
+        days: Mo & Mi & Fr 
+        cost: € 370 St. Valentin € 299 
+      - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
+        date: 02/02 - 01/04 & 16/02 - 15/04 
+        days: Di & Do 
+        cost: € 299 St. Valentin € 249 
 
   - title: BROTZEIT!
     subtitle: Kurse am Nachmittag
     times: 17:00 – 18:40
     courses:
-      - name: Standardkurs intensiv A1.2 / 46 EH + 10 HÜ
-        date: 02.11 – 16.12 / 18.01 - 24.02.21 / 01.03 - 08.04.21
-        days: Mo & Mi & Fr (+ 2 Meetings**)
-        cost: € 370
-      - name: Standard A2.2 / 46 EH + 10 HÜ
-        date: 17.11 – 11.03.21
+      - name: Standardkurs intensiv B1.2 / 46 EH + 10 HÜ
+        date: 01/02 - 24/03 &  15/02 - 07/04
+        days: Mo & Mi & Fr 
+        cost: € 370 St. Valentin € 299
+      - name: Deutsch A2 DAZ/leben u. arbeiten in deutschsprachigen Ländern / 36 EH + 10 HÜ
+        date: 02/02 - 01/04 & 16/02 - 15/04
         days: Di & Do 
-        cost: € 370
-      - name: Minikurs refresher A2 / 5 EH + 5 HÜ
-        date: ab 14.10 / ab 18.11 / ab 14.01.21
-        days: Mittwoch 
-        cost: € 130
-      - name: Individual Coaching
-        date: ab 14.10
-        days: Mittwoch
-        cost: € 30
+        cost: € 299 St. Valentin € 249 
 
   - title: AUS MAUS, FEIERABEND!
     subtitle: Kurse am Abend
     times: 19:00 – 20:40
     courses:
-      - name: Standard B1.1 intensiv / 46 EH + 10 HÜ
-        date: 02.11 – 16.12 / 18.01 - 24.02.21 / 01.03 - 08.04.21
-        days: Mo & Mi & Fr (+ 2 Meetings**)
-        cost: € 370
-      - name: Standard B1.2 / 46 EH + 10 HÜ
-        date: 17.11 – 11.03.21
-        days: Di & Do 
-        cost: € 370
-      - name: Individual Coaching
-        date: ab 14.10
-        days: Mittwoch
-        cost: € 30
-      - name: Minikurs refresher B2 / 5 EH + 5 HÜ
-        date: ab 14.10 / ab 18.11 / ab 14.01.21
-        days: Mittwoch
-        cost: € 130
+      - name: Deutsch Startup A1 / 36 EH + 10 HÜ
+        date: 02/02 - 31/03 & 16/02 - 15/04 
+        days: Mo & Mi & Do
+        cost: € 299 St. Valentin € 249
+      - name: Minikurs refresher B2 / 12 EH, 8 Meetings + 5 HÜ
+        date: 15/02 - 05/04
+        days: Dienstag 
+        cost: € 230 St. Valentin 199 
 
   - title: COACHING PACKET
     subtitle: nach Vereinbahrung
     times: 8:00 bis 19:00
     courses:
-      - name: Coaching / 10 EH + 5 HÜ
+      - name: Coaching / 20 EH + 5 HÜ
         date: ab 17.10
         days: nach Vereinbarung
         cost: € 275
@@ -122,12 +108,3 @@ timeslots:
         date: ab 17.10
         days: nach Vereinbarung
         cost: € 155
-
-  - title: MINIKURSE
-    subtitle: nach Vereinbahrung
-    times: 8:00 bis 19:00
-    courses:
-      - name: Deutsch f. alle Niveaustufen / 5 EH + 5 HÜ
-        date: ab 17.10
-        days: nach Vereinbarung
-        cost: € 130
