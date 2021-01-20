@@ -15,11 +15,11 @@ timeslots:
     times: 08:00 – 08:50
     courses:
       - name: Minikurs Konversation B1 / 6 EH / 3 TN*innen
-        date: von 02/02 bis 18/02 & von 23/02 bis 11/03
+        date: 02/02 - 18/02 & 23/02 - 11/03
         days: Di & Do
         cost: € 180 St. Valentin € 99
-      - name: Minikurs Konversation für Gastronomieberufe / 6 EH / 3 TN*innen
-        date: von 01/02 bis 17/02 & von 22/02 bis 10/03
+      - name: Minikurs Konversation A2 für Gastronomieberufe / 6 EH / 3 TN*innen
+        date: 01/02 - 17/02 & 22/02 - 10/03
         days: Mo & Mi
         cost: € 180 St. Valentin € 99
 
@@ -34,7 +34,7 @@ timeslots:
       - name: Deutsch Startup A1 / 36 EH + 10 HÜ
         date: 02/02 - 01/04 & 16/02 - 15/04
         days: Di & Do
-        cost: € 299 St. Valentin € 250
+        cost: € 299 St. Valentin € 249
       - name: Minikurs refresher B1 / 6 EH + 5 HÜ
         date: 06/02 - 13/03 & 20/02 - 27/03
         days: Samstag
@@ -45,13 +45,13 @@ timeslots:
     times: 12:00 – 13:40
     courses:
       - name: Standardkurs A2.2 intensiv / 46 EH + 10 HÜ
-        date: 01/02 - 01/04 & 16/02 - 15/04
+        date: 01/02 - 24/03 & 15/02 - 07/04
         days: Mo & Mi & Fr
         cost: € 370 St. Valentin € 299
       - name: Deutsch f. Tourismusberufe B1 / 36 EH + 10 HÜ
         date: 02/02 - 01/04 & 16/02 - 15/04 
         days: Di & Do
-        cost: € 299
+        cost: € 299 St. Valentin € 249 
       - name: Minikurs refresher A2 / 6 EH + 5 HÜ
         date: 06/02 - 13/03 & 20/02 - 27/03 
         days: Samstag
@@ -78,7 +78,7 @@ timeslots:
         date: 01/02 - 24/03 &  15/02 - 07/04
         days: Mo & Mi & Fr 
         cost: € 370 St. Valentin € 299
-      - name: Deutsch A2 DAZ/leben u. arbeiten in deutschsprachigen Ländern / 36 EH + 10 HÜ
+      - name: Deutsch A2 & interkulturelles Coaching 36 EH + 10 HÜ
         date: 02/02 - 01/04 & 16/02 - 15/04
         days: Di & Do 
         cost: € 299 St. Valentin € 249 
@@ -88,23 +88,24 @@ timeslots:
     times: 19:00 – 20:40
     courses:
       - name: Deutsch Startup A1 / 36 EH + 10 HÜ
-        date: 02/02 - 31/03 & 16/02 - 15/04 
+        date: 02/02 - 11/03 & 15/02 - 25/03
         days: Mo & Mi & Do
         cost: € 299 St. Valentin € 249
       - name: Minikurs refresher B2 / 12 EH, 8 Meetings + 5 HÜ
         date: 15/02 - 05/04
         days: Dienstag 
-        cost: € 230 St. Valentin 199 
+        cost: € 230 St. Valentin € 199 
 
-  - title: COACHING PACKET
+  - title: COACHING PACKETE
     subtitle: nach Vereinbahrung
-    times: 8:00 bis 19:00
+    times: 8:00 bis 19:00 von Mo bis Fr 
     courses:
-      - name: Coaching / 20 EH + 5 HÜ
-        date: ab 17.10
-        days: nach Vereinbarung
-        cost: € 275
-      - name: Coaching / 6 EH + 5 HÜ
-        date: ab 17.10
-        days: nach Vereinbarung
-        cost: € 155
+      - name: Coaching / 20 EH + 10 HÜ
+        cost: € 570 St. Valentin € 530
+      - name: Coaching / 15 EH + 7 HÜ
+        cost: € 420 St. Valentin € 390
+      - name: Coaching / 10 EH + 5 HÜ
+        cost: € 275 St. Valentin € 250
+      - name: Coaching / 5 EH + 3 HÜ
+        cost: € 150 St. Valentin € 129
+        
