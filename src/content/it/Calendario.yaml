@@ -89,12 +89,12 @@ timeslots:
     times: 19:00 – 20:40
     courses:
       - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: 02/02 - 01/04 e 16/02 - 15/04
-        days: martedì e giovedì
+        date: 02/02 - 11/03 e 15/02 - 25/03
+        days: lunedì, mercoledì e giovedì
         cost: € 299 Sant Valentino € 249
-      - name: Mini corso RINFRESCO B2 / 12 unità + 5 SI 
-        date: 01/02 - 17/02 e 22/02 - 10/03
-        days: lunedì e mercoledì
+      - name: Mini corso RINFRESCO B2 / 12 unità  + 5 SI / 8 Meetings 19:00 - 20:15
+        date: 16/02 - 06/04
+        days: martedì
         cost: € 230 Sant Valentio € 199 
       
   - title: PACCHETTO COACHING INDIVIDUALE
