@@ -62,14 +62,18 @@ timeslots:
     times: 15:00 – 16:40
     courses:
       - name: Standardkurs intensiv A2.1 / 46 EH + 10 HÜ
-        date: 01/02 - 24/03 & 15/02 - 07/04
-        days: Mo & Mi & Fr 
+        date: 08/02 - 19/04 
+        days: Mo & Mi 
         cost: € 370 St. Valentin € 299 
       - name: Deutsch f. Tourismusberufe A2 / 36 EH + 10 HÜ
         date: 02/02 - 01/04 & 16/02 - 15/04 
         days: Di & Do 
         cost: € 299 St. Valentin € 249 
-
+      - name: Minikurs refresher B1 / 12 EH, 8 Meetings + 5 HÜ
+        date: 05/02 - 26/03 & 19/02 - 09/04
+        days: Fr
+        cost: € 230 St. Valentin € 199 
+    
   - title: BROTZEIT!
     subtitle: Kurse am Nachmittag
     times: 17:00 – 18:40
