@@ -42,7 +42,7 @@ timeslots:
         cost: € 180 Sant Valentino € 150 
 
   - title: MAHLZEIT, LEUTE!
-    subtitle: Corsi all´ora di pranzo
+    subtitle: Corsi all´ora di pranzo I
     times: 12:00 – 13:40
     courses:
       - name: Corso standard A2.2 intensivo / 46 unità + 10 SI
@@ -59,17 +59,21 @@ timeslots:
         cost: € 180 Sant Valentio € 150 
         
   - title: MITTAGSPAUSE
-    subtitle: Corsi dopo all´ora di pranzo
+    subtitle: Corsi all´ora di pranzo II
     times: 15:00 – 16:40
     courses:
       - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03 & 15/02 - 07/04
-        days: lunedì e mercoledì e venerdì 
+        date: 08/02 - 19/04 
+        days: lunedì e mercoledì 
         cost: € 370 Sant Valentino € 299
       - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
         date: 02/02 - 01/04 e 16/02 - 15/04
         days: martedì e giovedì
         cost: € 299 Sant Valentino € 249
+      - name: Mini corso RINFRESCO B1 / 12 unità + 5 SI / 8 Meetings 15:00 - 16:15
+        date: 05/02 - 26/03 e 19/02 - 09/04
+        days: venerdì 
+        cost: € 230 Sant Valentino € 199
 
   - title: BROTZEIT!
     subtitle: Corsi al pomeriggio
