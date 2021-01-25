@@ -4,15 +4,15 @@ Layout
 </template>
 <script>
 import Landing from '~/components/Landing.vue'
-import landing from '~/content/it/Index.yaml'
-import { message } from '~/content/it/Interface.yaml'
+import landing from '~/content/Index.yaml'
+import { message } from '~/content/Interface.yaml'
 
 export default {
   components: {
     Landing,
   },
   metaInfo: {
-    title: 'Benvenuti',
+    title: 'Willkommen',
   },
   data() {
     return {
