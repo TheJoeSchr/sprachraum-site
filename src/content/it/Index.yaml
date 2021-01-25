@@ -1,12 +1,14 @@
 hero:
   title: 'Ora potete frequentare i nostri corsi ONLINE!'
-  content: >
+  content: |
     Incontrerete Elke, Johannes, Heidi, Laura e i loro colleghi
     nelle aule virtuali di SPRACHRAUM - Work IT AUT.
 
-    SANT VALENTINO SCONTI! Se non ora, quando? Approfittane subito: per tutti coloro che si iscrivono entro il 14 febbraio 2021 sconti fino al 50%
+    SANT VALENTINO SCONTI!
+    Se non ora, quando? Approfittane subito: per tutti coloro che si iscrivono entro il 14 febbraio 2021 <b>sconti fino al 50%</b>
 
-    VOUCHER PER LA SPRACHRAUM. In ogni caso und magnifico regalo e un ottimo investimento per il futuro.
+    VOUCHER PER LA SPRACHRAUM.
+    In ogni caso und magnifico regalo e un ottimo investimento per il futuro.
 
   link: '/it/kursprogramm/'
   linkText: 'Iscriviti ora!'

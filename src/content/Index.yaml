@@ -1,13 +1,16 @@
 hero:
   title: 'Unsere Deutschkurse könnt ihr ab sofort ONLINE besuchen!'
-  content: >
+  content: |
     Trefft Elke, Johannes, Heidi, Laura & ihre Kolleg*innen in den virtuellen
     Klassenzimmern von Sprachraum - Work IT AUT.
-    
-    ST. VALENTIN RABATTE bis zu 50% auf unsere Kurse für alle, die sich bis 14. Februar zu einem Kurs anmelden. 
-    
-    SPRACHRAUM GUTSCHEINE sind eine sinnvolle Geschenkidee für euren Valentinsschatz! Schreibt uns, wir beraten euch gerne. 
-    
+
+    ST. VALENTIN RABATTE
+    bis <b>zu 50%</b> auf unsere Kurse für alle, die sich bis 14. Februar zu einem Kurs anmelden.
+
+    SPRACHRAUM GUTSCHEINE sind eine sinnvolle Geschenkidee für euren Valentinsschatz!
+
+    Schreibt uns, wir beraten euch gerne.
+
   link: '/kursprogramm/'
   linkText: 'Gleich anmelden!'
 cards:
