@@ -21,7 +21,7 @@ Layout
           h3.text-xl Sprachraum
           p.tx-sm.text-gray-700(v-html="toBr(person.sprachraum)")
         .shorty(class='md:-mx-4')
-          h3.text-xl Schlagworte
+          h3.text-xl Verben
           p.tx-sm.text-gray-700(v-html="schlagworte(person)")
 </template>
 <style scoped>
