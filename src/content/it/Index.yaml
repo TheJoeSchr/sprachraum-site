@@ -32,3 +32,23 @@ cards:
     content: |
       Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera.
       Scegli dal programma il corso giusto per te. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze.
+
+contact:
+  title: 'INFO E CONTATTI'
+  # link: '/kontakt/'
+  # linkText: contattaci!
+  content: |
+    <div class="text-justify">
+    <h4 class="text-lg">Per domande siamo a vostra disposizione:</h4>
+    <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
+
+    <b>Zoom Meeting:</b>
+    Se vuoi parlare direttamente con un insegnante,
+    mandaci una breve mail con la data e l'ora che preferisci:
+    <i> dal lunedì al venerdì 08:30 - 09:30,
+    lunedì e martedì dalle 12:00 alle 13:00
+    o dalle 17:30 alle 18:30</i>
+
+    <b>Ufficio:</b> +39 331 222 66 15
+    <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a>
+    </div>

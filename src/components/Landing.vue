@@ -26,14 +26,13 @@ div
       g-image(v-if="3==index", src='~/assets/images/LaptopQuaderKlein.jpg' height=300 center="top" fit="inside")
       g-image(v-if="4==index", src='~/assets/images/2_Italienischkurs.jpg' height=300 center="top" fit="inside")
 
-  section.py-12.px-4.text-center
+  MinorHero(:value="{...contact, isLeft: true }" v-if="contact")
+    g-image.mx-auto.my-4( src='~/assets/images/contact.jpg' height="300" width="500" center="top" fit="cover")
+  //-
     .w-full.max-w-2xl.my-8.mx-auto
-      h2.text-4xl.leading-tight.font-heading   INFOS!  DOMANDE?
-      h2.text-4xl.leading-tight.font-heading
-        | ANMELDUNG!? QUESTIONS?
-      g-image.mx-auto.my-4( src='~/assets/images/contact.jpg' height="300" width="500" center="top" fit="cover")
-      g-link.inline-block.mt-8.py-4.px-8.leading-none.text-black.bg-secondary-400.rounded.shadow(class='hover:bg-secondary-600' to='/kontakt/')
-        | schreibt uns! contattaci! text us!
+      h2.text-4xl.leading-tight.font-heading {{ contact.title }}
+      p.pt-8.mb-4.text-gray-600.leading-relaxed.text-justify(v-if="contact.content" v-html='toBr(contact.content)')
+      g-link.inline-block.mt-8.py-4.px-8.leading-none.text-black.bg-secondary-400.rounded.shadow(class='hover:bg-secondary-600' :to='contact.link') {{ contact.linkText }}
 </template>
 
 <script>
