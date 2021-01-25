@@ -1,8 +1,15 @@
 hero:
   title: 'Ora potete frequentare i nostri corsi ONLINE!'
-  content: >
+  content: |
     Incontrerete Elke, Johannes, Heidi, Laura e i loro colleghi
     nelle aule virtuali di SPRACHRAUM - Work IT AUT.
+
+    SANT VALENTINO SCONTI!
+    Se non ora, quando? Approfittane subito: per tutti coloro che si iscrivono entro il 14 febbraio 2021 <b>sconti fino al 50%</b>
+
+    VOUCHER PER LA SPRACHRAUM.
+    In ogni caso und magnifico regalo e un ottimo investimento per il futuro.
+
   link: '/it/kursprogramm/'
   linkText: 'Iscriviti ora!'
 cards:
@@ -12,9 +19,38 @@ cards:
     link: '/it/corsiditedesco/'
     linkText: '>> Scopri di piu'
 
+  - title: |-
+      Test di lingua
+      Einstufungstest
+    link: 'https://hueber.de/menschen/einstufungstest'
+    linkText: '>> Klick'
+    content: |
+      Metti alla prova il tuo tedesco!
+
+      <i>Hier könnt ihr euer Deutschniveau überprüfen!</i>
   - title: Programma dei corsi
     link: '/it/kursprogramm/'
     linkText: '>> calendario & importi'
     content: |
       Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera.
-      Scegli dal programma il corso giusto per te. Scegli quello che più ti è congeniale. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze.
+      Scegli dal programma il corso giusto per te. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze.
+
+contact:
+  title: 'INFO E CONTATTI'
+  # link: '/kontakt/'
+  # linkText: contattaci!
+  content: |
+    <div class="text-justify">
+    <h4 class="text-lg">Per domande siamo a vostra disposizione:</h4>
+    <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
+
+    <b>Zoom Meeting:</b>
+    Se vuoi parlare direttamente con un insegnante,
+    mandaci una breve mail con la data e l'ora che preferisci:
+    <i> dal lunedì al venerdì 08:30 - 09:30,
+    lunedì e martedì dalle 12:00 alle 13:00
+    o dalle 17:30 alle 18:30</i>
+
+    <b>Ufficio:</b> +39 331 222 66 15
+    <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a>
+    </div>

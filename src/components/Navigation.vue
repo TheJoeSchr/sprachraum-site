@@ -11,25 +11,21 @@ div
             <button class="navbar-burger flex items-center py-2 px-3 text-black rounded border border-black"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
         div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
             div(class="lg:ml-auto")
-              g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Startseite
-              g-link(to="/deutschkurse/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Deutschkurse
-              g-link(to="/italienischkurse/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Italienischkurse
-              g-link(to="/firmenkurse/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Firmenkurse
-              g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Team
+              g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") home
+              g-link(to="/it/corsiditedesco/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") corsi di tedesco
+              g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") squadra
             div
-              g-link(to="/kursprogramm/" class="inline-block py-3 px-5 mr-4 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") Kursprogramm
+              g-link(to="/it/kursprogramm/" class="inline-block py-3 px-5 mr-4 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") calendario
 
   //- Part of CONTENT section
   section.mx-auto.border-none.shadow-none(class="container")
     div(class="mt-24 md:mt-40 xl:mt-32 mx-0 sm:mx-2 lg:mx-16")
       //- Nav Buttons for Mobile
       div(class="visible lg:hidden mx-2 ")
-        g-link(to="/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Kursprogramm
-        g-link(to="/team/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") Team
-        g-link(to="/firmenkurse/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Firmenkurse
-        g-link(to="/italienischkurse/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") Italienischkurse
-        g-link(to="/deutschkurse" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") Deutschkurse
-        g-link(to="/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") Startseite
+        g-link(to="/it/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") calendario
+        g-link(to="/team/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") squadra
+        g-link(to="/it/corsiditedesco/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") corsi di tedesco
+        g-link(to="/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") home
       slot
 </template>
 

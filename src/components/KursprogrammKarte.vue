@@ -7,7 +7,7 @@ section(class="pt-2")
         h3.text-lg.pl-3.mb-1.font-heading.font-bold.left-0(class="w-full") {{name}}
         h4.pl-3.mb-3.text-sm.font-heading.font-semibold  {{ date }}
         div.pr-3.mr-3.text-lg.text-gray-900.text-right
-          .ml-auto.mb-1(class="w-2/5") {{ cost }}
+          .ml-auto.mb-1(class="w-2/5" v-html="cost")
         div.ml-auto.text-right(class='w-2/5 ')
           p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary
             | {{ days }}
@@ -49,4 +49,6 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+del { font-weight: bold; }
+</style>

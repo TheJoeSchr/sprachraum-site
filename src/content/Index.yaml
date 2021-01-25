@@ -1,8 +1,16 @@
 hero:
   title: 'Unsere Deutschkurse könnt ihr ab sofort ONLINE besuchen!'
-  content: >
+  content: |
     Trefft Elke, Johannes, Heidi, Laura & ihre Kolleg*innen in den virtuellen
     Klassenzimmern von Sprachraum - Work IT AUT.
+
+    ST. VALENTIN RABATTE
+    bis <b>zu 50%</b> auf unsere Kurse für alle, die sich bis 14. Februar zu einem Kurs anmelden.
+
+    SPRACHRAUM GUTSCHEINE sind eine sinnvolle Geschenkidee für euren Valentinsschatz!
+
+    Schreibt uns, wir beraten euch gerne.
+
   link: '/kursprogramm/'
   linkText: 'Gleich anmelden!'
 cards:
@@ -16,15 +24,6 @@ cards:
     linkText: '>> Stundenplan & Preise'
     content: |
       Unseren Kurskalender haben wir in TAGESZEITEN eingeteilt. Es gibt Kurse & Coachings am Morgen, zu Mittag, am Nachmittag oder Abend. Wählt aus einem umfangreichen Programm den passenden Kurs zur optimalen Zeit.
-  - title: |-
-      Einstufungstest
-      Test di lingua
-    link: 'https://hueber.de/menschen/einstufungstest'
-    linkText: '>> Klick'
-    content: |
-      Hier könnt ihr euer Deutschniveau überprüfen.
-
-      <i>Metti alla prova il tuo tedesco!</i>
   - title: Firmenkurse
     link: '/firmenkurse/'
     linkText: '>> Zu unseren Firmenkursen'
@@ -36,5 +35,10 @@ cards:
     link: '/italienischkurse/'
     linkText: '>> Zu unseren Italienischkursen'
     content: |
-      Allora, in unserem ONLINE Italienisch Kursprogramm findet ihr neben den Standardkursen ein facettenreiches Angebot an Spezialseminaren: Italienisch & Küche, Reisen, Kultur und "dolce vita". 
-      Bequem und für alle Lernniveaus könnt ihr den passenden Kurs zur für euch optimalen Tageszeit buchen. Unsere Sprachtrainer*innen begrüßen euch auf Sardinien, vi aspettiamo! 
+      Allora, in unserem ONLINE Italienisch Kursprogramm findet ihr neben den Standardkursen ein facettenreiches Angebot an Spezialseminaren: Italienisch & Küche, Reisen, Kultur und "dolce vita".
+      Bequem und für alle Lernniveaus könnt ihr den passenden Kurs zur für euch optimalen Tageszeit buchen. Unsere Sprachtrainer*innen begrüßen euch auf Sardinien, vi aspettiamo!
+
+contact:
+  title: INFOS!  DOMANDE? ANMELDUNG!? QUESTIONS?
+  link: '/kontakt/'
+  linkText: schreibt uns! contattaci! text us!

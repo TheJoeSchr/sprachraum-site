@@ -9,124 +9,108 @@ info:
     - A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.
     - '* L´appuntamento sarà concordato con i partecipanti.'
     - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
+    - '*** Sant Valentino sconti. Se non ora, quando? Approfittane subito: per tutti coloro che si iscrovono entro il 14 febbraio 2021 sconti fino al 50%'
 timeslots:
   - title: FRÜHER VOGEL
     subtitle: Corsi primo mattino
     times: 08:00 – 08:50
     courses:
-      - name: Mini corso conversazione B1 / 5 unità
-        date: dal 12/10
-        days: dal lun al ven*
-        cost: € 120
-      - name: Coaching individuale / 1 unitá
-        date: dal 12/10
-        days: dal lun al ven*
-        cost: € 30
+      - name: Mini corso conversazione B1 / 6 unità / 3 partecipanti
+        date: dal 02/02 al 18/02 e dal 23/02 al 11/03
+        days: martedì e giovedì
+        cost: <del>€ 180</del> Sant Valentino € 99
+      - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
+        date: dal 01/02 al 17/02 e dal 22/02 al 10/03
+        days: lunedì e mercoledì
+        cost: <del>€ 180</del> Sant Valentino € 99
 
   - title: GABELFRÜHSTÜCK
     subtitle: Corsi al mattino
     times: 09:00 – 10:40
     courses:
-      - name: Corso standard A2 intensivo / 46 unità + 10 SI
-        date: 16/11 – 23/12 / 18/01 - 24/02/21 / 01/03 - 08/04/21
-        days: dal lun al gio
-        cost: € 370
+      - name: Corso standard B1.1 intensivo / 46 unità + 10 SI
+        date: 01/02 - 24/03 e 15/02 - 07/04
+        days: lunedì e mercoldì e venerdì
+        cost: <del>€ 370</del> St. Valentino € 299
       - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: 13/11 - 22/12 / 19/01 - 01/03/21
-        days: lun & mar & ven
-        cost: € 299
-      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 12/11 – 21/12 / 19/01 - 01/03/21
-        days: lun & mer & gio
-        cost: € 299
-      - name: Coaching individuale / 1 unità
-        date: dal 17/10
+        date: 02/02 - 01/04 & 16/02 - 15/04
+        days: martedì e giovedì
+        cost: <del>€ 299</del> Sant Valentino € 250
+      - name: Mini corso RINFRESCO B1 / 6 unità + 5 SI
+        date: dal 06/02 al 13/03 e dal 20/02 al 27/03
         days: sabato
-        cost: € 30
-      - name: Mini corso RINFRESCO B1 / 5 unità + 5 SI
-        date: dal 17/10 / dal 14/11 / dal 16/01/21
-        days: sabato
-        cost: € 130
+        cost: <del>€ 180</del> Sant Valentino € 150
 
   - title: MAHLZEIT, LEUTE!
-    subtitle: Corsi all´ora di pranzo
+    subtitle: Corsi all´ora di pranzo I
     times: 12:00 – 13:40
     courses:
-      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 13/11 - 22/12 / 19/01 - 01/03/21
-        days: lun & mar & ven
-        cost: € 299
+      - name: Corso standard A2.2 intensivo / 46 unità + 10 SI
+        date: 01/02 - 24/03 e 15/02 - 07/04
+        days: lunedì e mercoldì e venerdì
+        cost: <del>€ 370</del> Sant Valentino € 299
       - name: Corso per le professioni turistiche B1 / 36 unità + 10 SI
-        date: 12/11 – 21/12 / 19/01 - 01/03/21
-        days: lun & mer & gio
-        cost: € 299
-      - name: Mini corso RINFRESCO A1 / 5 unità + 5 SI
-        date: dal 12/10 / dal 16/11 / dal 18/01/21
-        days: dal lun al gio*
-        cost: € 130
-      - name: Coaching individuale / 1 unità
-        date: dal 12/10
-        days: dal lun al ven*
-        cost: € 30
+        date: 02/02 - 01/04 e 16/02 - 15/04
+        days: martedì e giovedì
+        cost: <del>€ 299</del> Sant Valentino € 249
+      - name: Mini corso RINFRESCO A2 / 6 unità + 5 SI
+        date: dal 06/02 al 13/03 e dal 20/02 al 27/03
+        days: sabato
+        cost: <del>€ 180</del> Sant Valentio € 150
+
+  - title: MITTAGSPAUSE
+    subtitle: Corsi all´ora di pranzo II
+    times: 15:00 – 16:40
+    courses:
+      - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
+        date: 08/02 - 19/04
+        days: lunedì e mercoledì
+        cost: <del>€ 370</del> Sant Valentino € 299
+      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
+        date: 02/02 - 01/04 e 16/02 - 15/04
+        days: martedì e giovedì
+        cost: <del>€ 299</del> Sant Valentino € 249
+      - name: Mini corso RINFRESCO B1 / 12 unità + 5 SI / 8 Meetings 15:00 - 16:15
+        date: 05/02 - 26/03 e 19/02 - 09/04
+        days: venerdì
+        cost: <del>€ 230</del> Sant Valentino € 199
 
   - title: BROTZEIT!
     subtitle: Corsi al pomeriggio
     times: 17:00 – 18:40
     courses:
-      - name: Corso standard intensivo A1.2 / 46 unità + 10 SI
-        date: 02/11 – 16/12 / 18/01 - 24/02/21 / 01/03 - 08/04/21
-        days: lun & mer & ven + 2 giorni **
-        cost: € 370
-      - name: Corso standard A2.2 / 46 unità + 10 SI
-        date: 17/11 – 11/03/21
-        days: mar & gio 
-        cost: € 370
-      - name: Mini corso RINFRESCO A2 / 5 unità + 5 SI
-        date: dal 14/10 / dal 18/11 / dal 14/01/21
-        days: mercoledì
-        cost: € 130
-      - name: Coaching individuale / 1 unità
-        date: dal 14/10
-        days: mercoledì
-        cost: € 30
+      - name: Corso standard B1.2 intensivo / 46 unità + 10 SI
+        date: 01/02 - 24/03 e 15/02 - 07/04
+        days: lunedì e mercoldì e venerdì
+        cost: <del>€ 370</del> Sant Valentino sconto € 299
+      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
+        date: 02/02 - 01/04 e 16/02 - 15/04
+        days: martedì e giovedì
+        cost: <del>€ 299</del> Sant Valentino € 249
 
   - title: AUS MAUS, FEIERABEND!
     subtitle: Corsi serali
     times: 19:00 – 20:40
     courses:
-      - name: Corso standard intensivo B1.1 / 46 unità + 10 SI
-        date: 02/11 – 16/12
-        days: lun & mer & ven + 2 giorni**
-        cost: € 370
-      - name: Corso standard B1.2 / 46 unità + 10 SI
-        date: 17/11 – 11/03/21
-        days: mar & gio 
-        cost: € 370
-      - name: Coaching individuale / 1 unità
-        date: dal 14/10
-        days: mercoledì
-        cost: € 30
-      - name: Mini corso RINFRESCO B2 / 5 unitá + 5 SI
-        date: dal 14/10 / dal 18/11 / dal 14/01/21
-        days: mercoledì
-        cost: € 130
+      - name: Corso "Startup" A1 / 36 unità + 10 SI
+        date: 02/02 - 11/03 e 15/02 - 25/03
+        days: lunedì, mercoledì e giovedì
+        cost: <del>€ 299</del> Sant Valentino € 249
+      - name: Mini corso RINFRESCO B2 / 12 unità  + 5 SI / 8 Meetings 19:00 - 20:15
+        date: 16/02 - 06/04
+        days: martedì
+        cost: <del>€ 230</del> Sant Valentio € 199
 
   - title: PACCHETTO COACHING INDIVIDUALE
     subtitle: previo accordo
-    times: previo accordo
+    times: 08:00 - 19:00 dal lun al ven
     courses:
+      - name: Coaching individuale / 20 unità + 10 SI
+        cost: <del>€ 570</del> Sant Valentino € 530
+      - name: Coaching individuale / 15 unità + 7 SI
+        cost: <del>€ 420</del> Sant Valentino € 390
       - name: Coaching individuale / 10 unità + 5 SI
-        date: dal 17/10
-        cost: € 275
-      - name: Coaching individuale / 6 EH + 3 SI
-        date: dal 17/10
-        cost: € 155
+        cost: <del>€ 275</del> Sant Valentino € 250
+      - name: Coaching individuale / 5 unità + 3 SI
+        cost: <del>€ 150</del> Sant Valentino € 129
 
-  - title: MINI-CORSO
-    subtitle: previo accordo
-    times: dalle 9:00 alle 17:00
-    courses:
-      - name: Corsi per tutti i livelli / 5 unità + 5 SI
-        date: dal 17.10
-        days: previo accordo
-        cost: € 130
