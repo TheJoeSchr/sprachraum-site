@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "prHourlyLimit": 5,
   "prConcurrentLimit": 5,
   "prCreation": "immediate",
@@ -10,5 +8,5 @@
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
-  ],
+  ]
 }
