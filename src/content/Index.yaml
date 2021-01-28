@@ -39,6 +39,18 @@ cards:
       Bequem und für alle Lernniveaus könnt ihr den passenden Kurs zur für euch optimalen Tageszeit buchen. Unsere Sprachtrainer*innen begrüßen euch auf Sardinien, vi aspettiamo!
 
 contact:
-  title: INFOS!  DOMANDE? ANMELDUNG!? QUESTIONS?
-  link: '/kontakt/'
-  linkText: schreibt uns! contattaci! text us!
+  title: INFO & KONTAKT
+  content: |
+    <div class="text-justify">
+    <h4 class="text-lg">Wenn ihr Fragen habt, sind wir für euch da:</h4>
+    <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
+
+    <b>Zoom Meeting:</b>
+    Wenn ihr persönlich mit uns sprechen möchtet, schickt eine kurze Mail mit eurem Terminwunsch:
+    <i>
+    Mo - Fr  von 08:30 bis 09:30
+    Mo & Di von 12:00 - 13:00 oder von 17:30 bis 18:30 
+    </i>
+    <b>Büro:</b> + 43 676 716 74 12 
+    <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a>
+    </div>
