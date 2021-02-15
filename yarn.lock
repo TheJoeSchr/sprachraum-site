@@ -3850,10 +3850,10 @@ eslint-module-utils@^2.6.0:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-gridsome@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-gridsome/-/eslint-plugin-gridsome-1.6.1.tgz#30563aff1d6e97589cbdf40e016c4bd9377cd32d"
-  integrity sha512-ZpE9XjrOPiXxXNTJJdFxk6zvovdaaRu4q9/YeDROcqm3FnOA9Btifbsms7n2okOPSq1EoiZa984eGqEnXf/Tmw==
+eslint-plugin-gridsome@1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-gridsome/-/eslint-plugin-gridsome-1.6.2.tgz#de37bf4ee5a25ae12cb101063cfb959c8fee2f1f"
+  integrity sha512-HYwgoO0IuaFZupsiPyYn4KLT4qgk6GyTMrtnJ+t1P18SoacbfVT1rLB3+Tt/o3BENKUbP8v3ngfhLk6AGvxX6A==
   dependencies:
     "@typescript-eslint/experimental-utils" "^3.3.0"
     minimatch "^3.0.4"
