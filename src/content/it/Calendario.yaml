@@ -9,37 +9,36 @@ info:
     - A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.
     - '* L´appuntamento sarà concordato con i partecipanti.'
     - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
-    - '*** San Valentino sconti. Se non ora, quando? Approfittane subito: per tutti coloro che si iscrovono entro il 14 febbraio 2021 sconti fino al 50%'
 timeslots:
   - title: FRÜHER VOGEL
     subtitle: Corsi primo mattino
     times: 08:00 – 08:50
     courses:
       - name: Mini corso conversazione B1 / 6 unità / 3 partecipanti
-        date: dal 02/02 al 18/02 e dal 23/02 al 11/03
+        date: dal 02/03 al 11/03 e al 16/03 dal 25/03
         days: martedì e giovedì
-        cost: <del>€ 180</del> San Valentino € 99
+        cost: <del>€ 180</del> sconto € 99
       - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
-        date: dal 01/02 al 17/02 e dal 22/02 al 10/03
+        date: dal 01/03 al 10/03 e dal 15/03 al 14/03
         days: lunedì e mercoledì
-        cost: <del>€ 180</del> San Valentino € 99
+        cost: <del>€ 180</del> sconto € 99
 
   - title: GABELFRÜHSTÜCK
     subtitle: Corsi al mattino
     times: 09:00 – 10:40
     courses:
       - name: Corso standard B1.1 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03 e 15/02 - 07/04
+        date: 01/03 - 21/04 
         days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> San Valentino € 299
+        cost: <del>€ 370</del> sconto € 299
       - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: 02/02 - 01/04 & 16/02 - 15/04
+        date: 02/03 - 29/04
         days: martedì e giovedì
-        cost: <del>€ 299</del> San Valentino € 250
-      - name: Mini corso RINFRESCO B1 / 6 unità + 5 SI
-        date: dal 06/02 al 13/03 e dal 20/02 al 27/03
+        cost: <del>€ 299</del> sconto € 250
+      - name: Mini corso RINFRESCO B1 / 12 unità + 5 SI
+        date: dal 07/03 al 27/03
         days: sabato
-        cost: <del>€ 180</del> San Valentino € 150
+        cost: <del>€ 230</del> San Valentino € 199
 
   - title: MAHLZEIT, LEUTE!
     subtitle: Corsi all´ora di pranzo I
