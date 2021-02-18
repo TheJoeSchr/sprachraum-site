@@ -9,107 +9,92 @@ info:
     - A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.
     - '* L´appuntamento sarà concordato con i partecipanti.'
     - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
+    - '*** Primavera sconti per tutti coloro che si iscrivono entro il 8 marzo 2021. 
 timeslots:
   - title: FRÜHER VOGEL
     subtitle: Corsi primo mattino
-    times: 08:00 – 08:50
+    times: 08:15 – 09:30
     courses:
       - name: Mini corso conversazione B1 / 6 unità / 3 partecipanti
         date: dal 02/03 al 11/03 e al 16/03 dal 25/03
         days: martedì e giovedì
-        cost: <del>€ 180</del> sconto € 99
+        cost: <del>€ 180</del> primavera sconto € 99
       - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
         date: dal 01/03 al 10/03 e dal 15/03 al 14/03
         days: lunedì e mercoledì
-        cost: <del>€ 180</del> sconto € 99
+        cost: <del>€ 180</del> primavera sconto € 99
 
   - title: GABELFRÜHSTÜCK
     subtitle: Corsi al mattino
-    times: 09:00 – 10:40
+    times: 09:45 – 11:25
     courses:
       - name: Corso standard B1.1 intensivo / 46 unità + 10 SI
-        date: 01/03 - 21/04 
+        date: 01/03 - 23/04 
         days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> sconto € 299
+        cost: <del>€ 370</del> primavera sconto € 299 
       - name: Corso "Startup" A1 / 36 unità + 10 SI
         date: 02/03 - 29/04
         days: martedì e giovedì
-        cost: <del>€ 299</del> sconto € 250
-      - name: Mini corso RINFRESCO B1 / 12 unità + 5 SI
-        date: dal 07/03 al 27/03
-        days: sabato
-        cost: <del>€ 230</del> San Valentino € 199
+        cost: <del>€ 299</del> primavera sconto € 249
 
   - title: MAHLZEIT, LEUTE!
     subtitle: Corsi all´ora di pranzo I
     times: 12:00 – 13:40
     courses:
-      - name: Corso standard A2.2 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03 e 15/02 - 07/04
-        days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> San Valentino € 299
-      - name: Corso per le professioni turistiche B1 / 36 unità + 10 SI
-        date: 02/02 - 01/04 e 16/02 - 15/04
-        days: martedì e giovedì
-        cost: <del>€ 299</del> San Valentino € 249
-      - name: Mini corso RINFRESCO A2 / 6 unità + 5 SI
-        date: dal 06/02 al 13/03 e dal 20/02 al 27/03
-        days: sabato
-        cost: <del>€ 180</del> San Valentio € 150
-
-  - title: MITTAGSPAUSE
-    subtitle: Corsi all´ora di pranzo II
-    times: 15:00 – 16:40
-    courses:
       - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
-        date: 08/02 - 19/04
-        days: lunedì e mercoledì
-        cost: <del>€ 370</del> San Valentino € 299
-      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 02/02 - 01/04 e 16/02 - 15/04
+        date: 08/03 - 30/04 
+        days: lunedì e mercoldì e venerdì
+        cost: <del>€ 370</del> primavera sconto € 299
+      - name: Corso per le professioni turistiche B1 / 36 unità + 10 SI
+        date: 09/03 - 06/05
         days: martedì e giovedì
-        cost: <del>€ 299</del> Sant Valentino € 249
-      - name: Mini corso RINFRESCO B1 / 12 unità + 5 SI / 8 Meetings 15:00 - 16:15
-        date: 05/02 - 26/03 e 19/02 - 09/04
-        days: venerdì
-        cost: <del>€ 230</del> San Valentino € 199
+        cost: <del>€ 299</del> primavera sconto € 249
+
+  - title: SIESTA! 
+    subtitle: Corsi all´ora di pranzo II
+    times: 14:45 – 16:25
+    courses:
+      - name: Corso standard A2.2 / 46 unità + 10 SI
+        date: 01/03 - 19/05
+        days: lunedì e mercoledì
+        cost: <del>€ 370</del> primavera sconto € 299
+      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
+        date: 09/03 - 06/05 
+        days: martedì e giovedì
+        cost: <del>€ 299</del> primavera sconto € 249
 
   - title: BROTZEIT!
     subtitle: Corsi al pomeriggio
     times: 17:00 – 18:40
     courses:
       - name: Corso standard B1.2 intensivo / 46 unità + 10 SI
-        date: 01/02 - 24/03 e 15/02 - 07/04
+        date: 08/03- 30/04
         days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> San Valentino € 299
-      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 02/02 - 01/04 e 16/02 - 15/04
+        cost: <del>€ 370</del> primavera sconto € 299
+      - name: Mini Corso per le professioni turistiche A2 / 12 unità + 5 SI / 8 Meetings 17:00 - 18:15
+        date: 09/03 - 02/04 e 09/04 - 06/05
         days: martedì e giovedì
-        cost: <del>€ 299</del> San Valentino € 249
+        cost: <del>€ 230</del> primavera sconto € 199
 
   - title: AUS MAUS, FEIERABEND!
     subtitle: Corsi serali
     times: 19:00 – 20:40
     courses:
-      - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: 02/02 - 11/03 e 15/02 - 25/03
-        days: lunedì, mercoledì e giovedì
-        cost: <del>€ 299</del> San Valentino € 249
       - name: Mini corso RINFRESCO B2 / 12 unità  + 5 SI / 8 Meetings 19:00 - 20:15
-        date: 16/02 - 06/04
-        days: martedì
-        cost: <del>€ 230</del> San Valentino € 199
+        date: 10/03 - 03/04 e 09/04 - 06/05
+        days: lunedì e mercoledì 
+        cost: <del>€ 230</del> primavera sconto € 199
 
   - title: PACCHETTO COACHING INDIVIDUALE
     subtitle: previo accordo
     times: 08:00 - 19:00 dal lun al ven
     courses:
       - name: Coaching individuale / 20 unità + 10 SI
-        cost: <del>€ 570</del> San Valentino € 530
+        cost: <del>€ 570</del> primavera sconto € 530
       - name: Coaching individuale / 15 unità + 7 SI
-        cost: <del>€ 420</del> San Valentino € 390
+        cost: <del>€ 420</del> primavera sconto € 390
       - name: Coaching individuale / 10 unità + 5 SI
-        cost: <del>€ 275</del> San Valentino € 250
+        cost: <del>€ 275</del> primavera sconto € 250
       - name: Coaching individuale / 5 unità + 3 SI
-        cost: <del>€ 150</del> San Valentino € 129
+        cost: <del>€ 150</del> primavera sconto € 129
 
