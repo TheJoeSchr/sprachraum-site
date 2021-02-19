@@ -20,7 +20,7 @@ timeslots:
         days: martedì e giovedì
         cost: <del>€ 180</del> primavera sconto € 99
       - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
-        date: dal 01/03 al 10/03 e dal 15/03 al 14/03
+        date: dal 01/03 al 10/03 e dal 15/03 al 24/03
         days: lunedì e mercoledì
         cost: <del>€ 180</del> primavera sconto € 99
 
@@ -78,7 +78,7 @@ timeslots:
 
   - title: AUS MAUS, FEIERABEND!
     subtitle: Corsi serali
-    times: 19:00 – 20:40
+    times: 19:00 – 20:15
     courses:
       - name: Mini corso RINFRESCO B2 / 12 unità  + 5 SI / 8 Meetings 19:00 - 20:15
         date: 10/03 - 03/04 e 09/04 - 06/05
