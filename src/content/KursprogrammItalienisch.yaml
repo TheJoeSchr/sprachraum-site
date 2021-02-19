@@ -17,8 +17,8 @@ timeslots:
         date: ab 23.02.21
         days: Mo bis Do / individuelle Terminvereinbarung
         cost: € 35 p/H Packete mit PRIMAVERA RABATT 5 EH € 129 / 10 EH € 249 / 15 EH € 390 / 20 EH € 530
-      - name: Minikurs Konversation A2 / 10 EH, 10 Meetings / *
-        date: ab 23.02.21
+      - name: Minikurs Konversation A2 / 10 EH, 10 Meetings 
+        date: ab 01.03.21
         days: Freitag 
         cost: <del>€ 180</del> PRIMAVERA RABATT € 99
 
@@ -27,15 +27,15 @@ timeslots:
     times: 09:45 – 11:25
     courses:
       - name: STANDARD A2 mit Nadja / 18 EH, 12 Meetings
-        date: ab 01.03. - 08.04
+        date: ab 01.03. - 07.04
         days: Mo & Mi 
         cost: <del>€ 250</del> PRIMAVERA RABATT € 199
       - name: STANDARD B1 mit Nadja / 18 EH, 12 Meetings
-        date: ab 02.03. - 09.04
+        date: ab 02.03. - 12.04
         days: Di & Do 
         cost: <del>€ 250</del> PRIMAVERA RABATT € 199
       - name: La carbonara è senza panna! mit Nadja A2-B1 / 12 EH, 6 Meetings
-        date: 15.04 - 10.05
+        date: 13.04 - 18.05
         days: Montag
         cost: <del>€ 220</del> PRIMAVERA RABATT € 179
 
