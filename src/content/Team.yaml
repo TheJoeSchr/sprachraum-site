@@ -15,6 +15,25 @@
   verb: gestalten
   adjektiv: klar
   substantiv: Vanillekipferl
+  
+- name: Nadja Maffei
+  id: nadjaMaffei
+  kurzbio: |- 
+    Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin. 
+    Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch. 
+    Seit 2011 Sprachstudio Enjoy languages - dialogando in Cagliari.
+    Sprachen / Deutsch, Englisch
+    Lebt und arbeitet in Cagliari auf Sardinien
+  sprachraum: |-
+    Head Italienischkurse 
+    Italienisch A1 - C1 & Refresher. 
+    La carbonara è senza panna! Rezepte & Küchengespräche.
+    Vacanze in Italia. Italienisch für den Urlaub. 
+  zitat: Il corpo ricorda ciò che la mente dimentica
+  zitatAuthor: Jacob Levi Moreno
+  verb: vivere
+  adjektiv: magnetica
+  substantiv: tiramisù
 
 - name: Johannes Minichmair
   id: johannes
@@ -106,24 +125,6 @@
   verb: conoscere
   adjektiv: naturale
   substantiv: bosco
-  
-- name: Nadja Maffei
-  id: nadjaMaffei
-  kurzbio: |- 
-    Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin. 
-    Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch. 
-    Seit 2011 Sprachstudio Enjoy languages - dialogando in Cagliari.
-    Sprachen / Deutsch, Englisch
-    Lebt und arbeitet in Cagliari auf Sardinien
-  sprachraum: |-
-    Italienisch A1 - C1 & Refresher. 
-    La carbonara è senza panna! Rezepte & Küchengespräche.
-    Vacanze in Italia. Italienisch für den Urlaub. 
-  zitat: Il corpo ricorda ciò che la mente dimentica
-  zitatAuthor: Jacob Levi Moreno
-  verb: vivere
-  adjektiv: magnetica
-  substantiv: tiramisù
   
 - name: Giorgio Marica
   id: giorgio
