@@ -12,9 +12,9 @@ sections:
 
   - title: Standardprogramm & Spezialkurse
     content: ""
-  - title: STANDARD A1/A2/B1/B2 Refresher 20 Einheiten
+  - title: STANDARD REFRESHER KURSE VON A1 - C1 / jeweils 20 Einheiten
     list:
-      - Alle Kurse mit Nadja Maffei. Ganzheitliches Lernen in der Gruppe. Fokus auf SPRECHEN & VERSTEHEN
+      - Diese Kurse hält Nadja Maffei. Inhalt / ganzheitliches Lernen in der Gruppe. Fokus auf SPRECHEN & VERSTEHEN
       - Erste Schritte sowie Vertiefung und Erweiterung der sprachlichen Kompetenz. Breakout-Rooms für Gruppenübungen. Learning by doing.  
   - title: LA CARBONARA È SENZA PANNA! Rezepte & Küchengespräche. (A1-A2*/A2-B1**)
     list:
@@ -34,13 +34,16 @@ sections:
       - Konversationskurs für Fortgeschrittene, die sich mit den italienischen Tifosi über legendäre Spiele, so manches Debakel und Anekdoten aus der Welt des Fussballs unterhalten möchten. 
       - Inklusive 50 Zitate von internationalen Spielern "La palla è rotonda, la partita dura 90 minuti e tutto il resto è solo teoria" (S.Herberger)
       - Lernziele / Intensivtraining Wortschatz & SPRECHEN, Whg. Zahlen, Jahreszahlen, Ordnungszahlen.
-  - title: STANDARDKURSE. Von A1 - C1
+  - title: STANDARDKURSE von A1 - C1
     list:
       - Die Inhalte folgen den Vorgaben des gemeinsamen europäischen Referenzrahmens für Sprachen und den Anforderungen zur Absolvierung der CILS Zertifikationen.
-      - INDIVIDUAL COACHING. Wir treffen uns vorab auf Zoom und besprechen mit euch den Inhalt eurer Lernziele sowie Vorbereitung auf Zertifikatsprüfungen oder Semestertests an Schulen & Universitäten.
-      - ITALIENISCH FÜR DAS TEAM. Für Unternehmen bieten wir individuell konzipierte Mitarbeiter*innen Kurse an.
+  - title: INDIVIDUAL COACHING 
+    list: 
+      - Wir treffen uns vorab auf Zoom und besprechen mit euch den Inhalt eurer Lernziele sowie Vorbereitung auf Zertifikatsprüfungen oder Semestertests an Schulen & Universitäten.   
+  - title: ITALIENISCH FÜR DAS TEAM - FIRMENKURSE
+      - Für Unternehmen bieten wir individuell konzipierte Mitarbeiter*innen Kurse an.
 
-  - title: Technische Infos
+  - title: TECHNISCHE INFOS
     list:
       - "Wir unterrichten vorrangig auf Zoom. Mit wenigen Klicks registriert ihr euch: einfache Anwendung!"
       - Am besten arbeitet ihr am Computer.
