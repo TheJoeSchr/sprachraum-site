@@ -34,20 +34,20 @@ timeslots:
         date: ab 02.03. - 12.04
         days: Di & Do 
         cost: <del>€ 250</del> PRIMAVERA RABATT € 199
-      - name: La carbonara è senza panna! mit Nadja A2-B1 / 12 EH, 6 Meetings
-        date: 13.04 - 18.05
-        days: Montag
+      - name: La carbonara è senza panna! mit Nadja A1-A2 / 12 EH, 6 Meetings
+        date: 14.04 - 19.05
+        days: Mittwoch 
         cost: <del>€ 220</del> PRIMAVERA RABATT € 179
 
   - title: AL BAR!
     subtitle: Macchiato, per favore! 
     times: 11:30 – 13:10
     courses:
-      - name: Vacanze in Italia. Konversationskurs mit Laura A1-A2 / 12 EH, 6 Meetings 
-        date: 08.03 - 25.03 & 29.03 - 12.04
+      - name: Vacanze in Italia. Konversationskurs A1-A2 / 12 EH, 6 Meetings 
+        date: 08.03 - 24.03 & 29.03 - 19.04
         days: Montag und Mittwoch 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
-      - name: Vacanze in Italia. Konversationskurs mit Laura B1 / 12 EH, 6 Meetings 
+      - name: Vacanze in Italia. Konversationskurs B1 / 12 EH, 6 Meetings 
         date: 11.03 - 15.04
         days: Donnerstag 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
@@ -56,11 +56,15 @@ timeslots:
     subtitle: Vino Frizzante & pasta sfoglia! Kurse am frühen Abend
     times: 18:30 – 19:40
     courses:
-      - name: Vacanze in Italia. Konversationskurs mit Laura A1-A2 / 12 EH, 6 Meetings 
-        date: 08.03 - 25.03 & 29.03 - 12.04
+      - name: La carbonara è senza panna! mit Nadja A2-B1 / 12 EH, 6 Meetings
+        date: 14.04 - 19.05
+        days: Mittwoch 
+        cost: <del>€ 220</del> PRIMAVERA RABATT € 179
+      - name: Vacanze in Italia. Konversationskurs A1-A2 / 12 EH, 6 Meetings 
+        date: 08.03 - 24.03 & 29.03 - 19.04
         days: Montag und Mittwoch 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
-      - name: Vacanze in Italia. Konversationskurs mit Laura B1 / 12 EH, 6 Meetings 
+      - name: Vacanze in Italia. Konversationskurs B1 / 12 EH, 6 Meetings 
         date: 11.03 - 15.04
         days: Donnerstag 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
