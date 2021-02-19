@@ -7,7 +7,7 @@ info:
     <b>Legende:</b>
   list:
     - '* Gruppenanmeldung min 4 max 6 TN*innen.'
-    - '** PRIMAVERA Rabatte / Preise gültig bei Anmeldung bis einschließlich 8. März.'
+    - '** PRIMAVERA Rabatte / Preise gültig für alle gekennzeichneten Kurse bei Anmeldung bis einschließlich 8. März.'
 timeslots:
   - title: PRIMA COLAZIONE
     subtitle: Chiacchierare. Frühstücksgespräche
@@ -34,7 +34,7 @@ timeslots:
         date: ab 02.03. - 12.04
         days: Di & Do 
         cost: <del>€ 250</del> PRIMAVERA RABATT € 199
-      - name: La carbonara è senza panna! mit Nadja A1-A2 / 12 EH, 6 Meetings
+      - name: La carbonara è senza panna! A1-A2 mit Nadja / 12 EH, 6 Meetings
         date: 14.04 - 19.05
         days: Mittwoch 
         cost: <del>€ 220</del> PRIMAVERA RABATT € 179
@@ -56,7 +56,7 @@ timeslots:
     subtitle: Vino Frizzante & pasta sfoglia! Kurse am frühen Abend
     times: 18:30 – 19:40
     courses:
-      - name: La carbonara è senza panna! mit Nadja A2-B1 / 12 EH, 6 Meetings
+      - name: La carbonara è senza panna! A2-B1 mit Nadja / 12 EH, 6 Meetings
         date: 14.04 - 19.05
         days: Mittwoch 
         cost: <del>€ 220</del> PRIMAVERA RABATT € 179
