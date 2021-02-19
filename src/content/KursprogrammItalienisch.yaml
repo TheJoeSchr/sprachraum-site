@@ -16,11 +16,11 @@ timeslots:
       - name: Individual Coaching mit Nadja / Einzeltermine oder Coachingpackete 
         date: ab 23.02.21
         days: Mo bis Do / individuelle Terminvereinbarung
-        cost: € 35 p/H Packete 5 EH € 130 / 10 EH € 250 / 15 EH € 390
+        cost: € 35 p/H Packete mit PRIMAVERA RABATT 5 EH € 130 / 10 EH € 250 / 15 EH € 390
       - name: Minikurs Konversation A2 / 10 EH, 10 Meetings / *
         date: ab 23.02.21
         days: Freitag 
-        cost: € 120
+        cost: <del>€ 180</del> PRIMAVERA RABATT € 99
 
   - title: IN SPIAGGIA! 
     subtitle: Facciamo una passeggiata lungomare! 
@@ -29,15 +29,15 @@ timeslots:
       - name: STANDARD A2 mit Nadja / 18 EH, 12 Meetings
         date: ab 01.03. - 08.04
         days: Mo & Mi 
-        cost: € 199
+        cost: <del>€ 250</del> PRIMAVERA RABATT € 199
       - name: STANDARD B1 mit Nadja / 18 EH, 12 Meetings
         date: ab 02.03. - 09.04
         days: Di & Do 
-        cost: € 199
+        cost: <del>€ 250</del> PRIMAVERA RABATT € 199
       - name: La carbonara è senza panna! mit Nadja A2-B1 / 12 EH, 6 Meetings
         date: 15.04 - 10.05
         days: Montag
-        cost: € 169
+        cost: <del>€ 220</del> PRIMAVERA RABATT € 179
 
   - title: AL BAR!
     subtitle: Macchiato, per favore! 
@@ -46,11 +46,11 @@ timeslots:
       - name: Vacanze in Italia. Konversationskurs mit Laura A1-A2 / 12 EH, 6 Meetings 
         date: 08.03 - 25.03 & 29.03 - 12.04
         days: Montag und Mittwoch 
-        cost: € 140
+        cost: <del>€ 199</del> PRIMAVERA RABATT € 149
       - name: Vacanze in Italia. Konversationskurs mit Laura B1 / 12 EH, 6 Meetings 
         date: 11.03 - 15.04
         days: Donnerstag 
-        cost: € 140
+        cost: <del>€ 199</del> PRIMAVERA RABATT € 149
 
   - title: COME APERITIVO!
     subtitle: Vino Frizzante & pasta sfoglia! Kurse am frühen Abend
@@ -59,11 +59,11 @@ timeslots:
       - name: Vacanze in Italia. Konversationskurs mit Laura A1-A2 / 12 EH, 6 Meetings 
         date: 08.03 - 25.03 & 29.03 - 12.04
         days: Montag und Mittwoch 
-        cost: € 140
+        cost: <del>€ 199</del> PRIMAVERA RABATT € 149
       - name: Vacanze in Italia. Konversationskurs mit Laura B1 / 12 EH, 6 Meetings 
         date: 11.03 - 15.04
         days: Donnerstag 
-        cost: € 140
+        cost: <del>€ 199</del> PRIMAVERA RABATT € 149
 
   - title: COACHING PACKETE
     subtitle: nach Vereinbahrung
