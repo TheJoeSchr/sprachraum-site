@@ -26,12 +26,12 @@ timeslots:
     subtitle: Facciamo una passeggiata lungomare! 
     times: 09:45 – 11:25
     courses:
-      - name: STANDARD A2 mit Nadja / 18 EH, 12 Meetings
-        date: ab 01.03. - 07.04
+      - name: STANDARD A2 mit Nadja / 18 EH, 9 Meetings
+        date: 08.03 - 07.04 & 12.04 - 10.05
         days: Mo & Mi 
         cost: <del>€ 250</del> PRIMAVERA RABATT € 199
-      - name: STANDARD B1 mit Nadja / 18 EH, 12 Meetings
-        date: ab 02.03. - 12.04
+      - name: STANDARD B1 mit Nadja / 18 EH, 9 Meetings
+        date: 09.03. - 08.04 & 13.04 - 11.05
         days: Di & Do 
         cost: <del>€ 250</del> PRIMAVERA RABATT € 199
       - name: La carbonara è senza panna! A1-A2 mit Nadja / 12 EH, 6 Meetings
@@ -48,7 +48,7 @@ timeslots:
         days: Montag und Mittwoch 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
       - name: Vacanze in Italia. Konversationskurs B1 / 12 EH, 6 Meetings 
-        date: 11.03 - 15.04
+        date: 11.03 - 15.04 & 22.04 - 27.05
         days: Donnerstag 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
 
@@ -65,7 +65,7 @@ timeslots:
         days: Montag und Mittwoch 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
       - name: Vacanze in Italia. Konversationskurs B1 / 12 EH, 6 Meetings 
-        date: 11.03 - 15.04
+        date: 11.03 - 15.04 & 22.04 - 27.05
         days: Donnerstag 
         cost: <del>€ 199</del> PRIMAVERA RABATT € 149
 

@@ -16,11 +16,11 @@ timeslots:
     times: 08:15 – 09:30
     courses:
       - name: Mini corso conversazione B1 / 6 unità / 3 partecipanti
-        date: dal 02/03 al 11/03 e al 16/03 dal 25/03
+        date: dal 02/03 al 11/03 e al 16/03 dal 25/03 e al 08/04 dal 20/04
         days: martedì e giovedì
         cost: <del>€ 180</del> primavera sconto € 99
       - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
-        date: dal 01/03 al 10/03 e dal 15/03 al 24/03
+        date: dal 15/03 al 24/03 e al 07/04 dal 19/04
         days: lunedì e mercoledì
         cost: <del>€ 180</del> primavera sconto € 99
 
@@ -29,12 +29,16 @@ timeslots:
     times: 09:45 – 11:25
     courses:
       - name: Corso standard B1.1 intensivo / 46 unità + 10 SI
-        date: 01/03 - 23/04 
+        date: dal 15/03 al 07/05
         days: lunedì e mercoldì e venerdì
         cost: <del>€ 370</del> primavera sconto € 299 
+      - name: Corso per le professioni turistiche B1 intensivo / 36 unità + 10 SI
+        date: dal 01/04 al 29/04
+        days: lun, mar, mer e gio
+        cost: <del>€ 299</del> primavera sconto € 249
       - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: 02/03 - 29/04
-        days: martedì e giovedì
+        date: dal 10/03 al 07/05 
+        days: mercoledì e venerdì
         cost: <del>€ 299</del> primavera sconto € 249
 
   - title: MAHLZEIT, LEUTE!
@@ -42,12 +46,12 @@ timeslots:
     times: 12:00 – 13:40
     courses:
       - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
-        date: 08/03 - 30/04 
+        date: dal 08/03 al 30/04 
         days: lunedì e mercoldì e venerdì
         cost: <del>€ 370</del> primavera sconto € 299
-      - name: Corso per le professioni turistiche B1 / 36 unità + 10 SI
-        date: 09/03 - 06/05
-        days: martedì e giovedì
+      - name: Corso per le professioni turistiche A2 intensivo / 36 unità + 10 SI
+        date: dal 22/03 dal 22/04 
+        days: lun, mar, mer e gio
         cost: <del>€ 299</del> primavera sconto € 249
 
   - title: SIESTA! 
@@ -55,12 +59,12 @@ timeslots:
     times: 14:45 – 16:25
     courses:
       - name: Corso standard A2.2 / 46 unità + 10 SI
-        date: 01/03 - 19/05
-        days: lunedì e mercoledì
+        date: dal 08/03 al 26/05
+        days: lunedì e mercoledì 
         cost: <del>€ 370</del> primavera sconto € 299
-      - name: Corso per le professioni turistiche A2 / 36 unità + 10 SI
-        date: 09/03 - 06/05 
-        days: martedì e giovedì
+      - name: Corso per le professioni turistiche A2 intensivo / 36 unità + 10 SI
+        date: dal 22/03 al 22/04  
+        days: lun, mar, mer e gio
         cost: <del>€ 299</del> primavera sconto € 249
 
   - title: BROTZEIT!
@@ -68,7 +72,7 @@ timeslots:
     times: 17:00 – 18:40
     courses:
       - name: Corso standard B1.2 intensivo / 46 unità + 10 SI
-        date: 08/03- 30/04
+        date: dal 08/03 al 30/04
         days: lunedì e mercoldì e venerdì
         cost: <del>€ 370</del> primavera sconto € 299
       - name: Mini Corso per le professioni turistiche A2 / 12 unità + 5 SI / 8 Meetings 17:00 - 18:15
