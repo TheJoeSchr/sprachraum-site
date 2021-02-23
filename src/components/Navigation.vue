@@ -13,6 +13,7 @@ div
             div(class="lg:ml-auto")
               g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") home
               g-link(to="/it/corsiditedesco/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") corsi di tedesco | Deutschkurse
+              g-link(to="/italienischkurse/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") Italienischkurse
               g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") squadra | Team
             div
               g-link(to="/it/kursprogramm/" class="inline-block py-3 px-5 mr-4 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") calendario | Kursprogramm
@@ -22,10 +23,11 @@ div
     div(class="mt-24 md:mt-40 xl:mt-32 mx-0 sm:mx-2 lg:mx-16")
       //- Nav Buttons for Mobile
       div(class="visible lg:hidden mx-2 ")
-        g-link(to="/it/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") calendario
-        g-link(to="/team/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") squadra
-        g-link(to="/it/corsiditedesco/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") corsi di tedesco
-        g-link(to="/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") home
+        g-link(to="/it/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") calendario | Kursprogramm
+        g-link(to="/team/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") squadra | Team
+        g-link(to="/it/corsiditedesco/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") corsi di tedesco | Deutschkurse
+        g-link(to="/italienischkurse/"  class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") Italienischkurse
+        g-link(to="/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") home
       slot
 </template>
 
