@@ -83,12 +83,12 @@ timeslots:
     subtitle: Kurse am Abend
     times: 19:00 – 20:15
     courses:
-      - name: Minikurs refresher B2 / 12 EH + 5 HÜ 8 Meetings 
+      - name: Minikurs refresher B2 / 12 EH + 5 HÜ 8 Meetings
         date: 10/03 - 03/04 & 9/04 - 06/05
-        days: Mo & Mi 
+        days: Mo & Mi
         cost: <del>€ 230</del> FRÜHLINGSBONUS € 199
 
-  - title: COACHING PACKETE
+  - title: COACHING PAKETE
     subtitle: nach Vereinbahrung
     times: 8:00 bis 19:00 von Mo bis Fr
     courses:
