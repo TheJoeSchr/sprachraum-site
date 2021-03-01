@@ -7,7 +7,7 @@ section(class="pt-2")
         h3.text-lg.pl-3.mb-1.font-heading.font-bold.left-0(class="w-full") {{name}}
         h4.pl-3.mb-3.text-sm.font-heading.font-semibold  {{ date }}
         div.pr-3.mr-3.text-lg.text-gray-900.text-right
-          .ml-auto.mb-1(class="w-2/5" v-html="cost")
+          .ml-auto.mb-1(class="w-2/5" v-html="toBr(cost)")
         div.ml-auto.text-right(class='w-2/5 ')
           p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary
             | {{ days }}
@@ -20,6 +20,7 @@ section(class="pt-2")
 
 <script>
 import { toEmailLinebreak } from '~/helpers'
+import { toBr } from '~/helpers'
 
 const EMAIL = 'elke@workitaut.at'
 const TEMPLATE =
@@ -45,6 +46,7 @@ export default {
   methods: {
     mailto: (course) =>
       `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(course)}`,
+    toBr,
   },
 }
 </script>

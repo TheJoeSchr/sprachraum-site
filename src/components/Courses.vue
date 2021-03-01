@@ -5,8 +5,9 @@ div
   .divide-y.divide-gray-400
     .container.py-2(v-for='(timeslot,index) in timeslots' :key='timeslot.title').pt-8
       section(:class="{'bg-yellow-100':(index%2==1), 'shadow-lg':(index%2==1) ,'shadow-inner':(index%2==0) }" class="mb-0").my-2.pt-1
-        h2.text-center.text-xl.pt-2.font-heading.font-bold {{ timeslot.title }}
-        h3.text-center.text-lg.pb-1.font-heading {{ timeslot.subtitle }} {{ timeslot.times}}
+        h2.text-center.text-xl.pt-2.font-heading.font-bold(v-html="toBr(timeslot.title)")
+        h3.text-center.text-lg.pb-1.font-heading(v-html="toBr(timeslot.subtitle)")
+        h3.text-center.text-lg.pb-1.font-heading(v-html="toBr(timeslot.times)")
         ul
           li(v-for='course in timeslot.courses' :key="course.name")
             KursprogrammKarte(:value="{...course,times:timeslot.times, messages}")
