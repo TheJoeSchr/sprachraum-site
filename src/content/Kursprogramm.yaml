@@ -28,15 +28,15 @@ timeslots:
     times: 09:45 – 11:25
     courses:
       - name: Standardkurs B1.1 intensiv / 46 EH + 10 HÜ
-        date: 15/03 - 07/05 
+        date: 15/03 - 07/05
         days: Mo & Mi & Fr
         cost: <del>€ 370</del> FRÜHLINGSBONUS € 299
       - name: Deutsch für Tourismusberufe B1 intensiv / 36 EH + 10 HÜ
         date: 01/04 - 29/04
-        days: Mo bis Do 
+        days: Mo bis Do
         cost: <del>€ 299</del> FRÜHLINGSBONUS € 249
       - name: Deutsch Startup A1 / 36 EH + 10 HÜ
-        date: 10/03 - 07/05 
+        date: 10/03 - 07/05
         days: Mi & Fr
         cost: <del>€ 299 </del> FRÜHLINGSBONUS € 249
 
@@ -45,12 +45,12 @@ timeslots:
     times: 12:00 – 13:40
     courses:
       - name: Standardkurs A2.1 intensiv / 46 EH + 10 HÜ
-        date: 08/03 - 30/04 
+        date: 08/03 - 30/04
         days: Mo & Mi & Fr
         cost: <del>€ 370 </del> FRÜHLINGSBONUS € 299
       - name: Deutsch f. Tourismusberufe A2 intensiv / 36 EH + 10 HÜ
-        date: 22/03 - 22/04 
-        days: Mo bis Do 
+        date: 22/03 - 22/04
+        days: Mo bis Do
         cost: <del>€ 299</del> FRÜHLINGSBONUS € 249
 
   - title: SIESTA!
@@ -59,11 +59,11 @@ timeslots:
     courses:
       - name: Standardkurs intensiv A2.2 / 46 EH + 10 HÜ
         date: 08/03 - 26/05
-        days: Mo & Mi 
+        days: Mo & Mi
         cost: <del>€ 370</del> FRÜHLINGSBONUS € 299
       - name: Deutsch f. Tourismusberufe A2 intensiv / 36 EH + 10 HÜ
-        date: 22/03 - 22/04 
-        days: Mo bis Do 
+        date: 22/03 - 22/04
+        days: Mo bis Do
         cost: <del>€ 299</del> FRÜHLINGSBONUS € 249
 
   - title: BROTZEIT!
@@ -71,7 +71,7 @@ timeslots:
     times: 17:00 – 18:40
     courses:
       - name: Standardkurs B1.2 intensiv / 46 EH + 10 HÜ
-        date: 08/03 - 30/04 
+        date: 08/03 - 30/04
         days: Mo & Mi & Fr
         cost: <del>€ 370</del> FRÜHLINGSBONUS € 299
       - name: Minikurs für Tourismusberufe A2 / 12 EH + 5 HÜ 8 Meetings 17:00 - 18:15
