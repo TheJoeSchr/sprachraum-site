@@ -15,7 +15,7 @@
     "gridsome-plugin-i18n": "1.6.0",
     "typeface-d-din": "0.0.67",
     "typeface-unica-one": "0.0.72",
-    "yarn": "1.22.10"
+    "yarn": "1.22.11"
   },
   "devDependencies": {
     "eslint": "7.31.0",
