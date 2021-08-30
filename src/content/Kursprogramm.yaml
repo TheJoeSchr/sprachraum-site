@@ -14,56 +14,52 @@ timeslots:
     subtitle: Kurse am Morgen
     times: 08:15 – 09:30
     courses:
-      - name: Minikurs Konversation B1 / 6 EH / 3 TN*innen
-        date: 02/03 - 11/03 & 16/03 - 25/03 & 08/04 - 20/04
-        days: Di & Do
-        cost: <del>€ 180</del> FRÜHLINGSBONUS € 99
-      - name: Minikurs Konversation A2 für Gastronomieberufe / 6 EH / 3 TN*innen
-        date: 15/03 - 24/03 & 07/04 - 19/04
-        days: Mo & Mi
-        cost: <del>€ 180</del> FRÜHLINGSBONUS € 99
-
+      - name: Individual Coaching  
+        date: Termine nach Vereinbarung
+        days: Mo - Do | 08:15 - 09:30 
+        cost: <del>€ 30</del> FRÜHLINGSBONUS € 27
+      - name: Deutsch Konversation B1 / 10 EH max. 3 TN*innen   
+        date: ab 17/04 | 09:00 - 09:50 
+        days: Fr | Einstieg jederzeit möglich
+        cost: <del>€ 249</del> FRÜHLINGSBONUS € 180
+     
   - title: GABELFRÜHSTÜCK
     subtitle: Kurse am Vormittag
-    times: 09:45 – 11:25
+    times: 10:00 – 11:40
     courses:
-      - name: Standardkurs B1.1 intensiv / 46 EH + 10 HÜ
-        date: 15/03 - 07/05 
-        days: Mo & Mi & Fr
-        cost: <del>€ 370</del> FRÜHLINGSBONUS € 299
-      - name: Deutsch für Tourismusberufe B1 intensiv / 36 EH + 10 HÜ
-        date: 01/04 - 29/04
-        days: Mo bis Do 
+      - name: Deutsch B1 Refresher intensiv / 36 EH 
+        date: 21/04 - 20/05
+        days: Mo bis Do | 10:00 - 11:40 
         cost: <del>€ 299</del> FRÜHLINGSBONUS € 249
-      - name: Deutsch Startup A1 / 36 EH + 10 HÜ
-        date: 10/03 - 07/05 
-        days: Mi & Fr
-        cost: <del>€ 299 </del> FRÜHLINGSBONUS € 249
+      - name: Deutsch Konversation A2 / 10 EH max. 3 TN*innen
+        date: ab 17/07 | 10:00 - 10:50 
+        days: Fr | Einstieg jederzeit möglich
+        cost: <del>€ 249</del> FRÜHLINGSBONUS € 180
 
   - title: MAHLZEIT, LEUTE!
     subtitle: Kurse zu Mittag
     times: 12:00 – 13:40
     courses:
-      - name: Standardkurs A2.1 intensiv / 46 EH + 10 HÜ
-        date: 08/03 - 30/04 
+      - name: Deutsch für Gesundheitsberufe A2 / 36 EH + 10 HÜ
+        date: Kursstart MAI nach Vereinbarung
         days: Mo & Mi & Fr
-        cost: <del>€ 370 </del> FRÜHLINGSBONUS € 299
-      - name: Deutsch f. Tourismusberufe A2 intensiv / 36 EH + 10 HÜ
-        date: 22/03 - 22/04 
-        days: Mo bis Do 
-        cost: <del>€ 299</del> FRÜHLINGSBONUS € 249
+        cost: <del>€ 299 </del> FRÜHLINGSBONUS € 249
+      - name: Deutsch Kommunikation für Pflegeberufe B1 / 24 EH 
+        date: Kursstart MAI nach Vereinbarung 
+        days: Di & Do
+        cost: <del>€ 249</del> FRÜHLINGSBONUS € 219
 
   - title: SIESTA!
     subtitle: Kurse am späten Nachmittag
     times: 14:45 – 16:25
     courses:
-      - name: Standardkurs intensiv A2.2 / 46 EH + 10 HÜ
-        date: 08/03 - 26/05
+      - name: Deutsch Kommunikation für Gastro Service B1 / 24 EH 
+        date: Kursstart MAI nach Vereinbarung
         days: Mo & Mi 
-        cost: <del>€ 370</del> FRÜHLINGSBONUS € 299
+        cost: <del>€ 249</del> FRÜHLINGSBONUS € 219
       - name: Deutsch f. Tourismusberufe A2 intensiv / 36 EH + 10 HÜ
-        date: 22/03 - 22/04 
-        days: Mo bis Do 
+        date: Kursstart MAI nach Vereinbarung
+        days: Di & Do
         cost: <del>€ 299</del> FRÜHLINGSBONUS € 249
 
   - title: BROTZEIT!
@@ -71,7 +67,7 @@ timeslots:
     times: 17:00 – 18:40
     courses:
       - name: Standardkurs B1.2 intensiv / 46 EH + 10 HÜ
-        date: 08/03 - 30/04 
+        date: 08/03 - 30/04
         days: Mo & Mi & Fr
         cost: <del>€ 370</del> FRÜHLINGSBONUS € 299
       - name: Minikurs für Tourismusberufe A2 / 12 EH + 5 HÜ 8 Meetings 17:00 - 18:15
@@ -83,12 +79,12 @@ timeslots:
     subtitle: Kurse am Abend
     times: 19:00 – 20:15
     courses:
-      - name: Minikurs refresher B2 / 12 EH + 5 HÜ 8 Meetings 
+      - name: Minikurs refresher B2 / 12 EH + 5 HÜ 8 Meetings
         date: 10/03 - 03/04 & 9/04 - 06/05
-        days: Mo & Mi 
+        days: Mo & Mi
         cost: <del>€ 230</del> FRÜHLINGSBONUS € 199
 
-  - title: COACHING PACKETE
+  - title: COACHING PAKETE
     subtitle: nach Vereinbahrung
     times: 8:00 bis 19:00 von Mo bis Fr
     courses:
