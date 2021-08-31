@@ -1,7 +1,8 @@
 <template lang="pug">
 div
-  .flex
-    g-link(:to="translateLink" ).btn-translate {{ messages.btnTranslate }}
+  //-
+    .flex
+      g-link(:to="translateLink" ).btn-translate {{ messages.btnTranslate }}
   section
     .flex.flex-wrap.items-center.text-center.mx-2(class='md:text-left md:my-8')
       .px-2.order-1(class='md:w-1/2 md:pr-10 md:order-none')
