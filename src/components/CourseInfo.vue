@@ -1,7 +1,5 @@
 <template lang="pug">
 div
-  .flex
-    g-link(:to="translateLink" ).btn-translate {{ messages.btnTranslate }}
   MinorHero(:value="{title, content:cardContent,link,linkText}")
     slot
   div.flex.flex-wrap(class='md:justify-between')
