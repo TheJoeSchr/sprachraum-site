@@ -16,6 +16,7 @@ div
         div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
             div(class="lg:ml-auto")
               g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") home
+              g-link(to="/it/carriere/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") carriere
               g-link(to="/it/corsiditedesco/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") corsi di tedesco
               g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") squadra
             div
