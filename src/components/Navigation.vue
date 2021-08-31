@@ -7,8 +7,12 @@ div
           g-link(to="/")
             g-image(src="~/assets/images/LogoAlphaLineDeKlein.png" class="hidden sm:block")
             g-image(src="~/assets/images/LogoAlphaLineDeKlein.png" width="320" class="visible sm:hidden")
+        //- menu button
         div(class="hidden lg:hidden")
-            <button class="navbar-burger flex items-center py-2 px-3 text-black rounded border border-black"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
+          button.navbar-burger.flex.items-center.py-2.px-3.text-black.rounded.border.border-black
+            svg.fill-current.h-3.w-3(viewbox='0 0 20 20' xmlns='http://www.w3.org/2000/svg')
+              title Menu
+              path(d='M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z')
         div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
             div(class="lg:ml-auto")
               g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") home
