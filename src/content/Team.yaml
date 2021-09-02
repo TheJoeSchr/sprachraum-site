@@ -15,63 +15,25 @@
   verb: gestalten
   adjektiv: klar
   substantiv: Vanillekipferl
-  
+
 - name: Nadja Maffei
   id: nadjaMaffei
-  kurzbio: |- 
-    Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin. 
-    Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch. 
+  kurzbio: |-
+    Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin.
+    Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch.
     Seit 2011 Sprachstudio Enjoy languages - dialogando in Cagliari.
     Sprachen / Deutsch, Englisch
     Lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
-    Head Italienischkurse 
-    Italienisch A1 - C1 & Refresher. 
+    Head Italienischkurse
+    Italienisch A1 - C1 & Refresher.
     La carbonara è senza panna! Rezepte & Küchengespräche.
-    Vacanze in Italia. Italienisch für den Urlaub. 
+    Vacanze in Italia. Italienisch für den Urlaub.
   zitat: Il corpo ricorda ciò che la mente dimentica
   zitatAuthor: Jacob Levi Moreno
   verb: vivere
   adjektiv: magnetica
   substantiv: tiramisù
-
-- name: Johannes Minichmair
-  id: johannes
-  kurzbio: |-
-    Studium der Theater-, Film u. Medienwissenschaften
-    Universität Wien / AT
-    Schauspielstudium am Lee Strasberg Theatre &amp; Film Institut, New York / US
-    Dipolomierter Trainer f. Basisbildung und
-    Alphabetisierung
-    Freier Schauspieler und Regisseur
-    Trainer in der Erwachsenenbildung Deutsch &amp; Englisch. OÖ / AT
-    Lebt und arbeitet in Oberösterreich
-  sprachraum: |-
-    Deutsch Standardkurse A1 – C1
-    Deutsch Coaching & Minikurse
-    Englisch Konversation ab Jänner 21
-  zitat: Ich habe eine Wassermelone getragen.
-  zitatAuthor: Jennifer Grey als Baby. Dirty Dancing, 1987.
-  verb: erfahren
-  adjektiv: hübsch
-  substantiv: Kinoleinwand
-
-- name: Heidi Schweitzer
-  id: heidi
-  kurzbio: |-
-    Studium Ethnologie und Afrikanistik. Univ. Wien / AT
-    Studium Product &amp; Furniture Design. Kingston University, London / GB
-    Ausbildung Montessoripädagogin.
-    Kommunikationstrainerin, Malpädagogin, Eltern-Kind-Workshops
-    Lebt und arbeitet in Oberösterreich
-  sprachraum: |-
-    Deutsch: Coaching
-    Konversation &amp; Teamteaching
-  zitat: Wenn von einer Maschine erwartet wird, dass sie unfehlbar ist, kann sie nicht gleichzeitig intelligent sein.
-  zitatAuthor: Alan Turing
-  verb: beherzigen
-  adjektiv: spannend
-  substantiv: Spielraum
 
 - name: Laura Zidda
   id: laura
@@ -83,7 +45,7 @@
     Sprachen / Deutsch und Englisch
     Lebt und arbeitet in Cagliari auf Sardinien
   sprachraum: |-
-    DAF/DAZ Kurspraktikum / Teamteaching 
+    DAF/DAZ Kurspraktikum / Teamteaching
     Italienischkurse A1 - C1
     Refresher, Minikurse & Individual Coaching
   zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
@@ -91,71 +53,3 @@
   verb: sorridere / lächeln
   adjektiv: colorato / bunt
   substantiv: asciugamano / Handtuch
-
-- name: Maura Bagnone
-  id: maura
-  kurzbio: |-
-    Studium der Translationswissenschaften Italienisch, Englisch & Spanisch. Univ. Cagliari, Sardinien / IT
-    Dolmetscherin & Universitätslektorin. 
-    Freelancer, zertifizierte Sprachtrainerin f. Italienisch, Englisch & Spanisch.  
-    Lebt und arbeitet in Cagliari auf Sardinien
-  sprachraum: |-
-    La carbonara è senza panna! Rezepte & Küchengespräche.
-    Vacanze in Italia. Italienisch für den Urlaub.
-    Minikurse & Individual Coaching
-  zitat: La vita è ciò che ti accade quando sei tutto intento a fare altri piani. 
-  zitatAuthor: Allen Saunders. Writer & Cartoonist. 
-  verb: condividere
-  adjektiv: socievole
-  substantiv: empatia
-
-- name: Laura Sedda
-  id: lauraSedda
-  kurzbio: |-
-    Archäologin, Studium Univ. Cagliari, Sardinien / IT
-    Tourguide und Projektentwicklung Inside Sardegna
-    Trainerin für Italienisch mit langjähriger Unterrichtserfahrung
-    Sprachen / Englisch und Spanisch
-    Freelancer, lebt und arbeitet in Cagliari auf Sardinien
-  sprachraum: |-
-    Vacanze in Sardegna. Italienisch für die Insel.
-    Minikurse & Individual Coaching
-  zitat: Non sono stata ovunque, ma è sulla mia lista.
-  zitatAuthor: Susan Sontag
-  verb: conoscere
-  adjektiv: naturale
-  substantiv: bosco
-  
-- name: Giorgio Marica
-  id: giorgio
-  kurzbio: |-
-    Studium der Politikwissenschaften. Univ. Cagliari, Sardinien / IT
-    Pädagogisches Institut, Lehramt, Univ. Cagliari
-    Lehrer an der Höheren Schule f. Wirtschafts- und Tourismusberufe
-    I.T.S Enrico Mattei, Decimomannu. Sardinien / IT
-    Lebt und arbeitet in Cagliari auf Sardinien
-  sprachraum: |-
-    La storia del Calcio. Die Geschichte des Fussballs. Konversationskurs
-    Best Boy & Troubleshooter
-  zitat: Ho sempre sognato di pronunciare correttamente „Schweinsteiger“, ma è impossibile...
-  zitatAuthor: Gio Marica
-  verb: leggere
-  adjektiv: comprensibili
-  substantiv: litoranea
-
-- name: Richard Bautista
-  id: richard
-  kurzbio: |-
-    Studium Prozess und Projektmanagement FH Vorarlberg, Dornbirn / AT
-    Basketball Profi, AUT &amp; ES
-    Lehrer an der Berufsschule Feldkirch, Vorarlberg
-    Nativspeaker Englisch/Deutsch. Aufgewachsen in Pasadena/Kalifornien und Österreich.
-    Lebt und arbeitet in Bregenz / AUT
-  sprachraum: |-
-    Englisch: alle Niveaustufen ab Jänner 21
-    Englisch: Konversation ab Jänner 21
-  zitat: You can't win if you don't play as a unit.
-  zitatAuthor: Kareem Abdul-Jabbar. Athlete
-  verb: to play
-  adjektiv: succeeded
-  substantiv: playground
