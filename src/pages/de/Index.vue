@@ -5,7 +5,7 @@ Layout
 <script>
 import Landing from '~/components/Landing.vue'
 import landing from '~/content/Index.yaml'
-import { message } from '~/content/Interface.yaml'
+import { message } from '~/content/de/Interface.yaml'
 
 export default {
   components: {

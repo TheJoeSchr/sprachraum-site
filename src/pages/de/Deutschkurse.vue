@@ -5,8 +5,8 @@ Layout
 </template>
 <script>
 import Info from '~/components/CourseInfo.vue'
-import deutschkurse from '~/content/Deutschkurse.yaml'
-import { message } from '~/content/Interface.yaml'
+import deutschkurse from '~/content/de/Deutschkurse.yaml'
+import { message } from '~/content/de/Interface.yaml'
 
 export default {
   components: {

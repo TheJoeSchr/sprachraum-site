@@ -6,7 +6,7 @@ require('typeface-unica-one')
 require('typeface-d-din')
 
 import IT from '@/content/it/Interface.yaml'
-import DE from '@/content/Interface.yaml'
+import DE from '@/content/de/Interface.yaml'
 export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)

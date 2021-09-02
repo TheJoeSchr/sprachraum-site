@@ -1,11 +1,14 @@
 <template lang="pug">
 Layout
-  Info(:value="{...content, translateLink:'/deutschkurse/'}")
-    g-image(src='~/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg' height=300)
+  Info(:value="{...carriere, translateLink:'/deutschkurse/'}")
+    g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=200)
+  Info(:value="{...beratung, translateLink:'/deutschkurse/'}")
+    g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=200)
 </template>
 <script>
 import Info from '~/components/CarriereInfo.vue'
-import content from '~/content/it/Carriere.yaml'
+import carriere from '~/content/it/Carriere.yaml'
+import beratung from '~/content/it/Carriere.yaml'
 import { message } from '~/content/it/Interface.yaml'
 
 export default {
@@ -17,8 +20,12 @@ export default {
   },
   data() {
     return {
-      content: {
-        ...content,
+      carriere: {
+        ...carriere,
+        messages: message,
+      },
+      beratung: {
+        ...beratung,
         messages: message,
       },
     }
