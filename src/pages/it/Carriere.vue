@@ -1,9 +1,9 @@
 <template lang="pug">
 Layout
-  Info(:value="{...carriere, translateLink:'/deutschkurse/'}")
+  Info(:value="{...carriere, }")
     g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
-  Info(:value="{...beratung, translateLink:'/deutschkurse/'}")
-    g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=200)
+  Info(:value="{...beratung, }")
+    g-image(src='~/assets/images/schneemann-119510173.jpg' height=200 width=300)
 </template>
 <script>
 import Info from '~/components/CarriereInfo.vue'
