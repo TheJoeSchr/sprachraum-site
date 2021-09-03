@@ -133,7 +133,7 @@ Layout
     |
     br
     |
-    a(href='https://www.workitaut.eu/') www.workitaut.eu
+    a(href='https://workitaut.at/') workitaut.at
   p
     | +43 676 716 74 12
     br
