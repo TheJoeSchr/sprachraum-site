@@ -1,5 +1,5 @@
 <template lang="pug">
-  section
+  section.minorhero
     .flex.flex-wrap.items-center.max-w-5xl.mx-auto.my-6
       .px-8.w-full(:class="{'order-1':!isLeft}" class='md:w-1/2 md:h-3/5')
         div(class='mr-auto pr-auto sm:max-w-sm w-full', fit='inside', width='250', height='250')
@@ -30,3 +30,19 @@ export default {
   }
 }
 </script>
+<style scoped>
+.minorhero {
+  @apply mb-8 shadow bg-white border rounded overflow-hidden;
+}
+
+@screen md {
+  .minorhero {
+    @apply mb-16;
+  }
+}
+@screen lg {
+  .minorhero {
+    @apply py-0 px-8;
+  }
+}
+</style>
