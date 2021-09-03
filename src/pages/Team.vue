@@ -1,5 +1,7 @@
 <template lang="pug">
 Layout
+  MinorHero(:value="header" )
+    g-image(src='~/assets/placeholders/pictures/undraw_team_work_k80m.svg' height=250 width=250 center="bottom" fit="inside")
   .divide-y.divide-gray-400
     section.py-12.px-4.container.py-2(v-for='(person,index) in team' :key='person.id').pt-8
       .flex.flex-wrap.-mx-4.mb-8
@@ -24,6 +26,34 @@ Layout
           h3.text-xl Verben
           p.tx-sm.text-gray-700(v-html="schlagworte(person)")
 </template>
+<script>
+import content from '@/content/Team.yaml'
+import MinorHero from '~/components/MinorHero.vue'
+import { toBr } from '@/helpers'
+
+export default {
+  components: {
+    MinorHero,
+  },
+  metaInfo: {
+    title: 'Team',
+  },
+  data() {
+    return {
+      team: content.members,
+      header: content.header
+    }
+  },
+  methods: {
+    toBr,
+    schlagworte(person) {
+      return this.toBr(
+        `Verb: ${person.verb}\nAdjektiv: ${person.adjektiv}\nSubstantiv: ${person.substantiv}`
+      )
+    },
+  },
+}
+</script>
 <style scoped>
 .shorty {
   @apply .px-4 mb-4 w-full;
@@ -68,27 +98,3 @@ Layout
   background-image: url('~@/assets/portraits/Laura_Sedda.jpg?width=300&height=300');
 }
 </style>
-
-<script>
-import team from '@/content/Team.yaml'
-import { toBr } from '@/helpers'
-
-export default {
-  metaInfo: {
-    title: 'Team',
-  },
-  data() {
-    return {
-      team,
-    }
-  },
-  methods: {
-    toBr,
-    schlagworte(person) {
-      return this.toBr(
-        `Verb: ${person.verb}\nAdjektiv: ${person.adjektiv}\nSubstantiv: ${person.substantiv}`
-      )
-    },
-  },
-}
-</script>

@@ -1,55 +1,63 @@
-- name: Elke Oberleitner
-  id: elke
-  kurzbio: |-
-    Studium Kommunikationswissenschaften und Philosophie.
-    Univ. Salzburg / AT
-    Zertifizierte DAF/DAZ Trainerin & ÖIF Zertifikation
-    Transferorientierte Integrationspädagogin.
-    Lebt und arbeitet in Wels OÖ, Bregenz VGB & Quartu Sant´Elena Sardinien
-  sprachraum: |-
-    Projekt- & Kursleitung
-    Deutsch Standardkurse A1 – C1
-    Deutsch als Berufssprache & Minikurse
-  zitat: Warum sind die Sterne so unordentlich verteilt?
-  zitatAuthor: 'Peter Fischli. Aus: Findet mich das Glück?'
-  verb: gestalten
-  adjektiv: klar
-  substantiv: Vanillekipferl
+header:
+    title: Über uns
+    content: |-
+      <p>Kurze Philosophie</p>
+      Blindtext wir sind wahnsinnig super, richtig reich und schön
+      wir lieben euch. Virus schleich dich....
+      Blindtext.
+members:
+  - name: Elke Oberleitner
+    id: elke
+    kurzbio: |-
+      Studium Kommunikationswissenschaften und Philosophie.
+      Univ. Salzburg / AT
+      Zertifizierte DAF/DAZ Trainerin & ÖIF Zertifikation
+      Transferorientierte Integrationspädagogin.
+      Lebt und arbeitet in Wels OÖ, Bregenz VGB & Quartu Sant´Elena Sardinien
+    sprachraum: |-
+      Projekt- & Kursleitung
+      Deutsch Standardkurse A1 – C1
+      Deutsch als Berufssprache & Minikurse
+    zitat: Warum sind die Sterne so unordentlich verteilt?
+    zitatAuthor: 'Peter Fischli. Aus: Findet mich das Glück?'
+    verb: gestalten
+    adjektiv: klar
+    substantiv: Vanillekipferl
 
-- name: Nadja Maffei
-  id: nadjaMaffei
-  kurzbio: |-
-    Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin.
-    Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch.
-    Seit 2011 Sprachstudio Enjoy languages - dialogando in Cagliari.
-    Sprachen / Deutsch, Englisch
-    Lebt und arbeitet in Cagliari auf Sardinien
-  sprachraum: |-
-    Head Italienischkurse
-    Italienisch A1 - C1 & Refresher.
-    La carbonara è senza panna! Rezepte & Küchengespräche.
-    Vacanze in Italia. Italienisch für den Urlaub.
-  zitat: Il corpo ricorda ciò che la mente dimentica
-  zitatAuthor: Jacob Levi Moreno
-  verb: vivere
-  adjektiv: magnetica
-  substantiv: tiramisù
+  - name: Nadja Maffei
+    id: nadjaMaffei
+    kurzbio: |-
+      Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin.
+      Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch.
+      Seit 2011 Sprachstudio Enjoy languages - dialogando in Cagliari.
+      Sprachen / Deutsch, Englisch
+      Lebt und arbeitet in Cagliari auf Sardinien
+    sprachraum: |-
+      Head Italienischkurse
+      Italienisch A1 - C1 & Refresher.
+      La carbonara è senza panna! Rezepte & Küchengespräche.
+      Vacanze in Italia. Italienisch für den Urlaub.
+    zitat: Il corpo ricorda ciò che la mente dimentica
+    zitatAuthor: Jacob Levi Moreno
+    verb: vivere
+    adjektiv: magnetica
+    substantiv: tiramisù
 
-- name: Laura Zidda
-  id: laura
-  kurzbio: |-
-    Studium der Malerei
-    Accademia di Belle Arti di Roma / IT
-    Pädagogisches Propädeutikum als Regelschullehrerin / IT
-    Ausbildung zur DAF/DAZ Trainerin seit Nov. 2019
-    Sprachen / Deutsch und Englisch
-    Lebt und arbeitet in Cagliari auf Sardinien
-  sprachraum: |-
-    DAF/DAZ Kurspraktikum / Teamteaching
-    Italienischkurse A1 - C1
-    Refresher, Minikurse & Individual Coaching
-  zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
-  zitatAuthor: Maurizio Cattelan. Artista
-  verb: sorridere / lächeln
-  adjektiv: colorato / bunt
-  substantiv: asciugamano / Handtuch
+  - name: Laura Zidda
+    id: laura
+    kurzbio: |-
+      Studium der Malerei
+      Accademia di Belle Arti di Roma / IT
+      Pädagogisches Propädeutikum als Regelschullehrerin / IT
+      Ausbildung zur DAF/DAZ Trainerin seit Nov. 2019
+      Sprachen / Deutsch und Englisch
+      Lebt und arbeitet in Cagliari auf Sardinien
+    sprachraum: |-
+      DAF/DAZ Kurspraktikum / Teamteaching
+      Italienischkurse A1 - C1
+      Refresher, Minikurse & Individual Coaching
+    zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
+    zitatAuthor: Maurizio Cattelan. Artista
+    verb: sorridere / lächeln
+    adjektiv: colorato / bunt
+    substantiv: asciugamano / Handtuch
