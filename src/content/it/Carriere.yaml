@@ -1,18 +1,29 @@
-title: Carriere
-linkText: '>> Jobs Jobs Jobs'
-link: 'https://www.wellnesshotel.com/karriere'
-content: |-
-  direkt bewerben - für Service, Küche, Wellnessberufe  - Profis mit Deutschkenntnissen:
-sections:
-  - title: Gesucht!
-    list:
-      - "Wer: Profis aus Hotellerie mit Deutschkenntnissen min. B1"
-      - "Was: Kost und Logie, 13. - 14. Monatsgehalt / Einzelzimmer etc."
-      - "Wo: in den österreichischen Alpen xy"
-      - "Sofort bewerben: Button mit Verlinkung auf BAW-Jobseite"
-      - "Infos: für Rückfragen: Elke Oberleitner / +43 .... / mailto:elke@workitaut.at"
+title: Berufsberatung & Karriereplanung
 
-  - title: lt. BAW - THEMA COVID - sicherheit in Zeiten der Pandemie
-    content: |-
-      Hygiene -  Impfen - Testen
-      Sicheres Reisen - Support bei Schließung - Gratis Tests - 
+linkText: '>> LINK'
+link: '/it/kursprogramm'
+content: ALLE diese Beratungen sind nach Anmeldung gratis
+
+sections:
+  - title: 1 Infogespräch:  Wintersaison in den Alpen
+    list:
+      - du interessierst dich für eine unserer Stellen in der gehobenen Hotellerie in den Österreich
+      - du hast noch Fragen zur Bewerbung, zur Arbeit, Verdienst etc.
+      - |-
+        du möchtest mit uns persönlich sprechen, weil du
+        - a) noch nicht so gut Deutsch sprichst oder
+        - b) Deutsch sprichst und noch keine Erfahrung in der gehobenen Hotellerie hast.
+
+  - title: 2 Infogespräch:  Berufseinsteiger*innen Deutsch & Job
+    list:
+      - ab B1 kannst du deine Karriere in einem der besten 5***** Hotels beginnen.
+      - Eine sichere Arbeitsstelle im Winter
+      - Die Möglichkeit eine duale Ausbildung zu machen
+      - "Motto: if you can make it there - you gonna make it everywhere (wird ins italienische übersetzt)"
+
+  - title: |-
+      3 Infogespräch: "leben und arbeiten in Österreich" (allgemein)
+    list:
+      - Du bist ein*e Technikerin / IT - Cyber Security, Fullstack / Mechanical Ingenieur
+      - Du möchtest einen Neustart in einem der führenden Unternehmen im OÖ-Zentralraum
+      - Candidate Journey, Relocation, arbeitsrechtliches etc.

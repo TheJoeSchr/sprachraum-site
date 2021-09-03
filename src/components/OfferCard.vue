@@ -37,7 +37,7 @@ function mailSubject({ name, date, days }) {
   return `Anmeldung für ${name}:${date}, ${days}`
 }
 export default {
-  name: 'KursprogrammKarte',
+  name: 'OfferDetail',
   props: ['value'],
   data() {
     const { name, date, cost, days, legalText, messages, times } = this.value

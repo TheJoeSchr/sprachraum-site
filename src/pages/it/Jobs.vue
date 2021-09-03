@@ -1,31 +1,24 @@
 <template lang="pug">
 Layout
-  Info(:value="{...carriere, }")
+  InfoPage(:value="{...jobs, }")
     g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
-  Info(:value="{...beratung, }")
-    g-image(src='~/assets/images/schneemann-119510173.jpg' height=200 width=300)
 </template>
 <script>
-import Info from '~/components/CarriereInfo.vue'
-import carriere from '~/content/it/Carriere.yaml'
-import beratung from '~/content/it/Beratung.yaml'
+import InfoPage from '~/components/InfoPage.vue'
+import jobs from '~/content/it/Jobs.yaml'
 import { message } from '~/content/it/Interface.yaml'
 
 export default {
   components: {
-    Info,
+    InfoPage,
   },
   metaInfo: {
-    title: 'Carriere',
+    title: 'Jobs',
   },
   data() {
     return {
-      carriere: {
-        ...carriere,
-        messages: message,
-      },
-      beratung: {
-        ...beratung,
+      jobs: {
+        ...jobs,
         messages: message,
       },
     }

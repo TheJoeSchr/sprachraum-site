@@ -1,16 +1,16 @@
 <template lang="pug">
 Layout
-  Courses(:value="{ ...content, translateLink:'/it/kursprogramm/'}")
+  OfferList(:value="{ ...content, translateLink:'/it/kursprogramm/'}")
 </template>
 
 <script>
-import Courses from '~/components/Courses.vue'
+import OfferList from '~/components/OfferList.vue'
 import timetable from '@/content/de/Kursprogramm.yaml'
 import { message } from '@/content/de/Interface.yaml'
 
 export default {
   components: {
-    Courses,
+    OfferList,
   },
   metaInfo: {
     title: 'Kursprogramm',
@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       content: {
-        timetable,
+        list: timetable,
         messages: message,
       }
     }

@@ -9,8 +9,8 @@ info:
     - A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.
     - '* L´appuntamento sarà concordato con i partecipanti.'
     - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
-    - '*** Primavera sconti per tutti coloro che si iscrivono entro il 8 marzo 2021.' 
-timeslots:
+    - '*** Primavera sconti per tutti coloro che si iscrivono entro il 8 marzo 2021.'
+offers:
   - title: FRÜHER VOGEL
     subtitle: Corsi primo mattino
     times: 08:15 – 09:30
@@ -31,13 +31,13 @@ timeslots:
       - name: Corso standard B1.1 intensivo / 46 unità + 10 SI
         date: dal 15/03 al 07/05
         days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> primavera sconto € 299 
+        cost: <del>€ 370</del> primavera sconto € 299
       - name: Corso per le professioni turistiche B1 intensivo / 36 unità + 10 SI
         date: dal 01/04 al 29/04
         days: lun, mar, mer e gio
         cost: <del>€ 299</del> primavera sconto € 249
       - name: Corso "Startup" A1 / 36 unità + 10 SI
-        date: dal 10/03 al 07/05 
+        date: dal 10/03 al 07/05
         days: mercoledì e venerdì
         cost: <del>€ 299</del> primavera sconto € 249
 
@@ -46,24 +46,24 @@ timeslots:
     times: 12:00 – 13:40
     courses:
       - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
-        date: dal 08/03 al 30/04 
+        date: dal 08/03 al 30/04
         days: lunedì e mercoldì e venerdì
         cost: <del>€ 370</del> primavera sconto € 299
       - name: Corso per le professioni turistiche A2 intensivo / 36 unità + 10 SI
-        date: dal 22/03 dal 22/04 
+        date: dal 22/03 dal 22/04
         days: lun, mar, mer e gio
         cost: <del>€ 299</del> primavera sconto € 249
 
-  - title: SIESTA! 
+  - title: SIESTA!
     subtitle: Corsi all´ora di pranzo II
     times: 14:45 – 16:25
     courses:
       - name: Corso standard A2.2 / 46 unità + 10 SI
         date: dal 08/03 al 26/05
-        days: lunedì e mercoledì 
+        days: lunedì e mercoledì
         cost: <del>€ 370</del> primavera sconto € 299
       - name: Corso per le professioni turistiche A2 intensivo / 36 unità + 10 SI
-        date: dal 22/03 al 22/04  
+        date: dal 22/03 al 22/04
         days: lun, mar, mer e gio
         cost: <del>€ 299</del> primavera sconto € 249
 
@@ -86,7 +86,7 @@ timeslots:
     courses:
       - name: Mini corso RINFRESCO B2 / 12 unità  + 5 SI / 8 Meetings 19:00 - 20:15
         date: 10/03 - 03/04 e 09/04 - 06/05
-        days: lunedì e mercoledì 
+        days: lunedì e mercoledì
         cost: <del>€ 230</del> primavera sconto € 199
 
   - title: PACCHETTO COACHING INDIVIDUALE
@@ -101,4 +101,3 @@ timeslots:
         cost: <del>€ 275</del> primavera sconto € 250
       - name: Coaching individuale / 5 unità + 3 SI
         cost: <del>€ 150</del> primavera sconto € 129
-

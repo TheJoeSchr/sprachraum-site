@@ -16,11 +16,10 @@ div
         div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
             div(class="lg:ml-auto")
               g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") home
-              g-link(to="/it/jobs/"  class="inline-block py-3 px-5 mr-10 leading-none text-center text-gray-700 bg-secondary-100 hover:bg-secondary-300 rounded shadow") jobs
               g-link(to="/it/carriere/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") carriere
-              //- g-link(to="/it/corsiditedesco/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") corsi di tedesco
               g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") über uns
               g-link(to="/it/services/"  class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-900 hover:text-primary-700") services
+              g-link(to="/it/jobs/"  class="inline-block py-3 px-5 mr-10 leading-none text-center text-gray-700 bg-secondary-100 hover:bg-secondary-300 rounded shadow") jobs in AUT
             div
               g-link(to="/it/abos/" class="inline-block py-3 px-5 mr-4 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") deutsch-abos
 
