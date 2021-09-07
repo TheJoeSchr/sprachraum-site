@@ -1,27 +1,25 @@
 header:
-    title: Über uns
+    title: Chi siamo
     content: |-
-      <p>Kurze Philosophie</p>
-      Blindtext wir sind wahnsinnig super, richtig reich und schön
-      wir lieben euch. Virus schleich dich....
-      Blindtext.
+      <p>la nostra filosofia</p>
+      Un progetto que collequa professionisti situati in Austria tra Sardegne
 members:
   - name: Elke Oberleitner
     id: elke
     kurzbio: |-
-      Studium Kommunikationswissenschaften und Philosophie.
-      Univ. Salzburg / AT
-      Zertifizierte DAF/DAZ Trainerin & ÖIF Zertifikation
+      Scienze della comunicazione e filosofia.
+      Università di Salisburgho / AT
+      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ
       Transferorientierte Integrationspädagogin.
-      Lebt und arbeitet in Wels OÖ, Bregenz VGB & Quartu Sant´Elena Sardinien
+      Vive e lavora tra Wels / Alta Austria e Quartu Sant´Elena / Sardegna
     sprachraum: |-
-      Projekt- & Kursleitung
-      Deutsch Standardkurse A1 – C1
-      Deutsch als Berufssprache & Minikurse
-    zitat: Warum sind die Sterne so unordentlich verteilt?
-    zitatAuthor: 'Peter Fischli. Aus: Findet mich das Glück?'
-    verb: gestalten
-    adjektiv: klar
+      <br>work IT AUT</br>
+      Creatrice e responsabile dell progetto
+      Leitung Deutsch Abos und Infogespräche
+    zitat: perché le stelle sono così disordinate?
+    zitatAuthor: 'Peter Fischli. Aus: Mi trova la fortuna?'
+    verb: creare
+    adjektiv: chiaro
     substantiv: Vanillekipferl
 
   - name: Nadja Maffei
@@ -53,6 +51,27 @@ members:
       Sprachen / Deutsch und Englisch
       Lebt und arbeitet in Cagliari auf Sardinien
     sprachraum: |-
+      work IT AUT
+      DAF/DAZ Kurspraktikum / Teamteaching
+      Italienischkurse A1 - C1
+      Refresher, Minikurse & Individual Coaching
+    zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
+    zitatAuthor: Maurizio Cattelan. Artista
+    verb: sorridere / lächeln
+    adjektiv: colorato / bunt
+    substantiv: asciugamano / Handtuch
+
+  - name: Claudia Valente
+    id: claudia
+    kurzbio: |-
+      Studium der Malerei
+      Accademia di Belle Arti di Roma / IT
+      Pädagogisches Propädeutikum als Regelschullehrerin / IT
+      Ausbildung zur DAF/DAZ Trainerin seit Nov. 2019
+      Sprachen / Deutsch und Englisch
+      Lebt und arbeitet in Cagliari auf Sardinien
+    sprachraum: |-
+      work IT AUT
       DAF/DAZ Kurspraktikum / Teamteaching
       Italienischkurse A1 - C1
       Refresher, Minikurse & Individual Coaching
