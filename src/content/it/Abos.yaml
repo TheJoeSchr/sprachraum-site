@@ -11,20 +11,24 @@ info:
     - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
     - '*** Primavera sconti per tutti coloro che si iscrivono entro il 8 marzo 2021.'
 offers:
-  - title: FRÜHER VOGEL
-    subtitle: Corsi primo mattino
-    times: 08:15 – 09:30
+  - title: Unsere Abos 1 & 2
+    subtitle: kurze Erklärung des XX Stück kommen whenever
+    times: jeden Tag, 08:15 – 09:30, etc
     courses:
-      - name: Mini corso conversazione B1 / 6 unità / 3 partecipanti
-        date: dal 02/03 al 11/03 e al 16/03 dal 25/03 e al 08/04 dal 20/04
+      - name: 1. Deutsch in der Küche min. A2 - B1 - Kommunikationstraining
+        date: |- 
+          + Blindtext: Hausübung, plus Gruppenübung, plus 1x Projekt Rezeptpräsentation
+          Vokabel + Umsetzung / Komm. mit Kolleg*innen / österr. Spezialitäten
         days: martedì e giovedì
         cost: <del>€ 180</del> primavera sconto € 99
-      - name: Mini corso conversazione A2 per le professioni gastronomiche / 6 unitá / 3 participanti
-        date: dal 15/03 al 24/03 e al 07/04 dal 19/04
-        days: lunedì e mercoledì
+      - name: 2. Deutsch im Service min. A2 - B1 - Kommunikationstraining
+        date: |- 
+          + Blindtext: Hausübung, plus Gruppenübung, plus 1x Projekt Rezeptpräsentation
+          Vokabel + Umsetzung / Komm. mit Kolleg*innen / österr. Spezialitäten
+        days: martedì e giovedì
         cost: <del>€ 180</del> primavera sconto € 99
 
-  - title: GABELFRÜHSTÜCK
+  - title: Abos 3 & 4
     subtitle: Corsi al mattino
     times: 09:45 – 11:25
     courses:
@@ -40,54 +44,6 @@ offers:
         date: dal 10/03 al 07/05
         days: mercoledì e venerdì
         cost: <del>€ 299</del> primavera sconto € 249
-
-  - title: MAHLZEIT, LEUTE!
-    subtitle: Corsi all´ora di pranzo I
-    times: 12:00 – 13:40
-    courses:
-      - name: Corso standard A2.1 intensivo / 46 unità + 10 SI
-        date: dal 08/03 al 30/04
-        days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> primavera sconto € 299
-      - name: Corso per le professioni turistiche A2 intensivo / 36 unità + 10 SI
-        date: dal 22/03 dal 22/04
-        days: lun, mar, mer e gio
-        cost: <del>€ 299</del> primavera sconto € 249
-
-  - title: SIESTA!
-    subtitle: Corsi all´ora di pranzo II
-    times: 14:45 – 16:25
-    courses:
-      - name: Corso standard A2.2 / 46 unità + 10 SI
-        date: dal 08/03 al 26/05
-        days: lunedì e mercoledì
-        cost: <del>€ 370</del> primavera sconto € 299
-      - name: Corso per le professioni turistiche A2 intensivo / 36 unità + 10 SI
-        date: dal 22/03 al 22/04
-        days: lun, mar, mer e gio
-        cost: <del>€ 299</del> primavera sconto € 249
-
-  - title: BROTZEIT!
-    subtitle: Corsi al pomeriggio
-    times: 17:00 – 18:40
-    courses:
-      - name: Corso standard B1.2 intensivo / 46 unità + 10 SI
-        date: dal 08/03 al 30/04
-        days: lunedì e mercoldì e venerdì
-        cost: <del>€ 370</del> primavera sconto € 299
-      - name: Mini Corso per le professioni turistiche A2 / 12 unità + 5 SI / 8 Meetings 17:00 - 18:15
-        date: 09/03 - 02/04 e 09/04 - 06/05
-        days: martedì e giovedì
-        cost: <del>€ 230</del> primavera sconto € 199
-
-  - title: AUS MAUS, FEIERABEND!
-    subtitle: Corsi serali
-    times: 19:00 – 20:15
-    courses:
-      - name: Mini corso RINFRESCO B2 / 12 unità  + 5 SI / 8 Meetings 19:00 - 20:15
-        date: 10/03 - 03/04 e 09/04 - 06/05
-        days: lunedì e mercoledì
-        cost: <del>€ 230</del> primavera sconto € 199
 
   - title: PACCHETTO COACHING INDIVIDUALE
     subtitle: previo accordo
