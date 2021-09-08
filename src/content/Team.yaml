@@ -61,6 +61,23 @@ members:
     adjektiv: colorato / bunt
     substantiv: asciugamano / Handtuch
 
+  - name: Heidi Schweitzer
+    id: heidi
+    kurzbio: |-
+      Studium Ethnologie und Afrikanistik. Univ. Wien / AT
+      Studium Product &amp; Furniture Design. Kingston University, London / GB
+      Ausbildung Montessoripädagogin.
+      Kommunikationstrainerin, Malpädagogin, Eltern-Kind-Workshops
+      Lebt und arbeitet in Oberösterreich
+    sprachraum: |-
+      Deutsch: Coaching
+      Konversation &amp; Teamteaching
+    zitat: Wenn von einer Maschine erwartet wird, dass sie unfehlbar ist, kann sie nicht gleichzeitig intelligent sein.
+    zitatAuthor: Alan Turing
+    verb: beherzigen
+    adjektiv: spannend
+    substantiv: Spielraum
+
   - name: Claudia Valente
     id: claudia
     kurzbio: |-
