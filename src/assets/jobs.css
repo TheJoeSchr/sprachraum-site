@@ -1,0 +1,6 @@
+#jobs .column-section li::before {
+    content: '✔ ';
+    color: #FFDD00;
+    font-size: 18px;
+    top: 6px;
+}

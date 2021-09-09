@@ -3,6 +3,44 @@ linkText: '>> Jobs Jobs Jobs'
 link: 'https://www.wellnesshotel.com/karriere'
 content: |-
   direkt bewerben - für Service, Küche, Wellnessberufe  - Profis mit Deutschkenntnissen:
+dreamjobs:
+  - id: chef_de_partie
+    title: Chef de Partie
+    subtitle: Übergossene Alm Resort
+    type: Vollzeitbeschäftigung / 5 Tage,
+    duration: Saisonstelle bis Anfang November 2021
+    location: Dienten am Hochkönig, Salzburg
+    description: |-
+      Beruf und Berufung! 
+
+      Die rund 70 Mitarbeiter der Übergossenen Alm in Dienten am Hochkönig leben ihren Beruf mit Begeisterung. Sie fühlen sich wohl und zeigen das auch unseren Gästen. Wir bieten ausgezeichnete Arbeitsplätze, Freizeitmöglichkeiten und ein „Alm-Team“ das begeistert.
+
+      Nach 2014 und 2015 sind wir auch 2017 wieder als BESTER ARBEITGEBER aller Best Alpine Wellness Hotels ausgezeichnet worden. Darauf sind wir sehr stolz.
+
+    columns:
+      - title: Ihre Aufgaben
+        content:
+          - reibungsloser Ablauf im zugewiesenen Küchenposten (Gardemanger, Entremetier)
+          - Teilnahme an den Menübesprechungen
+          - Einhaltungen der vorgeschriebenen Standards und Vorschriften
+          - Einhaltung der Hygienevorschriften nach HACCP
+          - Kontrolle der gesamten Lebensmittel (Warenfluss)
+          - Schulung und Führung der Auszubildenden
+      - title: Unsere Erwartungen
+        content:
+          - abgeschlossene Ausbildung zum Koch mit fundierten Speisen- und Produktkenntnissen
+          - mehrjährige Berufserfahrung
+          - Kenntnisse der HACCP-Richtlinien
+          - Teamfähigkeit, Begeisterung für den Beruf
+          - saubere und wirtschaftliche Arbeitsweise
+      - title: Unser Angebot
+        content:
+          - leistungsgerechte Entlohnung
+          - Einzelzimmer mit WLan und Kabel-TV
+          - Kost und Logis werden 7 Tage die Woche zur Verfügung gestellt
+          - Weiterbildungsmöglichkeiten
+          - angenehmes Betriebsklima
+          - gemeinsame Aktivitäten
 sections:
   - title: Gesucht!
     list:
