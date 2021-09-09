@@ -16,13 +16,13 @@ Layout
                 span(v-if="person.zitatAuthor").mr-2  - {{ person.zitatAuthor}}
                 //- span.font-semibold CEO at Realweb
       .flex.flex-wrap.w-full(class="md:-mx-4")
-        .shorty(class='md:-mx-4')
+        .column-section(class='md:-mx-4')
           h3.text-xl Kurzbio
           p.tx-sm.text-gray-700(v-html="toBr(person.kurzbio)")
-        .shorty(class='md:mx-8')
+        .column-section(class='md:mx-8')
           h3.text-xl Sprachraum
           p.tx-sm.text-gray-700(v-html="toBr(person.sprachraum)")
-        .shorty(class='md:-mx-4')
+        .column-section(class='md:-mx-4')
           h3.text-xl Verben
           p.tx-sm.text-gray-700(v-html="schlagworte(person)")
 </template>
@@ -55,11 +55,11 @@ export default {
 }
 </script>
 <style scoped>
-.shorty {
+.column-section {
   @apply .px-4 mb-4 w-full;
 }
 @screen md {
-  .shorty {
+  .column-section {
     @apply mb-0 w-1/3;
   }
 }
