@@ -1,25 +1,30 @@
 info:
   title: Informazioni
   content: |-
-    Corsi di gruppo / partecipanti min 4 max 6
+    Abo 12er Block | preparazione per la stagione invernale 
+    Livello partire dal A2 - B1
+    Vorteil der Abos - ihr könnt einsteigen wann ihr wollt. Wenn ihr einen Tag versäumt, könnt ihr diesen an einem anderen Tag nachholen.
+    Es laufen immer 2 Kurse parallel. Die Kurse beginnen nach 12 unità immer wieder von neuem. 
     I corsi non si terranno nei giorni 8 dic; e dal 21 dic al 11 gen.
-    Legenda / unità = 50min; SI = studio individuale.
-    Non sono inclusi i libri da utilizzare nei corsi. Il prezzo dei libri per i corsi sarà compreso tra 17,- e 24,- euro.
+    Legenda / unità = 60min; SI = studio individuale.
+    
   list:
-    - A1 elementare, A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.
-    - '* L´appuntamento sarà concordato con i partecipanti.'
-    - '** Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
-    - '*** Primavera sconti per tutti coloro che si iscrivono entro il 8 marzo 2021.'
+    - 'A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.'
+    - '* Die Abos beginnen nach 12 unità wieder neu.'
+    - '* Le date di questi giorni-extra saranno concordate con i partecipanti al gruppo.'
+    - '*** sconti per tutti coloro che si inizio lavoro stagionale invernale dei nostri partner 10%.'
 offers:
-  - title: Unsere Abos 1 & 2
-    subtitle: kurze Erklärung des XX Stück kommen whenever
-    times: jeden Tag, 08:15 – 09:30, etc
+  - title: Abo 10er Block | preparazione per la stagione invernale 
+    subtitle: tedesco per le professioni alberghiere
+    times:  martedì 08:30 – 10:30 e/o giovedì 18:00 - 20:00 
     courses:
-      - name: 1. Deutsch in der Küche min. A2 - B1 - Kommunikationstraining
+      - name: Abo tedesco per la cucina professionale
         date: |- 
-          + Blindtext: Hausübung, plus Gruppenübung, plus 1x Projekt Rezeptpräsentation
-          Vokabel + Umsetzung / Komm. mit Kolleg*innen / österr. Spezialitäten
-        days: martedì e giovedì
+          + Blindtext: Kommunikationstraining und Wortschatzerweiterung für die Arbeit in der alta cucina.
+          Kursthemen sind - Rezepte inkl.Präsentationsübung, internat. und österreichische Spezialitäten.
+          Speisekarten, Dienstpläne und Kommunikation mit Gästen und Kolleg*innen. Ihr lernt alles, was ihr
+          für einen erfolgreichen Saisonstart braucht. 
+        days: wahlweise martedì e giovedì 
         cost: <del>€ 180</del> primavera sconto € 99
       - name: 2. Deutsch im Service min. A2 - B1 - Kommunikationstraining
         date: |- 
