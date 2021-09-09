@@ -20,22 +20,22 @@ offers:
     times:  martedì 08:30-10:30 o giovedì 18:00-20:00 
     courses:
       - name: Abo tedesco per la cucina professionale
-        date: |- 
-          + Blindtext: Kommunikationstraining und Wortschatzerweiterung für die Arbeit in der alta cucina.
+        date: |-
+          (+ Blindtext:) Kommunikationstraining und Wortschatzerweiterung für die Arbeit in der alta cucina.
           Kursthemen sind - Rezepte inkl.Präsentationsübung, internat. und österreichische Spezialitäten.
           Speisekarten, Dienstpläne und Kommunikation mit Kolleg*innen. Ihr lernt alles, was ihr
-          für einen erfolgreichen Saisonstart braucht. 
-        days: dal 12/10 al 28/11 martedì  
-              dal 14/10 al 30/11 giovedì 
+          für einen erfolgreichen Saisonstart braucht.
+        days: dal 12/10 al 28/11 martedì
+              dal 14/10 al 30/11 giovedì
         cost: <del>€ 280</del> sconto € 210
-      - name: Abo tedesco per le professioni in sala 
-        date: |- 
-          + Blindtext: Kommunikationstraining und Wortschatzerweiterung für die Arbeit im Service
+      - name: Abo tedesco per le professioni in sala
+        date: |-
+          (+ Blindtext:) Kommunikationstraining und Wortschatzerweiterung für die Arbeit im Service
           Kursschwerpunkt - Kommunikation mit dem Gast, Dialogübungen und Small-talk mit dem Gast
           Zutaten in den Speisen, lt Speisekarten, Beschwerden; Überblick über Weine und klassische Menüfolgen
-          Ihr lernt alles, was ihr für einen erfolgreichen Saisonstart braucht. 
+          Ihr lernt alles, was ihr für einen erfolgreichen Saisonstart braucht.
         days: dal 11/10 al 27/11 lunedì
-              dal 13/10 al 29/11 mercoledì 
+              dal 13/10 al 29/11 mercoledì
         cost: <del>€ 280</del> sconto € 210
 
   - title: Abo 24er Block grammatica in modo attivo A2 - B1
@@ -68,9 +68,10 @@ offers:
         Metodo della PDL, simulazioni di situazioni lavorative), role-playing, preparazione ad un colloqui lavorativo 
         e alla 	stesura del proprio CV. Cagliari, scuola di lingue, Enjoy languages - dialogando / Via A. Einstein, 19
         days: a scelta lun/mar/mer/gio/ 14:30 - 16:30 oppure 17:00 - 19:00
-        cost: <del>€ 320</del> sconto € 290 Modulo 1
-        cost: <des>€ 260</del> sconto € 210 Modulo 2
-     
+        cost: |-
+          <del>€ 320</del> sconto € 290 Modulo 1
+          <del>€ 260</del> sconto € 210 Modulo 2
+
   - title: PACCHETTO COACHING INDIVIDUALE
     subtitle: previo accordo
     times: 08:00 - 19:00 dal lun al ven
