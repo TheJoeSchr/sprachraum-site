@@ -1,8 +1,6 @@
 <template lang="pug">
 Layout
   #jobs
-    InfoPage(:value='jobs')
-      g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
     .divide-y.divide-gray-400
       section.py-12.px-4.container.py-2(v-for='(dreamjob,index) in jobs.dreamjobs' :key='dreamjob.id').pt-8
         .flex.flex-wrap.mx-4.mb-8
@@ -22,6 +20,8 @@ Layout
             p.tx-sm.text-gray-700
               ul
                 li(v-for='item in column.content' :key='item') {{ item }}
+    InfoPage(:value='jobs')
+      g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
     InfoPage(:value='{...carriere, }')
       g-image(src='~/assets/images/schneemann-119510173.jpg' height=200 width=300)
 </template>
