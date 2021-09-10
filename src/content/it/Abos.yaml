@@ -1,13 +1,18 @@
 info:
   title: Informazioni
   content: |-
-    Con i nostri corsi Abo, potete partecipare alla lezione quando preferite. Se perdete una lezione, potete
-    sempre recuperarla in uno degli altri giorni prestabiliti. Non perderete ore e avrete la massima flessibilità.
+    Con i nostri corsi Abo, potete partecipare alla lezione quando preferite. Se perdete una lezione, potete sempre recuperarla in uno degli altri giorni prestabiliti. Non perderete ore e avrete la massima flessibilità.
+
     Tutti i corsi Abo richiedono un livello di accesso minimo di tedesco pre-intermedio A2. Participanti – Livelli a partire  dal  A2 al B1
+
     Vantaggio dei corsi Abo – potete partecipare quando volete. Scegliete un giorno alla settimana. Se saltate un incontro, potete recuperarlo in un altro giorno.
+
     Ci sono sempre due corsi simultaneamente. I corsi riniziano continuamente alla fine delle 16 unità.
+
     I corsi non si terranno nei giorni 8 dic; e dal 21 dic al 11 gen.
+
     Legenda / unità = 60min; SI = studio individuale.
+
 
   list:
     - 'A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.'
@@ -16,42 +21,46 @@ info:
 offers:
   - title: Abo 16er Block | Preparazione per la stagione invernale
     subtitle: tedesco per le professioni alberghiere
-    times:  martedì 08:30-10:30 o giovedì 18:00-20:00
+    times:  |-
+       martedì 08:30-10:30
+       o giovedì 18:00-20:00
     courses:
       - name: Abo tedesco per le professioni della cucina
-        date: |-
+        description: |-
           Uso della lingua parlata e ampliamento del vocabolario per il lavoro in alta cucina.
-          Gli argomenti trattati nel corso – ricette, ingredienti e la spesa. Esercizi di presentazione, internato. Specialità austriache e il menù, 
-          Orari dei turni e comunicazione con i colleghi. 
+
+          Gli argomenti trattati nel corso – ricette, ingredienti e la spesa. Esercizi di presentazione, internato. Specialità austriache e il menù, Orari dei turni e comunicazione con i colleghi.
+
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
-    
-        days: dal 12/10 al 28/11 
-              dal 14/10 al 30/11 
+
+        days: |-
+              dal 12/10 al 28/11
+              dal 14/10 al 30/11
         cost: <del>€ 280</del> € 210
       - name: Abo tedesco per le professioni di sala
-        date: |-
+        description: |-
           Uso della lingua parlata e ampliamento del vocabolario per il servizio di sala.
           Gli argomenti trattati nel corso - come comunicare con l'ospite, esercizi di dialogo e conversazione.
           Il menù, i piatti serviti, ingredienti e allergeni. Panoramica dei vini e dei menù classici internazionali e austriaci.
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
-          
-        days: dal 11/10 al 27/11 
-              dal 13/10 al 29/11 
+
+        days: dal 11/10 al 27/11
+              dal 13/10 al 29/11
         cost: <del>€ 280</del> € 210
 
   - title: Abo 24er Block | uso attivo della grammatica A2 - B1
-    subtitle: Ripasso della grammatica per esercizi di conversazione. 
+    subtitle: Ripasso della grammatica per esercizi di conversazione.
     times: lunedì e mercoledì 11:00 – 13:00
     courses:
       - name: Abo 24er Block uso attivo della grammatica
-        date: |-
+        description: |-
             Esercizi di conversazione e potenziamento del dizionario per il lavoro nell'alta cucina.
             I temi del corso sono - ricette con esercizio di presentazione, specialità internazionali e austriache.
-            Menù e ingredienti, orari e comunicazioni con i colleghi. Il corso consentirà di poter comunicare correttamente 
+            Menù e ingredienti, orari e comunicazioni con i colleghi. Il corso consentirà di poter comunicare correttamente
             e di poter lavorare senza alcun tipo di problema legato alla lingua tedesca.
-                  
-        days: dal 25/10 al 24/11 
-              dal 10/01 al 16/02 
+
+        days: dal 25/10 al 24/11
+              dal 10/01 al 16/02
         cost: <del>€ 340</del> € 250
 
   - title: Corso per le professioni alberghiere per studenti/esse con colloquio
@@ -59,13 +68,18 @@ offers:
     times: 14:30 - 16:30 oppure 17:00 - 19:00 una volta a settimana
     courses:
       - name: Corso per le professioni alberghiere per studenti/esse con colloquio. A partire dal livello A2 del CERF. Dai 18 ai 29 anni.
-        date: |-
-          MODULO 1 Parte 1 online / dal 18 ott al 09 dic 2021. Focus del corso: lingua parlata & ampliamento del lessico. Training delle
+        description: |-
+          MODULO 1 Parte 1 online / dal 18 ott al 09 dic 2021.
+          Focus del corso: lingua parlata & ampliamento del lessico. Training delle
           competenze orali (15 unità); ripasso della grammatica per l'uso immediato nelle conversazioni ed esercitazioni.
-          Parte 2 online dal 10 gen al 25 feb 2022. Focus del corso: ottenere una comunicazione fluente e autentica in tedesco: Gli/le studenti/esse 
-          si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore alberghiero a 4/5 stelle. 
+
+          Parte 2 online dal 10 gen al 25 feb 2022.
+          Focus del corso: ottenere una comunicazione fluente e autentica in tedesco:
+          Gli/le studenti/esse si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore alberghiero a 4/5 stelle.
           Utilizzo del materiale come la carta del menù, la lista degli ingredienti e le ricette, la programmazione dei turni, i contratti di lavoro, stesura del curriculum (12 unità).
+
           MEET & GREET incontro con uno/a chef stellato/a di Best Alpine Wellness Hotels (2 unità)
+
           MODULO 2	in presenza | Corso di Tedesco intensivo per la preparazione al lavoro negli alberghi a 5 stelle.
           Training intensivo di gruppo, particolare enfasi nell apprendimento della lingua parlata, attività comunicative con metodi attivi
           metodo della PDL, simulazioni di situazioni lavorative, role-playing, preparazione ad un colloquio lavorativo
