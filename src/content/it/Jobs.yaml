@@ -47,6 +47,58 @@ dreamjobs:
           - Lavoro di gruppo in un team aperto e professionale
           - Possibilità di formazione professionale e personale (in sede o fuori sede)
           - Stipendio 1.850 netti a tempo pieno - disponibilità a pagare piu del dovuto con qualifiche / esperienza professionale adeguate.
+          
+title: Jobs
+linkText: '>> take some time AUT stagione invernale nelle Alpi austriache'
+link: 'https://www.stock.at/de/'
+content: |-
+  Nach einem Erstgespräch mit uns, bewerbt ihr euch direkt. Gesucht sind Profis aller Berufe der 5 Stern-Hotellerie:
+dreamjobs:
+  - id: chef_de_partie
+    title: Chef de Partie
+    subtitle: Hotel 5stelle / Tirolo
+    contratto: full time / 5 giorni a settimana / lavoro stagionale
+    Data di inizio prevista: dal dec 21 al apr 22 o immediato o previo accordo
+    location: Finkenberg, Zillertal / Tirolo AUT
+    description: |-
+      Virtueller Rundgang durch das fantastische Stock Resort, eines von 17 unserer Partner Hotels. (Jo, bitte das hier verlinken mit dem Stock Resort https://www.stock.at/de/) 
+      Lavorete in esclusive azeinde a conduzione familiare e/o nei miglirori ristoranti gourmet - in ogni caso di fronte alle scenario mozzafiato delle Alpi. 
+      Profis mit passendem Profil, meldet euch zum unverbindlichen Erstgespräch mit uns. Kurzer CV-Check, detailierte Infos zur Abteilung und Vernetzung zum richtigen Ansprechpartner im Hotel.   
+    columns:
+      - title: I tuoi compiti
+        content:
+          - Gestione autonoma della postazione
+          - Preparazione di dutti i piatti freddi e caldi della cucina classica austriaca e internazionale
+          - Gestione dei dipendenti assegnati alla postazione
+          - Coordinamento e comunicazione con la direzione della cucina
+          - Contribuire nella progettazine del menue 
+          - Lavorare con la massima professionalità
+          - Conformità alle linee guida HACCP
+      - title: Il tuo profilo
+        content:
+          - Formazione come chef con una conoscenza approfondita del cibo e dei prodotti
+          - Esperienza in cucina di almeno 24 mesi, preferibilemente in contesti strutturati o catene
+          - Diversi anni di esperienza professionale in questa o una posizione simile
+          - Esperienza di gestione in questa o in una posizione simile di almeno 1 anno 
+          - Conoscenza della cucina nazionale e internazionale
+          - Lavoro di squadra, personalità puntuale e resiliente
+          - Capacità di lavorare in autonomia
+          - Tedesco con un livello min A2 meglio B1 intermedia
+          - Buona conoscenza dell´inglese
+      - title: I tuoi vantaggi
+        content:
+          - Lavoro sicuro in un´azienda moderna a conduzione familiare con una vasta gamma di compiti
+          - Aliquota sulla 13° e 14° mensilità e redistribuzione mance. 
+          - Orario di lavoro regolare con una settimana di 5 giorni e registrazione digitale dell´ora (timbratura)
+          - Partecipazione alla creazione dei turni settimale attraverso richieste di turno di lavoro
+          - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena)
+          - Alloggio per i depentdenti con piscina sul tetto, sauna, sala fitness, WiFi gratuito ecc.
+          - Camere e appartementi per i dipententi in stile moderno con TV a schermo piatto, angolo cottura, terrazza o balcone
+          - Inserimento mirato tramite il nostro sistema on-board - Buddie - Eventi di Team Building
+          - Lavoro di gruppo in un team aperto e professionale
+          - Possibilità di formazione professionale e personale (in sede o fuori sede)
+          - Stipendio 1.900 netti a tempo pieno - disponibilità a pagare piu del dovuto con qualifiche / esperienza professionale adeguate.          
+          
 sections:
   - title: Gesucht!
     list:
