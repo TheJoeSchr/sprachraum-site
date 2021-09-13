@@ -48,13 +48,6 @@ dreamjobs:
           - Lavoro di gruppo in un team aperto e professionale
           - Possibilità di formazione professionale e personale (in sede o fuori sede)
           - Stipendio 1.850 netti a tempo pieno - disponibilità a pagare piu del dovuto con qualifiche / esperienza professionale adeguate.
-
-title: Jobs
-linkText: '>> take some time AUT stagione invernale nelle Alpi austriache'
-link: 'https://www.stock.at/de/'
-content: |-
-  Nach einem Erstgespräch mit uns, bewerbt ihr euch direkt. Gesucht sind Profis aller Berufe der 5 Stern-Hotellerie:
-dreamjobs:
   - id: chef_de_partie
     title: Chef de Partie
     subtitle: Hotel 5stelle / Tirolo
@@ -114,4 +107,3 @@ sections:
     content: |-
       Igiene – Vaccinazioni – Tamponi e test rapidi
       Sicurezza in viaggio – Supporto finanziario in caso di chiusura – Test covid-19 gratuiti
-
