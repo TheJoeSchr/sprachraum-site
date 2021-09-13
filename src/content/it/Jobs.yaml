@@ -11,9 +11,10 @@ dreamjobs:
     Data di inizio prevista: dal dec 21 al apr 22 o previo accordo
     location: Finkenberg, Zillertal / Tirolo AUT
     description: |-
-      Virtueller Rundgang durch das fantastische Stock Resort, eines von 17 unserer Partner Hotels. (Jo, bitte das hier verlinken mit dem Stock Resort https://www.stock.at/de/) 
-      Lavorete in esclusive azeinde a conduzione familiare e/o nei miglirori ristoranti gourmet - in ogni caso di fronte alle scenario mozzafiato delle Alpi. 
-      Profis mit passendem Profil, meldet euch zum kostenlosen Erstgespräch mit uns. Kurzer CV-Check, detailierte Infos zur Abteilung und Vernetzung zum richtigen Ansprechpartner im Hotel.   
+      Visita virtuale del fantastico Stock Resort, uno dei 17 nostri hotel partner. (Jo, bitte das hier verlinken mit dem Stock Resort https://www.stock.at/de/) 
+      Lavorete in hotel esclusivi o nei migliori ristoranti gourmet, di fronte alle scenario mozzafiato delle Alpi.
+      Se sei un professionista del settore alberghiero, contattaci per un primo colloquio conoscitivo.
+      Ti offriamo un controllo del CV, informazioni dettagliate sulla mansione e il settore, collegamento con il selezionatore del personale.
     columns:
       - title: I tuoi compiti
         content:
@@ -36,12 +37,12 @@ dreamjobs:
           - Standing elegante e raffinato 
       - title: I tuoi vantaggi
         content:
-          - Lavoro sicuro in un´azienda moderna a conduzione familiare con una vasta gamma di compiti
+          - Lavoro sicuro in un´azienda moderna a conduzione familiare con una vasta gamma di compiti.
           - Aliquota sulla 13° e 14° mensilità e redistribuzione mance. 
           - Orario di lavoro regolare con una settimana di 5 giorni e registrazione digitale dell´ora (timbratura)
           - Partecipazione alla creazione dei turni settimale attraverso richieste di turno di lavoro
           - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena)
-          - Alloggio per i depentdenti con piscina sul tetto, sauna, sala fitness, WiFi gratuito ecc.
+          - Alloggio per i dipentdenti con piscina sul tetto, sauna, sala fitness, WiFi gratuito ecc.
           - Camere e appartementi per i dipententi in stile moderno con TV a schermo piatto, angolo cottura, terrazza o balcone
           - Inserimento mirato tramite il nostro sistema on-board - Buddie - Eventi di Team Building
           - Lavoro di gruppo in un team aperto e professionale
@@ -61,9 +62,10 @@ dreamjobs:
     Data di inizio prevista: dal dec 21 al apr 22 o immediato o previo accordo
     location: Finkenberg, Zillertal / Tirolo AUT
     description: |-
-      Virtueller Rundgang durch das fantastische Stock Resort, eines von 17 unserer Partner Hotels. (Jo, bitte das hier verlinken mit dem Stock Resort https://www.stock.at/de/) 
-      Lavorete in esclusive azeinde a conduzione familiare e/o nei miglirori ristoranti gourmet - in ogni caso di fronte alle scenario mozzafiato delle Alpi. 
-      Profis mit passendem Profil, meldet euch zum unverbindlichen Erstgespräch mit uns. Kurzer CV-Check, detailierte Infos zur Abteilung und Vernetzung zum richtigen Ansprechpartner im Hotel.   
+      Visita virtuale del fantastico Stock Resort, uno dei 17 nostri hotel partner. (Jo, bitte das hier verlinken mit dem Stock Resort https://www.stock.at/de/) 
+      Lavorete in hotel esclusivi o nei migliori ristoranti gourmet, di fronte alle scenario mozzafiato delle Alpi.
+      Se sei un professionista del settore alberghiero, contattaci per un primo colloquio conoscitivo.
+      Ti offriamo un controllo del CV, informazioni dettagliate sulla mansione e il settore, collegamento con il selezionatore del personale.
     columns:
       - title: I tuoi compiti
         content:
@@ -100,15 +102,16 @@ dreamjobs:
           - Stipendio 1.900 netti a tempo pieno - disponibilità a pagare piu del dovuto con qualifiche / esperienza professionale adeguate.          
           
 sections:
-  - title: Cerchiamo | Capo di partita, Sous Chef, Commis de cucina. Maitrè di Sala, Chef de Rang, Commis de Rang, Bartender. SPA esthetista, parucciere, massagi. Receptionst
+  - title: Cerchiamo | Capo di partita, Sous Chef, Commis de cucina. Maitrè di Sala, Chef de Rang, Commis de Rang, Barista, Estetista SPA, Parrucchiere, Massaggiatore, Receptionst
     list:
-      - "Wer: Profis aus Hotellerie mit Deutschkenntnissen min. B1"
-      - "Was: Kost und Logie, 13. - 14. Monatsgehalt / Einzelzimmer etc."
-      - "Wo: in den österreichischen Alpen xy"
+      - "Chi cerchiamo: Professionisti del settore alberghiero con conoscenza del tedesco min. B1"
+      - "Cosa offriamo: Vitto e alloggio, stipendio mensile, camera singola privata"
+      - "Dove: nelle migliori strutture delle Alpi Austriache"
       - "Sofort bewerben: Button mit Verlinkung auf BAW-Jobseite"
-      - "Infos: für Rückfragen: Elke Oberleitner / +43 .... / mailto:elke@workitaut.at"
+      - "Per informazioni: Elke Oberleitner / +43 .... / mailto:elke@workitaut.at"
 
-  - title: lt. BAW - THEMA COVID - sicherheit in Zeiten der Pandemie
+  - title: lt. BAW - Covid-19 - sicurezza in tempo di pandemia
     content: |-
-      Hygiene -  Impfen - Testen
-      Sicheres Reisen - Support bei Schließung - Gratis Tests - 
+      Igiene – Vaccinazioni – Tamponi e test rapidi
+      Sicurezza in viaggio – Supporto finanziario in caso di chiusura – Test covid-19 gratuiti
+      
