@@ -7,12 +7,13 @@ members:
   - name: Elke Oberleitner
     id: elke
     kurzbio: |-
-      Scienze della comunicazione e filosofia.
-      Università di Salisburgho / AT
-      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ
-      Transferorientierte Integrationspädagogin.
-      Vive e lavora tra Wels / Alta Austria e Quartu Sant´Elena / Sardegna
-    sprachraum: |-
+      Scienze della comunicazione e filosofia
+      Università di Salisburgho/AUT.
+      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ 
+      con focus - lingua tedesca per la professione e specializzazione 
+      internazionale in ambito della mediazione interculturale e integrazione occupazionale. 
+      Nata in Austria; vive e lavora tra Wels | Alta Austria e Quartu Sant ́Elena | Sardegna.
+    sprachraum work IT AUT: |-
       <br>work IT AUT</br>
       Creatrice e responsabile dell progetto
       Leitung Deutsch Abos und Infogespräche
@@ -25,16 +26,15 @@ members:
   - name: Nadja Maffei
     id: nadjaMaffei
     kurzbio: |-
-      Studium der Sprachwissenschaften & Ph.D Postcolonial Studies, Univ. Turin.
-      Zertifizierte PDL Sprach-Trainerin für Italienisch und Englisch.
-      Seit 2011 Sprachstudio Enjoy languages - dialogando in Cagliari.
-      Sprachen / Deutsch, Englisch
-      Lebt und arbeitet in Cagliari auf Sardinien
-    sprachraum: |-
-      Head Italienischkurse
-      Italienisch A1 - C1 & Refresher.
-      La carbonara è senza panna! Rezepte & Küchengespräche.
-      Vacanze in Italia. Italienisch für den Urlaub.
+      Lingue e Letterature Straniere, Università di Torino 
+      PH.D Postcolonial Studies, Università di Torino
+      Dal 2008 formazione nel metodo didattico della PDL, psicodrammaturgia linguistica, 
+      per la lingua inglese, tedesca e l'italiano per gli stranieri. 
+      Nata in Germania | Stoccarda; oggi vive a Cagliari dove gestisce 
+      la scuola di lingue Enjoy languages - Dialogando
+    sprachraum work IT AUT: |-
+      E'responsabile per il settore occupazionale in Work it AUT 
+      e insegna la lingua tedesca per operatori del settore alberghie
     zitat: Il corpo ricorda ciò che la mente dimentica
     zitatAuthor: Jacob Levi Moreno
     verb: vivere
@@ -44,46 +44,42 @@ members:
   - name: Laura Zidda
     id: laura
     kurzbio: |-
-      Studium der Malerei
-      Accademia di Belle Arti di Roma / IT
-      Pädagogisches Propädeutikum als Regelschullehrerin / IT
-      Ausbildung zur DAF/DAZ Trainerin seit Nov. 2019
-      Sprachen / Deutsch und Englisch
-      Lebt und arbeitet in Cagliari auf Sardinien
-    sprachraum: |-
-      work IT AUT
-      DAF/DAZ Kurspraktikum / Teamteaching
-      Italienischkurse A1 - C1
-      Refresher, Minikurse & Individual Coaching
+      Studio della pittura. Accademia di Belle Arti di Roma | IT
+		  Corso pedagogico propedeutico come insegnante di scuola regolare | IT
+		  Attualmente - corso come formatore DAF/DAZ
+      Pittura e formatore per il tedesco (in formazione) e l'italiano
+      Vive e lavora in Cagliari | Sardegna 
+    sprachraum work IT AUT: |-
+      Tirocinante per il tedesco come lingua straniera DAF/DAZ Stage
+      Teamteaching 
     zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
     zitatAuthor: Maurizio Cattelan. Artista
-    verb: sorridere / lächeln
-    adjektiv: colorato / bunt
-    substantiv: asciugamano / Handtuch
+    verb: sorridere 
+    adjektiv: colorato
+    substantiv: asciugamano 
 
   - name: Heidi Schweitzer
     id: heidi
     kurzbio: |-
-      Studium Ethnologie und Afrikanistik. Univ. Wien / AT
-      Studium Product &amp; Furniture Design. Kingston University, London / GB
-      Ausbildung Montessoripädagogin.
-      Kommunikationstrainerin, Malpädagogin, Eltern-Kind-Workshops
-      Lebt und arbeitet in Oberösterreich
-    sprachraum: |-
-      Deutsch: Coaching
-      Konversation &amp; Teamteaching
-    zitat: Wenn von einer Maschine erwartet wird, dass sie unfehlbar ist, kann sie nicht gleichzeitig intelligent sein.
+      Scienze etnologia e studi africani. Univ. Vienna/AT
+      Scienze Product & Furniture Design. Università di Kingston, Londra/GB
+      Formazione come insegnante di tedesco come lingua straniera e Montessori.
+      Formatore di comunicazione, pedagogo della pittura. 
+      Vive e lavora in Alta Austria
+    sprachraum work IT AUT: |-
+      Coaching tedesco e communicazione interculturale
+    zitat: Se ci si aspetta che una macchina sia infallibile, non può essere anche intelligente. 
     zitatAuthor: Alan Turing
-    verb: beherzigen
-    adjektiv: spannend
-    substantiv: Spielraum
+    verb: considerare
+    adjektiv: eccitante
+    substantiv: portata 
 
   - name: Claudia Valente
     id: claudia
     kurzbio: |-
       Università di Cagliari
       Lebt und arbeitet in Cagliari auf Sardinien
-    sprachraum: |-
+    sprachraum work IT AUT: |-
       Traduzione e adattamento dei testi.
       Social media manager
     zitat: Il futuro è già qui. Solo che non è ancora equamente distribuito. 
