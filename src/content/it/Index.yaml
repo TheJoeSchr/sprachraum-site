@@ -19,21 +19,25 @@ cards:
     link: '/it/corsiditedesco/'
     linkText: '>> Scopri di piu'
 
-  - title: |-
-      Test di lingua
-      Einstufungstest
+  - title: Servizi
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
       Metti alla prova il tuo tedesco!
 
       <i>Hier könnt ihr euer Deutschniveau überprüfen!</i>
-  - title: Programma dei corsi
+  - title: Chi siamo
     link: '/it/kursprogramm/'
     linkText: '>> calendario & importi'
     content: |
       Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera.
       Scegli dal programma il corso giusto per te. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze.
+
+  - title: Test di lingua
+    link: 'https://hueber.de/menschen/einstufungstest'
+    linkText: '>> Klick'
+    content: |
+      Metti alla prova il tuo tedesco!
 
 contact:
   title: 'INFO E CONTATTI'
