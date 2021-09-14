@@ -9,11 +9,11 @@ members:
     kurzbio: |-
       Scienze della comunicazione e filosofia
       Università di Salisburgho/AUT.
-      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ 
-      con focus - lingua tedesca per la professione e specializzazione 
-      internazionale in ambito della mediazione interculturale e integrazione occupazionale. 
+      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ
+      con focus - lingua tedesca per la professione e specializzazione
+      internazionale in ambito della mediazione interculturale e integrazione occupazionale.
       Nata in Austria; vive e lavora tra Wels | Alta Austria e Quartu Sant ́Elena | Sardegna.
-    sprachraum work IT AUT: |-
+    sprachraum: |-
       <br>work IT AUT</br>
       Creatrice e responsabile dell progetto
       Leitung Deutsch Abos und Infogespräche
@@ -26,14 +26,14 @@ members:
   - name: Nadja Maffei
     id: nadjaMaffei
     kurzbio: |-
-      Lingue e Letterature Straniere, Università di Torino 
+      Lingue e Letterature Straniere, Università di Torino
       PH.D Postcolonial Studies, Università di Torino
-      Dal 2008 formazione nel metodo didattico della PDL, psicodrammaturgia linguistica, 
-      per la lingua inglese, tedesca e l'italiano per gli stranieri. 
-      Nata in Germania | Stoccarda; oggi vive a Cagliari dove gestisce 
+      Dal 2008 formazione nel metodo didattico della PDL, psicodrammaturgia linguistica,
+      per la lingua inglese, tedesca e l'italiano per gli stranieri.
+      Nata in Germania | Stoccarda; oggi vive a Cagliari dove gestisce
       la scuola di lingue Enjoy languages - Dialogando
-    sprachraum work IT AUT: |-
-      E'responsabile per il settore occupazionale in Work it AUT 
+    sprachraum: |-
+      E'responsabile per il settore occupazionale in Work it AUT
       e insegna la lingua tedesca per operatori del settore alberghie
     zitat: Il corpo ricorda ciò che la mente dimentica
     zitatAuthor: Jacob Levi Moreno
@@ -48,15 +48,15 @@ members:
 		  Corso pedagogico propedeutico come insegnante di scuola regolare | IT
 		  Attualmente - corso come formatore DAF/DAZ
       Pittura e formatore per il tedesco (in formazione) e l'italiano
-      Vive e lavora in Cagliari | Sardegna 
-    sprachraum work IT AUT: |-
+      Vive e lavora in Cagliari | Sardegna
+    sprachraum: |-
       Tirocinante per il tedesco come lingua straniera DAF/DAZ Stage
-      Teamteaching 
+      Teamteaching
     zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
     zitatAuthor: Maurizio Cattelan. Artista
-    verb: sorridere 
+    verb: sorridere
     adjektiv: colorato
-    substantiv: asciugamano 
+    substantiv: asciugamano
 
   - name: Heidi Schweitzer
     id: heidi
@@ -64,25 +64,25 @@ members:
       Scienze etnologia e studi africani. Univ. Vienna/AT
       Scienze Product & Furniture Design. Università di Kingston, Londra/GB
       Formazione come insegnante di tedesco come lingua straniera e Montessori.
-      Formatore di comunicazione, pedagogo della pittura. 
+      Formatore di comunicazione, pedagogo della pittura.
       Vive e lavora in Alta Austria
-    sprachraum work IT AUT: |-
+    sprachraum: |-
       Coaching tedesco e communicazione interculturale
-    zitat: Se ci si aspetta che una macchina sia infallibile, non può essere anche intelligente. 
+    zitat: Se ci si aspetta che una macchina sia infallibile, non può essere anche intelligente.
     zitatAuthor: Alan Turing
     verb: considerare
     adjektiv: eccitante
-    substantiv: portata 
+    substantiv: portata
 
   - name: Claudia Valente
     id: claudia
     kurzbio: |-
       Università di Cagliari
       Lebt und arbeitet in Cagliari auf Sardinien
-    sprachraum work IT AUT: |-
+    sprachraum: |-
       Traduzione e adattamento dei testi.
       Social media manager
-    zitat: Il futuro è già qui. Solo che non è ancora equamente distribuito. 
+    zitat: Il futuro è già qui. Solo che non è ancora equamente distribuito.
     zitatAuthor: William Gibson
     verb: respirare
     adjektiv: luminoso
