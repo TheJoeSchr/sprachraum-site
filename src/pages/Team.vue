@@ -20,7 +20,7 @@ Layout
           h3.text-xl Kurzbio
           p.tx-sm.text-gray-700(v-html="toBr(person.kurzbio)")
         .column-section(class='md:mx-8')
-          h3.text-xl Sprachraum
+          h3.text-xl Sprachraum WORK IT AUT
           p.tx-sm.text-gray-700(v-html="toBr(person.sprachraum)")
         .column-section(class='md:-mx-4')
           h3.text-xl Verben
