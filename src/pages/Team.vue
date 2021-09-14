@@ -97,4 +97,7 @@ export default {
 .lauraSedda {
   background-image: url('~@/assets/portraits/Laura_Sedda.jpg?width=300&height=300');
 }
+.claudia {
+  background-image: url('~@/assets/portraits/Claudia.png?width=300&height=300');
+}
 </style>
