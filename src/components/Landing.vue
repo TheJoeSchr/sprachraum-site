@@ -39,7 +39,6 @@ div
 <script>
 import MinorHero from '~/components/MinorHero.vue'
 import Layout from '~/layouts/Default.vue'
-import content from '@/content/Index.yaml'
 import { toBr } from '~/helpers'
 
 export default {
