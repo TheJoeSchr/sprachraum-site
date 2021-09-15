@@ -1,43 +1,57 @@
 hero:
-  title: 'Ora potete frequentare i nostri corsi ONLINE!'
+  title: 'Take some time AUT!' stagione invernale in Austria 
   content: |
-    Incontrerete Elke, Johannes, Heidi, Laura e i loro colleghi
-    nelle aule virtuali di SPRACHRAUM - Work IT AUT.
+    Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, fra paesaggi alpini e piste da sci. Un’opportunità per crescere in un contesto internazionale e arricchire il curriculum. Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le nostre offerte di lavoro 
+    Fai una visita virtuale al fantastico Stock Resort, uno dei nostri partner*, tra gli hotel 4 stelle e 5 stelle in Austria. 
 
-    Primavera SCONTI!
-    Sconti su tutti corsi fino al 20 maggio. Se non ora, quando? Approfittane subito: per tutti coloro che si iscrivono entro il 20 maggio 2021 <b>sconti fino al 50%</b>
-
-    VOUCHER PER LA SPRACHRAUM.
-    In ogni caso und magnifico regalo e un ottimo investimento per il futuro.
+    Link zur - lavori in AUT  
 
   link: '/it/kursprogramm/'
   linkText: 'Iscriviti ora!'
 cards:
-  - title: Corsi di tedesco
+  - title: Pachetti e Corsi di Tedesco per le professioni alberghiere
     content: |
-      Il nostro team formato da insegnanti qualificati è sempre aggiornato e progetta per voi corsi e lezioni di lingua tedesca con metodi moderni e innovativi, sulla base del QUADRO COMUNE EUROPEO DI RIFERIMENTO PER LE LINGUE. Inoltre, frequentando i nostri corsi scoprirete interessanti e peculiari informazioni sulla cultura, sulla vita quotidiana, e sulla vita professionale nei paesi di lingua tedesca, per tutti coloro che desiderano vivere e lavorare nell´Area DACH (D/AUT/CH)
-    link: '/it/corsiditedesco/'
+      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali Austriache più famose. 
+      
+      Link zu - corsi di tedesco 
+
     linkText: '>> Scopri di piu'
 
-  - title: Servizi
+  - title: Candidature | Profilo di carriera | Supporto e valutazione per candidati/e e profili junior.
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
-      Metti alla prova il tuo tedesco!
+      Iscriviti qui per 
+      - un colloquio preliminare sulle posizioni disponibili
+      - la pianificazione della carriera
+      - orientamento professionale
+      
+      Questo servizio ha la durata di 30 minuti, è gratuito e non è vincolante. 
+      
+      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura 
+
+      Link zu servizi 
 
       <i>Hier könnt ihr euer Deutschniveau überprüfen!</i>
-  - title: Chi siamo
+  - title: Work IT AUT è un progetto organizzato da Sprachraum Work IT AUT, per lo sviluppo professionale in un contesto internazionale tra Austria e la Sardegna. 
     link: '/it/kursprogramm/'
     linkText: '>> calendario & importi'
     content: |
-      Abbiamo suddiviso il calendario dei nostri corsi in diversi momenti e ore del giorno. Così puoi trovare corsi e coachings al mattino, a mezzogiorno, nel pomeriggio o alla sera.
-      Scegli dal programma il corso giusto per te. Quello che risponde meglio ai tuoi orari, interessi, ed esigenze.
+      Siamo un team interculturale che connette i professionisti sardi e le aziende austriache. Mettiamo il focus sulla persona: il lavoratore è al centro, il nostro obiettivo è cercare il lavoro adatto, nell'hotel giusto e nella posizione lavorativa migliore possibile. Importante: L'uomo è al centro dell'attenzione - il lavoro giusto nell'hotel giusto nella posizione giusta. 
+      
+      Non forniamo mcjobs veloci
+      
+      Link zu - chi siamo 
 
-  - title: Test di lingua
+
+  - title: Sprechen Sie Deutsch? Come? 
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
-      Metti alla prova il tuo tedesco!
+      Come si pronuncia correttamente "Kaiserschmarrn"? - non lo so, ma è buono. 
+      Vuoi conoscere il tuo livello di tedesco? prova il test! durata di circa 30 minuti
+      
+      Link bleibt gleich zu Hueber Test. 
 
 contact:
   title: 'INFO E CONTATTI'
@@ -45,12 +59,12 @@ contact:
   # linkText: contattaci!
   content: |
     <div class="text-justify">
-    <h4 class="text-lg">Per domande siamo a vostra disposizione:</h4>
+    <h4 class="text-lg">Per informazioni siamo a vostra disposizione:</h4>
     <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
 
     <b>Zoom Meeting:</b>
     Se vuoi parlare direttamente con un insegnante,
-    mandaci una breve mail con la data e l'ora che preferisci:
+    mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti:
     <i>
     venerdì 08:00 - 10:30
     lunedì - giovedì dalle 12:30 alle 13:30
