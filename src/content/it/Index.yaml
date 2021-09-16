@@ -1,57 +1,64 @@
 hero:
-  title: "'Take some time AUT!' stagione invernale in Austria"
+  title: 'Take some time AUT!' 
+  subtitle: stagione invernale in Austria
   content: |
-    Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, fra paesaggi alpini e piste da sci. Un’opportunità per crescere in un contesto internazionale e arricchire il curriculum. Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le nostre offerte di lavoro
-    Fai una visita virtuale al fantastico Stock Resort, uno dei nostri partner*, tra gli hotel 4 stelle e 5 stelle in Austria.
+    Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, mercatini di Natale e snowboard. Potrai crescere in un contesto internazionale e arricchire il curriculum. 
+    Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le posizione aperte.
+    Prima di mandarci il tuo curriculum, fai una visita virtuale al fantastico Stock Resort, uno dei nostri partner*, tra gli hotel 4 stelle e 5 stelle in Austria, nello scenario mozzafiato delle Alpi.
 
     Link zur - lavori in AUT
 
   link: '/it/kursprogramm/'
   linkText: 'Iscriviti ora!'
 cards:
-  - title: Pachetti e Corsi di Tedesco per le professioni alberghiere
+  - title: Pacchetti e Corsi di Tedesco 
+    subtitle: per le professioni alberghiere
     content: |
-      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali Austriache più famose.
+      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
 
       Link zu - corsi di tedesco
 
     linkText: '>> Scopri di piu'
 
-  - title: Candidature | Profilo di carriera | Supporto e valutazione per candidati/e e profili junior.
+  - title: Candidarsi per le posizioni aperte
+    subtitle: valutazione e orientamento per professionisti/e e profili junior
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
-      Iscriviti qui per
+      Iscriviti qui per:
       - un colloquio preliminare sulle posizioni disponibili
-      - la pianificazione della carriera
+      - pianificazione della carriera
       - orientamento professionale
 
-      Questo servizio ha la durata di 30 minuti, è gratuito e non è vincolante.
+      Questo servizio ha la durata di 30 minuti ed è gratuito.
 
-      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura
+      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
 
       Link zu servizi
 
       <i>Hier könnt ihr euer Deutschniveau überprüfen!</i>
-  - title: Work IT AUT è un progetto organizzato da Sprachraum Work IT AUT, per lo sviluppo professionale in un contesto internazionale tra Austria e la Sardegna.
-    link: '/it/kursprogramm/'
+  - title: Sprachraum work IT AUT è un progetto di KompreTrend GmbH
     linkText: '>> calendario & importi'
     content: |
-      Siamo un team interculturale che connette i professionisti sardi e le aziende austriache. Mettiamo il focus sulla persona: il lavoratore è al centro, il nostro obiettivo è cercare il lavoro adatto, nell'hotel giusto e nella posizione lavorativa migliore possibile. Importante: L'uomo è al centro dell'attenzione - il lavoro giusto nell'hotel giusto nella posizione giusta.
+      Siamo un team di professionisti con cervello e umorismo tra il Brennero e il Mediterraneo. 
+      Il nostro obiettivo è sostenere i professionisti e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
+      Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile. 
 
-      Non forniamo mcjobs veloci
-
+      Parole chiave
+      verbo | fare
+      aggettivo | trasparente
+      sostantivo | stabilità
+      
       Link zu - chi siamo
 
 
-  - title: Sprechen Sie Deutsch? Come?
+  - title: Scusa, parli Tedesco? 
+    subtitle: Ja, Danke. Pretzel? Kinder. Aufwiedersehen.  
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> Klick'
     content: |
       Come si pronuncia correttamente "Kaiserschmarrn"? - non lo so, ma è buono.
       Vuoi conoscere il tuo livello di tedesco? prova il test! durata di circa 30 minuti
-
-      Link bleibt gleich zu Hueber Test.
 
 contact:
   title: 'INFO E CONTATTI'
@@ -63,8 +70,7 @@ contact:
     <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
 
     <b>Zoom Meeting:</b>
-    Se vuoi parlare direttamente con un insegnante,
-    mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti:
+    Se vuoi parlare con voi, mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti:
     <i>
     venerdì 08:00 - 10:30
     lunedì - giovedì dalle 12:30 alle 13:30
