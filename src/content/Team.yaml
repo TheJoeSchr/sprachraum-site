@@ -1,22 +1,22 @@
 header:
     title: Chi siamo
     content: |-
-      Sprachraum work IT AUT è un progetto di KompeTrend GmbH. 
-      Mettiamo in contatto professionisti del settore alberghiero e hotel 5* in Austria.
+      Sprachraum work IT AUT è un progetto di KompeTrend GmbH per lo sviluppo professionale in un contesto tra Austria e l'Italia, con particolare attenzione per la Sardegna.
+      Per raggiungere questo obiettivo offriamo corsi di lingua tedesca rivolti ad operatori del settore alberghiero. Forniamo inoltre una formazione adeguata riguardo la cultura austriaca, orientamento lavorativo e tutte le informazioni necessarie per svolgere il nuovo lavoro nelle strutture invernali Austriache più famose.
+
+.Work it AUT si pone come intermediario fra - gli studenti o i professionisti - e i partner in Austria. 
 members:
   - name: Elke Oberleitner
     id: elke
     kurzbio: |-
-      Scienze della comunicazione e filosofia
-      Università di Salisburgho/AUT.
-      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ
-      con focus - lingua tedesca per la professione e specializzazione
-      internazionale in ambito della mediazione interculturale e integrazione occupazionale.
+      Scienze della Comunicazione e Filosofia
+      Università di Salisburgo/AUT.
+      Certificazione per l´insegnamento della lingua tedesca DAF/DAZ con specializzazione in migrazione e lavoro.
       Nata in Austria; vive e lavora tra Wels \ Alta Austria e Quartu Sant ́Elena \ Sardegna.
     sprachraum: |-
-      <br>work IT AUT</br>
-      Creatrice e responsabile dell progetto
-      Leitung Deutsch Abos und Infogespräche
+      Creatrice e responsabile del progetto Sprachraum work IT AUT
+      telefono +39 331 222 6615
+      email elke@workitaut.at
     zitat: perché le stelle sono così disordinate?
     zitatAuthor: 'Peter Fischli. Aus: Mi trova la fortuna?'
     verb: creare
@@ -26,15 +26,16 @@ members:
   - name: Nadja Maffei
     id: nadjaMaffei
     kurzbio: |-
-      Lingue e Letterature Straniere, Università di Torino
+      Lingue e Letterature Straniere 
+      Università di Torino
       PH.D Postcolonial Studies, Università di Torino
       Dal 2008 formazione nel metodo didattico della PDL, psicodrammaturgia linguistica,
       per la lingua inglese, tedesca e l'italiano per gli stranieri.
       Nata in Germania \ Stoccarda; oggi vive a Cagliari dove gestisce
       la scuola di lingue Enjoy languages - Dialogando
     sprachraum: |-
-      E'responsabile per il settore occupazionale in Work it AUT
-      e insegna la lingua tedesca per operatori del settore alberghie
+      E'responsabile per il settore occupazionale in work IT AUT
+      e insegna la lingua tedesca per operatori del settore alberghiero
     zitat: Il corpo ricorda ciò che la mente dimentica
     zitatAuthor: Jacob Levi Moreno
     verb: vivere
@@ -44,31 +45,31 @@ members:
   - name: Laura Zidda
     id: laura
     kurzbio: |-
-      Studio della pittura. Accademia di Belle Arti di Roma \ IT
-      Corso pedagogico propedeutico come insegnante di scuola regolare \ IT
-      Attualmente - corso come formatore DAF/DAZ
-      Pittura e formatore per il tedesco (in formazione) e l'italiano
-      Vive e lavora in Cagliari \ Sardegna
+      Laurea Magistrale in Belle Arti. Accademia delle Belle Arti di Roma. \ Roma, IT
+      Corso propedeutico all'insegnamento pedagogia, psicologia, metodologie didattiche, antropologia culturale. UniCa \ Cagliari, IT
+      Attualmente - corso da formatore DAF/DAZ
+      Pittura e lingua in formazione
+      Attualmente vive e lavora a Cagliari
     sprachraum: |-
       Tirocinante per il tedesco come lingua straniera DAF/DAZ Stage
       Teamteaching
     zitat: Il buon gusto, come il gusto, sono cose da gelatai. Lo scandalo è parte dell'opera, non l'intera opera.
     zitatAuthor: Maurizio Cattelan. Artista
-    verb: sorridere
-    adjektiv: colorato
-    substantiv: asciugamano
+    verb: ricercare
+    adjektiv: stravolto
+    substantiv: freccia
 
   - name: Heidi Schweitzer
     id: heidi
     kurzbio: |-
-      Scienze etnologia e studi africani. Univ. Vienna/AT
-      Scienze Product & Furniture Design. Università di Kingston, Londra/GB
-      Formazione come insegnante di tedesco come lingua straniera e Montessori.
-      Formatore di comunicazione, pedagogo della pittura.
-      Vive e lavora in Alta Austria
+      Scienze Etnologiche e Africanistica. 
+      Università di Vienna/AT
+      Product & Furniture Design. Università di Kingston, Londra/GB
+      Insegnante di tedesco come seconda lingua
+      Vive e lavora in Wels \ Alta Austria
     sprachraum: |-
-      Coaching tedesco e communicazione interculturale
-    zitat: Se ci si aspetta che una macchina sia infallibile, non può essere anche intelligente.
+      Coaching tedesco e comunicazione interculturale
+    zitat: Se ci si aspetta che una macchina sia infallibile, non può essere anche intelligente
     zitatAuthor: Alan Turing
     verb: considerare
     adjektiv: eccitante
@@ -77,11 +78,13 @@ members:
   - name: Claudia Valente
     id: claudia
     kurzbio: |-
+      Laurea in Scienze Chimiche
       Università di Cagliari
-      Lebt und arbeitet in Cagliari auf Sardinien
+      Web developer
+      Vive e lavora a Cagliari
     sprachraum: |-
-      Traduzione e adattamento dei testi.
-      Social media manager
+      Content and social media manager
+      Best girl
     zitat: Il futuro è già qui. Solo che non è ancora equamente distribuito.
     zitatAuthor: William Gibson
     verb: respirare
