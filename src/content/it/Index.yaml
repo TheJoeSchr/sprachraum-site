@@ -9,14 +9,13 @@ hero:
     Link zur - lavori in AUT
 
   link: '/it/kursprogramm/'
-  linkText: 'contattaci'
+  
 cards:
   - title: Pacchetti e Corsi di Tedesco 
     subtitle: per le professioni alberghiere
     content: |
-      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
-
-      Link zu - corsi di tedesco
+      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo
+      la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
 
     linkText: '>> Scopri di piu'
 
