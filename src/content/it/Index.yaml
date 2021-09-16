@@ -9,7 +9,7 @@ hero:
     Link zur - lavori in AUT
 
   link: '/it/kursprogramm/'
-  linkText: 'Iscriviti ora!'
+  linkText: 'contattaci'
 cards:
   - title: Pacchetti e Corsi di Tedesco 
     subtitle: per le professioni alberghiere
@@ -22,23 +22,19 @@ cards:
 
   - title: Candidarsi per le posizioni aperte
     subtitle: valutazione e orientamento per professionisti/e e profili junior
-    link: 'https://hueber.de/menschen/einstufungstest'
-    linkText: '>> Klick'
-    content: |
+      content: |
       Iscriviti qui per:
       - un colloquio preliminare sulle posizioni disponibili
       - pianificazione della carriera
       - orientamento professionale
 
       Questo servizio ha la durata di 30 minuti ed è gratuito.
-
       Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
 
       Link zu servizi
-
-      <i>Hier könnt ihr euer Deutschniveau überprüfen!</i>
+     
   - title: Siamo un team 
-    linkText: '>> calendario & importi'
+    linkText: '>> chi siamo'
     content: |
       ... di professionisti con cervello e umorismo tra il Brennero e il Mediterraneo. 
       Il nostro obiettivo è sostenere i professionisti e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
@@ -55,18 +51,17 @@ cards:
   - title: Scusa, parli Tedesco? 
     subtitle: Ja, Danke. Pretzel? Kinder. Aufwiedersehen.  
     link: 'https://hueber.de/menschen/einstufungstest'
-    linkText: '>> Klick'
+    linkText: '>> fai il test'
     content: |
       Come si pronuncia correttamente "Kaiserschmarrn"? - non lo so, ma è buono.
       Vuoi conoscere il tuo livello di tedesco? prova il test! durata di circa 30 minuti
 
 contact:
-  title: 'INFO E CONTATTI'
+  title: 'Info e contatti'
   # link: '/kontakt/'
   # linkText: contattaci!
   content: |
     <div class="text-justify">
-    <h4 class="text-lg">Per informazioni siamo a vostra disposizione:</h4>
     <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
 
     <b>Zoom Meeting:</b>
