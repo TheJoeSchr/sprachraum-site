@@ -23,7 +23,7 @@ Layout
           h3.text-xl Sprachraum WORK IT AUT
           p.tx-sm.text-gray-700(v-html="toBr(person.sprachraum)")
         .column-section(class='md:-mx-4')
-          h3.text-xl Verben
+          h3.text-xl parole chiave 
           p.tx-sm.text-gray-700(v-html="schlagworte(person)")
 </template>
 <script>
