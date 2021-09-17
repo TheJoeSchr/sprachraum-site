@@ -21,7 +21,7 @@ div
 
   template(v-for='(section,index) in cards' )
     MinorHero(:value="{...section, isLeft: (index%2==0)}" )
-      g-image(v-if="0==index", src='~/assets/images/feelactive-yoga-sporthotel-stock-tirol-01.jpg' height=300  center="bottom" fit="inside")
+      g-image(v-if="0==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300  center="bottom" fit="inside")
       g-image(v-if="1==index", src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height=300 center="top" fit="inside")
       g-image(v-if="2==index", src='~/assets/images/schneemann-119510173.jpg' height=300 center="top" fit="inside")
       g-image(v-if="3==index", src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height=300 center="top" fit="inside")
