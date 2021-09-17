@@ -21,14 +21,14 @@ div
 
   template(v-for='(section,index) in cards' )
     MinorHero(:value="{...section, isLeft: (index%2==0)}" )
-      g-image(v-if="0==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300  center="bottom" fit="inside")
-      g-image(v-if="1==index", src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height=300 center="top" fit="inside")
-      g-image(v-if="2==index", src='~/assets/images/schneemann-119510173.jpg' height=300 center="top" fit="inside")
-      g-image(v-if="3==index", src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height=300 center="top" fit="inside")
-      g-image(v-if="4==index", src='~/assets/images/2_Italienischkurs.jpg' height=300 center="top" fit="inside")
+      g-image(v-if="0==index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height=300 width="300"  center="bottom" fit="cover")
+      g-image(v-if="1==index", src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height=300 width="300" center="top" fit="outside")
+      g-image(v-if="2==index", src='~/assets/images/schneemann-119510173.jpg' height=300 width="300" position="left" fit="cover")
+      g-image(v-if="3==index", src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height=300 width="300" center="top" fit="cover")
+      g-image(v-if="4==index", src='~/assets/images/2_Italienischkurs.jpg' height=300 width="300" center="top" fit="cover")
 
   MinorHero(:value="{...contact, isLeft: true }" v-if="contact")
-    g-image.mx-auto.my-4( src='~/assets/images/contact.jpg' height="300" width="500" center="top" fit="cover")
+    g-image.mx-auto.my-4( src='~/assets/images/contact.jpg' height="300" width="300" center="top" fit="cover")
   //-
     .w-full.max-w-2xl.my-8.mx-auto
       h2.text-4xl.leading-tight.font-heading {{ contact.title }}
