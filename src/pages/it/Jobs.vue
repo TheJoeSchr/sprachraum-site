@@ -1,9 +1,13 @@
 <template lang="pug">
 Layout
   #jobs
-    .divide-y.divide-gray-400
-      template(v-for='(dreamjob, index) in jobs.dreamjobs')
-        DreamJobCard(:value='dreamjob')
+    section.dreamjobs
+          <!-- .max-w-7xl.mx-auto.px-8.pt-4(class='sm:px-6 lg:px-8') -->
+          <!--   h3.text-2xl.mb-2.mt-8.font-heading(class="lg:text-4xl lg:mt-0") Jobs -->
+          .max-w-2xl.mx-auto(class='sm:py-4 lg:py-2 lg:max-w-none')
+            .mt-2(class='lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6')
+              .group(v-for='(dreamjob, index) in jobs.dreamjobs')
+                DreamJobCard(:value='dreamjob')
     InfoPage(:value='jobs')
       g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
     InfoPage(:value='{...carriere, }')
@@ -45,6 +49,9 @@ export default {
 }
 </script>
 <style scoped>
+section.dreamjobs {
+  @apply mb-8 shadow bg-yellow-100 border rounded overflow-hidden;
+}
 .column-section {
   @apply .px-4 mb-4 w-full;
 }
