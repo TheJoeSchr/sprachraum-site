@@ -11,6 +11,7 @@ module.exports = {
   purge: false,
   corePlugins: {},
   plugins: [
+    // require('@tailwindcss/aspect-ratio'),
     plugin(function ({
       addUtilities,
       addComponents,
@@ -22,6 +23,7 @@ module.exports = {
       variants,
       config,
       postcss,
+      aspectRatio
     }) {
       // Add your custom styles here
     }),
