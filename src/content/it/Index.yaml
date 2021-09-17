@@ -6,10 +6,8 @@ hero:
     Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le posizione aperte.
     Prima di mandarci il tuo curriculum, fai una visita virtuale al fantastico Stock Resort, uno dei nostri partner*, tra gli hotel 4 stelle e 5 stelle in Austria, nello scenario mozzafiato delle Alpi.
 
-    Link zur - lavori in AUT
-
-  link: '/it/kursprogramm/'
-
+  link: '/it/jobs/'
+  linkText: contattaci
 cards:
   - title: Pacchetti e Corsi di Tedesco
     subtitle: per le professioni alberghiere
@@ -29,10 +27,11 @@ cards:
 
       Questo servizio ha la durata di 30 minuti ed è gratuito.
       Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
-
-      Link zu servizi
+    linkText: '>> servizi'
+    link: /it/services
 
   - title: Siamo un team
+    link:  /it/team
     linkText: '>> chi siamo'
     content: |
       ... di professionisti con cervello e umorismo tra il Brennero e il Mediterraneo.
@@ -44,7 +43,6 @@ cards:
       aggettivo | trasparente
       sostantivo | stabilità
 
-      Link zu - chi siamo
 
 
   - title: Scusa, parli Tedesco?
@@ -57,19 +55,16 @@ cards:
 
 contact:
   title: 'Info e contatti'
-  # link: '/kontakt/'
-  # linkText: contattaci!
+  link: '/kontakt/'
+  linkText: ' >> Kontaktiere Uns!'
   content: |
-    <div class="text-justify">
-    <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a>
-
-    <b>Zoom Meeting:</b>
-    Se vuoi parlare con voi, mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti:
-    <i>
-    venerdì 08:00 - 10:30
-    lunedì - giovedì dalle 12:30 alle 13:30
-    mercoledì 18:45 alle 19:30
-    </i>
-    <b>Ufficio:</b> +39 331 222 66 15
-    <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a>
+    <div class="text-justify" style="display:inline">
+    <span> <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a> </span>
+    <span> <b>Zoom Meeting:</b>
+      Se vuoi parlare con voi, mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti: <i style="display:inline">
+        venerdì 08:00 - 10:30
+        lunedì - giovedì dalle 12:30 alle 13:30
+        mercoledì 18:45 alle 19:30
+      </i></span> <span> <b>Ufficio:</b> +39 331 222 66 15</span>
+    <span> <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a></span>
     </div>
