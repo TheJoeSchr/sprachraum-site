@@ -1,11 +1,10 @@
 <template lang="pug">
 section(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
-    .bg-gray-100
-      .w-full.h-80.bg-white.rounded-lg.overflow-hidden(class='group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1')
-        h3.ml-1.text-sm.text-gray-500 {{ dreamjob.subtitle }}
-        p.ml-1.text-base.font-semibold.text-gray-900 {{ dreamjob.title }}
-        img.w-full.h-full.object-center.object-cover(:src="`/assets/img/${dreamjob.id}.jpg`" )
+    .w-full.h-80.bg-white.rounded-lg.overflow-hidden(class='group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1')
+      h3.ml-1.text-sm.text-gray-500.bg-white {{ dreamjob.subtitle }}
+      p.ml-1.text-base.font-semibold.text-gray-900 {{ dreamjob.title }}
+      img.w-full.h-full.object-center.object-cover(:src="`/assets/img/${dreamjob.id}.jpg`" )
     <!-- .section-hero-img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' -->
     <!--                   :class='dreamjob.id' -->
     <!--                  ) -->
