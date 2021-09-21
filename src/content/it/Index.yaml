@@ -1,16 +1,15 @@
 hero:
   title: Trova il tuo lavoro in Austria!
-  subtitle: Take some time AUT!
+  subtitle: Grandi opportunià per i professionisti dei servizi turistici!
   content: |
     Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, mercatini di Natale e snowboard. Potrai crescere in un contesto internazionale e arricchire il curriculum.
     Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le posizione aperte.
-    Prima di mandarci il tuo curriculum, fai una visita virtuale al fantastico Stock Resort, uno dei nostri partner*, tra gli hotel 4 stelle e 5 stelle in Austria, nello scenario mozzafiato delle Alpi.
 
   link: '/it/jobs/'
   linkText: contattaci
 cards:
   - title: Pacchetti e Corsi di Tedesco
-    subtitle: per le professioni alberghiere
+    subtitle: per le professioni alberghiere e standard
     content: |
       Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo
       la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
