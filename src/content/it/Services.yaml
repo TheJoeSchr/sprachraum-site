@@ -1,28 +1,28 @@
 info:
   title: Informazioni
   content: |-
-    I nostri servizi di orientamento professionale per i/ le candidati/e al nostro progetto sono sempre gratuiti. Registrazione richiesta. Durata circa 30min.
-    La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione. Durata circa 50min.
-    La scrittura e traduzione del curriculum vitae e la lettera di motivazione sono inclusi in tutti i nostri corsi di tedesco. I partecipanti ai corsi scrivono i propri cv e documenti sotto supervisione di un insegnante specializzata in lingua tedesca per il lavoro.
-    
+    I nostri servizi di orientamento professionale per i/ le candidati/e alle nostre posizioni aperte sono sempre gratuiti. Registrazione richiesta. 
+    Durata circa 45min. In lingua tedesca o inglese
+    La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione. Durata circa 45 - 60min. In lingua italiana, tedesco o inglese.
+    Assistenza continua durante la partenza e tutta la stagione invernale gratuite. 
   list:
     - Per le traduzioni generali, si applicano i prezzi indicati.
     - Le traduzioni italiano - tedesco per alberghi e ristoranti vengono concordate dopo un primo incontro e in base alla lunghezza del testo, tipologia e difficoltà.
 offers:
-  - title: Consulenza gratuita per i candidati interessati ad una posizione aperta. Orientamento lavorativo per giovani professionisti/e
-
-    subtitle:  “I sogni si realizzano, ma non senza l’aiuto degli altri, una buona istruzione, una forte etica del lavoro e una buona dose di coraggio.” - Ursula M. Burns
+  - title: Consulenza per i candidati e orientamento lavorativo per giovani professionisti/e
+    subtitle: <b>Rispondiamo</b> a tutte le tue domande sulle offerte di lavoro e ti <b>sosteniamo</b> nella pianificazione del tuo futuro professionale.
     courses:
       - name: |-
-          Colloquio preliminare, supporto per la scrittura del CV in lingua tedesca, preparazione al colloquio, assistenza continua durante la partenza e tutta la stagione invernale.
+          Colloquio preliminare | Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte su posto di lavoro, posizione e contratto.     
         days: |-
-          Prenota la tua consulenza gratuita scrivendo una mail a post@workitaut.at in lingua inglese o tedesca
+          Prenota la tua consulenza gratuita su zoom, scrivendo una mail a post@workitaut.at 
         cost: <b> GRATUITO </b>
       - name: |-
-          Pianifica la tua carriera -  primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni
+          Pianifica la tua carriera - primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni
         days: |-
-          Prenota la tua consulenza gratuita scrivendo una mail a post@workitaut.at in lingua inglese o tedesca
+          Prenota la tua consulenza gratuita su zoom, scrivendo una mail a post@workitaut.at 
         cost: <b> GRATUITO </b>
+        
   - title: Traduzioni Italiano - Tedesco
     subtitle:  <b>come</b> dici <b>cosa</b> a <b>chi</b> fa la differenza. Abbiamo le parole giuste per ogni obiettivo.
     courses:
