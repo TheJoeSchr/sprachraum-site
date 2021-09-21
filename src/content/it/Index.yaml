@@ -1,6 +1,6 @@
 hero:
   title: Trova il tuo lavoro in Austria!
-  subtitle: Grandi opportunià per i professionisti dei servizi turistici!
+  subtitle: Grandi opportunità per i professionisti del settore Turistico-Alberghiero!
   content: |
     Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, mercatini di Natale e snowboard. Potrai crescere in un contesto internazionale e arricchire il curriculum.
     Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le posizione aperte.
@@ -9,7 +9,7 @@ hero:
   linkText: lavori in AUT
 cards:
   - title: Pacchetti e Corsi di Tedesco
-    subtitle: per le professioni alberghiere e standard
+    subtitle: per le professioni turistico-alberghiere
     content: |
       Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo
       la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
@@ -23,7 +23,7 @@ cards:
       Iscriviti qui per:
       - un colloquio preliminare sulle posizioni disponibili
       - pianificazione della carriera o orientamento professionale
-      Questo servizio ha la durata di 30 minuti ed è gratuito. Via Zoom. 
+      Questo servizio ha la durata di circa 45 minuti ed è gratuito. Via Zoom. 
       
       Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
     linkText: '>> servizi'
@@ -58,7 +58,7 @@ contact:
     <span> <b>Zoom Meeting:</b>
       Se vuoi parlare con voi, mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti: <i style="display:inline">
         venerdì 08:00 - 10:30
-        lunedì - giovedì dalle 12:30 alle 13:30
+        lunedì e giovedì dalle 12:30 alle 13:30
         mercoledì 18:45 alle 19:30
       </i></span> <span> <b>Ufficio:</b> +39 331 222 66 15</span>
     <span> <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a></span>
