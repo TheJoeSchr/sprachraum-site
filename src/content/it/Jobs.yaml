@@ -54,8 +54,8 @@ dreamjobs:
        <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
        <b>Durata </b>  da Dicembre 2021 ad Aprile 2022 o date da concordare.
        <b>Location </b>  Finkenberg / Zillertal / Tirolo AUT
-       <b>Stipendio </b>  da 1.800 netto mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
-       <b>Lingua richiesta </b> Tedesco B1
+       <b>Stipendio </b>  al 1.750 da 1.900 netto mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
+       <b>Lingua richiesta </b> Tedesco B1 o Tedesco A2 e inglese fluente
        <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
 
     columns:
@@ -99,29 +99,25 @@ dreamjobs:
        <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
        <b>Durata </b>  da Dicembre 2021 ad Aprile 2022 o date da concordare.
        <b>Location </b>  Fiss / Ötztal e Finkenberg / Zillertal / Tirolo AUT
-       <b>Stipendio </b>  da 1.700 netto mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
+       <b>Stipendio </b>  al 1650 da 1.700 netti mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
        <b>Lingua richiesta </b> Tedesco A2 e inglese fluent
        <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
     columns:
       - title: I tuoi compiti
         content:
-          - Ricevere gli ospiti al loro arrivo e accompagnarli al tavolo
-          - Vendita e consulenza in materia di bevande
-          - Responsabilità di una postazione
-          - Istruire un Commis de Rang
-          - Servizio di ristorazione
-          - Servizio colazione
-          - Realizzazione e cura dei vari buffet
+          - Produktive Zusammenarbeit mit Postenchef
+          - Kontrolle und Einhaltung der Qualitätsstandards
+          - Mitverantwortung für lückenlose HACCP Dokumentation
+          - Anrichten der Speisen
           - Curare la mise en place
       - title: Il tuo profilo
         content:
-          - Formazione completa in ambito gastronomico / settore alberghiero
-          - Esperienza plurenniale come Chef de Rang in Hotel 4/5* di lusso
-          - Gradite competenze enologiche
-          - Capacità comunicative e relazionali
-          - Tedesco con un livello B1 intermedio
+          - Formazione completa cuoco
+          - Esperienza plurenniale in Hotel 4/5* di lusso
+          - Fachwissen zu HACCP Standards & Lagerwirtschaft
+          - Hohes Qualitätsbewusstsein & Produktwissen
+          - Tedesco con un livello A2 intermedio
           - Buona conoscenza dell´inglese
-          - Standing elegante e raffinato
       - title: I tuoi vantaggi
         content:
           - Lavoro sicuro in un´azienda moderna a conduzione familiare con una vasta gamma di compiti.
@@ -137,7 +133,7 @@ dreamjobs:
 
  - id: commis_de_bar
     title: Commis de Bar
-    subtitle: Hotel 5stelle / Tirolo
+    subtitle: Hotel 5stelle / Tirolo e Vorarlberg
     description: |-
        <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
        <b>Durata </b>  da Dicembre 2021 ad Aprile 2022 o date da concordare.
@@ -148,19 +144,17 @@ dreamjobs:
     columns:
       - title: I tuoi compiti
         content:
-          - Ricevere gli ospiti al loro arrivo e accompagnarli al tavolo
-          - Vendita e consulenza in materia di bevande
-          - Responsabilità di una postazione
-          - Istruire un Commis de Rang
-          - Servizio di ristorazione
-          - Servizio colazione
-          - Realizzazione e cura dei vari buffet
-          - Curare la mise en place
+          - Aufmerksame & freundliche Betreuung der Gäste
+          - Tägliches Mise en Place
+          - Herstellung von Standard Cocktails & einfachen Getränken
+          - Einhaltung der Sauberkeit und Hygienestandards im Barbereich
+          - Unterstützung des Restaurant-Teams
       - title: Il tuo profilo
         content:
           - Formazione completa in ambito gastronomico / settore alberghiero
-          - Esperienza plurenniale come Chef de Rang in Hotel 4/5* di lusso
-          - Gradite competenze enologiche
+          - Bar-Grundkurs als erwünschte Fachausbildung
+          - Berufserfahrung in einer vergleichbaren Position
+          - Getränke- und Spirituosenkenntnisse
           - Capacità comunicative e relazionali
           - Tedesco con un livello B1 intermedio
           - Buona conoscenza dell´inglese
@@ -178,13 +172,13 @@ dreamjobs:
           - Possibilità di formazione professionale e personale (in sede o fuori sede)
           - Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
 
- - id: demi_chef_de_bar
-    title: Demi Chef de Bar
-    subtitle: Hotel 4stelle superior / Tirolo e Vorarlberg
+ - id: commis_de_bar
+    title: Commis de Bar
+    subtitle: Hotel 4stelle superior / Zillertal, Ötztal e Vorarlberg 
     description: |-
        <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
        <b>Durata </b>  da Dicembre 2021 ad Aprile 2022 o date da concordare.
-       <b>Location </b>  Fiss / Ötztal, Tirolo e Warth / Vorarlberg 
+       <b>Location </b>  Fiss, Ötztal e Finkenberg, Zillertal / Tirolo e Warth / Vorarlberg 
        <b>Stipendio </b>  da 1.650 netto mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
        <b>Lingua richiesta </b> Tedesco B1 
        <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
@@ -222,35 +216,35 @@ dreamjobs:
           - Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
 
   - id: receptionist
-    title: Receptionist
-    subtitle: Hotel 5stelle / Tirolo
+    title: Front Office Receptionist
+    subtitle: Hotel 5stelle / Tirolo e Voralberg 
     description: |-
        <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
        <b>Durata </b>  da Dicembre 2021 ad Aprile 2022 o date da concordare.
        <b>Location </b>  Fiss / Ötztal, Tirolo e Warth / Vorarlberg 
-       <b>Stipendio </b>  da 1.800 netto mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
+       <b>Stipendio </b>  al 1.700 da 1.800 netti mensile, aliquota sulla 13° e 14° mensilità e redistribuzione mance
        <b>Lingua richiesta </b> Tedesco C1 e inglese fluent
        <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
     columns:
       - title: I tuoi compiti
         content:
-          - Ricevere gli ospiti al loro arrivo e accompagnarli al tavolo
-          - Vendita e consulenza in materia di bevande
-          - Responsabilità di una postazione
-          - Istruire un Commis de Rang
-          - Servizio di ristorazione
-          - Servizio colazione
-          - Realizzazione e cura dei vari buffet
-          - Curare la mise en place
+          - Erledigung aller gängigen Empfangsaufgaben (Check-In, Check-Out. Weckruf,…)
+          - Erstellen der Morgenpost, Wochenprogramm, Menüübersetzung, Liftaushang
+          - Kontrolle der Abreisen inkl. Restaurant-Belege
+          - Anreisevorbereitung - Meldescheine, Zimmerkarten, Parkarten
+          - Gästeberatung über die Region
+          - Arbeiten mit Checklisten und Standards
+          - Enge Zusammenarbeit und Kommunikation mit anderen Abteilungen (Hotelkit)
+          - Conciergetätigkeiten wie Wünsche der Gäste & Auskünfte
+          -  Korrekte Abwicklung von Lost & Found
+          - Skipässe und Sommercard ausstellen
       - title: Il tuo profilo
         content:
-          - Formazione completa in ambito gastronomico / settore alberghiero
-          - Esperienza plurenniale come Chef de Rang in Hotel 4/5* di lusso
-          - Gradite competenze enologiche
-          - Capacità comunicative e relazionali
-          - Tedesco con un livello B1 intermedio
-          - Buona conoscenza dell´inglese
-          - Standing elegante e raffinato
+          - Abgeschlossene Ausbildung
+          - Berufserfahrung in der gehobenen Hotellerie von Vorteil
+          - Erfahrung in dieser oder ähnlicher Position unbedingt erforderlich
+          - Sehr gute Deutschkenntnisse & Englischkenntnisse
+          - Erfahrung mit Protel, Word, Excel, Outlook, Hotelkit, RA, Channelmanager
       - title: I tuoi vantaggi
         content:
           - Lavoro sicuro in un´azienda moderna a conduzione familiare con una vasta gamma di compiti.
@@ -265,7 +259,7 @@ dreamjobs:
           - Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
 
 sections:
-  - title: Cerchiamo | Capo di partita, Sous Chef, Demi Chef, Pasticceria. Maitrè di Sala, Chef de Rang, Commis de Rang, Chef de Bar, Commis de Bar. SPA Estetista, Parrucchiere, Massaggiatore; Ricevimento, Receptionst. Houskeeping.
+  - title: Cerchiamo | Capo di partita, Sous Chef, Demi Chef, Pasticceria. Maitrè di Sala, Chef de Rang, Commis de Rang, Barmanager, Commis de Bar. SPA Estetista, Parrucchiere, Massaggiatore; Ricevimento, Receptionst. Houskeeping.
     list:
       - "Chi cerchiamo: Professionisti del settore alberghiero con conoscenza del tedesco min. B1"
       - "Cosa offriamo: Vitto e alloggio, camera singola privata. Oltre ad un eccellente stipendio base, la mancia è un importante fattore di reddito. "
