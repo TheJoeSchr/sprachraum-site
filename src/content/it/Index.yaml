@@ -6,7 +6,7 @@ hero:
     Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le posizione aperte.
 
   link: '/it/jobs/'
-  linkText: contattaci
+  linkText: lavori in AUT
 cards:
   - title: Pacchetti e Corsi di Tedesco
     subtitle: per le professioni alberghiere e standard
@@ -14,6 +14,7 @@ cards:
       Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo inoltre una formazione adeguata riguardo
       la cultura austriaca, orientamento lavorativo, burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
 
+    link: '/it/abos/'
     linkText: '>> Scopri di piu'
 
   - title: Candidarsi per le posizioni aperte
@@ -51,8 +52,6 @@ cards:
 
 contact:
   title: 'Info e contatti'
-  link: '/kontakt/'
-  linkText: ' >> Kontaktiere Uns!'
   content: |
     <div class="text-justify" style="display:inline">
     <span> <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a> </span>

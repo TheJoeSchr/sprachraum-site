@@ -11,7 +11,7 @@ section(class="pt-2")
         div.ml-auto.text-right(class='w-2/5 ')
           p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary(v-html='toBr(days)')
           p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary(v-html='toBr(times)')
-        .mx-auto.mb-2(class='w-2/5')
+        .mx-auto.mb-2(class='w-2/5' v-if="hideBooking != true")
           a(:href='mailto({ ...value, legalText: value.messages.legalText })' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow.
             {{ messages.btnBooking }}
 </template>
@@ -38,8 +38,8 @@ export default {
   name: 'OfferDetail',
   props: ['value'],
   data() {
-    const { name, description, cost, days, legalText, messages, times } = this.value
-    return { name, description, cost, days, legalText, messages, times }
+    const { name, description, cost, days, legalText, messages, times, hideBooking } = this.value
+    return { name, description, cost, days, legalText, messages, times, hideBooking }
   },
   methods: {
     mailto: (course) =>

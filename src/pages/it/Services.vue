@@ -13,13 +13,14 @@ export default {
     OfferList,
   },
   metaInfo: {
-    title: 'Calendario',
+    title: 'Services',
   },
   data() {
     return {
       content:{
         list: services,
         messages: message,
+        hideBooking: true
       }
     }
   }

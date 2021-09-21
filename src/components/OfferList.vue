@@ -8,7 +8,7 @@ div
         h3.text-center.text-lg.pb-1.font-heading(v-html="toBr(offer.times)")
         ul
           li(v-for='course in offer.courses' :key="course.name")
-            OfferCard(:value="{...course,times:offer.times, messages}")
+            OfferCard(:value="{...course, hideBooking, times:offer.times, messages}")
         div.text-sm.mx-2.py-4
           h3.text-lg {{ info.title }}
           h3(v-html="toBr(info.content)")
@@ -27,7 +27,8 @@ export default {
   props: ['value'],
   data() {
     const { list, messages, translateLink } = this.value
-    return { ...list, messages, translateLink }
+    const hideBooking = false
+    return { ...list, messages, translateLink, hideBooking, ...this.value }
   },
   methods: { toBr },
 }
