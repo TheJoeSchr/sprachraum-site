@@ -21,10 +21,9 @@ cards:
     content: |
       Iscriviti qui per:
       - un colloquio preliminare sulle posizioni disponibili
-      - pianificazione della carriera
-      - orientamento professionale
-
-      Questo servizio ha la durata di 30 minuti ed è gratuito.
+      - pianificazione della carriera o orientamento professionale
+      Questo servizio ha la durata di 30 minuti ed è gratuito. Via Zoom. 
+      
       Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
     linkText: '>> servizi'
     link: /it/services
@@ -37,12 +36,10 @@ cards:
       Il nostro obiettivo è sostenere i professionisti e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
       Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile.
 
-      Parole chiave
+      parole chiave 
       verbo | fare
       aggettivo | trasparente
       sostantivo | stabilità
-
-
 
   - title: Scusa, parli Tedesco?
     subtitle: Ja, Danke. Pretzel? Kinder. Aufwiedersehen.
