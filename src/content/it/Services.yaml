@@ -1,10 +1,10 @@
 info:
   title: Informazioni
   content: |-
-    I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuiti. Registrazione richiesta. 
+    I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuiti. Registrazione richiesta.
     Durata circa 45min. In lingua tedesca o inglese.
     La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione. Durata circa 45 - 60min. In lingua italiana, tedesco o inglese.
-    Assistenza continua durante la partenza e tutta la stagione invernale gratuite. 
+    Assistenza continua durante la partenza e tutta la stagione invernale gratuite.
   list:
     - Per le traduzioni generali, si applicano i prezzi indicati.
     - Le traduzioni italiano - tedesco per alberghi e ristoranti vengono concordate dopo un primo incontro e in base alla lunghezza del testo, tipologia e difficoltà.
@@ -12,17 +12,16 @@ offers:
   - title: Consulenza per i candidati e orientamento lavorativo per giovani professionisti/e
     subtitle: <b>Rispondiamo</b> a tutte le tue domande sulle offerte di lavoro e ti <b>sosteniamo</b> nella pianificazione del tuo futuro professionale.
     courses:
-      - name: |-
-          Colloquio preliminare | Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto.     
+      - name: Colloquio preliminare
+        description: Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto.
         days: |-
-          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at 
+          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
         cost: <b> GRATUITO </b>
-      - name: |-
-          Pianifica la tua carriera | Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni
+      - name: Pianifica la tua carriera
+        description: Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni
         days: |-
-          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at 
+          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
         cost: <b> GRATUITO </b>
-        
   - title: Traduzioni Italiano - Tedesco
     subtitle:  <b>come</b> dici <b>cosa</b> a <b>chi</b> fa la differenza. Abbiamo le parole giuste per ogni obiettivo.
     courses:
