@@ -1,7 +1,8 @@
 <template lang="pug">
 section.dreamjobinfo(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
-    .img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8'
+    //!--
+      .img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8'
                       :class='dreamjob.id'
                      )
     .w-full.px-4.mx-4(class='md:w-1/2 ')
