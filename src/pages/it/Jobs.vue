@@ -13,7 +13,7 @@ Layout
 
         section.dreamjobinfo.bg-white(class='sm:py-4 lg:py-2 lg:max-w-none' v-show="currentInfo" @click="toggleInfo()")
           DreamJobInfo(v-if="currentInfo" :value='currentInfo')
-    InfoPage(:value='jobs')
+    InfoPage(:value='{...jobs}')
       g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
     InfoPage(:value='{...carriere, }')
       g-image(src='~/assets/images/schneemann-119510173.jpg' height=200 width=300)

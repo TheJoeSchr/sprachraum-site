@@ -23,8 +23,8 @@ export default {
     const {
       title,
       content: cardContent,
-      link = '/kursprogramm/',
-      linkText = '>> zu unseren Kursen',
+      link = '',
+      linkText = '',
       messages = { btnTranslate: '' },
       sections,
       translateLink,
