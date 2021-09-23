@@ -1,8 +1,7 @@
 <template lang="pug">
 section.dreamjobinfo(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
-    //!--
-      .img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8'
+    .img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8'
                       :class='dreamjob.id'
                      )
     .w-full.px-4.mx-4(class='md:w-1/2 ')
@@ -14,12 +13,14 @@ section.dreamjobinfo(v-if='dreamjob')
         .py-8(class='md:pl-0' v-if='dreamjob.description')
           .max-w-2xl.py-4.mx-auto
             p(v-html='toBr(dreamjob.description)')
-  .flex.flex-wrap.w-full(class='md:mx-4')
-    .column-section(v-for='column in dreamjob.columns' :key='column.title' class='md:-mx-4')
-      h3.text-xl {{ column.title }}
-      p.tx-sm.text-gray-700
-        ul
-          li(v-for='item in column.content' :key='item') {{ item }}
+  .more-info(class='md:mx-4')
+    a.more.my-4(@click='toggleInfo') More Infos
+    div(class='flex flex-col')
+      .column-section(v-if='showInfo' v-for='column in dreamjob.columns' :key='column.title' class='')
+          h3.text-normal {{ column.title }}
+          p.text-sm.text-gray-700
+            ul
+              li(v-for='item in column.content' :key='item') {{ item }}
 </template>
 
 <script>
@@ -29,11 +30,20 @@ export default {
   name: 'DreamJobCard',
   props: ['value'],
   data() {
-    const dreamjob = this.value
-    return { dreamjob }
+    const showInfo = false
+    return {  showInfo }
+  },
+  computed: {
+    dreamjob: {
+      get: function () {
+        return this.value
+      },
+    },
   },
   methods: {
     toBr,
+    toggleInfo(){ this.showInfo = !this.showInfo
+    }
   },
 }
 </script>
