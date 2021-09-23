@@ -3,7 +3,7 @@ hero:
   subtitle: Grandi opportunità per i professionisti del settore Turistico-Alberghiero!
   content: |
     Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, mercatini di Natale e snowboard. Potrai crescere in un contesto internazionale e arricchire il curriculum.
-    Offerte di lavoro per il settore alberghiero e ristorazione: qui trovi le posizione aperte.
+    Scopri le posizioni aperte per il settore alberghiero e ristorazione.
 
   link: '/it/jobs/'
   linkText: lavori in AUT
@@ -37,13 +37,8 @@ cards:
       Il nostro obiettivo è sostenere i professionisti e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
       Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile.
 
-      parole chiave 
-      verbo | fare
-      aggettivo | trasparente
-      sostantivo | stabilità
-
   - title: Scusa, parli Tedesco?
-    subtitle: Ja, Danke. Pretzel? Kinder. Aufwiedersehen.
+    subtitle: Ja, Danke! Pretzel? Kinder! Aufwiedersehen.
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> fai il test'
     content: |
