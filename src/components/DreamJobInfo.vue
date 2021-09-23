@@ -14,9 +14,10 @@ section.dreamjobinfo(v-if='dreamjob')
           .max-w-2xl.py-4.mx-auto
             p(v-html='toBr(dreamjob.description)')
   .more-info(class='md:mx-4')
-    a.more.my-4(@click='toggleInfo') More Infos
+    a.more.my-4(@click='toggleInfo') 
+      | {{ `More Infos  ${showInfo?'&times;':'&#8597;'}` }}
     div(class='flex flex-col')
-      .column-section(v-if='showInfo' v-for='column in dreamjob.columns' :key='column.title' class='')
+      .column-section.py-4(v-if='showInfo' v-for='column in dreamjob.columns' :key='column.title' class='')
           h3.text-normal {{ column.title }}
           p.text-sm.text-gray-700
             ul
