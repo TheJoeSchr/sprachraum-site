@@ -57,7 +57,7 @@ export default {
   methods: {
     toBr,
     toggleInfo(dreamjob) {
-      this.currentInfo = this.currentInfo ? null : dreamjob
+      this.currentInfo = dreamjob
       this.showInfo = true
     },
   },
