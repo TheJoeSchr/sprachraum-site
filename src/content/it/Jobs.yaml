@@ -278,6 +278,6 @@ sections:
     content: |-
       Tutti i nostri partner alberghieri sono di alto livello e riconosciuti come miglior datore di lavoro e per la formazione dei giovani.
     list:
-      - <a href='https://www.shfcrew.at/'>Stock Resort | Finkenberg. Zillertal / Tirolo</a>
-      - <a href='https://www.stock.at/de/'>Schlosshotel Fiss | Fiss. Ötztal / Tirolo </a>
+      - <a class='underline' href='https://www.shfcrew.at/'>Stock Resort | Finkenberg. Zillertal / Tirolo</a>
+      - <a class='underline' href='https://www.stock.at/de/'>Schlosshotel Fiss | Fiss. Ötztal / Tirolo </a>
 
