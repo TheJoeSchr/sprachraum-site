@@ -278,4 +278,7 @@ sections:
   - title: Fai una visita virtuale tra gli hotel, nello scenario mozzafiato delle Alpi.
     content: |-
       Tutti i nostri partner alberghieri sono di alto livello e riconosciuti come miglior datore di lavoro e per la formazione dei giovani.
-      Kann man hier die Logos unserer Partner anbringen. Oben steht der Aufruf. Es kommen in etwa 6 bis 8 Logos nur mit entsprechenden Link drauf. Diese Notiz in deutscher Sprache ist zu löschen.
+    list:
+      - <a href='https://www.shfcrew.at/'>Stock Resort | Finkenberg. Zillertal / Tirolo</a>
+      - <a href='https://www.stock.at/de/'>Schlosshotel Fiss | Fiss. Ötztal / Tirolo </a>
+
