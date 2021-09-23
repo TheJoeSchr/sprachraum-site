@@ -48,7 +48,7 @@ export default {
     toBr,
     schlagworte(person) {
       return this.toBr(
-        `Verb: ${person.verb}\nAdjektiv: ${person.adjektiv}\nSubstantiv: ${person.substantiv}`
+        `verbo: ${person.verb}\naggettivo: ${person.adjektiv}\nsostantivo: ${person.substantiv}`
       )
     },
   },
