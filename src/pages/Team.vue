@@ -23,7 +23,7 @@ Layout
           h3.text-xl Sprachraum WORK IT AUT
           p.tx-sm.text-gray-700(v-html="toBr(person.sprachraum)")
         .column-section(class='md:-mx-4')
-          h3.text-xl parole chiave 
+          h3.text-xl parole chiavi 
           p.tx-sm.text-gray-700(v-html="schlagworte(person)")
 </template>
 <script>
@@ -48,7 +48,7 @@ export default {
     toBr,
     schlagworte(person) {
       return this.toBr(
-        `Verb: ${person.verb}\nAdjektiv: ${person.adjektiv}\nSubstantiv: ${person.substantiv}`
+        `verbo: ${person.verb}\naggettivo: ${person.adjektiv}\nsostantivo: ${person.substantiv}`
       )
     },
   },

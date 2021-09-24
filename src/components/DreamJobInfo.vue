@@ -1,9 +1,7 @@
 <template lang="pug">
 section.dreamjobinfo(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
-    .img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8'
-                      :class='dreamjob.id'
-                     )
+    g-image.img.mx-auto(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' height=300 width="300" center="bottom" fit="cover")
     .w-full.px-4.mx-4(class='md:w-1/2 ')
       h2.text-xl.font-heading.font-semibold.text-center.mx-auto(class='md:text-4xl md:pt-0 md:text-left').
         {{ dreamjob.title }}
@@ -13,12 +11,15 @@ section.dreamjobinfo(v-if='dreamjob')
         .py-8(class='md:pl-0' v-if='dreamjob.description')
           .max-w-2xl.py-4.mx-auto
             p(v-html='toBr(dreamjob.description)')
-  .flex.flex-wrap.w-full(class='md:mx-4')
-    .column-section(v-for='column in dreamjob.columns' :key='column.title' class='md:-mx-4')
-      h3.text-xl {{ column.title }}
-      p.tx-sm.text-gray-700
-        ul
-          li(v-for='item in column.content' :key='item') {{ item }}
+  .more-info(class='md:mx-4')
+    a.more.my-4(@click='toggleInfo') 
+      | {{ `More Infos  ${showInfo?'&times;':'&#8597;'}` }}
+    div(class='flex flex-col')
+      .column-section.py-4(v-if='showInfo' v-for='column in dreamjob.columns' :key='column.title' class='')
+          h3.text-normal {{ column.title }}
+          p.text-sm.text-gray-700
+            ul
+              li(v-for='item in column.content' :key='item') {{ item }}
 </template>
 
 <script>
@@ -28,24 +29,23 @@ export default {
   name: 'DreamJobCard',
   props: ['value'],
   data() {
-    const dreamjob = this.value
-    return { dreamjob }
+    const showInfo = false
+    return {  showInfo }
+  },
+  computed: {
+    dreamjob: {
+      get: function () {
+        return this.value
+      },
+    },
   },
   methods: {
     toBr,
+    toggleInfo(){ this.showInfo = !this.showInfo
+    }
   },
 }
 </script>
 
 <style>
-  del { font-weight: bold; }
-  .chef_de_partie {
-    background-image: url('~@/assets/jobs/chef_de_partie.jpg?width=300&height=300');
-  }
-  .chef_de_rang {
-    background-image: url('~@/assets/jobs/chef_de_rang.jpg?width=300&height=300');
-  }
-  .img {
-    background-position: center center; /* optional, center the image */
-  }
 </style>

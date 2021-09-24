@@ -1,10 +1,10 @@
 info:
   title: Informazioni
   content: |-
-    I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuiti. Registrazione richiesta. 
+    I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuite. Registrazione richiesta.
     Durata circa 45min. In lingua tedesca o inglese.
     La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione. Durata circa 45 - 60min. In lingua italiana, tedesco o inglese.
-    Assistenza continua durante la partenza e tutta la stagione invernale gratuite. 
+    Assistenza continua durante la partenza e tutta la stagione invernale gratuita.
   list:
     - Per le traduzioni generali, si applicano i prezzi indicati.
     - Le traduzioni italiano - tedesco per alberghi e ristoranti vengono concordate dopo un primo incontro e in base alla lunghezza del testo, tipologia e difficoltà.
@@ -12,33 +12,34 @@ offers:
   - title: Consulenza per i candidati e orientamento lavorativo per giovani professionisti/e
     subtitle: <b>Rispondiamo</b> a tutte le tue domande sulle offerte di lavoro e ti <b>sosteniamo</b> nella pianificazione del tuo futuro professionale.
     courses:
-      - name: |-
-          Colloquio preliminare | Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto.     
+      - name: Colloquio preliminare | Per i candidati/e ai posti di lavoro aperti
+        description: Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto.
         days: |-
-          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at 
+          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
         cost: <b> GRATUITO </b>
-      - name: |-
-          Pianifica la tua carriera | Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni
+      - name: Pianifica la tua carriera | All inclusive! lavoro invernale e crescita professionale
+        description: Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 29 anni.
         days: |-
-          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at 
+          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
         cost: <b> GRATUITO </b>
-        
   - title: Traduzioni Italiano - Tedesco
     subtitle:  <b>come</b> dici <b>cosa</b> a <b>chi</b> fa la differenza. Abbiamo le parole giuste per ogni obiettivo.
     courses:
       - name: |-
           Curriculum vitae efficace in tedesco
-        days: |-
-          Tradurre e adattare il curriculum, secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        description: Tradurre e adattare il curriculum, secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        days: |- 
+          Scrivendo una mail a post@workitaut.at
         cost: <del>€ 120</del> con sconto <b>€ 89</b>
       - name: |-
           Traduzione della lettera di presentazione/motivazionale
-        days: |-
-          Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        description: Sapersi esprimere in modo corretto in una lingua straniera significa porre le basi per nuove opportunità lavorative e sentirsi al posto giusto nel momento giusto. Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        days: |- 
+          Scrivendo una mail a post@workitaut.at
         cost: <del>€ 140</del> con sconto <b>€ 99</b>
       - name: |-
           Traduzioni di siti web e documenti per hotel, alberghi, ristoranti e strutture per l'ospitalità
+        description: Non importa se sei il titolare di un'attività alberghiera di alto livello, un agriturismo o un piccolo B&B cittadino. Noi parliamo la lingua dei tuoi ospiti. Comunichiamo in modo efficace e corretto attraverso l’uso di un lessico adeguato al tuo target di clienti. Nel prezzo del servizio sono compresi una riunione preliminare, 2 incontri per revisioni e adattamenti, editing finale.
         days: |-
-          Sapersi esprimere in modo corretto in una lingua straniera è ancora oggi un punto debole per molti hotel e ristoranti. Non importa se sei il titolare di un'attività alberghiera di alto livello, un agriturismo o un piccolo B&B cittadino. Noi parliamo la lingua dei tuoi ospiti. Comunichiamo in modo efficace e corretto attraverso l’uso di un lessico adeguato al tuo target di clienti.
-           Nel prezzo del servizio sono compresi una riunione preliminare, 2 incontri per revisioni e adattamenti, editing finale.
+          INFO post@workitaut.at
         cost: <b>Preventivo su richiesta</b>

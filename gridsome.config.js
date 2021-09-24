@@ -6,6 +6,9 @@
 
 module.exports = {
   chainWebpack(config) {
+    config.resolve.alias.set('@jobs', '@/assets/jobs')
+    config.resolve.alias.set('@images', '@/assets/images')
+    config.resolve.alias.set('@assets', '@/assets/')
     config.mode('development')
   },
   siteName: 'Sprachraum',
