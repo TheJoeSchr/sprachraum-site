@@ -46,17 +46,4 @@ export default {
 }
 </script>
 
-<style>
-del {
-  font-weight: bold;
-}
-.chef_de_partie {
-  background-image: url('~@/assets/jobs/chef_de_partie.jpg?width=300&height=300');
-}
-.chef_de_rang {
-  background-image: url('~@/assets/jobs/chef_de_rang.jpg?width=300&height=300');
-}
-.img {
-  background-position: center center; /* optional, center the image */
-}
-</style>
+<style></style>
