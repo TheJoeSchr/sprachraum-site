@@ -1,7 +1,7 @@
 info:
   title: Informazioni
   content: |-
-    I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuiti. Registrazione richiesta.
+    I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuite. Registrazione richiesta.
     Durata circa 45min. In lingua tedesca o inglese.
     La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione. Durata circa 45 - 60min. In lingua italiana, tedesco o inglese.
     Assistenza continua durante la partenza e tutta la stagione invernale gratuite.
@@ -18,7 +18,7 @@ offers:
           Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
         cost: <b> GRATUITO </b>
       - name: Pianifica la tua carriera
-        description: Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni
+        description: Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 26 anni.
         days: |-
           Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
         cost: <b> GRATUITO </b>
@@ -27,17 +27,19 @@ offers:
     courses:
       - name: |-
           Curriculum vitae efficace in tedesco
-        days: |-
-          Tradurre e adattare il curriculum, secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        description: Tradurre e adattare il curriculum, secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        days: |- 
+          Scrivendo una mail a post@workitaut.at
         cost: <del>€ 120</del> con sconto <b>€ 89</b>
       - name: |-
           Traduzione della lettera di presentazione/motivazionale
-        days: |-
-          Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        description: Sapersi esprimere in modo corretto in una lingua straniera significa porre le basi per nuove opportunità lavorative e sentirsi al posto giusto nel momento giusto. Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        days: |- 
+          Scrivendo una mail a post@workitaut.at
         cost: <del>€ 140</del> con sconto <b>€ 99</b>
       - name: |-
           Traduzioni di siti web e documenti per hotel, alberghi, ristoranti e strutture per l'ospitalità
+        description: Non importa se sei il titolare di un'attività alberghiera di alto livello, un agriturismo o un piccolo B&B cittadino. Noi parliamo la lingua dei tuoi ospiti. Comunichiamo in modo efficace e corretto attraverso l’uso di un lessico adeguato al tuo target di clienti. Nel prezzo del servizio sono compresi una riunione preliminare, 2 incontri per revisioni e adattamenti, editing finale.
         days: |-
-          Sapersi esprimere in modo corretto in una lingua straniera è ancora oggi un punto debole per molti hotel e ristoranti. Non importa se sei il titolare di un'attività alberghiera di alto livello, un agriturismo o un piccolo B&B cittadino. Noi parliamo la lingua dei tuoi ospiti. Comunichiamo in modo efficace e corretto attraverso l’uso di un lessico adeguato al tuo target di clienti.
-           Nel prezzo del servizio sono compresi una riunione preliminare, 2 incontri per revisioni e adattamenti, editing finale.
+          INFO post@workitaut.at
         cost: <b>Preventivo su richiesta</b>
