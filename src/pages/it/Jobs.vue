@@ -2,10 +2,8 @@
 Layout
   #jobs
     section.dreamjobs
-      <!-- .max-w-7xl.mx-auto.px-8.pt-4(class='sm:px-6 lg:px-8') -->
-      <!--   h3.text-2xl.mb-2.mt-8.font-heading(class="lg:text-4xl lg:mt-0") Jobs -->
-      .mx-6(class='sm:py-4 lg:py-2 lg:max-w-none')
-        .mt-2(class='lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6')
+      .mx-6(class='sm:py-4 lg:py-2 max-w-none')
+        .mt-2(class='space-y-0 grid grid-cols-3 gap-x-6')
           template(v-for='(dreamjob, index) in jobs.dreamjobs')
             a.group(v-on:click="toggleInfo(dreamjob)")
                 DreamJobCard(:value='dreamjob')
