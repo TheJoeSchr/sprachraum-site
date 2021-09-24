@@ -12,7 +12,7 @@ section.dreamjobinfo(v-if='dreamjob')
           .max-w-2xl.py-4.mx-auto
             p(v-html='toBr(dreamjob.description)')
   .more-info(class='md:mx-4')
-    a.more.my-4(@click='toggleInfo') 
+    a.more.my-4(@click='toggleInfo')
       | {{ `More Infos  ${showInfo?'&times;':'&#8597;'}` }}
     div(class='flex flex-col')
       .column-section.py-4(v-if='showInfo' v-for='column in dreamjob.columns' :key='column.title' class='')
@@ -30,7 +30,7 @@ export default {
   props: ['value'],
   data() {
     const showInfo = false
-    return {  showInfo }
+    return { showInfo }
   },
   computed: {
     dreamjob: {
@@ -41,11 +41,16 @@ export default {
   },
   methods: {
     toBr,
-    toggleInfo(){ this.showInfo = !this.showInfo
-    }
+    toggleInfo() {
+      this.showInfo = !this.showInfo
+    },
   },
 }
 </script>
 
 <style>
+.img {
+  background-position: center center; /* optional, center the image */
+  background-repeat: no-repeat; /* optional, center the image */
+}
 </style>
