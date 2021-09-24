@@ -14,7 +14,7 @@ Layout
         Modal(v-model="showInfo")
           DreamJobInfo(:value='currentInfo')
     InfoPage(:value='{...jobs}')
-      g-image(src='~/assets/images/sonnenterrasse-1125943452.jpg' height=200 width=300)
+      g-image(src='~/assets/images/tausch_dachterrasse.jpg' height=200 width=300)
     <!-- InfoPage(:value='{...carriere, }') -->
     <!--   g-image(src='~/assets/images/schneemann-119510173.jpg' height=200 width=300) -->
 </template>
