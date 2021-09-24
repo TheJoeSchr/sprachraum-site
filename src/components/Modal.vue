@@ -3,7 +3,7 @@
     .overflow-x-hidden.overflow-y-auto.fixed.inset-0.z-50.outline-none.justify-center.items-start.flex(class='focus:outline-none')
       .relative.w-auto.my-6.mx-auto.max-w-6xl
         // content
-        .border-0.rounded-lg.shadow-lg.relative.flex.flex-col.w-full.bg-white.outline-none(class='focus:outline-none')
+        .content.border-0.rounded-lg.shadow-lg.relative.flex.flex-col.w-full.bg-white.outline-none(class='focus:outline-none')
           // header
           .sticky.flex.items-start.justify-between.p-5.border-b.border-solid.border-blueGray-200.rounded-t
             button.absolute.bg-transparent.text-2xl.font-semibold.leading-none.right-0.top-0.mt-4.mr-6.outline-none(class='focus:outline-none' v-on:click='closeModal()')
@@ -46,4 +46,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.content {
+  @apply mb-8 shadow border rounded overflow-hidden;
+}
+</style>

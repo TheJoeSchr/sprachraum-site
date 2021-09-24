@@ -63,7 +63,7 @@ export default {
 </script>
 <style scoped>
 section.dreamjobs {
-  @apply mb-8 shadow bg-yellow-100 border rounded overflow-hidden;
+  @apply mb-8 shadow border rounded overflow-hidden;
 }
 .column-section {
   @apply .px-4 mb-4 w-full;
