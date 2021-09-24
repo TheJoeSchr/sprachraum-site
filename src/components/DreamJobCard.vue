@@ -4,7 +4,7 @@ section(v-if='dreamjob')
     .w-full.h-80.bg-white.rounded-lg.overflow-hidden(class='group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1')
       h3.ml-1.text-sm.text-gray-500.bg-white {{ dreamjob.subtitle }}
       p.ml-1.text-base.font-semibold.text-gray-900 {{ dreamjob.title }}
-      g-image.img(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" height=300 width="300" center="bottom" fit="fill")
+      g-image.img(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" height=300 width="300" center="bottom" fit="contain")
       <!-- div.img.w-full.h-full.object-center.object-cover(:class="dreamjob.id" ) -->
     <!-- .section-hero-img.mx-auto(class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' -->
     <!--                   :class='dreamjob.id' -->
@@ -46,25 +46,6 @@ export default {
 del {
   font-weight: bold;
 }
-.chef_de_rang {
-  background-image: url('~@/assets/jobs/chef_de_rang.jpg?width=300&height=300');
-}
-.chef_de_partie {
-  background-image: url('~@/assets/jobs/chef_de_partie.jpg?width=300&height=300');
-}
-.demi_chef_de_partie {
-  background-image: url('~@/assets/jobs/demi_chef_de_partie.jpg?width=300&height=300');
-}
-.commis_de_rang {
-  background-image: url('~@/assets/jobs/commis_de_rang.jpg?width=300&height=300');
-}
-.barkeeper {
-  background-image: url('~@/assets/jobs/barkeeper.jpg?width=300&height=300&position=contain');
-}
-.receptionist {
-  background-image: url('~@/assets/jobs/receptionist.jpg?width=300&height=300');
-}
-
 .img {
   background-position: center center; /* optional, center the image */
   background-repeat: no-repeat; /* optional, center the image */
