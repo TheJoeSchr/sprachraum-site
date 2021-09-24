@@ -3,7 +3,7 @@ section.dreamjobinfo(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
     div.img.mx-auto(class='w-1/3')
       g-image.img(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' height=300 width="300" center="center" fit="inside")
-    .w-full.px-4.mx-4(class='md:w-2/3 ')
+    .px-4.mx-4(class='md:w-2/3 ')
       h2.text-xl.font-heading.font-semibold.text-center.mx-auto(class='md:text-4xl md:pt-0 md:text-left').
         {{ dreamjob.title }}
       h3.text-lg.font-heading.font-semibold.text-center.mx-auto.text-gray-600(class='md:text-4xl md:pt-0 md:text-left').
