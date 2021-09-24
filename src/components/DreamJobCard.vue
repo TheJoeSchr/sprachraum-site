@@ -43,23 +43,23 @@ export default {
 
 <style>
   del { font-weight: bold; }
-  .chef_de_partie {
-    background-image: url('~@/assets/jobs/chef_de_partie.jpg?width=300&height=300');
-  }
   .chef_de_rang {
     background-image: url('~@/assets/jobs/chef_de_rang.jpg?width=300&height=300');
   }
-  .demi_chef_de_cucina {
-    background-image: url('~@/assets/images/1_Deutschkurs_blicksalzburg-1133549562.jpg?width=300&height=300');
+  .chef_de_partie {
+    background-image: url('~@/assets/jobs/chef_de_partie.jpg?width=300&height=300');
   }
-  .commis_de_bar_zillertal {
-    background-image: url('~@/assets/images/outdoor-pool-stock-resort-wellness-zillertal-02.jpg?width=300&height=300');
+  .demi_chef_de_partie {
+    background-image: url('~@/assets/jobs/demi_chef_de_partie.jpg?width=300&height=300');
   }
-  .commis_de_bar {
-    background-image: url('~@/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg?width=300&height=300&position=cover');
+  .commis_de_rang {
+    background-image: url('~@/assets/jobs/commis_de_rang.jpg?width=300&height=300');
+  }
+  .barkeeper {
+    background-image: url('~@/assets/jobs/barkeeper.jpg?width=300&height=300&position=contain');
   }
   .receptionist {
-    background-image: url('~@/assets/images/kamin_essen-869848778.jpg?width=300&height=300');
+    background-image: url('~@/assets/jobs/receptionist.jpg?width=300&height=300');
   }
 
   .img {
