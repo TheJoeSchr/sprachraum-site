@@ -1,7 +1,7 @@
 <template lang="pug">
 section.dreamjobinfo(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
-    g-image.img.mx-auto(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' height=300 width="300" center="bottom" fit="cover")
+    g-image.img(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' height=300 width="300" center="center" fit="cover")
     .w-full.px-4.mx-4(class='md:w-1/2 ')
       h2.text-xl.font-heading.font-semibold.text-center.mx-auto(class='md:text-4xl md:pt-0 md:text-left').
         {{ dreamjob.title }}
@@ -52,5 +52,7 @@ export default {
 .img {
   background-position: center center; /* optional, center the image */
   background-repeat: no-repeat; /* optional, center the image */
+  width: 300px;
+  height: 300px;
 }
 </style>
