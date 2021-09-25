@@ -3,7 +3,7 @@ Layout
   #jobs
     section.dreamjobs
       .mx-6(class='sm:py-4 lg:py-2 max-w-none')
-        .mt-2(class='space-y-0 grid grid-cols-3 gap-x-6')
+        .mt-2(class='lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6')
           template(v-for='(dreamjob, index) in jobs.dreamjobs')
             a.group(v-on:click="toggleInfo(dreamjob)")
                 DreamJobCard(:value='dreamjob')
