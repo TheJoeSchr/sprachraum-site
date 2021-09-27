@@ -17,7 +17,7 @@ Layout
                 //- span.font-semibold CEO at Realweb
       .flex.flex-wrap.w-full(class="md:-mx-4")
         .column-section(class='md:-mx-4')
-          h3.text-xl Kurzbio
+          h3.text-xl Profilo
           p.tx-sm.text-gray-700(v-html="toBr(person.kurzbio)")
         .column-section(class='md:mx-8')
           h3.text-xl Sprachraum WORK IT AUT
