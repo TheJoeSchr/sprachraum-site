@@ -6,7 +6,7 @@ Layout
       | Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht
       | laut §25 Mediengesetz.
   p
-    strong WORK IT AUT
+    strong KompeTrend GmbH Projekt WORK IT AUT
     br
     |           Zirbenweg 7
     br
@@ -17,6 +17,13 @@ Layout
     br
     strong UID-Nummer:
     |  ATU59877100
+    br
+    strong GLN: 
+    (der öffentlichen Verwaltung) 9110022230550
+    |
+    br  
+    strong GISA-Zahl: 27926970
+    |
     br
     strong Geschäftszahl:
     |  697918
@@ -41,6 +48,16 @@ Layout
     br
     strong Verleihungsstaat:
     |  Österreich
+    br
+    strong Bilder
+    SHF_HR@mikerabensteiner_1398
+    SHF_HR@mikerabensteiner_1557
+    SHF_HR@mikerabensteiner_2790
+    outdoor-pool-stock-resort-wellness-zillertal-02
+    sissi-stube-kulinarik-stock-resort-01
+    kocherei-stock-ressort-kulinarik-genusshotel-04
+    kocherei-stock-resort-kulinarik-genusshotel-05
+    feelfresh-barteam-genusshotel-stock-tirol-01
   h3
     | Erklärung zur Informationspflicht
   h4
@@ -124,7 +141,7 @@ Layout
     | Sie erreichen uns unter folgenden Kontaktdaten:
   p
     strong
-      | Eli Oberleitner
+      | Elke Oberleitner
       br
     | Head | Business contacts &
     |           Job applications
