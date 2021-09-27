@@ -6,7 +6,7 @@ layout
       div.text-lg.pb-4.
         Nachstehend die für das Kalenderjahr 2020/2021 gültigen Allgemeinen
         Geschäftsbedingungen für Sprachraum – Work IT AUT ein in Projekt der KompeTrend
-        GmbH, Linz OÖ / Österreich. Im folgenden kurz WIA KompeTrend GmbH
+        GmbH, Ansfelden OÖ / Österreich. Im folgenden kurz WIA KompeTrend GmbH
 
       .flex.flex-wrap.-mx-8
         .px-8.mb-8(class="lg:w-1/2")
@@ -50,7 +50,7 @@ layout
             4.1 Die Zeiteinheit unserer Veranstaltungen sind als „EH“ bei allen Angeboten auf der
             Website angegeben und umfassen jeweils 50 Minuten.
           p.
-            4.2 Gruppenkurse sind auf ein Minimum von 4 und auf ein Maximum von 6
+            4.2 Online Gruppenkurse sind auf ein Minimum von 4 und auf ein Maximum von 6
             Teilnehmer_innen beschränkt.
           p.
             4.3 Etwaiige Änderungen sind extra auf dem jeweiligen Angebot gekennzeichnet. Auch die
@@ -119,7 +119,7 @@ layout
           p.
             9.2 Wenn Sie den Kurs aufgrund eines Arbeitseinsatzes bei einem Partner oder best friend -
             Unternehmen von WIA KompeTrend GmbH in Österreich absolvieren
-            minus 15%
+            minus 10%
           p.
             9.3 Wenn Sie Mitarbeiter_in eines Partners oder best friend Unternehmens von WIA
             KompeTrend GmbH in Österreich oder Italien sind: minus 10%
