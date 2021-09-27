@@ -7,10 +7,10 @@ info:
     LIVELLO da A2 a B1
     Scegliete un giorno alla settimana da dedicare allo studio della lingua
     I corsi non si terranno nei giorni 8 dic e dal 21 dic al 9 gen 22.
-    Legenda / unità = 60min; SI = studio individuale.
+    Leggenda / unità = 60min; SI = studio individuale.
   list:
     - 'A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.'
-    - 'sconto del 10% sul prossimo corso per tutti coloro che hanno lavorato con i nostri partner durante la stagione invernale.'
+    - 'Sconto del 10% sul prossimo corso per tutti coloro che hanno lavorato con i nostri partner durante la stagione invernale.'
 offers:
   - title: Pacchetto 14 unità | Preparazione per la stagione invernale
     subtitle: Tedesco per le professioni alberghiere. Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
@@ -19,8 +19,8 @@ offers:
         description: |-
           OBIETTIVI Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
           Conoscenza delle pietanze austriache e internazionale (in tedesco).
-          CONTENUTO Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso di modi di dire per le procedure nella preparazione del menù,
-          attività orali con colleghi/ghe e superiori.
+          CONTENUTO Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
+          attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
         days: |-
               dal 19/10 al 30/11/21 MAR 08:30 - 10:30
               dal 21/10 al 02/12/21 GIO 14:30 - 16:30
@@ -31,7 +31,7 @@ offers:
           OBIETTIVI Mansioni e attività dell'addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell'attrezzatura e le fasi del lavoro in sala.
           Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza.
           CONTENUTO Il glossario in riferimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali.
-          Possedere una panoramica generale in riferimento agli ingredienti e i tipici vini austriaci.
+          Possedere una panoramica generale in riferimento agli ingredienti / ai tivici vini. 
         days: dal 18/10 al 29/11/21 LUN 08:30 - 10:30
               dal 20/10 al 01/12/21 MER 14:30 - 16:30
         cost: <del>€ 280</del> <b> € 199 </b>
@@ -49,26 +49,25 @@ offers:
               lun e gio 11:00 - 13:00
         cost: <del>€ 340</del>  <b> € 250  </b>
 
-  - title: Corso di Tedesco intensivo per le professioni alberghiere.
+  - title: Corso di tedesco intensivo per le professioni alberghiere.
     subtitle: |-
-      Con gli extra: verifica delle competenze, primo colloquio e preparazione al colloquio. Supporto e assistenza durante il trasferimento.
+      Inclusivo di: verifica delle competenze, primo colloquio e preparazione al colloquio. Supporto e assistenza durante il trasferimento.
     times:
 
     courses:
       - name: Corso di tedesco per studenti/esse tra 18 e 29 anni. Preparazione per la stagione in Austria. A partire dal livello A2 del CERF.
         description: |-
-          <b>MODULO 1</b> online / 36 unità / dal una volta alla settimana a scelta lun/mar/mer/gio/ 14:30 - 16:30 oppure 17:00 - 19:00
+          <b>MODULO 1</b> online / 36 unità / una volta alla settimana a scelta lun/mar/mer/gio/ 14:30 - 16:30 oppure 17:00 - 19:00
           <b>Parte 1</b> dal 18 ott al 09 dic 2021.
           Focus del corso: lingua parlata & ampliamento del lessico. Training delle competenze orali (15 unità); ripasso della grammatica per l'uso immediato nelle conversazioni ed esercitazioni.
           <b>Parte 2</b> dal 10 gen al 25 feb 2022.
           Focus del corso: ottenere una comunicazione fluente e autentica in tedesco:
           Gli/le studenti/esse si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore alberghiero a 4/5 stelle.
-          Utilizzo del materiale come la carta del menù, la lista degli ingredienti e le ricette, la programmazione dei turni, i contratti di lavoro, stesura del curriculum (12 unità).
+          Saper usare la carta del menu, elencare gli ingredienti e descrivere le ricette, saper programmare i turni lavorativi e scrivere il C(12 unità).
           MEET & GREET incontro con uno/a chef stellato/a. (2 unità)
 
-          <b>MODULO 2</b>	in presenza / 15 unità in presenza intensivo | 7 - 11 marzo 2022 o 14 - 18 marzo 2022 o 21 - 25 marzo 2022 | 15:30 - 18:30 / 5 giorni intensivo
-          Corso di Tedesco intensivo per la preparazione al lavoro negli hotel di fascia alta.
-          Training intensivo di gruppo, particolare enfasi nell´ apprendimento della lingua parlata, attività comunicative con metodi attivi
+          <b>MODULO 2</b>	in presenza / 15 unità in presenza intensivo | 7 - 11 marzo 2022 oppure 14 - 18 marzo 2022 oppure 21 - 25 marzo 2022 | 15:30 - 18:30 / 5 giorni intensivo
+          Corso di tedesco intensivo per la preparazione al lavoro negli hotel di fascia alta. Training intensivo di gruppo, particolare enfasi nell´ apprendimento della lingua parlata, attività comunicative con metodi attivi
           metodo della PDL, simulazioni di situazioni lavorative, role-playing, preparazione ad un colloquio lavorativo e alla stesura del proprio CV.
           <b>Indirizzo</b> Cagliari, Enjoy languages DIALOGANDO / Via A. Einstein, 19
 
@@ -83,11 +82,11 @@ offers:
     subtitle: previo accordo
     times: 08:00 - 19:00 dal lun al ven
     courses:
-      - name: Coaching individuale / 20 unità + 10 SI
+      - name: Coaching individuale / 20 unità 
         cost: <del>€ 570</del>  <b> € 530  </b>
-      - name: Coaching individuale / 15 unità + 7 SI
+      - name: Coaching individuale / 15 unità 
         cost: <del>€ 420</del>   <b>€ 390  </b>
-      - name: Coaching individuale / 10 unità + 5 SI
+      - name: Coaching individuale / 10 unità 
         cost: <del>€ 275</del>  <b> € 250  </b>
-      - name: Coaching individuale / 5 unità + 3 SI
+      - name: Coaching individuale / 5 unità
         cost: <del>€ 150</del>   <b>€ 129  </b>
