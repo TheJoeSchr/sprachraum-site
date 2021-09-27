@@ -18,10 +18,10 @@ Layout
     strong UID-Nummer:
     |  ATU59877100
     br
-    strong GLN: 
-    (der öffentlichen Verwaltung) 9110022230550
+    strong GLN:
+    | (der öffentlichen Verwaltung) 9110022230550
     |
-    br  
+    br
     strong GISA-Zahl: 27926970
     |
     br
@@ -49,15 +49,16 @@ Layout
     strong Verleihungsstaat:
     |  Österreich
     br
-    strong Bilder
-    SHF_HR@mikerabensteiner_1398
-    SHF_HR@mikerabensteiner_1557
-    SHF_HR@mikerabensteiner_2790
-    outdoor-pool-stock-resort-wellness-zillertal-02
-    sissi-stube-kulinarik-stock-resort-01
-    kocherei-stock-ressort-kulinarik-genusshotel-04
-    kocherei-stock-resort-kulinarik-genusshotel-05
-    feelfresh-barteam-genusshotel-stock-tirol-01
+    strong Bilder:
+    ul
+      li SHF_HR@mikerabensteiner_1398
+      li SHF_HR@mikerabensteiner_1557
+      li SHF_HR@mikerabensteiner_2790
+      li outdoor-pool-stock-resort-wellness-zillertal-02
+      li sissi-stube-kulinarik-stock-resort-01
+      li kocherei-stock-ressort-kulinarik-genusshotel-04
+      li kocherei-stock-resort-kulinarik-genusshotel-05
+      li feelfresh-barteam-genusshotel-stock-tirol-01
   h3
     | Erklärung zur Informationspflicht
   h4
