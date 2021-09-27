@@ -1,6 +1,8 @@
 message:
   btnTranslate: ' 🇩🇪 Deutsch'
   btnBooking: 'Iscrizione'
+  btnBookingAlternative: 'or email to:'
+  btnBookingEmail: 'elke@workitaut.at'
   legalText: |-
     AGB (termini e condizioni secondo la legge austriaca)
     Gli importi dei corsi possono essere suddivisi in max 2 quote. Se si intende usufruire del pagamento diviso in due rate è necessario farci pervenire la richiesta via email. La prima rata è pari al 60% dell’importo e va effettuata prima dell’inizio del corso. Sono esclusi dal pagamento rateale i coaching e i mini corsi.

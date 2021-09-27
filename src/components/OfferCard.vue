@@ -12,15 +12,15 @@ section(class="pt-2")
           p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary(v-html='toBr(days)')
           p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary(v-html='toBr(times)')
         .mx-auto.mb-2(class='w-2/5' v-if="hideBooking != true")
-          a(:href='mailto({ ...value, legalText: value.messages.legalText })' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow.
-            {{ messages.btnBooking }}
+          a(:href='mailtoFn({ ...value, legalText: value.messages.legalText })' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow
+            | {{ messages.btnBooking }}
+          a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{ `${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
 </template>
 
 <script>
 import { toEmailLinebreak } from '~/helpers'
 import { toBr } from '~/helpers'
 
-const EMAIL = 'elke@workitaut.at'
 const TEMPLATE =
   '\nVORNAME / NOME\n  \nNACHNAME / COGNOME\n  \nGEBURTSDATUM / DATA DI NASCITA\n  \nSTRASSE / VIA\n   \nPLZ / CODICE POSTALE\n \nORT / CITÀ\n \nLAND / PAESE\n  \nTELEFON / TELEFONO\n \nE-MAIL\n \n\nNACHRICHT / MESSAGO\n\n\n\n\n\n\n\n'
 
@@ -38,17 +38,41 @@ export default {
   name: 'OfferDetail',
   props: ['value'],
   data() {
-    const { name, description, cost, days, legalText, messages, times, hideBooking } = this.value
-    return { name, description, cost, days, legalText, messages, times, hideBooking }
+    const {
+      name,
+      description,
+      cost,
+      days,
+      legalText,
+      messages,
+      times,
+      hideBooking,
+    } = this.value
+    return {
+      name,
+      description,
+      cost,
+      days,
+      legalText,
+      messages,
+      times,
+      hideBooking,
+    }
   },
   methods: {
-    mailto: (course) =>
-      `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(course)}`,
+    mailtoFn: function(course) {
+      const EMAIL = this.messages.btnBookingEmail
+      return `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(
+        course
+      )}`
+    },
     toBr,
   },
 }
 </script>
 
 <style>
-del { font-weight: bold; }
+del {
+  font-weight: bold;
+}
 </style>
