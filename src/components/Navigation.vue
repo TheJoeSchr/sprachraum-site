@@ -1,8 +1,8 @@
 <template lang="pug">
 div
-  header.navigation-font.fixed.container.w-full.top-0.bg-white.border-b-2.border-gray-300.shadow-xs(style="max-width:100vw")
+  header.navigation-font.fixed.container.w-full.top-0.bg-white.shadow-xs(style="max-width:100vw")
     .container.mx-auto.w-full.text-center
-      nav(class="flex flex-wrap items-center justify-between bg-white w-full pb-4")
+      nav(class="flex flex-wrap items-center justify-between bg-white w-full")
         div(class="flex flex-shrink-0 mr-6")
           g-link(to="/")
             g-image(src="~/assets/images/LogoAlphaLineDeKlein.png" class="hidden sm:block")
