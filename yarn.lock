@@ -11017,15 +11017,15 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-d-din@0.0.67:
-  version "0.0.67"
-  resolved "https://registry.yarnpkg.com/typeface-d-din/-/typeface-d-din-0.0.67.tgz#02965b1a36a491b04fc33cc76b98c979223a2833"
-  integrity sha512-rHXPrklMHE9cRCtxz/jdpgS09Xqu9gn3XE/oI6Mnu3FyaQHrGzEenCf3nhRta67v79a+w+EJuzjPWG5HlR0SaA==
+typeface-d-din@1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-d-din/-/typeface-d-din-1.1.13.tgz#95c3e816f3652461e5adf6f117379cdbead54be1"
+  integrity sha512-fnrhyQrXo97XLTWpjeoBf+FJzM4YIAIueQQJSjnViRkDc7/LYIvu4tyVizeuPMvAF3DKbAtSH7TJTd75YSdiwg==
 
-typeface-unica-one@0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-unica-one/-/typeface-unica-one-0.0.72.tgz#af89ee464166d2a27e22053df42579975a39ef41"
-  integrity sha512-/Km9gIQZAB+QnGP7fN/+16fOmWt6JIZcXXVcH31fn3P22FwW4Zb0WGUP6k6dA9pVzfGu13xsiF4U/n+m8NFn3Q==
+typeface-unica-one@1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-unica-one/-/typeface-unica-one-1.1.13.tgz#eace91709634b6ba6f007d6965a19e66d6b05de3"
+  integrity sha512-zFt/tqwo0wfvWu34pbWCg/cmq6x8Se6NnWo135rdhrPzCPb9ViEoESCVhwsmS26gTKoke21fGqkQA8CejVAprw==
 
 uglify-js@3.4.x:
   version "3.4.10"
