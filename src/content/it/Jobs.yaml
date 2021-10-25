@@ -118,7 +118,7 @@ dreamjobs:
           - Controllo e rispetto delle norme di qualità
           - Conformità alle linee guida HACCP
           - Preparazione dei cibi
-          
+
       - title: Il tuo profilo
         content:
           - Formazione completa come cuoco
@@ -127,7 +127,7 @@ dreamjobs:
           - Attenzione alla qualità e conoscenza dei prodotti
           - Tedesco con un livello min A2 (Ötztal, Vorarlberg) e min B1 (Zillertal)
           - Buona conoscenza dell´inglese
-          
+
       - title: I tuoi vantaggi
         content:
           - Lavoro sicuro in un´azienda moderna a conduzione familiare
@@ -139,9 +139,9 @@ dreamjobs:
           - Inserimento mirato tramite il nostro sistema on-board
           - Lavoro di gruppo in un team aperto e professionale
           - Possibilità di formazione professionale e personale
- 
+
   - id: commis_de_rang
-    title: Commis de Rang 
+    title: Commis de Rang
     subtitle: Hotel 5* e 4* superiore / Tirolo e Vorarlberg
     description: |-
        <b>Contratto</b> full time / 5 o 5 1/2 giorni a settimana / lavoro stagionale
@@ -161,12 +161,12 @@ dreamjobs:
           - Mise en place giornaliera
           - Rispetto delle norme di pulizia e igiene
           - Lavorare seguendo la checklist giornaliera
-          - Supporto all´ area bar durante il turno giornaliero 
-          
+          - Supporto all´ area bar durante il turno giornaliero
+
       - title: Il tuo profilo
         content:
           - Formazione completa in ambito gastronomico/alberghiero
-          - Esperienza lavorativa in una posizione simile 
+          - Esperienza lavorativa in una posizione simile
           - Ottime doti relazionali con clientela di alto profilo
           - Tedesco di livello B1 intermedio
           - Buona conoscenza dell´inglese
@@ -225,12 +225,12 @@ dreamjobs:
           - Partecipazione alla creazione dei turni settimanali attraverso richieste di turno di lavoro
           - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena)
           - Uso della SPA dell albergo
-          - Camere e appartementi per i dipendenti in stile moderno 
+          - Camere e appartementi per i dipendenti in stile moderno
           - Inserimento mirato tramite il nostro sistema on-board
           - Lavoro di gruppo in un team aperto e professionale
           - Possibilità di formazione professionale e personale
           - Divisa tradizionale austriaca fornita dall hotel
-      
+
 
   - id: receptionist
     title: Front Office Receptionist
@@ -255,14 +255,14 @@ dreamjobs:
           - Stretta collaborazione e comunicazione con altri reparti
           - Attività di portineria come richieste e informazioni degli ospiti
           - Corretta gestione degli oggetti smarriti e ritrovati
-          - Rilascio skipass 
-          
+          - Rilascio skipass
+
       - title: Il tuo profilo
         content:
           - Diploma presso un istituto alberghiero, turistico o linguistico.
           - Esperienza nel settore alberghiero alto livello
           - Ottime doti relazionali con clientela di alto profilo
-          - Ottima conoscenza di Tedesco e Inglese 
+          - Ottima conoscenza di Tedesco e Inglese
           - Esperienza con Protel, Word, Excel, Outlook, Hotelkit, RA, Channelmanager
 
       - title: I tuoi vantaggi
@@ -272,13 +272,13 @@ dreamjobs:
           - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena).
           - Uso della SPA dell hotel.
           - Camere e appartementi per i dipendenti in stile moderno.
-          - Inserimento mirato tramite il nostro sistema on-board. 
+          - Inserimento mirato tramite il nostro sistema on-board.
           - Lavoro di gruppo in un team aperto e professionale.
           - Possibilità di formazione professionale e personale.
           - Divisa tradizionale austriaca fornita dall hotel.
 
 sections:
-  - title: Cerchiamo inoltre | Capo di partita, Sous Chef, Demi Chef, Pasticcere. Maître di Sala, Chef de Rang, Commis de Rang, Barmanager, Commis de Bar. Estetista SPA, Parrucchiere, Massaggiatore. Ricevimento, Receptionst. Houskeeping. (12)
+  - title: Cerchiamo inoltre | Capo di partita, Sous Chef, Demi Chef, Pasticcere. Maître di Sala, Chef de Rang, Commis de Rang, Barmanager, Commis de Bar. Estetista SPA, Parrucchiere, Massaggiatore. Ricevimento, Receptionst. Housekeeping. (12)
     list:
       - "Chi cerchiamo: Professionisti del settore alberghiero con conoscenza del tedesco min. B1"
       - "Cosa offriamo: Vitto e alloggio, camera singola privata. Oltre ad un eccellente stipendio base, la mancia è un importante fattore di reddito. "
@@ -291,5 +291,4 @@ sections:
     list:
       - <a class='underline' href='https://www.shfcrew.at/'>Schlosshotel Fiss | Fiss. Ötztal / Tirolo</a>
       - <a class='underline' href='https://www.stock.at/de/'>Stock Resort | Finkenberg. Zillertal / Tirolo</a>
-      - Fotocredits 1/4/6/8/10 Stock Resort 7/9/12 Schlosshotel Fiss 
-
+      - Fotocredits 1/4/6/8/10 Stock Resort 7/9/12 Schlosshotel Fiss
