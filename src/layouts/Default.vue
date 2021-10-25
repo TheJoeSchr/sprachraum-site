@@ -3,7 +3,8 @@
   //- HEADER
   Navigation
       //- CONTENT
-      slot
+      div.content-font
+        slot
   //- FOOTER
   Footer
     a(href="https://sprachraum.workitaut.at") SPRACHRAUM.workitaut.at
@@ -34,15 +35,16 @@ export default {
 </script>
 
 <style>
-.btn-translate {
-  @apply text-center inline-block mb-3 py-3 px-6 w-2/5 mx-auto leading-none text-black bg-secondary-200  rounded shadow;
-}
-.btn-translate:hover {
-  @apply bg-primary-600;
-}
 body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+}
+
+.content-font {
+  font-family: D-DIN, DIN, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-style: normal;
 }
 </style>

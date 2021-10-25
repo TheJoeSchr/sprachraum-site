@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  header.fixed.container.w-full.top-0.bg-white.border-b-2.border-gray-300.shadow-xs(style="max-width:100vw")
+  header.navigation-font.fixed.container.w-full.top-0.bg-white.border-b-2.border-gray-300.shadow-xs(style="max-width:100vw")
     .container.mx-auto.w-full.text-center
       nav(class="flex flex-wrap items-center justify-between bg-white w-full pb-4")
         div(class="flex flex-shrink-0 mr-6")
@@ -50,12 +50,5 @@ export default {
   letter-spacing: 2px;
   font-style: normal;
   line-height: 3.5em;
-}
-
-.content-font {
-  font-family: D-DIN, DIN, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0px;
-  font-style: normal;
 }
 </style>
