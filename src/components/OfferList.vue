@@ -6,9 +6,10 @@ div
         h2.text-center.text-xl.pt-2.font-heading.font-bold(v-html="toBr(offer.title)")
         h3.text-center.text-lg.pb-1.font-heading(v-html="toBr(offer.subtitle)")
         h3.text-center.text-lg.pb-1.font-heading(v-html="toBr(offer.times)")
-        ul
-          li(v-for='course in offer.courses' :key="course.name")
-            OfferCard(:value="{...course, hideBooking, times:offer.times, messages}")
+        div(class='sm:py-4 lg:py-2 max-w-none')
+          ul.mt-2(class='lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6')
+            li(v-for='course in offer.courses' :key="course.name+course.description")
+              OfferCard(:value="{...course, hideBooking, times:offer.times, messages}")
         div.text-sm.mx-2.py-4
           h3.text-lg {{ info.title }}
           h3(v-html="toBr(info.content)")
