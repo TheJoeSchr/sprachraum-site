@@ -6,14 +6,14 @@
           g-link(:to='link' )
             slot
       .px-8(class='md:w-1/2 md:mb-0').align-top
-        h3.text-2xl.mb-2.mt-8.font-heading(class="lg:text-4xl lg:mt-0" v-html='toBr(title)')
-        h4.text-3xl.py-4.my-4.text-gray-800.leading-tight.font-heading(class='md:text-xl md:pb-0' v-html="toBr(subtitle)")
+        h3.text-xl.mb-2.mt-8.font-heading(class="lg:text-4xl lg:mt-0" v-html='toBr(title)')
+        h4.text-xl.py-4.my-4.text-gray-800.leading-tight.font-heading(class='md:text-xl md:pb-0' v-html="toBr(subtitle)")
         p.mb-4.text-gray-600.leading-relaxed(v-html='toBr(content)')
         g-link.text-primary-700(:to='link', class='hover:underline' v-if="link") {{ linkText }}
 </template>
 
 <script>
-import {toBr} from '~/helpers'
+import { toBr } from '~/helpers'
 export default {
   props: ['value'],
   data: function () {
@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     toBr,
-  }
+  },
 }
 </script>
 <style scoped>

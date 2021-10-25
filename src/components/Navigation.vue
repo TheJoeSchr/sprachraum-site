@@ -21,20 +21,6 @@ div
 
   //- Part of CONTENT section
   section.mx-auto.border-none.shadow-none(class="container")
-    div(class="mt-24 md:mt-40 xl:mt-32 mx-0 sm:mx-2 lg:mx-16").navigation-font
-      //- Nav Buttons for Mobile
-        div(v-show="showMobileNav" class="block lg:hidden mx-2 text-center")
-          g-link(to="/"  class="block lg:inline-block mt-4 lg:mt-0 mr-5 text-gray-900 hover:text-primary-700") home
-          g-link(to="/it/jobs/"  class="inline-block py-3 px-5 mr-5 leading-none text-center text-gray-700 bg-secondary-100 hover:bg-secondary-300 rounded shadow") lavori in AUT
-          g-link(to="/it/abos/" class="inline-block py-3 px-5 mr-5 leading-none text-center text-gray-700 bg-primary-100 hover:bg-primary-200 rounded shadow") corsi di tedesco
-          g-link(to="/it/services/"  class="block lg:inline-block mt-4 lg:mt-0 mr-5 text-gray-900 hover:text-primary-700") servizi
-          g-link(to="/team/"  class="block lg:inline-block mt-4 lg:mt-0 mr-5 text-gray-900 hover:text-primary-700") chi siamo
-        //-
-          g-link(to="/it/kursprogramm/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") calendario | Kursprogramm
-          g-link(to="/team/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") squadra | Team
-          g-link(to="/it/corsiditedesco/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") corsi di tedesco | Deutschkurse
-          g-link(to="/italienischkurse/"  class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-secondary-500 hover:bg-seondary-600 rounded shadow") Italienischkurse
-          g-link(to="/" class="text-center inline-block mb-3 py-3 px-6 w-full leading-none text-black bg-primary-500 hover:bg-primary-600 rounded shadow") home
       slot
 </template>
 

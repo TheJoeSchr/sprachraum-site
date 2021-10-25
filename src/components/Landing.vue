@@ -6,8 +6,8 @@ div
   section
     .flex.flex-wrap.items-center.text-center.mx-2(class='md:text-left md:my-8')
       .px-2.order-1(class='md:w-1/2 md:pr-10 md:order-none')
-        h2.text-3xl.py-4.mt-4.leading-tight.font-heading(class='md:text-5xl md:pb-0' v-html="toBr(hero.title)")
-        h3.text-3xl.py-4.my-4.text-gray-800.leading-tight.font-heading(class='md:text-xl md:pb-0' v-html="toBr(hero.subtitle)")
+        h2.text-xl.py-4.mt-4.leading-tight.font-heading(class='md:text-5xl md:pb-0' v-html="toBr(hero.title)")
+        h3.text-xl.py-4.my-4.text-gray-800.leading-tight.font-heading(class='md:text-xl md:pb-0' v-html="toBr(hero.subtitle)")
         p.mb-8.text-gray-600.leading-relaxed(v-html="toBr(hero.content)")
         .mb-8
           g-link.inline-block.py-4.px-8.mr-6.leading-none.text-black.bg-primary-500.rounded.shadow(
