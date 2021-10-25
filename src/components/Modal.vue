@@ -1,4 +1,7 @@
 <template lang="pug">
+span
+  a(@click="toggleModal()")
+    slot(name="inline" v-bind:toggleModal="toggleModal")
   .modal(v-if='showModal')
     .overflow-x-hidden.overflow-y-auto.fixed.inset-0.z-50.outline-none.justify-center.items-start.flex(class='focus:outline-none')
       .relative.w-auto.my-6.mx-auto.max-w-6xl
@@ -18,21 +21,10 @@ import { toBr } from '~/helpers'
 
 export default {
   name: 'Modal',
-  props: {
-    value: {
-      type: Boolean,
-      default: false,
-    },
-  },
-  computed: {
-    showModal: {
-      get: function () {
-        return this.value
-      },
-      set: function (newValue) {
-        this.$emit('input', newValue)
-      },
-    },
+  data() {
+    return {
+      showModal: false,
+    }
   },
   methods: {
     toBr,
