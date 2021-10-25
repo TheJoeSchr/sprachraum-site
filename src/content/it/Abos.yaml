@@ -5,8 +5,6 @@ info:
     COVID L'aula è dotata di due grandi porta finestre che vengono aperte ogni 30 minuti. E' 
     obbligatorio utilizzare la mascherina. Nel caso ci fosse una chiusura della scuola a causa di 
     forza maggiore, il corso passerà in modalità DAD. 
-    I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
-    Scegliete un giorno alla settimana da dedicare allo studio della lingua. 
     Tutti corsi con certificato di frequenza. 
     In linea di principio, per tutti quei corsi che superano la cifra di 250 euro accettiamo una 
     rateizzazione in due trance. 
@@ -82,36 +80,33 @@ offers:
               09:30 - 13:30 
         cost: <del>€ 690</del> <b> sconto natale € 540 </b> 
         
-  - title: Pacchetto 14 unità | ONLINE | Preparazione per la stagione | A2-B1
-    subtitle: Tedesco per le professioni alberghiere. Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
+  - title: Pacchetti | ONLINE | livello A2-B1
+    subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità. 
     courses:
       - name: Pacchetto 14 unità | Tedesco per le professioni della cucina. Online, livello A2-B1
         description: |-
+          Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           <b>OBIETTIVI</b> Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
           Conoscenza delle pietanze austriache e internazionale (in tedesco).
           <b>CONTENUTO</b> Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
           attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
-              ogni MAR 08:30 - 10:30 
               ogni GIO 14:30 - 16:30 
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
       - name: Pacchetto 14 unità | Tedesco per le professioni di sala. Online, livello A2-B1
         description: |-
+          Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           OBIETTIVI Mansioni e attività dell'addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell'attrezzatura e le fasi del lavoro in sala.
           Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza.
           CONTENUTO Il glossario in riferimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali.
           Possedere una panoramica generale in riferimento agli ingredienti / ai tivici vini. 
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
-              ogni LUN 08:30 - 10:30
               ogni MER 14:30 - 16:30
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
-
-  - title: Pacchetto 24 unità | Uso attivo della grammatica. Online, livello A2-B1 
-    subtitle: Ripasso della grammatica per esercizi di conversazione.
-    courses:
+        
       - name: Pacchetto 24 unità | REFRESHER uso attivo della grammatica. Online A2-B1
         description: |-
           Ripasso della grammatica dal livello A2 al B1 - con esempi pratici di utilizzo.
@@ -119,7 +114,7 @@ offers:
           genere e caso / declinazioni degli aggettivi / comparativi / preposizioni locali e temporali / sintassi
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
-              ogni LUN e GIO 11:00 - 13:00
+              ogni LUN 11:00 - 13:00
         cost: <del>€ 320</del>  <b> sconto natale € 250  </b>
 
   - title: PACCHETTO COACHING INDIVIDUALE
