@@ -1,46 +1,67 @@
 info:
   title: Informazioni
   content: |-
-    CORSI IN PRESENZA Scuola di lingua - Enjoy languages - Dialogando. Cagliari, Via Einstein, 19
-    I PACCHETTI si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
-    Scegliete un giorno alla settimana da dedicare allo studio della lingua. 
-    In linea di principio, per tutti quei corsi che superano la cifra di 250 euro accettiamo una 
-    rateizzazione in due trance.
+    CORSI IN PRESENZA Scuola di lingua - Enjoy languages - Dialogando. Cagliari, Via Einstein, 19. Partecipanti 3 - 8. 
     COVID L'aula è dotata di due grandi porta finestre che vengono aperte ogni 30 minuti. E' 
     obbligatorio utilizzare la mascherina. Nel caso ci fosse una chiusura della scuola a causa di 
-    forza maggiore, il corso passerà in modalità DAD.  
+    forza maggiore, il corso passerà in modalità DAD. 
+    I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
+    Scegliete un giorno alla settimana da dedicare allo studio della lingua. 
+    Tutti corsi corsi con ertificato di frequenza. 
+    In linea di principio, per tutti quei corsi che superano la cifra di 250 euro accettiamo una 
+    rateizzazione in due trance. 
     I corsi non si terranno nei giorni 8 dic e dal 21 dic al 9 gen 22.
     Leggenda / unità = 60min; SI = studio individuale.
   list:
     - 'A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.'
     - 'Sconto del 10% sul prossimo corso per tutti coloro che hanno lavorato con i nostri partner durante la stagione invernale.'
 offers:
-  - title: Corsi di tedesco intensivo per il settore turistico alberghiero.         
-    subtitle: IN PRESENZA | TEAM TEACHING | Enjoy languages - Dialogando, Cagliari. 
+  - title: Corsi di tedesco IN PRESENZA.         
+    subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari. 
     courses:
-      - name: Corso di tedesco per le professioni alberghiere. <b>36 unità in presenza | A2-B1</b>
+      - name: Corso di tedesco intensivio per le professioni alberghiere. <b>36 unità in presenza | A2-B1</b>
         description: |-
-          OBIETTIVI Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica 
+          <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica 
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
-          CONTENUTO Il glossario in riferimento al settore alberghiero di alto livello. Attività di role-playing, small-talk con gli ospiti. 
+          <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Attività di role-playing, small-talk con gli ospiti. 
           Sviluppare competenze quali/ gestione dei reclami, riunioni nel team, preparazione alle fasi lavorative nonché alle mansioni quotidiane/ acquistare un biglietto del treno, conteggio dello stipendio, 
-          organizzare le attività del tempo libero, saper riferire un percorso stradale. Max 6 partecipante.
+          organizzare le attività del tempo libero, saper riferire un percorso stradale. Max 6 partecipante. Certificato di frequenza
         days: |-
-              dal 08/11 al 26/11/21 
+              dal 15/11 al 03/12/21 
               LUN e MER e VEN 09:00 - 13:00 
-        cost: <del>€ 490</del> <b> € 345 </b>
+        cost: <del>€ 380</del> <b> special price € 245 </b>
         
-      - name: Corso intensivo per receptionist. <b>18 unità in presenza | B1-B2</b>
+      - name: Corso di tedesco. Standard A1.1 e A1.2 | <b>90 unità in presenza | principanti</b>
         description: |-
-          OBIETTIVI Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica 
+          OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
+          <b>ASCOLTO</b> Comprendo il senso quando qualcuno parla con me in modo lento, chiaro e con lunghe pause. Comprendo la descrizione di un percorso da A a B sia a piedi sia con i mezzi pubblici. Comprendo i numeri, prezzi i l'orario. 
+          <b>LETTURA</b> Comprendo in un articolo i dettagli in riferimento alla descrizione di una persona (residenza, età, e così via). 
+          <b>SCRITTURA</b> Sono in grado di scrivere dettagli sulla mia persona in un questionario (lavoro, residenza, hobbies). Sono capace di scrivere una cartolina di augurio, per esempio, una cartolina del compleanno. 
+          Sono capace di descrivermi con farsi semplici. Per esempio, dove abito e che cosa faccio.
+          Teamteaching / PDL & klassische Methode
+          Trainer:innen / con certificazione DAF/DAZ Gemeinsamer europäischer Referenzrahmen für Sprachen (GER)
+          Compiti a casa | Valutazione finale | Certificato di frequenza.
+          Libro / Pluspunkt A1 Cornelsen Verlag 19,- escluso
+          <b>DATE</b> MODULO A1.1 16|11|2020 - 03|02|21 € 315,-/45 unità. MODULO A1.2 08|02|2021 - 07|03|22 € 315,-/45 unità
+          *Modulo A1.1 e A1.2 <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021  
+        days: |-
+              dal 16/11 al 07/03/22 
+              MAR e GIO 16:00 - 18:30 
+        cost: <del>€ 630</del> <b> sconto natale* € 440 </b>
+        
+      - name: Corso di tedesco intensivo per receptionists. <b>24 unità in presenza | B1-B2</b>
+        description: |-
+          <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica 
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
-          CONTENUTO Il glossario in riferimento al settore alberghiero di alto livello. Role-playing/ fare una telefonata, confermare/disdire una prenotazione, 
+          <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Role-playing/ fare una telefonata, confermare/disdire una prenotazione, 
           gestire gli arrivi (riferire un percorso stradale) e i reclami; organizzare eventi e il servizio della biglietteria, descrivere le manifestazioni culturali e regionali.
-          Ripasso/ Grammatica generale B1-B2 / Compiti - attività scritte. Max 6 partecipante. 
+          Ripasso/ Grammatica generale B1-B2 / Compiti - attività scritte. Max 6 partecipante. Certificato di frequenza.
+          <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021. 
         days: |-
               dal 09/11 al 25/11/21 
+              dal 08/02 al 24/02/22
               MAR e GIO 09:30 - 13:30 
-        cost: <del>€ 320</del> <b> € 247 </b>
+        cost: <del>€ 320</del> <b> sconto natale* € 219 </b>
         
       - name: Corso di tedesco estensivo per il settore turistico alberghiero. <b>80 unità in presenza | A2-B1</b>
         description: |-
@@ -53,25 +74,28 @@ offers:
           storico-culturali, conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco. (16 unità).
           <b>MODULO 3</b>  ottenere una comunicazione fluente e autentica in tedesco/ i/le partecipanti/e si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore 
           alberghiero a 4/5 stelle. Riferire il menù, elencare gli ingredienti e descrivere le ricette, saper programmare i turni lavorativi e scrivere il CV (28 unità).  
-          <b>MODULO 4</b> preparazione ad un colloquio lavorativo e alla stesura del proprio CV. (12 unità). Max. 6 partecipante. 
+          <b>MODULO 4</b> preparazione ad un colloquio lavorativo e alla stesura del proprio CV. (10 unità). Max. 6 partecipante.
+          <b>MEET & GREET</b> incontro con uno/a chef stellato/a. (2 unità)
+          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
               dal 18/01 al 24/03/21 LUN, MER 
               09:30 - 13:30 
-        cost: <del>€ 690</del> <b> € 540 </b> 
+        cost: <del>€ 690</del> <b> sconto natale € 540 </b> 
         
-  - title: Pacchetto 14 unità | ONLINE | Preparazione per la stagione invernale | A2-B1
+  - title: Pacchetto 14 unità | ONLINE | Preparazione per la stagione | A2-B1
     subtitle: Tedesco per le professioni alberghiere. Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
     courses:
       - name: Pacchetto 14 unità | Tedesco per le professioni della cucina. Online, livello A2-B1
         description: |-
-          OBIETTIVI Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
+          <b>OBIETTIVI</b> Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
           Conoscenza delle pietanze austriache e internazionale (in tedesco).
-          CONTENUTO Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
+          <b>CONTENUTO</b> Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
           attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
+          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
               ogni MAR 08:30 - 10:30 
               ogni GIO 14:30 - 16:30 
-        cost: <del>€ 280</del> <b> € 199 </b>
+        cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
       - name: Pacchetto 14 unità | Tedesco per le professioni di sala. Online, livello A2-B1
         description: |-
@@ -79,10 +103,11 @@ offers:
           Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza.
           CONTENUTO Il glossario in riferimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali.
           Possedere una panoramica generale in riferimento agli ingredienti / ai tivici vini. 
+          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
               ogni LUN 08:30 - 10:30
               ogni MER 14:30 - 16:30
-        cost: <del>€ 280</del> <b> € 199 </b>
+        cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
   - title: Pacchetto 24 unità | Uso attivo della grammatica. Online, livello A2-B1 
     subtitle: Ripasso della grammatica per esercizi di conversazione.
@@ -92,38 +117,10 @@ offers:
           Ripasso della grammatica dal livello A2 al B1 - con esempi pratici di utilizzo.
           Tempi / Verbi riflessivi e separabili / infinito, imperativo, congiuntivo, passivo /
           genere e caso / declinazioni degli aggettivi / comparativi / preposizioni locali e temporali / sintassi
+          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021 
         days: |-
               ogni LUN e GIO 11:00 - 13:00
-        cost: <del>€ 340</del>  <b> € 250  </b>
-
-  - title: Corso di tedesco intensivo per le professioni alberghiere. Parte 1 ONLINE Parte 2 in PRESENZA
-    subtitle: |-
-      Inclusivo di: verifica delle competenze, primo colloquio e preparazione al colloquio. Supporto e assistenza durante il trasferimento.
-    times:
-
-    courses:
-      - name: Corso di tedesco per studenti/esse tra 18 e 29 anni. Preparazione per la stagione in Austria. A partire dal livello A2 del CERF.
-        description: |-
-          <b>MODULO 1</b> online / 36 unità / una volta alla settimana a scelta lun/mar/mer/gio/ 14:30 - 16:30 oppure 17:00 - 19:00
-          <b>Parte 1</b> dal 18 ott al 09 dic 2021.
-          Focus del corso: lingua parlata & ampliamento del lessico. Training delle competenze orali (15 unità); ripasso della grammatica per l'uso immediato nelle conversazioni ed esercitazioni.
-          <b>Parte 2</b> dal 10 gen al 25 feb 2022.
-          Focus del corso: ottenere una comunicazione fluente e autentica in tedesco:
-          Gli/le studenti/esse si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore alberghiero a 4/5 stelle.
-          Saper usare la carta del menu, elencare gli ingredienti e descrivere le ricette, saper programmare i turni lavorativi e scrivere il C(12 unità).
-          MEET & GREET incontro con uno/a chef stellato/a. (2 unità)
-
-          <b>MODULO 2</b>	in presenza / 15 unità in presenza intensivo | 7 - 11 marzo 2022 oppure 14 - 18 marzo 2022 oppure 21 - 25 marzo 2022 | 15:30 - 18:30 / 5 giorni intensivo
-          Corso di tedesco intensivo per la preparazione al lavoro negli hotel di fascia alta. Training intensivo di gruppo, particolare enfasi nell´ apprendimento della lingua parlata, attività comunicative con metodi attivi
-          metodo della PDL, simulazioni di situazioni lavorative, role-playing, preparazione ad un colloquio lavorativo e alla stesura del proprio CV.
-          <b>Indirizzo</b> Cagliari, Enjoy languages DIALOGANDO / Via A. Einstein, 19
-
-        days: |-
-          Periodo del progetto:
-          dal 18 ott al 25 marzo 2022
-        cost: |-
-          <del>€ 320</del>  <b>€ 290 Modulo 1 </b>
-          <del>€ 260</del>  <b>€ 210 Modulo 2 </b>
+        cost: <del>€ 320</del>  <b> sconto natale € 250  </b>
 
   - title: PACCHETTO COACHING INDIVIDUALE
     subtitle: previo accordo

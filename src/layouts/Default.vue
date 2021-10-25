@@ -3,7 +3,7 @@
   //- HEADER
   Navigation
       //- CONTENT
-      div.content-font
+      div(class="mt-24 md:mt-40 xl:mt-32 mx-0 sm:mx-2 lg:mx-16").content-font
         slot
   //- FOOTER
   Footer

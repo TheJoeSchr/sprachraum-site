@@ -6,8 +6,8 @@ div
     .container.pt-2(v-for='(section,index) in sections' :key='section.title' :class="{'md:w-auto md:px-4': (section.list),'md:w-full md:px-1': (section.content)}")
       section.py-4.px-4.w-full
         div(class='mb-8 lg:mb-0')
-          h3.text-2xl.mb-4 {{ section.title }}
-          div.mb-4(v-if="section.content" v-html='toBr(section.content)').text-lg
+          h3.text-lg.mb-4(class="lg:text-2xl") {{ section.title }}
+          div.mb-4(v-if="section.content" v-html='toBr(section.content)' class="lg:text-lg")
           ul.mb-4(v-if="section.list").list-disc.list-inside
             li.mb-3(v-for='(item,index) in section.list' :key='index' v-html='toBr(item)')
 </template>
