@@ -5,12 +5,13 @@ Layout
       .mx-6(class='sm:py-4 lg:py-2 max-w-none')
         .mt-2(class='lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6')
           template(v-for='(dreamjob, index) in jobs.dreamjobs')
-            a.group(v-on:click="toggleInfo(dreamjob)")
-                DreamJobCard(:value='dreamjob')
+            Modal
+              template(#inline)
+                a.group(v-on:click="toggleInfo(dreamjob)")
+                    DreamJobCard(:value='dreamjob')
+              template(#default)
+                DreamJobInfo(:value='currentInfo')
 
-        //!-- section.dreamjobinfo.bg-white(class='sm:py-4 lg:py-2 lg:max-w-none' v-show="currentInfo" @click="toggleInfo()")
-        Modal(v-model="showInfo")
-          DreamJobInfo(:value='currentInfo')
     InfoPage(:value='{...jobs}')
       g-image(src='~/assets/images/tausch_dachterrasse.jpg' height=200 width=300)
     <!-- InfoPage(:value='{...carriere, }') -->
