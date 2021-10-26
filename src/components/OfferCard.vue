@@ -6,12 +6,12 @@ section(class="pt-2")
         g-image.ml-auto(src='~/assets/placeholders/icons/badge.svg' class="-mt-6")
         Modal
           template(#inline)
-              h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.left-0.uppercase(class="w-full" v-html='toBr(name)')
+              h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.text-center.uppercase(class="w-full" v-html='toBr(name)')
               div.px-3.my-6.text-lg.text-gray-900.text-center
                 p.font-bold(v-html='toBr(tagline)')
                 p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(days)')
                 p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(times)')
-                .text-sm.text-gray-900.underline continuare...
+                  .text-sm.text-gray-900.underline {{ messages.bookingContinue }}
               div.my-5.text-lg.text-gray-900.text-center
                 .ml-auto(class="w-full" v-html="toBr(cost)")
 
