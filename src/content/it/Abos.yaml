@@ -30,7 +30,8 @@ offers:
               LUN e MER e VEN 09:00 - 13:00
         cost: <del>€ 380</del> <br> special price € 245 
 
-      - name: Corso di tedesco. Standard A1.1 e A1.2 | <b>90 unità in presenza | principanti</b>
+      - name: Corso di tedesco. Standard A1.1 e A1.2 
+        tagline: 90 unità in presenza | principanti
         description: |-
           OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
           <b>ASCOLTO</b> Comprendo il senso quando qualcuno parla con me in modo lento, chiaro e con lunghe pause. Comprendo la descrizione di un percorso da A a B sia a piedi sia con i mezzi pubblici. Comprendo i numeri, prezzi i l'orario.
@@ -48,7 +49,8 @@ offers:
               MAR e GIO 16:00 - 18:30
         cost: <del>€ 630</del> <b> sconto natale* € 440 </b>
 
-      - name: Corso di tedesco intensivo per receptionists. <b>24 unità in presenza | B1-B2</b>
+      - name: Corso di tedesco intensivo per receptionists. 
+        tagline: 24 unità in presenza | B1-B2
         description: |-
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
@@ -62,7 +64,8 @@ offers:
               MAR e GIO 09:30 - 13:30
         cost: <del>€ 320</del> <b> sconto natale* € 219 </b>
 
-      - name: Corso di tedesco estensivo per il settore turistico alberghiero. <b>80 unità in presenza | A2-B1</b>
+      - name: Corso di tedesco estensivo per il settore turistico alberghiero. 
+        tagline: 80 unità in presenza | A2-B1
         description: |-
           OBIETTIVI Ampliamento e consolidamento della conoscenza del tedesco con focus sul lessico del settore
           alberghiero di livello B1 in tutti gli ambiti linguistici/ parlato/ascolto/lettura/scrittura secondo gli standard del CEFR.
@@ -84,7 +87,8 @@ offers:
   - title: Pacchetti | ONLINE | livello A2-B1
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
-      - name: Pacchetto 14 unità | Tedesco per le professioni della cucina. Online, livello A2-B1
+      - name:  Tedesco per le professioni della cucina. 
+        tagline: Pacchetto 14 unità <br> Online, livello A2-B1
         description: |-
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           <b>OBIETTIVI</b> Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
@@ -96,7 +100,10 @@ offers:
               ogni GIO 14:30 - 16:30
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
-      - name: Pacchetto 14 unità | Tedesco per le professioni di sala. Online, livello A2-B1
+      - name:  Tedesco per le professioni di sala. 
+        tagline: |- 
+          Pacchetto 14 unità 
+          Online, livello A2-B1
         description: |-
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           OBIETTIVI Mansioni e attività dell'addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell'attrezzatura e le fasi del lavoro in sala.
@@ -108,7 +115,8 @@ offers:
               ogni MER 14:30 - 16:30
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
-      - name: Pacchetto 24 unità | REFRESHER uso attivo della grammatica. Online A2-B1
+      - name:  REFRESHER uso attivo della grammatica. 
+        tagline: Pacchetto 24 unità <br> Online A2-B1
         description: |-
           Ripasso della grammatica dal livello A2 al B1 - con esempi pratici di utilizzo.
           Tempi / Verbi riflessivi e separabili / infinito, imperativo, congiuntivo, passivo /
@@ -123,14 +131,14 @@ offers:
     times: 08:00 - 19:00 dal lun al ven
     courses:
       - name: Coaching individuale
-        description:  20 unità
+        tagline:  20 unità
         cost: <del>€ 570</del>  <b> € 530  </b>
       - name: Coaching individuale
-        description:  15 unità
+        tagline:  15 unità
         cost: <del>€ 420</del>   <b>€ 390  </b>
       - name: Coaching individuale
-        description:  10 unità
+        tagline:  10 unità
         cost: <del>€ 275</del>  <b> € 250  </b>
       - name: Coaching individuale
-        description: 5 unità
+        tagline: 5 unità
         cost: <del>€ 150</del>   <b>€ 129  </b>
