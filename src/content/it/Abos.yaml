@@ -17,7 +17,8 @@ offers:
   - title: Corsi di tedesco IN PRESENZA.
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
-      - name: Corso di tedesco intensivio per le professioni alberghiere. <b>36 unità in presenza | A2-B1</b>
+      - name: Corso di tedesco intensivio per le professioni alberghiere. 
+        tagline: 36 unità in presenza | A2-B1
         description: |-
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
@@ -27,7 +28,7 @@ offers:
         days: |-
               dal 15/11 al 03/12/21
               LUN e MER e VEN 09:00 - 13:00
-        cost: <del>€ 380</del> <b> special price € 245 </b>
+        cost: <del>€ 380</del> <br> special price € 245 
 
       - name: Corso di tedesco. Standard A1.1 e A1.2 | <b>90 unità in presenza | principanti</b>
         description: |-
