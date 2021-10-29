@@ -6,18 +6,24 @@ section(class="pt-2")
         g-image.ml-auto(src='~/assets/placeholders/icons/badge.svg' class="-mt-6")
         Modal
           template(#inline)
-              h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.left-0.uppercase(class="w-full" v-html='toBr(name)') 
-              div.px-3.mx-3.text-lg.text-gray-900.text-center(v-html="toBr(description && description.slice(0,80))")
-              br
-              .pr-3.mr-3.text-lg.text-gray-900.text-center.underline continuare...
-              div.pr-3.mr-3.text-lg.text-gray-900.text-right
-                .ml-auto.mb-1(class="w-2/5" v-html="toBr(cost)")
-              div.ml-auto.text-right(class='w-2/5 ')
-                p.leading-relaxed.text-sm.px-3.mr-2.text-gray-800.font-secondary(v-html='toBr(days)')
-                p.mb-2.leading-relaxed.text-sm.px-3.mr-2.text-gray-600.font-secondary(v-html='toBr(times)')
+              h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.text-center.uppercase(class="w-full" v-html='toBr(name)')
+              div.px-3.my-6.text-lg.text-gray-900.text-center
+                p.font-bold(v-html='toBr(tagline)')
+                p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(days)')
+                p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(times)')
+                  .text-sm.text-gray-900.underline {{ messages.bookingContinue }}
+              div.my-5.text-lg.text-gray-900.text-center
+                .ml-auto(class="w-full" v-html="toBr(cost)")
 
           template(#default)
-            h4.pl-3.mb-3.text-sm.font-heading.text-gray-800.font-medium.font-mono(v-html="toBr(description)")
+            h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.left-0.uppercase(class="w-full" v-html='toBr(name)')
+            div.px-3.my-6.text-lg.text-gray-900.text-center
+              p.font-bold(v-html='toBr(tagline)')
+            h4.pl-3.mb-3.text-lg.font-heading.text-gray-800.font-medium.font-mono(v-html="toBr(description)")
+            div.my-5.text-lg.text-gray-900.text-right
+              .ml-auto(class="w-full" v-html="toBr(cost)")
+              p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(days)')
+              p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(times)')
         .mx-auto.mb-2(class='w-2/5' v-if="hideBooking != true")
           a(:href='mailtoFn({ ...value, legalText: value.messages.legalText })' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow
             | {{ messages.btnBooking }}
@@ -51,6 +57,7 @@ export default {
   data() {
     const {
       name,
+      tagline,
       description,
       cost,
       days,
@@ -61,6 +68,7 @@ export default {
     } = this.value
     return {
       name,
+      tagline,
       description,
       cost,
       days,
