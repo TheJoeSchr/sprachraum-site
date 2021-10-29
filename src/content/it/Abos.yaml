@@ -17,8 +17,8 @@ offers:
   - title: Corsi di tedesco IN PRESENZA.
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
-      - name: Corso di tedesco intensivio | A2-B1
-        tagline: per le professioni alberghiere.
+      - name: Corso di tedesco intensivo A2-B1
+        tagline: Per le professioni alberghiere.
         description: |-
           DATE dal 15/11 al 03/12/21
           GIORNI lun/mer/ven 09:00 - 13:00
@@ -30,13 +30,15 @@ offers:
           Sviluppare competenze quali/ gestione dei reclami, riunioni nel team, preparazione alle fasi lavorative nonché alle mansioni quotidiane/ acquistare un biglietto del treno, conteggio dello stipendio,
           organizzare le attività del tempo libero, saper riferire un percorso stradale. Max 6 partecipante. Certificato di frequenza
         days: |-
-        cost: <del>€ 380</del> <br> special price € 245 
+        cost: <del>€ 380</del> <b> special price € 245</b> 
 
-      - name: Corso di tedesco | prinicpanti
+      - name: Corso di tedesco | principanti
         tagline: Standard A1.1 e A1.2
         description: |-
           DATE dal 16/11 al 07/03/22
           GIORNI mar e gio 16:00 - 18:30 
+          DATE dal 10/01 al 11/05/22
+          GIORNI lun e mer 16:00 - 18:30
           90 unità in presenza
           
           OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
@@ -49,12 +51,12 @@ offers:
           Compiti a casa | Valutazione finale | Certificato di frequenza.
           Libro / Pluspunkt A1 Cornelsen Verlag 19,- escluso
           <b>DATE</b> MODULO A1.1 € 315,-/45 unità. MODULO A1.2 € 315,-/45 unità
-          *Modulo A1.1 e A1.2 <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
+          *Modulo A1.1 e A1.2 <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
         cost: <del>€ 630</del> <b> sconto natale* € 480 </b>
 
-      - name: Corso di tedesco intensivo | B1-B2 
-        tagline: per recetionists.
+      - name: Corso di tedesco intensivo B1-B2 
+        tagline: Rezeption und Hotelmanagement
         description: |-
           DATE dal 09/11 al 25/11/21 
           GIORNI mar e gio | 09:30 - 13:30
@@ -65,12 +67,12 @@ offers:
           <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Role-playing/ fare una telefonata, confermare/disdire una prenotazione,
           gestire gli arrivi (riferire un percorso stradale) e i reclami; organizzare eventi e il servizio della biglietteria, descrivere le manifestazioni culturali e regionali.
           Ripasso/ Grammatica generale B1-B2 / Compiti - attività scritte. Max 6 partecipante. Certificato di frequenza.
-          <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021.
+          <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021.
         days: |-
         cost: <del>€ 320</del> <b> sconto natale* € 219 </b>
 
-      - name: Corso di tedesco estensivo | A2-B1
-        tagline: per il settore turistico alberghiero. 
+      - name: Corso di tedesco estensivo A2-B1
+        tagline: Per il settore turistico alberghiero. 
         description: |-
           DATE dal 18/01 al 24/03/21
           lun e mer | 09:30 - 13:30 
@@ -87,7 +89,7 @@ offers:
           alberghiero a 4/5 stelle. Riferire il menù, elencare gli ingredienti e descrivere le ricette, saper programmare i turni lavorativi e scrivere il CV (28 unità).
           <b>MODULO 4</b> preparazione ad un colloquio lavorativo e alla stesura del proprio CV. (10 unità). Max. 6 partecipante.
           <b>MEET & GREET</b> incontro con uno/a chef stellato/a. (2 unità)
-          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
+          Certificato di frequenza. <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
         cost: <del>€ 690</del> <b> sconto natale € 540 </b>
 
@@ -106,7 +108,7 @@ offers:
           Conoscenza delle pietanze austriache e internazionale (in tedesco).
           <b>CONTENUTO</b> Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
           attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
-          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
+          Certificato di frequenza. <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
@@ -122,7 +124,7 @@ offers:
           Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza.
           CONTENUTO Il glossario in riferimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali.
           Possedere una panoramica generale in riferimento agli ingredienti / ai tivici vini.
-          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
+          Certificato di frequenza. <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
@@ -136,9 +138,9 @@ offers:
           Ripasso della grammatica dal livello A2 al B1 - con esempi pratici di utilizzo.
           Tempi / Verbi riflessivi e separabili / infinito, imperativo, congiuntivo, passivo /
           genere e caso / declinazioni degli aggettivi / comparativi / preposizioni locali e temporali / sintassi
-          Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
+          Certificato di frequenza. <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
-        cost: <del>€ 320</del>  <b> sconto natale € 250  </b>
+        cost: <del>€ 320</del>  <b> sconto natale* € 250  </b>
 
   - title: PACCHETTI COACHING INDIVIDUALE
     subtitle: previo accordo
