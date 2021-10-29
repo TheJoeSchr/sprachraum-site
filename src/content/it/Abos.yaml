@@ -5,7 +5,7 @@ info:
     COVID L'aula è dotata di due grandi porta finestre che vengono aperte ogni 30 minuti. E'
     obbligatorio utilizzare la mascherina. Nel caso ci fosse una chiusura della scuola a causa di
     forza maggiore, il corso passerà in modalità DAD.
-    Tutti corsi con certificato di frequenza.
+    Tutti i corsi sono con certificato di frequenza.
     In linea di principio, per tutti quei corsi che superano la cifra di 250 euro accettiamo una
     rateizzazione in due trance.
     I corsi non si terranno nei giorni 8 dic e dal 21 dic al 9 gen 22.
@@ -17,22 +17,28 @@ offers:
   - title: Corsi di tedesco IN PRESENZA.
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
-      - name: Corso di tedesco intensivio per le professioni alberghiere. 
-        tagline: 36 unità in presenza | A2-B1
+      - name: Corso di tedesco intensivio | A2-B1
+        tagline: per le professioni alberghiere.
         description: |-
+          DATE dal 15/11 al 03/12/21
+          GIORNI lun/mer/ven 09:00 - 13:00
+          36 unità in presenza
+          
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
           <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Attività di role-playing, small-talk con gli ospiti.
           Sviluppare competenze quali/ gestione dei reclami, riunioni nel team, preparazione alle fasi lavorative nonché alle mansioni quotidiane/ acquistare un biglietto del treno, conteggio dello stipendio,
           organizzare le attività del tempo libero, saper riferire un percorso stradale. Max 6 partecipante. Certificato di frequenza
         days: |-
-              dal 15/11 al 03/12/21
-              LUN e MER e VEN 09:00 - 13:00
         cost: <del>€ 380</del> <br> special price € 245 
 
-      - name: Corso di tedesco. Standard A1.1 e A1.2 
-        tagline: 90 unità in presenza | principanti
+      - name: Corso di tedesco | prinicpanti
+        tagline: Standard A1.1 e A1.2
         description: |-
+          DATE dal 16/11 al 07/03/22
+          GIORNI mar e gio 16:00 - 18:30 
+          90 unità in presenza
+          
           OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
           <b>ASCOLTO</b> Comprendo il senso quando qualcuno parla con me in modo lento, chiaro e con lunghe pause. Comprendo la descrizione di un percorso da A a B sia a piedi sia con i mezzi pubblici. Comprendo i numeri, prezzi i l'orario.
           <b>LETTURA</b> Comprendo in un articolo i dettagli in riferimento alla descrizione di una persona (residenza, età, e così via).
@@ -42,16 +48,18 @@ offers:
           Trainer:innen / con certificazione DAF/DAZ Gemeinsamer europäischer Referenzrahmen für Sprachen (GER)
           Compiti a casa | Valutazione finale | Certificato di frequenza.
           Libro / Pluspunkt A1 Cornelsen Verlag 19,- escluso
-          <b>DATE</b> MODULO A1.1 16|11|2020 - 03|02|21 € 315,-/45 unità. MODULO A1.2 08|02|2021 - 07|03|22 € 315,-/45 unità
+          <b>DATE</b> MODULO A1.1 € 315,-/45 unità. MODULO A1.2 € 315,-/45 unità
           *Modulo A1.1 e A1.2 <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
-              dal 16/11 al 07/03/22
-              MAR e GIO 16:00 - 18:30
-        cost: <del>€ 630</del> <b> sconto natale* € 440 </b>
+        cost: <del>€ 630</del> <b> sconto natale* € 480 </b>
 
-      - name: Corso di tedesco intensivo per receptionists. 
-        tagline: 24 unità in presenza | B1-B2
+      - name: Corso di tedesco intensivo | B1-B2 
+        tagline: per recetionists.
         description: |-
+          DATE dal 09/11 al 25/11/21 
+          GIORNI mar e gio | 09:30 - 13:30
+          24 unità in presenza
+          
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
           <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Role-playing/ fare una telefonata, confermare/disdire una prenotazione,
@@ -59,14 +67,15 @@ offers:
           Ripasso/ Grammatica generale B1-B2 / Compiti - attività scritte. Max 6 partecipante. Certificato di frequenza.
           <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021.
         days: |-
-              dal 09/11 al 25/11/21
-              dal 08/02 al 24/02/22
-              MAR e GIO 09:30 - 13:30
         cost: <del>€ 320</del> <b> sconto natale* € 219 </b>
 
-      - name: Corso di tedesco estensivo per il settore turistico alberghiero. 
-        tagline: 80 unità in presenza | A2-B1
+      - name: Corso di tedesco estensivo | A2-B1
+        tagline: per il settore turistico alberghiero. 
         description: |-
+          DATE dal 18/01 al 24/03/21
+          lun e mer | 09:30 - 13:30 
+          80 unità in presenza 
+          
           OBIETTIVI Ampliamento e consolidamento della conoscenza del tedesco con focus sul lessico del settore
           alberghiero di livello B1 in tutti gli ambiti linguistici/ parlato/ascolto/lettura/scrittura secondo gli standard del CEFR.
           Ottenere una comunicazione fluente e autentica in tedesco.
@@ -80,16 +89,18 @@ offers:
           <b>MEET & GREET</b> incontro con uno/a chef stellato/a. (2 unità)
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
-              dal 18/01 al 24/03/21 LUN, MER
-              09:30 - 13:30
         cost: <del>€ 690</del> <b> sconto natale € 540 </b>
 
   - title: Pacchetti | ONLINE | livello A2-B1
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
-      - name:  Tedesco per le professioni della cucina. 
-        tagline: Pacchetto 14 unità <br> Online, livello A2-B1
+      - name:  Pacchetto di tedesco A2-B1
+        tagline: per le professioni della cucina. 
         description: |-
+          DATE ogni giovedì 
+          ORARI 14:30 - 16:30 
+          Pacchetto 14 unità ONLINE
+          
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           <b>OBIETTIVI</b> Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
           Conoscenza delle pietanze austriache e internazionale (in tedesco).
@@ -97,14 +108,15 @@ offers:
           attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
-              ogni GIO 14:30 - 16:30
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
-      - name:  Tedesco per le professioni di sala. 
-        tagline: |- 
-          Pacchetto 14 unità 
-          Online, livello A2-B1
+      - name:  Pacchetto di tedesco A2-B1
+        tagline: per le professioni di sala. 
         description: |-
+          DATE ogni mercoledì
+          ORARI 14.30 - 16:30 
+          Pacchetto 14 unità ONLINE 
+          
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           OBIETTIVI Mansioni e attività dell'addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell'attrezzatura e le fasi del lavoro in sala.
           Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza.
@@ -112,18 +124,20 @@ offers:
           Possedere una panoramica generale in riferimento agli ingredienti / ai tivici vini.
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
-              ogni MER 14:30 - 16:30
         cost: <del>€ 250</del> <b> sconto natale* € 199 </b>
 
-      - name:  REFRESHER uso attivo della grammatica. 
-        tagline: Pacchetto 24 unità <br> Online A2-B1
+      - name:  Pacchetto REFRESHER A2-B1 
+        tagline: uso attivo della grammatica. 
         description: |-
+          DATE ogni lunedì 
+          ORARI 11:00 - 13:00 
+          Pacchetto 24 unità ONLINE
+          
           Ripasso della grammatica dal livello A2 al B1 - con esempi pratici di utilizzo.
           Tempi / Verbi riflessivi e separabili / infinito, imperativo, congiuntivo, passivo /
           genere e caso / declinazioni degli aggettivi / comparativi / preposizioni locali e temporali / sintassi
           Certificato di frequenza. <b>Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
-              ogni LUN 11:00 - 13:00
         cost: <del>€ 320</del>  <b> sconto natale € 250  </b>
 
   - title: PACCHETTI COACHING INDIVIDUALE
