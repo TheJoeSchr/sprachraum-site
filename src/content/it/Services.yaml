@@ -3,7 +3,7 @@ info:
   content: |-
     I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuite. Registrazione richiesta.
     Durata circa 45min. In lingua tedesca o inglese.
-    La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione. 
+    La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione.
     Assistenza continua durante la partenza e tutta la stagione invernale gratuita.
   list:
     - Per le traduzioni generali, si applicano i prezzi indicati.
@@ -13,18 +13,19 @@ offers:
     subtitle: <b>Rispondiamo</b> a tutte le tue domande sulle offerte di lavoro e ti <b>sosteniamo</b> nella pianificazione del tuo futuro professionale.
     courses:
       - name: OPEN DAY in Presenza. Precolloqui per professionisti/e del settore alberghiero
-        description: Presentiamo il team di Cagliari, tutte le informazioni riguardo il lavoro stagionale in Austria e le posizioni lavorative aperte. Vi sosteniamo in ogni passo: dalla candidatura fino al ritorno in
-        Sardegna. Le nuove date per il mese di Novembre
-        05 nov dalle 10:00 alle 11:30 (2 posti liberi) 
-        10 nov dalle 17:00 alle 18:30
-        12 nov dalle 17:00 alle 18:30
-        19 nov dalle 17:00 alle 18:30
-        23 nov dalle 10:00 alle 11:30
-        Luogo| Via Albert Einstein 19, Cagliari. I posti sono limitati a 6 persone a giornata. Nel rispetto delle norme anti-Covid, per la partecipazione è obbligatoria la prenotazione online.
-        Non dimenticare di portare il tuo curruculm vitae! 
+        description: |-
+          Presentiamo il team di Cagliari, tutte le informazioni riguardo il lavoro stagionale in Austria e le posizioni lavorative aperte. Vi sosteniamo in ogni passo: dalla candidatura fino al ritorno in
+          Sardegna. Le nuove date per il mese di Novembre
+          05 nov dalle 10:00 alle 11:30 (2 posti liberi)
+          10 nov dalle 17:00 alle 18:30
+          12 nov dalle 17:00 alle 18:30
+          19 nov dalle 17:00 alle 18:30
+          23 nov dalle 10:00 alle 11:30
+          Luogo| Via Albert Einstein 19, Cagliari. I posti sono limitati a 6 persone a giornata. Nel rispetto delle norme anti-Covid, per la partecipazione è obbligatoria la prenotazione online.
+          Non dimenticare di portare il tuo curruculm vitae!
         days: |-
-        Prenota il tuo posto scrivendo a | info@dialogando.com
-        cost: <b> GRATUITO</b> 
+          Prenota il tuo posto scrivendo a | info@dialogando.com
+        cost: <b> GRATUITO</b>
       - name: Colloquio preliminare | Per i/le candidati/e ai posti di lavoro aperti
         description: Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto.
         days: |-
@@ -41,13 +42,13 @@ offers:
       - name: |-
           Curriculum vitae efficace in tedesco
         description: Tradurre e adattare il curriculum, secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
-        days: |- 
+        days: |-
           Scrivendo una mail a post@workitaut.at
         cost: <del>€ 120</del> con sconto <b>€ 89</b>
       - name: |-
           Traduzione della lettera di presentazione/motivazionale
         description: Sapersi esprimere in modo corretto in una lingua straniera significa porre le basi per nuove opportunità lavorative e sentirsi al posto giusto nel momento giusto. Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
-        days: |- 
+        days: |-
           Scrivendo una mail a post@workitaut.at
         cost: <del>€ 140</del> con sconto <b>€ 99</b>
       - name: |-
