@@ -17,7 +17,7 @@ offers:
   - title: Corsi di tedesco IN PRESENZA.
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
-      - name: Corso di tedesco intensivo A2-B1
+      - name: Corso di tedesco intensivo | A2-B1
         tagline: Per le professioni alberghiere.
         description: |-
           DATE dal 15/11 al 03/12/21
@@ -55,7 +55,7 @@ offers:
         days: |-
         cost: <del>€ 630</del> <b> sconto natale* € 480 </b>
 
-      - name: Corso di tedesco intensivo B1-B2 
+      - name: Corso di tedesco intensivo | B1-B2 
         tagline: Rezeption und Hotelmanagement
         description: |-
           DATE dal 09/11 al 25/11/21 
@@ -71,7 +71,7 @@ offers:
         days: |-
         cost: <del>€ 320</del> <b> sconto natale* € 219 </b>
 
-      - name: Corso di tedesco estensivo A2-B1
+      - name: Corso di tedesco estensivo | A2-B1
         tagline: Per il settore turistico alberghiero. 
         description: |-
           DATE dal 18/01 al 24/03/21
@@ -92,8 +92,24 @@ offers:
           Certificato di frequenza. <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
         days: |-
         cost: <del>€ 690</del> <b> sconto natale € 540 </b>
-
-  - title: Pacchetti | ONLINE | livello A2-B1
+        
+      - name: In cucina con workitAUT
+        tagline: Workshop: i biscotti tipici natalizi
+        description: |-
+          DATE 19 novembre 
+          DATE 26 novembre
+          venerdì | 16:00 - 20:00 
+          La magia dei dolce natalizi, cannella, noce moscata, anice stellato e vaniglia i profumi della vigilia. 
+          Prepariamo insieme tre diverse ricette tradizionali. 
+          19 nov | 1 Vanillekipferl 2 Butterstangerl 3 Kokosbussi 
+          26 nov | 1 Husarenkrapferl 2 Linzer Augen 3 Lebkuchen 
+          In ogni serata includiamo un aperitivo di vin brulè. I dolci cucinati possono essere portati a casa come un regalo per i vostri cari. 
+          Info/ Una volta all´anno non contiamo le calorie. I biscotti contengono burro, uova e nocciole.
+          Luogo/ Enjoy Languages Dialogando. Via Albert Einstein 19,p.1 / Cagliari
+        days: |-
+        cost: <b>ogni Workshop € 60</b>
+          
+  - title: Pacchetti | ONLINE | livello A2 - B1
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
       - name:  Pacchetto di tedesco A2-B1
