@@ -17,12 +17,13 @@ offers:
   - title: Corsi di tedesco IN PRESENZA.
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
-      - name: Corso di tedesco intensivo | A2-B1
+      - name: Corso di tedesco intensivo A2-B1
         tagline: Per le professioni alberghiere.
         description: |-
-          DATE dal 15/11 al 03/12/21
-          GIORNI lun/mer/ven 09:00 - 13:00
-          36 unità in presenza
+          DATE dal 17/01 al 02/03/21
+          DATE dal 07/03 al 20/04/21
+          GIORNI lun e mer 14:30 - 17:00
+          35 unità in presenza
 
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
@@ -33,12 +34,10 @@ offers:
         cost: <del>€ 380</del> <b> special price € 245</b>
 
       - name: Corso di tedesco | principanti
-        tagline: Standard A1.1 e A1.2
+        tagline: Standard A1 
         description: |-
-          DATE dal 16/11 al 07/03/22
-          GIORNI mar e gio 16:00 - 18:30
-          DATE dal 10/01 al 11/05/22
-          GIORNI lun e mer 16:00 - 18:30
+          DATE dal 11/01 al 10/03/22
+          GIORNI mar e mer 09:30 - 13:00 gio 09:30 - 12:30
           90 unità in presenza
 
           OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
@@ -55,11 +54,12 @@ offers:
         days: |-
         cost: <del>€ 630</del> <b> sconto natale* € 480 </b>
 
-      - name: Corso di tedesco intensivo | B1-B2
-        tagline: Rezeption und Hotelmanagement
+      - name: Corso di tedesco intensivo B1-B2
+        tagline: Rezeption und Reservierung
         description: |-
-          DATE dal 09/11 al 25/11/21
-          GIORNI mar e gio | 09:30 - 13:30
+          DATE dal 17/01 al 11/02/22
+          DATE dal 14/02 al 11/03/22
+          GIORNI lun e ven | 09:30 - 12:30
           24 unità in presenza
 
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
@@ -71,11 +71,12 @@ offers:
         days: |-
         cost: <del>€ 320</del> <b> sconto natale* € 219 </b>
 
-      - name: Corso di tedesco estensivo | A2-B1
-        tagline: Per il settore turistico alberghiero.
+      - name: Corso di tedesco estensivo A2-B1
+        tagline: Per le scuole di istruzione superiore.
         description: |-
-          DATE dal 18/01 al 24/03/21
-          lun e mer | 09:30 - 13:30
+          DATE previo accordo
+          LUOGO presso di istituto scolastico
+          PARTECIPANTI/E stundenti/e di tedesco / max 15 partecipanti/e
           80 unità in presenza
 
           OBIETTIVI Ampliamento e consolidamento della conoscenza del tedesco con focus sul lessico del settore
@@ -87,17 +88,20 @@ offers:
           storico-culturali, conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco. (16 unità).
           <b>MODULO 3</b>  ottenere una comunicazione fluente e autentica in tedesco/ i/le partecipanti/e si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore
           alberghiero a 4/5 stelle. Riferire il menù, elencare gli ingredienti e descrivere le ricette, saper programmare i turni lavorativi e scrivere il CV (28 unità).
-          <b>MODULO 4</b> preparazione ad un colloquio lavorativo e alla stesura del proprio CV. (10 unità). Max. 6 partecipante.
+          <b>MODULO 4</b> preparazione ad un colloquio lavorativo e alla stesura del proprio CV. (10 unità). 
           <b>MEET & GREET</b> incontro con uno/a chef stellato/a. (2 unità)
-          Certificato di frequenza. <b>*Sconto natale</b> per tutti coloro che si iscrivono entro il 31 decembre 2021
+          Certificato di frequenza. 
         days: |-
-        cost: <del>€ 690</del> <b> sconto natale € 540 </b>
+        cost: <del>€ 3.780</del> <b> sconto € 2.590 </b>
 
       - name: In cucina con workitAUT
-        tagline: "Workshop: i biscotti tipici natalizi"
+        tagline: "Workshop: La cucina austriaca"
         description: |-
-          DATE 19 novembre
-          DATE 26 novembre
+          DATE 28 gennaio | Ballo dell'Opera di  - Wiener Schnitzel 
+          DATE 25 febbraio | Carnevale - Heringschmaus 
+          
+          DATE 19 novembre | i biscotti tipici natalizi I
+          DATE 26 novembre | i biscotti tipici natalizi II
           venerdì | 16:00 - 20:00
           La magia dei dolce natalizi, cannella, noce moscata, anice stellato e vaniglia i profumi della vigilia.
           Prepariamo insieme tre diverse ricette tradizionali.
@@ -131,7 +135,7 @@ offers:
       - name:  Pacchetto di tedesco A2-B1
         tagline: per le professioni di sala.
         description: |-
-          DATE ogni mercoledì
+          DATE ogni martedì
           ORARI 14.30 - 16:30
           Pacchetto 14 unità ONLINE
 
