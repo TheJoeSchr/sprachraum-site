@@ -54,8 +54,8 @@ offers:
         days: |-
         cost: <del>€ 630</del> <b> sconto natale* € 480 </b>
 
-      - name: Corso di tedesco intensivo B1-B2
-        tagline: Rezeption und Reservierung
+      - name: Corso di tedesco intensivo B1-B2 Konversation
+        tagline: Rezeption und Guest relation
         description: |-
           DATE dal 17/01 al 11/02/22
           DATE dal 14/02 al 11/03/22
@@ -112,7 +112,26 @@ offers:
           Luogo/ Enjoy Languages Dialogando. Via Albert Einstein 19,p.1 / Cagliari
         days: |-
         cost: <b>ogni Workshop € 60</b>
-
+        
+      - name: Corso di inglese estensivo
+        tagline: "intermedio A2 - B1"
+        description: |-
+          DATE dal 18/01 al 24/01 
+          ORARI tutti i martedì e giovedì / 18:30 - 20:30
+          PARTECIPANTI max 10 partecipanti
+          24 unità  
+        
+          OBIETTIVO ottenere una comunicazione fluente e autentica in inglese. Saper esprimere le proprie necessità, 
+          esigenze e richieste nonché sviluppare un feeling per la lingua straniera per sentirsi a proprio agio durante 
+          una conversazione. Il metodo (metodo attivo della PDL), le tecniche e il materiale didattico  utilizzato 
+          permettono di apprendere la lingua inglese in un clima sempre disteso, in assenza di stress e  in 
+          collaborazione con gli altri partecipanti del corso. 
+          CONTENUTO Ampliamento e approfondimento del lessico, della costruzione della frase e della grammatica. 
+          Lezione dopo le lezione si ha modo di consolidare le competenze linguistiche attraverso specifiche attività  
+          orali e scritte. 
+        days: |-
+        cost: <del>€ 240 </del> <b> sconto natale € 180</b>
+        
   - title: Pacchetti | ONLINE | livello A2 - B1
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
