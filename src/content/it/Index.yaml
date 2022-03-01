@@ -1,9 +1,9 @@
 hero:
   title: Trova il tuo lavoro in Austria!
-  subtitle: Grandi opportunità per i professionisti del settore Turistico-Alberghiero!
+  subtitle: Grandi opportunità per i/le professionisti/e del settore Turistico-Alberghiero!
   content: |
-    Il lavoro stagionale invernale in Austria è legato al turismo sulla neve, mercatini di Natale e snowboard. Potrai crescere in un contesto internazionale e arricchire il curriculum.
-    Scopri le posizioni aperte per il settore alberghiero e ristorazione. (1)
+    Posizioni aperte per i professionisti con esperienza pluriennale e per la categoria JUNIOR JOBS. Potrai crescere in un contesto internazionale e arricchire il curriculum.
+    Scopri le posizioni aperte per il settore alberghiero e ristorazione. 
 
   link: '/it/jobs/'
   linkText: lavori in AUT
@@ -11,21 +11,20 @@ cards:
   - title: Pacchetti e Corsi di Tedesco
     subtitle: per le professioni turistico-alberghiere
     content: |
-      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione invernale. Oltre all'insegnamento della lingua tedesca, offriamo una formazione adeguata riguardo
-      la cultura austriaca, l´orientamento lavorativo, la burocrazia e tutte le informazioni necessarie per lavorare nelle strutture invernali austriache più famose.
+      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione. Oltre all'insegnamento della lingua tedesca, offriamo una formazione adeguata riguardo
+      la cultura austriaca, l´orientamento lavorativo, la burocrazia e tutte le informazioni necessarie per lavorare nelle strutture austriache più famose.
 
     link: '/it/abos/'
     linkText: '>> Scopri di piu'
 
-  - title: Candidarsi per le posizioni aperte
+  - title: Assistenza e Servizi per i/le candidati/e
     subtitle: valutazione e orientamento per professionisti/e e profili junior
     content: |
       Iscriviti qui per:
       - un colloquio preliminare sulle posizioni disponibili
       - pianificazione della carriera oppure orientamento professionale
-      Questo servizio ha la durata di circa 45 minuti ed è gratuito. Via Zoom. 
       
-      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura. (2)
+      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
     linkText: '>> servizi'
     link: /it/services
 
@@ -34,8 +33,8 @@ cards:
     linkText: '>> chi siamo'
     content: |
       ... di professionisti con cervello e umorismo tra il Brennero e il Mediterraneo.
-      Il nostro obiettivo è sostenere i professionisti e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
-      Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile. (3)
+      Il nostro obiettivo è sostenere i/le professionisti/e e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
+      Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile.
 
   - title: Scusa, parli Tedesco?
     subtitle: Ja, Danke! Pretzel? Kinder! Aufwiedersehen.
@@ -43,7 +42,7 @@ cards:
     linkText: '>> fai il test'
     content: |
       Come si pronuncia correttamente "Kaiserschmarrn"? - non lo so, ma è buono.
-      Vuoi conoscere il tuo livello di tedesco? prova il test! durata di circa 30 minuti (4)
+      Vuoi conoscere il tuo livello di tedesco? prova il test! durata di circa 30 minuti 
 
 contact:
   title: 'Info e contatti'
@@ -57,4 +56,4 @@ contact:
         mercoledì 18:45 alle 19:30
       </i></span> <span> <b>Ufficio:</b> +39 331 222 66 15</span>
     <span> <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a></span>
-    </div> (5)
+    </div> 
