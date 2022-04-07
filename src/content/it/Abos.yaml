@@ -20,10 +20,9 @@ offers:
       - name: Corso di tedesco intensivo A2-B1
         tagline: Per le professioni alberghiere.
         description: |-
-          DATE dal 17/01 al 02/03/21
-          DATE dal 07/03 al 20/04/21
-          GIORNI lun e mer 14:30 - 17:00
-          35 unità in presenza
+          DATE dal 02/05 al 26/05/22
+          GIORNI lun e mer e gio 14:30 - 16:30
+          24 unità in presenza
 
           <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
           e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
@@ -31,14 +30,14 @@ offers:
           Sviluppare competenze quali/ gestione dei reclami, riunioni nel team, preparazione alle fasi lavorative nonché alle mansioni quotidiane/ acquistare un biglietto del treno, conteggio dello stipendio,
           organizzare le attività del tempo libero, saper riferire un percorso stradale. Max 6 partecipante. Certificato di frequenza
         days: |-
-        cost: <del>€ 380</del> <b> special price € 245</b>
+        cost: <del>€ 320</del> <b> special price € 245</b>
 
-      - name: Corso di tedesco | principanti
-        tagline: Standard A1 
+      - name: Corso di tedesco | A1+
+        tagline: rinfresco
         description: |-
-          DATE dal 18/01 al 17/03/22
+          DATE dal 03/05 al 18/05/22
           GIORNI mar e mer 09:30 - 13:00 gio 09:30 - 12:30
-          90 unità in presenza
+          25 unità in presenza
 
           OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
           <b>ASCOLTO</b> Comprendo il senso quando qualcuno parla con me in modo lento, chiaro e con lunghe pause. Comprendo la descrizione di un percorso da A a B sia a piedi sia con i mezzi pubblici. Comprendo i numeri, prezzi i l'orario.
@@ -50,13 +49,12 @@ offers:
           Compiti a casa | Valutazione finale | Certificato di frequenza.
           Libro / Pluspunkt A1 Cornelsen Verlag 19,- escluso
         days: |-
-        cost: <del>€ 630</del> <b> special price € 480 </b>
+        cost: <del>€ 340</del> <b> special price € 250 </b>
 
       - name: Corso di tedesco intensivo B1-B2 Konversation
         tagline: Rezeption und Guest relation
         description: |-
-          DATE dal 17/01 al 11/02/22
-          DATE dal 14/02 al 11/03/22
+          DATE dal 02/05 al 27/05/22
           GIORNI lun e ven | 09:30 - 12:30
           24 unità in presenza
 
@@ -66,7 +64,7 @@ offers:
           gestire gli arrivi (riferire un percorso stradale) e i reclami; organizzare eventi e il servizio della biglietteria, descrivere le manifestazioni culturali e regionali.
           Ripasso/ Grammatica generale B1-B2 / Compiti - attività scritte. Max 6 partecipante. Certificato di frequenza.
         days: |-
-        cost: <del>€ 320</del> <b> special price € 219 </b>
+        cost: <del>€ 320</del> <b> special price € 245 </b>
 
       - name: Corso di tedesco estensivo A2-B1
         tagline: Per le scuole di istruzione superiore.
@@ -94,7 +92,8 @@ offers:
       - name: In cucina con workitAUT
         tagline: "Workshop: La cucina austriaca"
         description: |-
-          DATE 28 gennaio | Ballo dell'Opera di  - Wiener Schnitzel 
+          DATE 29 aprile | Kaiserschmarrn con Apfelmus
+          DATE 06 maggio | Original Wiener Schnitzel 
           DATE 25 febbraio | Carnevale - Heringschmaus 
           
           DATE 19 novembre | i biscotti tipici natalizi I
@@ -184,13 +183,13 @@ offers:
     courses:
       - name: Coaching individuale
         tagline:  20 unità
-        cost: <del>€ 570</del>  <b> € 530  </b>
+        cost: <b> € 530  </b>
       - name: Coaching individuale
         tagline:  15 unità
-        cost: <del>€ 420</del>   <b>€ 390  </b>
+        cost: <b>€ 390  </b>
       - name: Coaching individuale
         tagline:  10 unità
-        cost: <del>€ 275</del>  <b> € 250  </b>
+        cost: <b> € 270  </b>
       - name: Coaching individuale
         tagline: 5 unità
-        cost: <del>€ 150</del>   <b>€ 129  </b>
+        cost: <b> € 140  </b>
