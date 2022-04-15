@@ -1,10 +1,29 @@
 cards:
-  - title: Pacchetti e Corsi di Tedesco
-    subtitle: per le professioni turistico-alberghiere
+  - title: ERWEITERTE BESCHREIBUNG DES PROJEKTS / VORTEILE
+    subtitle: subtitle text
     content: |
-      Scegli uno dei nostri pacchetti lingue per prepararti alla stagione. Oltre all'insegnamento della lingua tedesca, offriamo una formazione adeguata riguardo
-      la cultura austriaca, l´orientamento lavorativo, la burocrazia e tutte le informazioni necessarie per lavorare nelle strutture austriache più famose.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: '/it/abos/'
+    linkText: '>> Scopri di piu'
 
+  - title: JUNIOR JOBS
+    subtitle: subtitle text
+    content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: '/it/abos/'
+    linkText: '>> Scopri di piu'
+
+  - title: JUNIOR CORSI
+    subtitle: subtitle text
+    content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: '/it/abos/'
+    linkText: '>> Scopri di piu'
+
+  - title: TEILNAHME AM PROJEKT
+    subtitle: subtitle text
+    content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: '/it/abos/'
     linkText: '>> Scopri di piu'
 
