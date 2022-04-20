@@ -1,27 +1,27 @@
 cards:
-  - title: ERWEITERTE BESCHREIBUNG DES PROJEKTS / VORTEILE
-    subtitle: subtitle text
+  - title: JUNIORgoPRO 
+    subtitle: Innovatives Ausbildungsprogramm mit Jobgarantie
+    content: |
+        Mit unserem Projekt piscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: '/it/abos/'
+    linkText: '>> Scopri di piu'
+
+  - title: JUNIORgoPRO JOBS
+    subtitle: come entrare nel mondo del´alta alberhiera? Attraverso la practica! 
     content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: '/it/abos/'
     linkText: '>> Scopri di piu'
 
-  - title: JUNIOR JOBS
-    subtitle: subtitle text
+  - title: JUNIORgoPRO CORSI
+    subtitle: master classes in lingua tedesca e corsi specialistici. 
     content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: '/it/abos/'
     linkText: '>> Scopri di piu'
 
-  - title: JUNIOR CORSI
-    subtitle: subtitle text
-    content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    link: '/it/abos/'
-    linkText: '>> Scopri di piu'
-
-  - title: TEILNAHME AM PROJEKT
-    subtitle: subtitle text
+  - title: VOI PARTICIPARE ANCHE TU?
+    subtitle: qui come qundo prendere parte
     content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: '/it/abos/'
