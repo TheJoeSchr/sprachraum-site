@@ -1,7 +1,7 @@
 <template lang="pug">
 Layout
   MinorHero(:value="header" )
-    g-image(src='~/assets/placeholders/pictures/undraw_real_time_collaboration_c62i.svg' height=250 width=250 center="bottom" fit="inside")
+    g-image(src='~/assets/junior/Bild_4_WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height=250 width=250 center="center" fit="inside")
   .divide-y.divide-gray-400
     section.py-12.px-4.container.py-2(v-for='(person,index) in team' :key='person.id').pt-8
       .flex.flex-wrap.-mx-4.mb-8
@@ -97,7 +97,7 @@ export default {
 .lauraSedda {
   background-image: url('~@/assets/portraits/Laura_Sedda.jpg?width=300&height=300');
 }
-.claudia {
-  background-image: url('~@/assets/portraits/Claudia.png?width=300&height=300');
+.accademia {
+  background-image: url('~@/assets/portraits/Accademia.png?width=300&height=300');
 }
 </style>
