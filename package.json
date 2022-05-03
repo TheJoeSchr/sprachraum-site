@@ -4,6 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "start": "gridsome develop",
+    "debug": "NODE_OPTIONS=--inspect netlify dev",
     "explore": "gridsome explore"
   },
   "dependencies": {
@@ -33,7 +34,8 @@
     "gridsome-plugin-purgecss": "1.0.12",
     "gridsome-plugin-tailwindcss": "3.0.1",
     "http-server": "14.1.0",
-    "postcss": "8.4.13",
+    "netlify-cli": "^10.1.0",
+    "postcss": "8.4.12",
     "prettier": "2.6.2",
     "pug": "3.0.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
