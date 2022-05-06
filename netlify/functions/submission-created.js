@@ -1,6 +1,27 @@
 // read .env file if present, use only locally for debug
 require('dotenv').config()
 
+import { message } from '~/content/it/Interface.yaml'
+
+function mailBody({ name, description, days }) {
+  const legalText = message.legalText
+  const TEMPLATE = message.emailOrderTemplate
+  const body = `${TEMPLATE} <br><br><br><br>${legalText}`
+  return encodeURIComponent(
+    `KURSTITEL /  CORSO <br> ${name}<br> ${description}<br> ${days}<br>${body}`
+  )
+}
+
+function mailSubject({ name, description, days }) {
+  return `Anmeldung für ${name}:${description}, ${days}`
+}
+
+function mailtoFn(course) {
+  const EMAIL = this.messages.btnBookingEmail
+  return `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(
+    course
+  )}`
+}
 exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
   const { data } = JSON.parse(event.body).payload
@@ -11,7 +32,8 @@ exports.handler = function (event, context, callback) {
     return callback(null, {
       statusCode: 400,
       body: 'Mailing details not provided',
-    }) }
+    })
+  }
   const nodemailer = require('nodemailer')
   const user = process.env.EMAIL_USER
   const pass = process.env.EMAIL_PASS
@@ -23,11 +45,13 @@ exports.handler = function (event, context, callback) {
     auth: { user, pass },
   })
 
+  let formData ={}
   let mailOptions = {
     from: 'do-not-reply@workitaut.at',
     to: data.email, // send to email from contact form
-    subject: 'Contact submission received!',
-    html: 'Your Email Body goes here with <b>Bold</bold>',
+    replyTo: 'post@workitaut.at'
+    subject: mailSubject(formData),
+    html: mailBody(formData),
   }
 
   transporter.sendMail(mailOptions, (error, info) => {
