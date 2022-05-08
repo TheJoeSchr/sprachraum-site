@@ -5,74 +5,26 @@ info:
     COVID L'aula è dotata di due grandi porta finestre che vengono aperte ogni 30 minuti. E'
     obbligatorio utilizzare la mascherina. Nel caso ci fosse una chiusura della scuola a causa di
     forza maggiore, il corso passerà in modalità DAD.
+    <b>Borsa di studio 1</b> Riceverai il voucher dal tuo datore di lavoro in Austria dopo il periodo di prova. 
+    è valido per tutti i nostri corsi di tedesco e per i corsi del COI accademia enogastronomica. 
     Tutti i corsi sono con certificato di frequenza.
     In linea di principio, per tutti quei corsi che superano la cifra di 250 euro accettiamo una
     rateizzazione in due trance.
     I corsi non si terranno nei giorni 8 dic e dal 21 dic al 9 gen 22.
     Leggenda / unità = 60min; SI = studio individuale.
   list:
-    - 'A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.'
-    - 'Sconto del 10% sul prossimo corso per tutti coloro che hanno lavorato con i nostri partner durante la stagione invernale.'
+    - 'A1 principante/i A2 pre-intermedio, B1 intermedio, B2 post-intermedio, C1 avanzato.'
+    - 'Borsa di studio tra 350,- e 420,- sul prossimo corso per tutti coloro che hanno lavorato con i nostri partner durante la stagione invernale.'
 offers:
   - title: Corsi di tedesco IN PRESENZA.
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
-      - name: Corso di tedesco intensivo A2-B1
-        tagline: Per le professioni alberghiere.
+      - name: Corso di tedesco intensivo pre-intermedio
+        tagline: Per le professioni alberghiere | JUNIORgoPRO
         description: |-
-          DATE dal 02/05 al 26/05/22
-          GIORNI lun e mer e gio 14:30 - 16:30
-          24 unità in presenza
-
-          <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
-          e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
-          <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Attività di role-playing, small-talk con gli ospiti.
-          Sviluppare competenze quali/ gestione dei reclami, riunioni nel team, preparazione alle fasi lavorative nonché alle mansioni quotidiane/ acquistare un biglietto del treno, conteggio dello stipendio,
-          organizzare le attività del tempo libero, saper riferire un percorso stradale. Max 6 partecipante. Certificato di frequenza
-        days: |-
-        cost: <del>€ 320</del> <b> special price € 245</b>
-
-      - name: Corso di tedesco | A1+
-        tagline: rinfresco
-        description: |-
-          DATE dal 03/05 al 18/05/22
-          GIORNI mar e mer 09:30 - 13:00 gio 09:30 - 12:30
-          25 unità in presenza
-
-          OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
-          <b>ASCOLTO</b> Comprendo il senso quando qualcuno parla con me in modo lento, chiaro e con lunghe pause. Comprendo la descrizione di un percorso da A a B sia a piedi sia con i mezzi pubblici. Comprendo i numeri, prezzi i l'orario.
-          <b>LETTURA</b> Comprendo in un articolo i dettagli in riferimento alla descrizione di una persona (residenza, età, e così via).
-          <b>SCRITTURA</b> Sono in grado di scrivere dettagli sulla mia persona in un questionario (lavoro, residenza, hobbies). Sono capace di scrivere una cartolina di augurio, per esempio, una cartolina del compleanno.
-          Sono capace di descrivermi con farsi semplici. Per esempio, dove abito e che cosa faccio.
-          Teamteaching / PDL & klassische Methode
-          Trainer:innen / con certificazione DAF/DAZ Gemeinsamer europäischer Referenzrahmen für Sprachen (GER)
-          Compiti a casa | Valutazione finale | Certificato di frequenza.
-          Libro / Pluspunkt A1 Cornelsen Verlag 19,- escluso
-        days: |-
-        cost: <del>€ 340</del> <b> special price € 250 </b>
-
-      - name: Corso di tedesco intensivo B1-B2 Konversation
-        tagline: Rezeption und Guest relation
-        description: |-
-          DATE dal 02/05 al 27/05/22
-          GIORNI lun e ven | 09:30 - 12:30
-          24 unità in presenza
-
-          <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
-          e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
-          <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Role-playing/ fare una telefonata, confermare/disdire una prenotazione,
-          gestire gli arrivi (riferire un percorso stradale) e i reclami; organizzare eventi e il servizio della biglietteria, descrivere le manifestazioni culturali e regionali.
-          Ripasso/ Grammatica generale B1-B2 / Compiti - attività scritte. Max 6 partecipante. Certificato di frequenza.
-        days: |-
-        cost: <del>€ 320</del> <b> special price € 245 </b>
-
-      - name: Corso di tedesco estensivo A2-B1
-        tagline: Per le scuole di istruzione superiore.
-        description: |-
-          DATE previo accordo
-          LUOGO presso di istituto scolastico
-          PARTECIPANTI/E stundenti/e di tedesco / max 15 partecipanti/e
-          80 unità in presenza
+          DATE dal 20/09 al 10/11/22
+          GIORNI lun e mer e gio 09:00 - 12:00
+          72 unità 
 
           OBIETTIVI Ampliamento e consolidamento della conoscenza del tedesco con focus sul lessico del settore
           alberghiero di livello B1 in tutti gli ambiti linguistici/ parlato/ascolto/lettura/scrittura secondo gli standard del CEFR.
@@ -84,10 +36,59 @@ offers:
           <b>MODULO 3</b>  ottenere una comunicazione fluente e autentica in tedesco/ i/le partecipanti/e si immergono nella lingua reale del mondo lavorativo e imparano un lessico adeguato al settore
           alberghiero a 4/5 stelle. Riferire il menù, elencare gli ingredienti e descrivere le ricette, saper programmare i turni lavorativi e scrivere il CV (28 unità).
           <b>MODULO 4</b> preparazione ad un colloquio lavorativo e alla stesura del proprio CV. (10 unità). 
-          <b>MEET & GREET</b> incontro con uno/a chef stellato/a. (2 unità)
+          <b>MEET & GREET</b> 2 incontri con un departemento HR nell Hotel in Tirolo. (2 unità)
           Certificato di frequenza. 
         days: |-
-        cost: <del>€ 3.780</del> <b> sconto € 2.590 </b>
+        cost: <del>€ 460</del> <b> special price € 390</b>
+
+      - name: Corso di tedesco A1.1 e A1.2 
+        tagline: standard | JUNIORgoPRO
+        description: |-
+          DATE dal 26/09 al 12/12/22 A1.1
+          DATE dal 09/01 al 29/03/23 A1.2
+          GIORNI lun e mer 17:00 - 19:30 
+          120 unità / 60+60 
+
+          OBIETTIVI <b>ORALE</b> so parlare di me, della mia famiglia, dei miei amici e del tempo libero. So esprimermi in modo elementare in riferimento alla mia formazione e al mio lavoro.
+          <b>ASCOLTO</b> Comprendo il senso quando qualcuno parla con me in modo lento, chiaro e con lunghe pause. Comprendo la descrizione di un percorso da A a B sia a piedi sia con i mezzi pubblici. Comprendo i numeri, prezzi i l'orario.
+          <b>LETTURA</b> Comprendo in un articolo i dettagli in riferimento alla descrizione di una persona (residenza, età, e così via).
+          <b>SCRITTURA</b> Sono in grado di scrivere dettagli sulla mia persona in un questionario (lavoro, residenza, hobbies). Sono capace di scrivere una cartolina di augurio, per esempio, una cartolina del compleanno.
+          Sono capace di descrivermi con farsi semplici. Per esempio, dove abito e che cosa faccio.
+          Teamteaching / PDL & klassische Methode
+          Trainer:innen / con certificazione DAF/DAZ Gemeinsamer europäischer Referenzrahmen für Sprachen (GER)
+          Compiti a casa | Valutazione finale | Certificato di frequenza.
+          Libro / Pluspunkt A1 Cornelsen Verlag 19,- escluso
+        days: |-
+        cost: <del>€ 410</del> <b> per modulo € 380 </b>
+
+      - name: Corso di tedesco pre-intermedio 
+        tagline: conversazione con ospiti/e
+        description: |-
+          DATE dal 26/09 al 04/11/22
+          GIORNI lun e ven | 09:30 - 12:00
+          30 unità 
+
+          <b>OBIETTIVI</b> Ottenere una comunicazione fluente e autentica in tedesco. & Descrivere festività & tradizioni, arte culinaria, la regione geografica
+          e gli eventi storico-culturali,conoscere le tipiche mansioni alberghiere di alto livello nel mondo tedesco.
+          <b>CONTENUTO</b> Il glossario in riferimento al settore alberghiero di alto livello. Role-playing/ fare una telefonata, confermare/disdire una prenotazione,
+          gestire gli arrivi (riferire un percorso stradale) e i reclami; organizzare eventi e il servizio della biglietteria, descrivere le manifestazioni culturali e regionali.
+          Ripasso/ Grammatica generale B1 / Compiti - attività scritte. Certificato di frequenza.
+        days: |-
+        cost: <del>€ 320</del> <b> special price € 280 </b>
+
+      - name: Analisi delle competenze linguistiche 
+        tagline: per i livelli A1 / A2 / B1 / B2
+        description: |-
+          DATE dal 23/09 al 25/11/22
+          GIORNO ogni venerdì | 14:30 - 17:30 
+          3 unità 
+
+          Per vedere come ti comporteresti nel test del certificato, puoi fare i nostri test gratuiti sui modelli. 
+          Questi seguono lo schema del Quadro Comune Europeo delle Lingue e testano tutte e 4 le competenze - parlare/scrivere/ascoltare/lettura (parte grammaticale).  
+          Dopo questo avrai una valutazione realistica delle tue conoscenze e anche se sei pronto a sostenere l'esame al tuo livello. 
+          È necessaria la registrazione! I posti sono limitati. 
+        days: |-
+        cost: <b> gratuito </b>
 
       - name: In cucina con workitAUT
         tagline: "Workshop: La cucina austriaca"
@@ -128,37 +129,39 @@ offers:
         days: |-
         cost: <del>€ 240 </del> <b> special price € 180</b>
         
-  - title: Pacchetti | ONLINE | livello A2 - B1
+  - title: Pacchetti | ONLINE | livello A2 - B2
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
-      - name:  Pacchetto di tedesco A2-B1
-        tagline: per le professioni della cucina.
+      - name:  Pacchetto di tedesco pre-intermedio
+        tagline: CONVERSAZIONE per le professioni alberghiere
         description: |-
           DATE ogni giovedì
-          ORARI 14:30 - 16:30
-          Pacchetto 14 unità ONLINE
+          ORARI 14:30 - 16:00
+          Pacchetto 10 unità ONLINE
 
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
           <b>OBIETTIVI</b> Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
-          Conoscenza delle pietanze austriache e internazionale (in tedesco).
-          <b>CONTENUTO</b> Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
+          Conoscenza delle pietanze austriache e internazionale (in tedesco). Mansioni e attività dell addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell´attrezzatura e le fasi del lavoro in sala. 
+          Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza. 
+          <b>CONTENUTO</b> Il glossario in referimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali. Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
           attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
           Certificato di frequenza. 
         days: |-
         cost: <del>€ 250</del> <b> special price € 199 </b>
 
-      - name:  Pacchetto di tedesco A2-B1
-        tagline: per le professioni di sala.
+      - name:  Pacchetto di tedesco intermedio
+        tagline: CONVERSAZIONE per le professioni alberghiere.
         description: |-
           DATE ogni martedì
-          ORARI 14.30 - 16:30
-          Pacchetto 14 unità ONLINE
+          ORARI 14.30 - 16:00
+          Pacchetto 10 unità ONLINE
 
           Imparerete tutto ciò di cui avrete bisogno per una stagione di successo.
-          OBIETTIVI Mansioni e attività dell'addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell'attrezzatura e le fasi del lavoro in sala.
-          Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza.
-          CONTENUTO Il glossario in riferimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali.
-          Possedere una panoramica generale in riferimento agli ingredienti / ai tivici vini.
+          <b>OBIETTIVI</b> Nomenclatura in riferimento all'attrezzatura da cucina e svolgimento delle varie fasi lavorative. RICCETTE comprendere, riferire, strutturare e riassumere una ricetta.
+          Conoscenza delle pietanze austriache e internazionale (in tedesco). Mansioni e attività dell addetto ai servizi di sala e bar, padroneggiare il linguaggio tecnico dell´attrezzatura e le fasi del lavoro in sala. 
+          Small-talk con i clienti e saper descrivere gli ingredienti nelle pietanza. 
+          <b>CONTENUTO</b> Il glossario in referimento alla gastronomia, approfondimento del specifico registro linguistico in sala, modi di dire e attività orali. Lessico ed espressioni linguistiche intorno al tema Cucina e cucinare, verbi comuni in riferimento alla preparazione delle pietanza, ripasso dei modi di dire per le procedure nella preparazione del menù,
+          attività orali| simulazioni di conversazione con colleghi/ghe e con il proprio superiore / ai tipici vini.
           Certificato di frequenza. 
         days: |-
         cost: <del>€ 250</del> <b> special price € 199 </b>
@@ -167,7 +170,7 @@ offers:
         tagline: uso attivo della grammatica.
         description: |-
           DATE ogni lunedì
-          ORARI 11:00 - 13:00
+          ORARI 11:30 - 13:00
           Pacchetto 24 unità ONLINE
 
           Ripasso della grammatica dal livello A2 al B1 - con esempi pratici di utilizzo.
