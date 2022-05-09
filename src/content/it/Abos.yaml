@@ -91,8 +91,8 @@ offers:
         cost: <b> gratuito </b>
         
   - title: Corsi formative | JUNIORgoPRO & Talents for Turismo
-     subtitle:  Zertifiziertes Ausbildungsprogramme bei voller Bezahlung für die Berufe RISTORAZIONE | CUCINA | HOTEL- & HOSPITALITY MANAGEMENT
-     courses:
+    subtitle:  Zertifiziertes Ausbildungsprogramme bei voller Bezahlung für die Berufe RISTORAZIONE | CUCINA | HOTEL- & HOSPITALITY MANAGEMENT
+    courses:
       - name: COI accademia enogastronomica 
         tagline: JUNIORgoPRO Corsi di sala e cucina
         description: |-
@@ -109,7 +109,7 @@ offers:
  
         days: |-
         cost: <b> con JUNIORgoPRO finanziamento </b>
-        
+         
       - name: TALENTS PER TURISMO RISTORAZIONE | WIFI Innsbruck/Tirolo AUT
         tagline: in 18 mese formazione attraverso la practica. Con diploma e lavoro pagato.
         description: |-
@@ -176,7 +176,7 @@ offers:
         days: |-
         cost: <del>€ 5.790</del> <b> 100% JUNIORgoPRO finanziamento </b>
         
- - title: Pacchetti | ONLINE | livello A2 - B2
+  - title: Pacchetti | ONLINE | livello A2 - B2 
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
       - name:  Pacchetto di tedesco pre-intermedio
