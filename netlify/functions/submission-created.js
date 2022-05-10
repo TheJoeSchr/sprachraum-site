@@ -1,14 +1,10 @@
 // read .env file if present, use only locally for debug
 require('dotenv').config()
+const { marked } = require('marked')
 
-import { message } from '~/content/it/Interface.yaml'
-
-function mailBody({ name, description, days }) {
-  const legalText = message.legalText
-  const TEMPLATE = message.emailOrderTemplate
-  const body = `${TEMPLATE} <br><br><br><br>${legalText}`
+function formToMail({ name, description, days }) {
   return encodeURIComponent(
-    `KURSTITEL /  CORSO <br> ${name}<br> ${description}<br> ${days}<br>${body}`
+    `KURSTITEL /  CORSO <br> ${name}<br> ${description}<br> ${days}<br>`
   )
 }
 
@@ -18,7 +14,7 @@ function mailSubject({ name, description, days }) {
 
 function mailtoFn(course) {
   const EMAIL = this.messages.btnBookingEmail
-  return `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(
+  return `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${formToMail(
     course
   )}`
 }
@@ -26,6 +22,27 @@ exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
   const { data } = JSON.parse(event.body).payload
 
+  // get filesystem module
+  const fs = require('fs')
+
+  // using the readFileSync() function
+  // and passing the path to the file
+  
+  const buffer = fs.readFileSync('./src/content/it/EmailUser.md')
+
+  // use the toString() method to convert
+  // Buffer into String
+  const fileContent = buffer.toString()
+  console.log(fileContent)
+  // Set options
+  marked.setOptions({
+    gfm: true,
+    breaks: true,
+    sanitize: true,
+    smartLists: true,
+    smartypants: false,
+  })
+  const body = marked.parse(fileContent)
   console.log('Debug log:\n', data)
   // make sure we have data and email
   if (!data || !data.email) {
@@ -45,13 +62,13 @@ exports.handler = function (event, context, callback) {
     auth: { user, pass },
   })
 
-  let formData ={}
+  let formData = {}
   let mailOptions = {
-    from: 'do-not-reply@workitaut.at',
+    from: 'post@workitaut.at',
     to: data.email, // send to email from contact form
-    replyTo: 'post@workitaut.at'
+    replyTo: 'post@workitaut.at',
     subject: mailSubject(formData),
-    html: mailBody(formData),
+    html: formToMail(formData) + body,
   }
 
   transporter.sendMail(mailOptions, (error, info) => {

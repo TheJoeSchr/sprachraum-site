@@ -4,7 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "start": "gridsome develop",
-    "debug": "EMAIL_USER=do-not-reply@workitaut.at NODE_OPTIONS=--inspect netlify dev",
+    "debug": "EMAIL_USER=post@workitaut.at NODE_OPTIONS=--inspect netlify dev",
     "explore": "gridsome explore"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "dotenv": "^16.0.0",
     "gridsome": "0.7.23",
     "gridsome-plugin-i18n": "1.6.0",
+    "marked": "^4.0.15",
     "nodemailer": "^6.7.3",
     "typeface-d-din": "0.0.67",
     "typeface-unica-one": "0.0.72"
