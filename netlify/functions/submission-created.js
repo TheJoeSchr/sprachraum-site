@@ -22,13 +22,15 @@ exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
   const { data } = JSON.parse(event.body).payload
 
-  // get filesystem module
-  const fs = require('fs')
-
   // using the readFileSync() function
   // and passing the path to the file
-  
-  const buffer = fs.readFileSync('./src/content/it/EmailUser.md')
+  const fs = require('fs')
+  const path = require('path')
+
+  const buffer = fs.readFileSync(
+    path.join(__dirname, './../../src/content/it/EmailUser.md'),
+    { encoding: 'utf-8' }
+  )
 
   // use the toString() method to convert
   // Buffer into String
