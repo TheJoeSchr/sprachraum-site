@@ -7,7 +7,7 @@ Layout
           template(v-for='(dreamjob, index) in jobs.dreamjobs')
             Modal
               template(#inline)
-                a.group(v-on:click="toggleInfo(dreamjob)")
+                a.group(v-on:click="toggleInfo(dreamjob)" class="cursor-pointer")
                     DreamJobCard(:value='dreamjob')
               template(#default)
                 DreamJobInfo(:value='currentInfo')

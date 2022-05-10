@@ -244,6 +244,140 @@ dreamjobs:
        <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
        <b>CV </b> Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
        (11)
+    columns:
+      - title: I tuoi compiti
+        content:
+          - Gestione di tutte le attività di accoglienza
+          - Preparazione all'arrivo e alla partenza
+          - Consigli agli ospiti sulla regione
+          - Lavorare secondo gli standard della struttura
+          - Stretta collaborazione e comunicazione con altri reparti
+          - Attività di portineria come richieste e informazioni degli ospiti
+          - Corretta gestione degli oggetti smarriti e ritrovati
+          - Rilascio skipass
+
+      - title: Il tuo profilo
+        content:
+          - Diploma presso un istituto alberghiero, turistico o linguistico.
+          - Esperienza nel settore alberghiero alto livello
+          - Ottime doti relazionali con clientela di alto profilo
+          - Ottima conoscenza di Tedesco e Inglese
+          - Esperienza con Protel, Word, Excel, Outlook, Hotelkit, RA, Channelmanager
+
+      - title: I tuoi vantaggi
+        content:
+          - Lavoro sicuro in un´azienda moderna a conduzione familiare.
+          - Orario di lavoro regolare con settimana lavorativa di 5 giorni e registrazione digitale delle ore di lavoro.
+          - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena).
+          - Uso della SPA dell hotel.
+          - Camere e appartementi per i dipendenti in stile moderno.
+          - Inserimento mirato tramite il nostro sistema on-board.
+          - Lavoro di gruppo in un team aperto e professionale.
+          - Possibilità di formazione professionale e personale.
+          - Divisa tradizionale austriaca fornita dall hotel.
+
+  - id: juniorgopro_sala
+    title: JUNIORgoPRO sala
+    subtitle: Hotel 5* e 4* superiore / Fiss, Tirolo e Vorarlberg
+    description: |-
+       <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
+       <b>Durata </b> disponibilità immediata, oppure da dicembre 2022 ad aprile 2023 o date da concordare.
+       <b>Location </b>  Fiss / Ötztal, Tirolo e Warth / Vorarlberg
+       <b>Stipendio </b> da 1.700 a 1.800 netti mensile, a seconda delle competenze, aliquota sulla 13° e 14° mensilità e redistribuzione mance
+       <b>Lingua richiesta </b> tedesco C1 e inglese fluente
+       <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
+       <b>CV </b> Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
+       (11)
+    columns:
+      - title: I tuoi compiti
+        content:
+          - Cortesia e attenzione verso gli ospiti
+          - Mise en place giornaliera
+          - Preparazione di cocktail standard e bevande semplici
+          - Rispetto delle norme di pulizia e igiene nell'area bar
+          - Supporto al team del ristorante
+
+      - title: Il tuo profilo
+        content:
+          - Formazione completa in ambito gastronomico/alberghiero
+          - Formazione specialistica come barman/barwoman gradita
+          - Esperienza lavorativa in una posizione simile
+          - Conoscenza di bevande e liquori
+          - Ottime doti relazionali con clientela di alto profilo
+          - Tedesco di livello B1 intermedio
+          - Buona conoscenza dell´inglese
+          - Standing elegante e raffinato
+
+      - title: I tuoi vantaggi
+        content:
+          - Lavoro sicuro in un´azienda moderna a conduzione familiare
+          - Orario di lavoro regolare con settimana lavorativa di 5 giorni e registrazione digitale delle ore di lavoro
+          - Partecipazione alla creazione dei turni settimanali attraverso richieste di turno di lavoro
+          - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena)
+          - Uso della SPA dell albergo
+          - Camere e appartementi per i dipendenti in stile moderno
+          - Inserimento mirato tramite il nostro sistema on-board
+          - Lavoro di gruppo in un team aperto e professionale
+          - Possibilità di formazione professionale e personale
+          - Divisa tradizionale austriaca fornita dall hotel
+
+  - id: juniorgopro_cucina
+    title: JUNIORgoPRO cucina
+    subtitle: Hotel 5* e 4* superiore / Fiss, Tirolo e Vorarlberg
+    description: |-
+       <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
+       <b>Durata </b> disponibilità immediata, oppure da dicembre 2022 ad aprile 2023 o date da concordare.
+       <b>Location </b>  Fiss / Ötztal, Tirolo e Warth / Vorarlberg
+       <b>Stipendio </b> da 1.700 a 1.800 netti mensile, a seconda delle competenze, aliquota sulla 13° e 14° mensilità e redistribuzione mance
+       <b>Lingua richiesta </b> tedesco C1 e inglese fluente
+       <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
+       <b>CV </b> Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
+       (11)
+    columns:
+      - title: I tuoi compiti
+        content:
+          - Cortesia e attenzione verso gli ospiti
+          - Mise en place giornaliera
+          - Preparazione di cocktail standard e bevande semplici
+          - Rispetto delle norme di pulizia e igiene nell'area bar
+          - Supporto al team del ristorante
+
+      - title: Il tuo profilo
+        content:
+          - Formazione completa in ambito gastronomico/alberghiero
+          - Formazione specialistica come barman/barwoman gradita
+          - Esperienza lavorativa in una posizione simile
+          - Conoscenza di bevande e liquori
+          - Ottime doti relazionali con clientela di alto profilo
+          - Tedesco di livello B1 intermedio
+          - Buona conoscenza dell´inglese
+          - Standing elegante e raffinato
+
+      - title: I tuoi vantaggi
+        content:
+          - Lavoro sicuro in un´azienda moderna a conduzione familiare
+          - Orario di lavoro regolare con settimana lavorativa di 5 giorni e registrazione digitale delle ore di lavoro
+          - Partecipazione alla creazione dei turni settimanali attraverso richieste di turno di lavoro
+          - Pasti gratuiti 7 giorni su 7 (colazione, pranzo e cena)
+          - Uso della SPA dell albergo
+          - Camere e appartementi per i dipendenti in stile moderno
+          - Inserimento mirato tramite il nostro sistema on-board
+          - Lavoro di gruppo in un team aperto e professionale
+          - Possibilità di formazione professionale e personale
+          - Divisa tradizionale austriaca fornita dall hotel
+
+  - id: juniorgopro_reception
+    title: JUNIORgoPRO reception
+    subtitle: Hotel 5* e 4* superiore / Fiss, Tirolo e Vorarlberg
+    description: |-
+       <b>Contratto</b> full time / 5 giorni a settimana / lavoro stagionale
+       <b>Durata </b> disponibilità immediata, oppure da dicembre 2022 ad aprile 2023 o date da concordare.
+       <b>Location </b>  Fiss / Ötztal, Tirolo e Warth / Vorarlberg
+       <b>Stipendio </b> da 1.700 a 1.800 netti mensile, a seconda delle competenze, aliquota sulla 13° e 14° mensilità e redistribuzione mance
+       <b>Lingua richiesta </b> tedesco C1 e inglese fluente
+       <b>Per un colloquio preliminare </b> Elke Oberleitner - elke@workitaut.at - +39 331 222 65 16
+       <b>CV </b> Verranno presi in considerazione solo ed esclusivamente i curriculum vitae con autorizzazione al trattamento dei dati personali
+       (11)
 
     columns:
       - title: I tuoi compiti
