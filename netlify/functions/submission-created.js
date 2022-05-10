@@ -28,7 +28,7 @@ exports.handler = function (event, context, callback) {
   const path = require('path')
 
   const buffer = fs.readFileSync(
-    path.join(__dirname, './../../src/content/it/EmailUser.md'),
+    path.join(__dirname, 'template/EmailUser.md'),
     { encoding: 'utf-8' }
   )
 
