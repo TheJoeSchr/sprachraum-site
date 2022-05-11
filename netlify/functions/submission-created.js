@@ -2,16 +2,18 @@
 require('dotenv').config()
 const { marked } = require('marked')
 
-function formToMail({ name, description, days }, body) {
-  html = `${body}` //deep copy string
-  //TODO: add cost and tagline?
-  html = html.replaceAll('${name}', name)
-  html = html.replaceAll('${description}', description)
-  html = html.replaceAll('${days}', days)
-  html = html.replaceAll('${cost}', cost)
-  html = html.replaceAll('${tagline}', tagline)
-  // console.log('Debug html:', html)
-  return html
+function substituteTemplateLiterals(textIncludingLiterals, dictReplacements) {
+  const regExForTemplateLiterals = /\${([^}]+)}/g // ${key}
+  const result = textIncludingLiterals.replace(
+    regExForTemplateLiterals,
+    (match, p1) => {
+      const [key, ...rest] = p1.split('.') // key.subkey.subsubkey
+      // replace with keyValue or empty string
+      return dictReplacements.hasOwnProperty(key) ? dictReplacements[key] : ''
+    }
+  )
+  // console.log('Debug substituteTemplateLiterals()', result)
+  return result
 }
 
 function mailSubject({ name, description, days }) {
@@ -69,7 +71,7 @@ exports.handler = function (event, context, callback) {
     to: data.email, // send to email from contact form
     replyTo: 'post@workitaut.at',
     subject: mailSubject(formData),
-    html: formToMail(formData, body),
+    html: substituteTemplateLiterals(body, formData),
   }
 
   transporter.sendMail(mailOptions, (error, info) => {
