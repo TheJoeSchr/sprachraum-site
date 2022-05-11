@@ -84,11 +84,11 @@ exports.handler = function (event, context, callback) {
       })
     }
 
-    console.info('sendMail success', info)
     // success!
+    console.info('sendMail success', info)
     callback(null, {
       statusCode: 200,
-      body: 'mail sent:\n' + JSON.stringify(data),
+      body: 'mail sent:\n' + JSON.stringify(info),
     })
   })
 }
