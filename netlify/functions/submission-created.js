@@ -2,22 +2,19 @@
 require('dotenv').config()
 const { marked } = require('marked')
 
-function formToMail({ name, description, days }) {
-  return encodeURIComponent(
-    `KURSTITEL /  CORSO <br> ${name}<br> ${description}<br> ${days}<br>`
-  )
+function formToMail({ name, description, days }, body) {
+  html = `${body}` //deep copy string
+  html = html.replaceAll("${name}", name)
+  html = html.replaceAll("${description}", description)
+  html = html.replaceAll("${days}", days)
+  console.log('Debug html:', html)
+  return html
 }
 
 function mailSubject({ name, description, days }) {
-  return `Anmeldung für ${name}:${description}, ${days}`
+  return `SPRACHRAUM: Anmeldung für ${name}:${description}, ${days}`
 }
 
-function mailtoFn(course) {
-  const EMAIL = this.messages.btnBookingEmail
-  return `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${formToMail(
-    course
-  )}`
-}
 exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
   const { data } = JSON.parse(event.body).payload
@@ -64,13 +61,13 @@ exports.handler = function (event, context, callback) {
     auth: { user, pass },
   })
 
-  let formData = {}
+  let formData = {...data}
   let mailOptions = {
     from: 'post@workitaut.at',
     to: data.email, // send to email from contact form
     replyTo: 'post@workitaut.at',
     subject: mailSubject(formData),
-    html: formToMail(formData) + body,
+    html: formToMail(formData, body),
   }
 
   transporter.sendMail(mailOptions, (error, info) => {

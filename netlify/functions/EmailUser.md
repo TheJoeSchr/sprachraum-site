@@ -1,3 +1,8 @@
+- KURS / CORSO 
+  ${name}
+  ${description}
+  ${days}
+
 - VORNAME / NOME
 - NACHNAME / COGNOME
 - GEBURTSDATUM / DATA DI NASCITA

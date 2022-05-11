@@ -2,7 +2,10 @@
 Layout
   form.question-form(method='post' v-on:submit.prevent='handleSubmit' netlify name='order-form' ref='formTag')
     label Email:
-      input(v-model='form.email' ref='input' name='email' placeholder='name@example.com' type='email')
+      input(v-model='form.email' name='email' placeholder='name@example.com' type='email' ref='inputEmail')
+      input(type='hidden' v-model='form.name' name='name' placeholder='name')
+      input(type='hidden' v-model='form.description' name='description' placeholder='description')
+      input(type='hidden' v-model='form.days' name='days' placeholder='days')
     button.text-gray-700.background-transparent.font-bold.uppercase.py-1.text-xs.border.border-solid.rounded.px-4.py-2(class='focus:outline-none hover:bg-brand-green hover:text-white' type='submit') Send
 </template>
 <script>
@@ -15,7 +18,9 @@ export default {
   data() {
     return {
       form: {
-        name: '',
+        name: 'joe doe',
+        days: '18',
+        description: 'course description',
         email: '',
       },
       status: {},
