@@ -4,10 +4,10 @@ const { marked } = require('marked')
 
 function formToMail({ name, description, days }, body) {
   html = `${body}` //deep copy string
-  html = html.replaceAll("${name}", name)
-  html = html.replaceAll("${description}", description)
-  html = html.replaceAll("${days}", days)
-  console.log('Debug html:', html)
+  html = html.replaceAll('${name}', name)
+  html = html.replaceAll('${description}', description)
+  html = html.replaceAll('${days}', days)
+  // console.log('Debug html:', html)
   return html
 }
 
@@ -24,15 +24,14 @@ exports.handler = function (event, context, callback) {
   const fs = require('fs')
   const path = require('path')
 
-  const buffer = fs.readFileSync(
-    path.join(__dirname, 'EmailUser.md'),
-    { encoding: 'utf-8' }
-  )
+  const buffer = fs.readFileSync(path.join(__dirname, 'EmailUser.md'), {
+    encoding: 'utf-8',
+  })
 
   // use the toString() method to convert
   // Buffer into String
   const fileContent = buffer.toString()
-  console.log(fileContent)
+  // console.log(fileContent)
   // Set options
   marked.setOptions({
     gfm: true,
@@ -42,7 +41,7 @@ exports.handler = function (event, context, callback) {
     smartypants: false,
   })
   const body = marked.parse(fileContent)
-  console.log('Debug log:\n', data)
+  // console.log('Debug log:\n', data)
   // make sure we have data and email
   if (!data || !data.email) {
     return callback(null, {
@@ -53,7 +52,7 @@ exports.handler = function (event, context, callback) {
   const nodemailer = require('nodemailer')
   const user = process.env.EMAIL_USER
   const pass = process.env.EMAIL_PASS
-  console.log('Debug auth', { user, pass }) // TODO:
+  // console.log('Debug auth', { user, pass }) // TODO:
 
   let transporter = nodemailer.createTransport({
     host: 'smtppro.zoho.eu',
@@ -61,7 +60,7 @@ exports.handler = function (event, context, callback) {
     auth: { user, pass },
   })
 
-  let formData = {...data}
+  let formData = { ...data }
   let mailOptions = {
     from: 'post@workitaut.at',
     to: data.email, // send to email from contact form
@@ -80,7 +79,7 @@ exports.handler = function (event, context, callback) {
       })
     }
 
-    console.info('sendMail success')
+    console.info('sendMail success', info)
     // success!
     callback(null, {
       statusCode: 200,
