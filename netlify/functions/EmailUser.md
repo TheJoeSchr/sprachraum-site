@@ -1,7 +1,6 @@
 - KURS / CORSO 
-  ${name}
-  ${description}
-  ${days}
+  ${name}: ${tagline}
+  ${cost}
 
 - VORNAME / NOME
 - NACHNAME / COGNOME

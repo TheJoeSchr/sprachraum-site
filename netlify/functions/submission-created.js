@@ -4,9 +4,12 @@ const { marked } = require('marked')
 
 function formToMail({ name, description, days }, body) {
   html = `${body}` //deep copy string
+  //TODO: add cost and tagline?
   html = html.replaceAll('${name}', name)
   html = html.replaceAll('${description}', description)
   html = html.replaceAll('${days}', days)
+  html = html.replaceAll('${cost}', cost)
+  html = html.replaceAll('${tagline}', tagline)
   // console.log('Debug html:', html)
   return html
 }
