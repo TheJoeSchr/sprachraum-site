@@ -6,14 +6,14 @@ section(class="pt-2")
         g-image.ml-auto(src='~/assets/placeholders/icons/badge.svg' class="-mt-6")
         Modal
           template(#inline)
-              h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.text-center.uppercase(class="w-full" v-html='toBr(name)')
-              div.px-3.my-6.text-lg.text-gray-900.text-center
-                p.font-bold(v-html='toBr(tagline)')
-                p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(days)')
-                p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(times)')
-                  .text-sm.text-gray-900.underline {{ messages.bookingContinue }}
-              div.my-5.text-lg.text-gray-900.text-center
-                .ml-auto(class="w-full" v-html="toBr(cost)")
+            h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.text-center.uppercase(class="w-full" v-html='toBr(name)')
+            div.px-3.my-6.text-lg.text-gray-900.text-center
+              p.font-bold(v-html='toBr(tagline)')
+              p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(days)')
+              p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(times)')
+                .text-sm.text-gray-900.underline {{ messages.bookingContinue }}
+            div.my-5.text-lg.text-gray-900.text-center
+              .ml-auto(class="w-full" v-html="toBr(cost)")
 
           template(#default)
             h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.left-0.uppercase(class="w-full" v-html='toBr(name)')
@@ -25,36 +25,45 @@ section(class="pt-2")
               p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(days)')
               p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(times)')
         .mx-auto.mb-2(class='w-2/5' v-if="hideBooking != true")
-          a(:href='mailtoFn({ ...value, legalText: value.messages.legalText })' class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow
-            | {{ messages.btnBooking }}
-          a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{ `${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
+          Modal
+            template(#inline)
+              button(class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow
+                | {{messages.btnBooking}}
+            template(#default)
+              form-wrapper(v-model='form')
+                input(v-model='form.email' name='email' placeholder='name@example.com' type='email' ref='inputEmail')
+          a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{`${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
 </template>
 
 <script>
-import { toEmailLinebreak } from '~/helpers'
+import {toEmailLinebreak} from '~/helpers'
+import FormWrapper from '~/components/FormWrapper.vue'
 import Modal from '~/components/Modal.vue'
-import { toBr } from '~/helpers'
+import {toBr} from '~/helpers'
 
 const TEMPLATE =
   '\nVORNAME / NOME\n  \nNACHNAME / COGNOME\n  \nGEBURTSDATUM / DATA DI NASCITA\n  \nSTRASSE / VIA\n   \nPLZ / CODICE POSTALE\n \nORT / CITÀ\n \nLAND / PAESE\n  \nTELEFON / TELEFONO\n \nE-MAIL\n \n\nNACHRICHT / MESSAGO\n\n\n\n\n\n\n\n'
 
-const mailBody = ({ name, description, days, legalText = '' }) => {
+const mailBody = ({name, description, days, legalText = ''}) => {
   const body = `${TEMPLATE} \n\n\n\n${legalText}`
   return encodeURIComponent(
     `KURSTITEL /  CORSO \n ${name}\n ${description}\n ${days}\n${body}`
   )
 }
 
-function mailSubject({ name, description, days }) {
+function mailSubject({name, description, days}) {
   return `Anmeldung für ${name}:${description}, ${days}`
 }
 export default {
   name: 'OfferDetail',
   components: {
     Modal,
+    FormWrapper,
   },
   props: ['value'],
   data() {
+    const {hideBooking, ...form} = this.value
+
     const {
       name,
       tagline,
@@ -64,18 +73,18 @@ export default {
       legalText,
       messages,
       times,
-      hideBooking,
-    } = this.value
+    } = form
     return {
-      name,
-      tagline,
-      description,
       cost,
       days,
+      description,
+      form,
+      hideBooking,
       legalText,
       messages,
+      name,
+      tagline,
       times,
-      hideBooking,
     }
   },
   methods: {
