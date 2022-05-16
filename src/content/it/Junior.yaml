@@ -1,29 +1,38 @@
 cards:
   - title: JUNIORgoPRO 
-    subtitle: Innovatives Ausbildungsprogramm mit Jobgarantie
+    subtitle: Imparare, lavorare e guadagnare un reddito equo fin dall'inizio.
     content: |
-        Mit unserem Projekt piscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I tuoi passioni: il profumo e il gusto della cucina gourmet, il mondo del vino, le lingue e la cultura, l'estate al mare e l'inverno sulla neve.
+        I tuoi obiettivi: trasformare le tuoi passioni in una professione, lavorare e imparare in un'azienda, essere riconosciuti e finanziariamente indipendenti fin dal primo giorno.  E anche per avere abbastanza tempo per godersi i vantaggi del luogo di lavoro. Lì e allora. 
+        Una vera opportunità: in collaborazione con aziende sarde e tirolesi e istituti scolastici, abbiamo sviluppato un modello attraente, in cui è possibile passare da JUNIOR a ricercato CHEF, CHEF DE RANG o HOTELMANAGER nel più breve tempo possibile. 
+        Date un'occhiata ai nostri JUNIOR JOBS e alla nostra CORSI e scoprite come candidarvi.
+    link: '/it/abos/'
+    linkText: '>> scroll'
+
+  - title: JUNIORgoPRO Chi Come Quando prendere parte
+    subtitle: Vuoi partecipate anche tu? 
+    content: |
+        Scopri subito i nostri OPEN DAY a Cagliari o iscriviti alla procedura di selezione. Poiché il programma di formazione è sostenuto finanziariamente, il progetto è limitato a un massimo di 12 partecipanti. 
+        Date e iscrizioni (link a Servizi)
     link: '/it/abos/'
     linkText: '>> Scopri di piu'
 
   - title: JUNIORgoPRO JOBS
-    subtitle: come entrare nel mondo del´alta alberhiera? Attraverso la practica! 
+    subtitle: Come entrare nel mondo del´alta alberhiera? Attraverso la practica! 
     content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Una volta superata la procedura di ammissione, facciamo un tour virtuale del vostro futuro datore di lavoro, selezioniamo un'azienda adatta e la incontriamo per il primo colloquio su ZOOM. 
+        Dopo il modulo di ingresso, sarete pronti per il viaggio prenatalizio in Tirolo all'inizio di dicembre. 
+        Lì, oltre a un'ottima sistemazione, il vostro team vi aspetta per introdurvi passo dopo passo nella vostra area di responsabilità. 
     link: '/it/abos/'
-    linkText: '>> Scopri di piu'
+    linkText: '>> potete trovare le offerte di lavoro JUNIORgoPRO qui'
 
   - title: JUNIORgoPRO CORSI
-    subtitle: master classes in lingua tedesca e corsi specialistici. 
+    subtitle: Programma di formazione innovativo. Efficiente, veloce e pratico
     content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Un programma modulare - blended-learning-system - e consiste di 10 moduli in aula e online. 
+        è un programma di formazione  in ambito (di hotele alta fascia) della cucina e della sala che ti permette di far parte di un programma duale fra la Sardegna e il Tirolo. 
+        Certificato linguistico ÖSD per il livello di tedesco B1/B2/C1 
+        Certificato per cucina o sala riconosciuti a livello internazionale dall'Accademia Enogastronomica COI. 
     link: '/it/abos/'
-    linkText: '>> Scopri di piu'
-
-  - title: VOI PARTICIPARE ANCHE TU?
-    subtitle: qui come qundo prendere parte
-    content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    link: '/it/abos/'
-    linkText: '>> Scopri di piu'
+    linkText: '>> Scoprire il nostro programma'
 
