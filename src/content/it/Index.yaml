@@ -37,6 +37,13 @@ cards:
     linkText: '>> servizi'
     link: /it/services
 
+  - title: Partner
+    content: |
+      - WKO
+      - WIFI
+      - COI
+      - DIALOGANDO
+ 
   - title: Siamo un team
     link:  /team
     linkText: '>> chi siamo'
