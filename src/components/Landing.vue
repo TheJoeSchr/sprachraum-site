@@ -24,10 +24,10 @@ div
 
   template(v-for='(section, index) in cards' )
     MinorHero(:value="{...section, isLeft: (index % 2 == 0)}" )
-      g-image(v-if="0 == index", src='~/assets/junior/Bild_1_TitelJuniorgoPROPa1250150-KORR.jpg' width="300" height="300" position="right" fit="cover")
-      g-image(v-if="1 == index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height="300" width="300"  center="bottom" fit="cover")
+      g-image(v-if="0 == index", src='~/assets/images/Pa1250150-KORR-full.jpg' width="1000" height="1000" position="right" fit="cover")
+      g-image(v-if="1 == index", src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height="400" width="400" fit="cover")
       g-image(v-if="2 == index", src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height=300 width="300" center="top" fit="outside")
-      g-image(v-if="3 == index", src='~/assets/images/AllLogos.png' height=300 width="300" position="left" fit="cover")
+      g-image(v-if="3 == index", src='~/assets/images/AllLogos.png' height=300 width="300" position="right" fit="cover")
       g-image(v-if="4 == index", src='~/assets/images/schneemann-119510173.jpg' height=300 width="300" position="left" fit="cover")
       g-image(v-if="5 == index", src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height="300" width="300" center="top" fit="cover")
       g-image(v-if="6 == index", src='~/assets/images/2_Italienischkurs.jpg' height="300" width="300" center="top" fit="cover")
