@@ -24,19 +24,21 @@ offers:
           Luogo| Via Albert Einstein 19, Cagliari. I posti sono limitati a 6 persone a giornata. Nel rispetto delle norme anti-Covid, per la partecipazione è obbligatoria la prenotazione online.
         days: |-
           Prenota il tuo posto scrivendo a info@dialogando.com
-        cost: <b> GRATUITO</b>
+        cost: 
       - name: Colloquio preliminare Per i/le candidati/e ai posti di lavoro 
         description: |
           Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto. Anche via Zoom. 
         days: |-
           Prenota la tua consulenza gratuita scrivendo una mail a post@workitaut.at
-        cost: <b> GRATUITO </b>
+        cost: 
       - name: JUNIORgoPRO | Selezione 
         description: |
           In una giornata stabilita insieme prenderemo in esame il tuo CV e faremo un colloquio conoscitivo. Condizioni generali di partecipazione: min. 18 anni, cittadinanza EU, conoscenza basilare della lingua tedesca.
+          Se ci state, vi garantiamo un posto di lavoro JUNIORgoPRO in uno dei nostri hotel partner in Tirolo. Riceverete un bonus di formazione di 350,- per ogni stagione invernale completata. Può essere utilizzato per i nostri corsi del programma JUNIORgoPRO. 
+          Il buono non può essere riscattato in contanti. 
         days: |-
           Prenota il tuo appuntamento gratuito scrivendo una mail a post@workitaut.at
-        cost: <b> GRATUITO </b>
+        cost: 
   - title: Traduzioni Italiano - Tedesco
     subtitle:  <b>Come</b> dici <b>cosa</b> a <b>chi</b> fa la differenza. Abbiamo le parole giuste per ogni obiettivo.
     courses:
