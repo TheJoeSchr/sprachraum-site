@@ -16,65 +16,28 @@ function substituteTemplateLiterals(textIncludingLiterals, dictReplacements) {
   return result
 }
 
-function mailSubject({ name, description, days }) {
-  return `SPRACHRAUM: Anmeldung für ${name}:${description}, ${days}`
+function mailSubject({ name, ...formData }) {
+  return `SPRACHRAUM: Anmeldung für ${name}`
 }
 
+// MAIN FUNCTIONS
 exports.handler = function (event, context, callback) {
+
+
   // Parse data sent in form hook (email, name etc)
-  const { data } = JSON.parse(event.body).payload
-
-  // using the readFileSync() function
-  // and passing the path to the file
-  const fs = require('fs')
-  const path = require('path')
-
-  const buffer = fs.readFileSync(path.join(__dirname, 'EmailUser.md'), {
-    encoding: 'utf-8',
-  })
-
-  // use the toString() method to convert
-  // Buffer into String
-  const fileContent = buffer.toString()
-  // console.log(fileContent)
-  // Set options
-  marked.setOptions({
-    gfm: true,
-    breaks: true,
-    sanitize: true,
-    smartLists: true,
-    smartypants: false,
-  })
-  const body = marked.parse(fileContent)
-  // console.log('Debug log:\n', data)
-  // make sure we have data and email
-  if (!data || !data.email) {
+  const { data: formData } = JSON.parse(event.body).payload
+  if (!formData || !formData.email) {
     return callback(null, {
       statusCode: 400,
       body: 'Mailing details not provided',
     })
   }
-  const nodemailer = require('nodemailer')
-  const user = process.env.EMAIL_USER
-  const pass = process.env.EMAIL_PASS
-  // console.log('Debug auth', { user, pass }) // TODO:
 
-  let transporter = nodemailer.createTransport({
-    host: 'smtppro.zoho.eu',
-    port: 587,
-    auth: { user, pass },
-  })
+  let transporter = mailAuth()
 
-  let formData = { ...data }
-  let mailOptions = {
-    from: 'post@workitaut.at',
-    to: data.email, // send to email from contact form
-    replyTo: 'post@workitaut.at',
-    subject: mailSubject(formData),
-    html: substituteTemplateLiterals(body, formData),
-  }
+  let userMailOptions = generateUserEmail(formData)
 
-  transporter.sendMail(mailOptions, (error, info) => {
+  transporter.sendMail(userMailOptions, (error, info) => {
     // handle errors
     if (error) {
       console.error('sendMail error:', error)
@@ -92,3 +55,47 @@ exports.handler = function (event, context, callback) {
     })
   })
 }
+
+function mailAuth() {
+  const nodemailer = require('nodemailer')
+  const user = process.env.EMAIL_USER
+  const pass = process.env.EMAIL_PASS
+  return nodemailer.createTransport({
+    host: 'smtppro.zoho.eu',
+    port: 587,
+    auth: {user, pass},
+  })
+}
+
+function generateUserEmail(formData) {
+  const fs = require('fs')
+  const path = require('path')
+
+  // and passing the path to the file
+  const buffer = fs.readFileSync(path.join(__dirname, 'EmailUser.md'), {
+    encoding: 'utf-8',
+  })
+
+  // use the toString() method to convert
+  // Buffer into String
+  const fileContent = buffer.toString()
+  // console.log(fileContent)
+  // Set options
+  marked.setOptions({
+    gfm: true,
+    breaks: true,
+    sanitize: true,
+    smartLists: true,
+    smartypants: false,
+  })
+  const parsedHTML = marked.parse(fileContent)
+  let mailOptions = {
+    from: 'post@workitaut.at',
+    to: formData.email,
+    replyTo: 'post@workitaut.at',
+    subject: mailSubject(formData),
+    html: substituteTemplateLiterals(parsedHTML, formData),
+  }
+  return mailOptions
+}
+
