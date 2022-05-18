@@ -37,13 +37,6 @@ cards:
     linkText: '>> servizi'
     link: /it/services
 
-  - title: Partner
-    content: |
-      - WKO
-      - WIFI
-      - COI
-      - DIALOGANDO
- 
   - title: Siamo un team
     link:  /team
     linkText: '>> chi siamo'
@@ -60,6 +53,13 @@ cards:
       Come si pronuncia correttamente "Kaiserschmarrn"? - non lo so, ma è buono.
       Vuoi conoscere il tuo livello di tedesco? prova il test! durata di circa 30 minuti 
 
+  - title: Partner
+    content: |
+      - WKO
+      - WIFI
+      - COI
+      - DIALOGANDO
+ 
 contact:
   title: 'Info e contatti'
   content: |
