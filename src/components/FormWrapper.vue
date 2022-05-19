@@ -1,11 +1,14 @@
 <template lang="pug">
   form.form-wrapper(method='post' v-on:submit.prevent='handleSubmit' netlify name='order-form' ref='formTag')
     // auto-generate hidden fields for netlify form detection
+    // all owned properties of form without "email"
     input(v-for='(value, propertyName) in form' v-if='form.hasOwnProperty(propertyName) && propertyName != "email"' type='hidden' :name='propertyName' :value='value')
     slot
-    button.text-gray-700.background-transparent.font-bold.uppercase.py-1.text-xs.border.border-solid.rounded.px-4.py-2(class='focus:outline-none hover:bg-brand-green hover:text-white' type='submit') Send
+    slot(name='submitButton')
+      button.w-full.inline-block.px-6.py-2.text-sm.text-white.font-bold.leading-loose.bg-primary-600.rounded.transition.duration-200(class='hover:bg-gray-700' type='submit') {{ message.btnBookingSend }}
 </template>
 <script>
+import {message} from '~/content/it/Interface.yaml'
 export default {
   name: 'FormWrapper',
   components: {},
@@ -15,8 +18,10 @@ export default {
     return {
       form,
       status: {},
+      message,
     }
-  }, methods: {
+  },
+  methods: {
     encode(data) {
       return Object.keys(data)
         .map(

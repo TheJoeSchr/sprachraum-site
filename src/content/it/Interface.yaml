@@ -3,7 +3,7 @@ message:
   btnBooking: 'Iscrizione'
   btnBookingAlternative: 'o email'
   btnBookingEmail: 'post@workitaut.at'
+  btnBookingSend: 'Spedire'
   bookingContinue: 'CONTENUTO'
   emailOrderTemplate: |-
-
   legalText: |-

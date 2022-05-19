@@ -30,8 +30,20 @@ section(class="pt-2")
               button(class='hover:bg-secondary-200').inline-block.w-full.py-3.px-5.leading-none.text-center.font-bold.text-primary-900.bg-primary-200.rounded.shadow
                 | {{messages.btnBooking}}
             template(#default)
-              form-wrapper(v-model='form')
-                input(v-model='form.email' name='email' placeholder='name@example.com' type='email' ref='inputEmail')
+              section.bg-white.py-20
+                .container.px-4.mx-auto
+                  .flex.flex-wrap.items-center.-mx-4
+                    .w-full.px-4.mb-12(class='lg:w-1/2 lg:mb-0')
+                      span.inline-block.text-xs.text-gray-700.uppercase {{form.tagline}}
+                      h2.mt-2.mb-6.text-4xl.text-black.font-bold.font-heading(class='lg:text-5xl') {{form.name}}
+                      p.text-lg.text-gray-800.leading-loose(v-html="toBr(form.description)")
+                    .w-full.px-4(class='lg:w-1/2')
+                      .mx-auto.py-6.px-8.bg-secondary-300.text-center.rounded-lg(class='lg:mr-0 lg:ml-auto lg:max-w-sm')
+                        h3.mb-2.text-2xl.font-bold.font-heading {{ messages.btnBooking }}
+                        p.mb-4.text-gray-500(v-html="toBr(form.cost)")
+                        form-wrapper(v-model='form')
+                          input.mb-4.w-full.pl-3.py-3.bg-white.rounded(v-model='form.email' name='email' placeholder='name@example.com' type='email' ref='inputEmail')
+
           a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{`${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
 </template>
 
@@ -41,19 +53,6 @@ import FormWrapper from '~/components/FormWrapper.vue'
 import Modal from '~/components/Modal.vue'
 import {toBr} from '~/helpers'
 
-const TEMPLATE =
-  '\nVORNAME / NOME\n  \nNACHNAME / COGNOME\n  \nGEBURTSDATUM / DATA DI NASCITA\n  \nSTRASSE / VIA\n   \nPLZ / CODICE POSTALE\n \nORT / CITÀ\n \nLAND / PAESE\n  \nTELEFON / TELEFONO\n \nE-MAIL\n \n\nNACHRICHT / MESSAGO\n\n\n\n\n\n\n\n'
-
-const mailBody = ({name, description, days, legalText = ''}) => {
-  const body = `${TEMPLATE} \n\n\n\n${legalText}`
-  return encodeURIComponent(
-    `KURSTITEL /  CORSO \n ${name}\n ${description}\n ${days}\n${body}`
-  )
-}
-
-function mailSubject({name, description, days}) {
-  return `Anmeldung für ${name}:${description}, ${days}`
-}
 export default {
   name: 'OfferDetail',
   components: {
@@ -88,12 +87,6 @@ export default {
     }
   },
   methods: {
-    mailtoFn: function (course) {
-      const EMAIL = this.messages.btnBookingEmail
-      return `mailto:${EMAIL}?subject=${mailSubject(course)}&body=${mailBody(
-        course
-      )}`
-    },
     toBr,
   },
 }
