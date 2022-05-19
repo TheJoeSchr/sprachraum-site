@@ -29,21 +29,16 @@ div
       g-image(v-if="2 == index" src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height="300" width="300" center="top" fit="outside")
       g-image(v-if="3 == index" src='~/assets/images/schneemann-119510173.jpg' height="300" width="300" position="left" fit="cover")
       g-image(v-if="4 == index" src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height="300" width="300" center="top" fit="cover")
-      g-image(v-if="5 == index" src='~/assets/images/AllLogos.png' quality=100 height="600" width="600" fit="fill")
-        <!-- logos singular -->
-        <!-- g-image(v-if="5 == index" src='~/assets/images/WKO_Logo_tourismus_ti4.jpg' quality=100 height="300" fit="fill") -->
-        <!-- g-image(v-if="5 == index" src='~/assets/images/Wifi_LogoTirol.jpg' quality=100 height="300" fit="fill") -->
-        <!-- g-image(v-if="5 == index" src='~/assets/images/Accademia.png' quality=100 height="300" fit="fill") -->
-        <!-- g-image(v-if="5 == index" src='~/assets/images/dialogando_logo_review.jpg' quality=100 height="300" fit="fill") -->
-      <!-- g-image(v-if="6 == index" src='~/assets/images/2_Italienischkurs.jpg' height="300" width="300" center="top" fit="cover") -->
 
+  PartnerLogos
   MinorHero(:value="{...contact, isLeft: true}" v-if="contact")
     g-image.mx-auto.my-4( src='~/assets/images/contact.jpg' height="300" width="300" center="top" fit="cover")
 </template>
 
 <script>
-import MinorHero from '~/components/MinorHero.vue'
 import Layout from '~/layouts/Default.vue'
+import MinorHero from '~/components/MinorHero.vue'
+import PartnerLogos from '~/components/PartnerLogos.vue'
 import {toBr} from '~/helpers'
 
 export default {
@@ -51,6 +46,7 @@ export default {
   components: {
     Layout,
     MinorHero,
+    PartnerLogos
   },
   props: ['value'],
   data() {

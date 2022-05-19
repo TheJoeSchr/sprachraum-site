@@ -15,6 +15,7 @@
 <script>
 import {toBr} from '~/helpers'
 export default {
+  name: 'MinorHero',
   props: ['value'],
   data: function () {
     const {
