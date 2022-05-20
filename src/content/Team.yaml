@@ -89,3 +89,18 @@ members:
     verb: partecipare
     adjektiv: divertente
     substantiv: semplicità
+
+
+  - name: NeuesTeamitglied
+    id: newid
+    kurzbio: |-
+      Presidente COI Accademia Enogastronomico
+      Università di Cagliari
+    sprachraum: |-
+      Partner per formazione e project developer
+      Best boy
+    zitat: Non rinunciare ad un sogno solo perché pensi che ti ci vorrà troppo tempo per realizzarlo… il tempo passerà comunque.
+    zitatAuthor: Hikmet Nazin
+    verb: partecipare
+    adjektiv: divertente
+    substantiv: semplicità
