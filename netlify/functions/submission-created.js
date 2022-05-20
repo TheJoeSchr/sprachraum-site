@@ -1,3 +1,6 @@
+const ADMIN_EMAIL = 'post@workitaut.at'
+const NOTIFICATION_EMAIL = 'elke@workitaut.at'
+const BOT_EMAIL = process.env.EMAIL_USER
 const check_debug = () => 'develpment' == process.env.NODE_ENV
 const IS_DEBUG = check_debug()
 // MAIN FUNCTIONS
@@ -13,7 +16,17 @@ exports.handler = function (event, context, callback) {
 
   let transporter = mailAuth()
 
-  let userMailOptions = generateUserEmail(formData)
+  let userMailOptions = generateCustomerEmail(formData)
+  let adminMailOptions = generateNotificationEmail(formData)
+  transporter.sendMail(adminMailOptions, (error, info) => {
+    // handle errors
+    if (error) {
+      console.error('ADMIN: sendMail error:', error)
+    }
+
+    // success!
+    console.log('ADMIN: sendMail success', info)
+  })
 
   transporter.sendMail(userMailOptions, (error, info) => {
     // handle errors
@@ -47,21 +60,55 @@ function mailAuth() {
   })
 }
 
-function generateUserEmail(formData) {
-  // read markdown file in same path
-  const fs = require('fs')
-  const path = require('path') //joining path of directory
+function generateCustomerEmail(formData) {
   if (IS_DEBUG) {
-    printDirTree(path)
+    printDirTree()
   }
+  return generateEmail('it/EmailOrderCustomer.md', {
+    formData,
+    from: BOT_EMAIL,
+    replyTo: ADMIN_EMAIL,
+    subject: mailSubjectCustomer(formData),
+    to: formData.email,
+  })
+}
+
+function generateNotificationEmail(formData) {
+  return generateEmail('it/EmailOrderNotification.md', {
+    formData,
+    from: BOT_EMAIL,
+    replyTo: ADMIN_EMAIL,
+    subject: mailSubjectNotification(formData),
+    to: NOTIFICATION_EMAIL,
+  })
+}
+function generateEmail(template, { formData, from, replyTo, subject, to }) {
+  // read markdown file in same path
+  const html = substituteTemplateLiterals(
+    parseTemplateToHtml(formData, template),
+    formData
+  )
+  let mailOptions = {
+    from,
+    to,
+    replyTo,
+    subject,
+    html,
+  }
+  return mailOptions
+}
+
+function parseTemplateToHtml(formData, customerEmailTemplate) {
+  const path = require('path') //joining path of directory
+  const fs = require('fs')
   const zipItFolder = path.join('', '../../')
-  const contentFolder = path.join('', 'src/content/it')
+  const contentFolder = path.join('', 'src/content/')
   // console.log('zipItFolder', zipItFolder)
   const filepath = path.join(
     __dirname,
     zipItFolder,
     contentFolder,
-    'EmailUser.md'
+    customerEmailTemplate
   )
   console.log('Read Markdown:', filepath)
   const buffer = fs.readFileSync(filepath, {
@@ -82,23 +129,17 @@ function generateUserEmail(formData) {
     smartypants: false,
   })
   const parsedHTML = marked.parse(fileContent)
-  let mailOptions = {
-    from: 'post@workitaut.at',
-    to: formData.email,
-    replyTo: 'post@workitaut.at',
-    subject: mailSubject(formData),
-    html: substituteTemplateLiterals(parsedHTML, formData),
-  }
-  return mailOptions
+  return parsedHTML
 }
 
-function printDirTree(path) {
+function printDirTree() {
+  const path = require('path') //joining path of directory
   const directoryPath = path.join(__dirname, '../..')
   const dirTree = require('directory-tree')
   console.debug('dirTree:')
   const tree = dirTree(
     directoryPath,
-    {extensions: /\.md/},
+    { extensions: /\.md/ },
     (item, PATH, stats) => {
       if (!PATH.includes('README') && !PATH.includes('node_modules'))
         console.log(PATH)
@@ -120,4 +161,6 @@ function substituteTemplateLiterals(textIncludingLiterals, dictReplacements) {
   return result
 }
 
-const mailSubject = ({ name }) => `SPRACHRAUM: Anmeldung für ${name}`
+const mailSubjectCustomer = ({ name }) => `SPRACHRAUM: Anmeldung für ${name}`
+const mailSubjectNotification = ({ email, name }) =>
+  `Anmeldung von ${email} für ${name}`
