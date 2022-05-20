@@ -33,16 +33,17 @@ section(class="pt-2")
               section.bg-white.py-20
                 .container.px-4.mx-auto
                   .flex.flex-wrap.items-center.-mx-4
-                    .w-full.px-4.mb-12(class='lg:w-1/2 lg:mb-0')
-                      span.inline-block.text-xs.text-gray-700.uppercase {{form.tagline}}
-                      h2.mt-2.mb-6.text-4xl.text-black.font-bold.font-heading(class='lg:text-5xl') {{form.name}}
-                      p.text-lg.text-gray-800.leading-loose(v-html="toBr(form.description)")
+                    .w-full.px-4(class='')
+                      span.mx-auto.inline-block.text-xs.text-gray-700.uppercase {{form.tagline}}
+                      h2.mx-auto.mt-2.mb-6.text-4xl.text-black.font-bold.font-heading(class='lg:text-5xl') {{form.name}}
                     .w-full.px-4(class='lg:w-1/2')
-                      .mx-auto.py-6.px-8.bg-secondary-300.text-center.rounded-lg(class='lg:mr-0 lg:ml-auto lg:max-w-sm')
+                      .mx-auto.py-6.px-8.bg-secondary-300.text-center.rounded-lg(class='lg:mr-auto lg:ml-0 lg:max-w-sm')
                         h3.mb-2.text-2xl.font-bold.font-heading {{ messages.btnBooking }}
                         p.mb-4.text-gray-500(v-html="toBr(form.cost)")
                         form-wrapper(v-model='form')
                           input.mb-4.w-full.pl-3.py-3.bg-white.rounded(v-model='form.email' name='email' placeholder='name@example.com' type='email' ref='inputEmail')
+                    .w-full.px-4.mb-12(class='lg:w-1/2 lg:mb-0')
+                      p.text-lg.text-gray-800.leading-loose(v-html="toBr(form.description)")
 
           a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{`${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
 </template>
