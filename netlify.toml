@@ -1,0 +1,4 @@
+# Include all markdown files in all functions
+[functions]
+  included_files = ["src/content/**/*.md"]
+  node_bundler = "esbuild"
