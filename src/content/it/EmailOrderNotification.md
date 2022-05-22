@@ -1,4 +1,4 @@
-Potenzielle Anmeldung für ${name}
+Anmeldung für ${name}
 --------
 
 ${email} hat sich interessiert für **${name}: ${tagline}**
