@@ -12,13 +12,13 @@ members:
       Scienze della Comunicazione e Filosofia
       Università di Salisburgo/AUT.
       Certificazione per l´insegnamento della lingua tedesca DAF/DAZ con specializzazione in migrazione e lavoro.
-      Nata in Austria; vive e lavora tra Wels \ Alta Austria e Quartu Sant ́Elena \ Sardegna.
+      Nata in Austria; vive e lavora tra Alta Austria e Sardegna.
     sprachraum: |-
       Creatrice e responsabile del progetto Sprachraum work IT AUT
       telefono +39 331 222 6615
       email elke@workitaut.at
     zitat: perché le stelle sono così disordinate?
-    zitatAuthor: 'Peter Fischli. Aus: Mi trova la fortuna?'
+    zitatAuthor: 'da Mi trova la fortuna?'
     verb: creare
     adjektiv: chiaro
     substantiv: Vanillekipferl
@@ -48,14 +48,14 @@ members:
     id: laura
     kurzbio: |-
       PHD Scienze Comunicazione e studi culturali Università Vienna/AT
-      Consulente di gestione
-      Giornalista e autore di numerose pubblicazioni sui temi della localizzazione, dell'economia e del talento.
+      Postgraduated MA Cultural Studies University of London/GB
+      Aziendalista; Prof.FH St. Pölten/NÖ; Autore
       Vive e lavora a Alta Austria
     sprachraum: |-
-      Presidente KompeTrend GmbH 
+      CEO KompeTrend GmbH 
       Capo per tutto
-    zitat: Ci si salva e si va avanti se si agisce insieme e non solo uno per uno.
-    zitatAuthor: Enrico Berlinguer
+    zitat: Ho portato un cocomero. 
+    zitatAuthor: Baby. Dirty Dancing
     verb: coraggioso
     adjektiv: extra
     substantiv: creatività
@@ -79,11 +79,14 @@ members:
   - name: Gianfranco Massa 
     id: accademia
     kurzbio: |-
-      Presidente COI Accademia Enogastronomico
-      Università di Cagliari
+      Presidente e fondatore COI Accademia Enogastronomico
+      e Sa Scolla Baradili, Cagliari e Costa Paradiso
+      Cagliaritano, da oltre 20 anni lavora come consulente in giro per l’Italia nei settori della formazione professionale, 
+      dello sviluppo locale e del turismo
     sprachraum: |-
       Partner per formazione e project developer
-      Best boy
+      email g.massa@coiaccademia.com
+      
     zitat: Non rinunciare ad un sogno solo perché pensi che ti ci vorrà troppo tempo per realizzarlo… il tempo passerà comunque.
     zitatAuthor: Hikmet Nazin
     verb: partecipare
@@ -91,16 +94,18 @@ members:
     substantiv: semplicità
 
 
-  - name: NeuesTeamitglied
+  - name: Giancarlo Dessi
     id: newid
     kurzbio: |-
-      Presidente COI Accademia Enogastronomico
-      Università di Cagliari
+      Amministratore Delegato COI Accademia Enogastronomica
+      Commercialista e Aziendalista
+      Laurea Economia Università di Cagliari
+      Vive e lavoro in Cagliari 
     sprachraum: |-
       Partner per formazione e project developer
-      Best boy
-    zitat: Non rinunciare ad un sogno solo perché pensi che ti ci vorrà troppo tempo per realizzarlo… il tempo passerà comunque.
-    zitatAuthor: Hikmet Nazin
-    verb: partecipare
-    adjektiv: divertente
-    substantiv: semplicità
+      email g.dessi@coiaccademia.com
+    zitat: Non vorrei mai far parte di un club che accettasse me come socio.  
+    zitatAuthor: Gruocho Marx
+    verb: provare
+    adjektiv: silenzioso
+    substantiv: passione
