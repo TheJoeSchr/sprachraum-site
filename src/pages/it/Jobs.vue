@@ -8,7 +8,7 @@ Layout
             Modal
               template(#inline)
                 a.group(v-on:click="toggleInfo(dreamjob)" class="cursor-pointer")
-                    DreamJobCard(:value='dreamjob')
+                  DreamJobCard(:value='dreamjob')
               template(#default)
                 DreamJobInfo(:value='currentInfo')
 
@@ -25,8 +25,8 @@ import MinorHero from '~/components/MinorHero.vue'
 import Modal from '~/components/Modal.vue'
 import carriere from '~/content/it/Carriere.yaml'
 import jobs from '~/content/it/Jobs.yaml'
-import { message } from '~/content/it/Interface.yaml'
-import { toBr } from '@/helpers'
+import {message as messages} from '~/content/it/Interface.yaml'
+import {toBr} from '@/helpers'
 
 export default {
   components: {
@@ -43,11 +43,11 @@ export default {
     return {
       carriere: {
         ...carriere,
-        messages: message,
+        messages,
       },
       jobs: {
         ...jobs,
-        messages: message,
+        messages,
       },
       showInfo: false,
       currentInfo: null,
