@@ -1,16 +1,14 @@
 <template lang="pug">
   form.form-wrapper(method='post' v-on:submit.prevent='handleSubmit' netlify name='email-me' ref='formTag')
-    // needed for netlify form detection, same a ref.formTag
-    input(type="hidden" name="form-name" value="email-me") 
-    // auto-generate hidden fields for netlify form detection
-    // all owned properties of form without "email"
-    input(v-for='(value, propertyName) in form' v-if='form.hasOwnProperty(propertyName) && propertyName != "email"' type='hidden' :name='propertyName' :value='value')
     slot(name='default')
     slot(name='submit')
       button.w-full.inline-block.px-6.py-2.text-sm.text-white.font-bold.leading-loose.bg-primary-600.rounded.transition.duration-200(class='hover:bg-gray-700' type='submit') Submit
     slot(name='status' :status='status')
       div(v-if='status["success"] == true').w-full E-Mail sent!
       div(v-if='status["success"] == false').w-full Trouble sending you mail!
+    // auto-generate hidden fields for netlify form detection
+    // all owned properties of form without "email"
+    input(v-for='(value, propertyName) in form' v-if='form.hasOwnProperty(propertyName) && propertyName != "email"' type='hidden' :name='propertyName' :value='value')
 </template>
 <script>
 export default {
