@@ -1,5 +1,7 @@
 <template lang="pug">
   form.form-wrapper(method='post' v-on:submit.prevent='handleSubmit' netlify name='order-form' ref='formTag')
+    // needed for netlify form detection, same a ref.formTag
+    input(type="hidden" name="form-name" value="order-form") 
     // auto-generate hidden fields for netlify form detection
     // all owned properties of form without "email"
     input(v-for='(value, propertyName) in form' v-if='form.hasOwnProperty(propertyName) && propertyName != "email"' type='hidden' :name='propertyName' :value='value')
