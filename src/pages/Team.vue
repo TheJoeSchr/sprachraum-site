@@ -3,17 +3,17 @@ Layout
   MinorHero(:value="header" )
     g-image(src='~/assets/junior/Bild_4_WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height=250 width=250 center="center" fit="inside")
   .divide-y.divide-gray-400
-    section.py-12.px-4.container.py-2(v-for='(person,index) in team' :key='person.id').pt-8
+    section.py-12.px-4.container.py-2(v-for='(person, index) in team' :key='person.id').pt-8
       .flex.flex-wrap.-mx-4.mb-8
         .portrait.mx-auto(class="md:mx-0 md:w-1/3 md:mb-0 md:pr-8" :class="person.id")
         .w-full.px-4(class='md:w-1/2 ')
           h2.text-2xl.pt-4.font-heading.font-semibold.text-center.mx-auto(class="md:text-4xl md:pt-0 md:text-left").
-            {{ person.name }}
+            {{person.name}}
           .py-8.px-4(class="md:pl-0" v-if="person.zitat")
             .max-w-2xl.pl-12.py-4.mx-auto.border-l-4(class="md:pl-8")
               p.text-xl.mb-6(v-html="person.zitat")
               p.text-sm.text-gray-600
-                span(v-if="person.zitatAuthor").mr-2  - {{ person.zitatAuthor}}
+                span(v-if="person.zitatAuthor").mr-2  - {{person.zitatAuthor}}
                 //- span.font-semibold CEO at Realweb
       .flex.flex-wrap.w-full(class="md:-mx-4")
         .column-section(class='md:-mx-4')
@@ -29,7 +29,7 @@ Layout
 <script>
 import content from '@/content/Team.yaml'
 import MinorHero from '~/components/MinorHero.vue'
-import { toBr } from '@/helpers'
+import {toBr} from '@/helpers'
 
 export default {
   components: {
@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       team: content.members,
-      header: content.header
+      header: content.header,
     }
   },
   methods: {
@@ -71,33 +71,39 @@ export default {
   background-position: center center; /* optional, center the image */
 }
 .elke {
-  background-image: url('~@/assets/portraits/Elke.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Elke.jpg?width=300&height=300");
 }
 .johannes {
-  background-image: url('~@/assets/portraits/Johannes.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Johannes.jpg?width=300&height=300");
 }
 .heidi {
-  background-image: url('~@/assets/portraits/Heidi.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Heidi.jpg?width=300&height=300");
 }
 .laura {
-  background-image: url('~@/assets/portraits/Laura.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Laura.jpg?width=300&height=300");
 }
 .giorgio {
-  background-image: url('~@/assets/portraits/Giorgio.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Giorgio.jpg?width=300&height=300");
 }
 .richard {
-  background-image: url('~@/assets/portraits/Richard.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Richard.jpg?width=300&height=300");
 }
 .maura {
-  background-image: url('~@/assets/portraits/Maura_Bagnone.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Maura_Bagnone.jpg?width=300&height=300");
 }
 .nadjaMaffei {
-  background-image: url('~@/assets/portraits/Nadja_Maffei.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Nadja_Maffei.jpg?width=300&height=300");
 }
 .lauraSedda {
-  background-image: url('~@/assets/portraits/Laura_Sedda.jpg?width=300&height=300');
+  background-image: url("~@/assets/portraits/Laura_Sedda.jpg?width=300&height=300");
 }
-.accademia {
-  background-image: url('~@/assets/portraits/Accademia.png?width=300&height=300');
+.giancarlo {
+  background-image: url("~@/assets/portraits/Giancarlo.jpg?width=300&height=300&fit=cover");
+}
+.gianfranco {
+  background-image: url("~@/assets/portraits/Gianfranco.jpg?width=300&height=300");
+}
+.thomas {
+  background-image: url("~@/assets/portraits/Thomas.jpg?width=300&height=300");
 }
 </style>
