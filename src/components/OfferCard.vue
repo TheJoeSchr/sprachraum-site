@@ -39,7 +39,7 @@ section(class="pt-2")
                     .w-full.px-4(class='lg:w-1/2')
                       .mx-auto.py-6.px-8.bg-secondary-300.text-center.rounded-lg(class='lg:mr-auto lg:ml-0 lg:max-w-sm')
                         h3.mb-2.text-2xl.font-bold.font-heading {{ messages.btnBooking }}
-                        p.mb-4.text-gray-500(v-html="toBr(form.cost)")
+                        p.mb-4.text-gray-500(v-html="toBr()")
                         form-wrapper(v-model='form')
                           input.mb-4.w-full.pl-3.py-3.bg-white.rounded(v-model='form.email' name='email' placeholder='name@example.com' type='email' ref='inputEmail')
                     .w-full.px-4.mb-12(class='lg:w-1/2 lg:mb-0')
