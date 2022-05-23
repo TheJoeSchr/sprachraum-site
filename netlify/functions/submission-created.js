@@ -6,15 +6,15 @@ const IS_DEBUG = check_debug()
 // MAIN FUNCTIONS
 exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
-  if (IS_DEBUG) console.log('event', event)
+  if (IS_DEBUG) console.log('Event:\n', event)
   const { data: formData } = JSON.parse(event.body).payload
+  if (IS_DEBUG) console.log('Data:\n', formData)
   if (!formData || !formData.email) {
     return callback(null, {
       statusCode: 400,
       body: 'Mailing details not provided',
     })
   }
-  if (IS_DEBUG) console.log('formData', form)
   let transporter = mailAuth()
 
   let userMailOptions = generateCustomerEmail(formData)
