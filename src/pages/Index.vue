@@ -1,12 +1,11 @@
-
 <template lang="pug">
 Layout
-  Landing(:value="{ ...content, translateLink:'/de/'}")
+  Landing(:value="{...content, translateLink: '/de/'}")
 </template>
 <script>
 import Landing from '~/components/Landing.vue'
 import landing from '~/content/it/Index.yaml'
-import { message } from '~/content/it/Interface.yaml'
+import {message} from '~/content/it/Interface.yaml'
 
 export default {
   components: {
@@ -25,4 +24,3 @@ export default {
   },
 }
 </script>
-/script>
