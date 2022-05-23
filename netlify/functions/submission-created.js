@@ -8,7 +8,6 @@ exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
   if (IS_DEBUG) console.log('Event:\n', event)
   const { data: formData } = JSON.parse(event.body).payload
-  if (IS_DEBUG) console.log('Data:\n', formData)
   if (!formData || !formData.email) {
     return callback(null, {
       statusCode: 400,
