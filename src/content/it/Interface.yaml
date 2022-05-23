@@ -4,9 +4,9 @@ message:
   btnBookingAlternative: 'o email'
   btnBookingEmail: 'post@workitaut.at'
   btnBookingSend: 'Iniva'
-  btnBookingSendValidationError: 'Bitte E-mail adresse eingeben'
-  btnBookingSuccess: 'E-Mail Formular ist am Weg'
-  btnBookingError: 'Fehler, bitte später nochmals versuchen'
+  btnBookingSendValidationError: 'Inseriere la email'
+  btnBookingSuccess: 'E-Mail inviato'
+  btnBookingError: 'Errore, prova nuovamente'
   bookingContinue: 'CONTENUTO'
   emailOrderTemplate: |-
   legalText: |-
