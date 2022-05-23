@@ -3,6 +3,7 @@ section(class="pt-2")
   // can't put inside of modal, because then netlify won't detect it
   #hidden-form(v-show="false")
     form-wrapper(v-model='form')
+      input(v-model='form.email' name='email' type='email')
   .flex.flex-wrap.max-w-4xl.mx-auto
     .w-full.py-1.mb-1.px-2(class='md:w-full md:mb-2')
       .py-1.border
