@@ -2,12 +2,12 @@
 section.dreamjobinfo(v-if='dreamjob')
   .flex.flex-wrap.mx-2.mb-6
     div.img.mx-auto(class='w-1/3')
-      g-image.img(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" class='md:mx-0 md:w-1/3 md:mb-0 md:pr-8' height=300 width="300" center="center" fit="inside")
+      g-image.img.block(:src="require(`!!assets-loader!@jobs/${dreamjob.id}.jpg`)" class='md:mx-1 md:w-2/3 md:mb-0 md:pr-8' height="300" width="300" fit="inside")
     .px-4.mx-4(class='md:w-2/3 ')
       h2.text-lg.font-heading.font-semibold.text-center.mx-auto(class='md:text-3xl md:pt-0 md:text-left').
-        {{ dreamjob.title }}
+        {{dreamjob.title}}
       h3.text-base.font-heading.font-semibold.text-center.mx-auto.text-gray-600(class='md:text-xl md:pt-0 md:text-left').
-        {{ dreamjob.subtitle }}
+        {{dreamjob.subtitle}}
       blockquote.text-sm
         .pt-8(class='md:pl-0' v-if='dreamjob.description')
           .max-w-2xl.py-2.mx-auto
@@ -22,21 +22,21 @@ section.dreamjobinfo(v-if='dreamjob')
   .more-info(class='md:mx-4')
     div(class='flex flex-col')
       .column-section.py-4(v-if='showInfo' v-for='column in dreamjob.columns' :key='column.title' class='flex-none md:flex-1')
-          h3.text-normal {{ column.title }}
-          p.text-sm.text-gray-700
-            ul
-              li(v-for='item in column.content' :key='item') {{ item }}
+        h3.text-normal {{column.title}}
+        p.text-sm.text-gray-700
+          ul
+            li(v-for='item in column.content' :key='item') {{item}}
 </template>
 
 <script>
-import { toBr } from '~/helpers'
+import {toBr} from '~/helpers'
 
 export default {
   name: 'DreamJobCard',
   props: ['value'],
   data() {
     const showInfo = false
-    return { showInfo }
+    return {showInfo}
   },
   computed: {
     dreamjob: {
@@ -54,11 +54,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .img {
   background-position: center center; /* optional, center the image */
   background-repeat: no-repeat; /* optional, center the image */
   width: 300px;
+  /*
   height: 300px;
+  */
 }
 </style>

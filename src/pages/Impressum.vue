@@ -33,6 +33,7 @@ Layout
     br
     strong Firmensitz:
     |  Zirbenweg 7, A 4052 Ansfelden
+   
   p
     strong Mitglied bei:
     |  WKO, Landesinnung, etc.
@@ -77,6 +78,11 @@ Layout
     | Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns
     | gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung
     | weiter.
+    | EU-DATENSCHUTZ-GRUNDVERORDNUNG 
+    | Datenschutzerklärung für Bewerber*innen. Das seit Mai 2018 wirksame Datenschutz-Grundverordnung sieht erweiterte Informationsverpflichtungen für die Sicherheit ihrer Daten vor. In Erfüllung dieser rechtlichen Vorschriften informieren wir Sie hiermit über die Datenverarbeitung im Rahmen ihres Bewerbungsprozesses.  Wir nutzen sämtliche personenbezogenen Daten ausschließlich innerhalb unseres Unternehmens. Die Weitergabe ihrer Daten erfolgt erst nach einem persönlichen Gespräch und der ausdrücklichen Einwilligung, die schriftlich erfolgen muss. Ihre Daten geben wir nach dieser Einwilligung ihrerseits an unsere jeweiligen Partner:innen - ihre zukünftigen, potentiellen  Arbeitgeber:innen mit denen wir im Rahmen von workITAUT in vertraglicher Partnerschaft stehen weiter, sowie der Wirtschaftskammer Tirol im Falle einer Teilnahme ihrerseits an einer geförderten Ausbildung derselben. 
+    | Rechtsgrundlage: Wir tun dies auf der rechtlichen Grundlage einen effizienten Bewerbungsprozess durchzuführen (Art 6 Abs 1 lit f DSGVO) sowie auf der Grundlage der Notwendigkeit zur Durchführung vorvertraglicher Maßnahmen (Art 6 Abs 1 lit b DSGVO). 
+    | Datenerhebung: Ihre Daten erheben wir entweder, indem Sie uns diese im Zuge einer Kursanmeldung zur Verfügung stellen, indem Sie uns ihren Lebenslauf zusenden oder anhand von Aufzeichnungen im Rahmen eines persönlichen Vorstellungsgespräches. Es besteht keine Verpflichtung ihrerseits uns Ihre Daten zur Verfügung zu stellen. Wenn Sie uns ihre Daten nicht zur Verfügung stellen, wird es uns aber nicht möglich sein, den Bewerbungsprozess mit Ihnen durchzuführen. 
+
   h4
     | Cookies
   p

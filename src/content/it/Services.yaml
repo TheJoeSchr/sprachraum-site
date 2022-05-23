@@ -2,8 +2,8 @@ info:
   title: Informazioni
   content: |-
     I nostri servizi di orientamento professionale per i/le candidati/e alle nostre posizioni aperte sono sempre gratuite. Registrazione richiesta.
-    Durata circa 45min. In lingua tedesca o inglese.
-    La pianificazione della carriera per giovani professionisti e profili junior è gratuita previa registrazione.
+    
+    La pianificazione della carriera per giovani professionisti e la consulenza per il programma JUNIORgoPRO è gratuito previa registrazione.
     Assistenza continua durante la partenza e tutta la stagione invernale gratuita.
   list:
     - Per le traduzioni generali, si applicano i prezzi indicati.
@@ -12,49 +12,53 @@ offers:
   - title: Consulenza per i/le candidati/e e orientamento lavorativo per giovani professionisti/e
     subtitle: <b>Rispondiamo</b> a tutte le tue domande sulle offerte di lavoro e ti <b>sosteniamo</b> nella pianificazione del tuo futuro professionale.
     courses:
-      - name: OPEN DAY in presenza a Cagliari
+      - name: OPEN DAY a Cagliari
         description: |-
-          Presentiamo il team di Cagliari, tutte le informazioni riguardo il lavoro in Austria, le posizioni lavorative aperte e i corsi di tedesco nonchè la formazione a Cagliari. Vi sosteniamo in ogni passo: dalla formazione all´assunzione.
-          Sardegna. Le nuove date fino a maggio
-          Mer, 27 apr dalle 16:00 alle 17:30
-          Mar, 03 mag dalle 16:00 alle 17:30
-          Mer, 11 mag dalle 09:30 alle 11:00
+          Presentiamo il team di Cagliari, tutte le informazioni riguardo il lavoro in Austria, le posizioni lavorative aperte e i corsi di tedesco nonchè il programma formativo JUNIORgoPRO a Cagliari. Vi sosteniamo in ogni passo: dalla formazione all´assunzione.
+          Le prossime date
           Mer, 25 mag dalle 16:00 alle 17:30
+          Mar, 31 mag dalle 16:00 alle 17:00 e dalle 17:00 alle 18:00 e dalle 19:30 alle 20:30
+          Mar, 07 mag dalle 18:00 alle 19:30 
           Mar, 14 giugno dalle 10:00 alle 11:30 e dalle 18:00 alle 19:30
-          SETTEMBRE SPEZIALE 14, 15, 16, da mar a gio dalle 10:00 alle 11:30 e dalle 17:30 alle 19:00 
+          SETTEMBRE SPECIALE 14, 15, 16, da mer a ven dalle 10:00 alle 11:30 e dalle 17:30 alle 19:00 
           Luogo| Via Albert Einstein 19, Cagliari. I posti sono limitati a 6 persone a giornata. Nel rispetto delle norme anti-Covid, per la partecipazione è obbligatoria la prenotazione online.
-          Non dimenticare di portare il tuo curruculm vitae!
         days: |-
-          Prenota il tuo posto scrivendo a | info@dialogando.com
-        cost: <b> GRATUITO</b>
-      - name: Colloquio preliminare | Per i/le candidati/e ai posti di lavoro aperti
-        description: Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto.
+          Prenota il tuo posto scrivendo a info@dialogando.com
+        cost: 
+      - name: Colloquio preliminare Per i/le candidati/e ai posti di lavoro 
+        description: |
+          Breve verifica dei documenti di candidatura | Suggerimenti per il colloquio | Domande e risposte sul luogo di lavoro, posizione e contratto. Anche via Zoom. 
         days: |-
-          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
-        cost: <b> GRATUITO </b>
-      - name: Pianifica la tua carriera | All inclusive! lavoro invernale e crescita professionale
-        description: Primi passi nel settore alberghiero per profili entry-level e junior tra i 18 e i 29 anni.
+          Prenota la tua consulenza gratuita scrivendo una mail a post@workitaut.at
+        cost: 
+      - name: JUNIORgoPRO | Selezione 
+        description: |
+          In una giornata stabilita insieme prenderemo in esame il tuo CV e faremo un colloquio conoscitivo. Condizioni generali di partecipazione: min. 18 anni, cittadinanza EU, conoscenza basilare della lingua tedesca.
+          Se ci stai fai parte dell programma duale JUNIORgoPRO. Riceverai un bonus di formazione di 350,- per ogni stagione invernale completata. 
         days: |-
-          Prenota la tua consulenza gratuita su Zoom, scrivendo una mail a post@workitaut.at
-        cost: <b> GRATUITO </b>
+          Prenota il tuo appuntamento gratuito scrivendo una mail a post@workitaut.at
+        cost: 
   - title: Traduzioni Italiano - Tedesco
     subtitle:  <b>Come</b> dici <b>cosa</b> a <b>chi</b> fa la differenza. Abbiamo le parole giuste per ogni obiettivo.
     courses:
       - name: |-
           Curriculum vitae efficace in tedesco
-        description: Tradurre e adattare il curriculum, secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        description: |
+          Tradurre e adattare il curriculum secondo gli standard attuali del mercato del lavoro austriaco. Adeguare il CV all'offerta di lavoro e renderlo più efficace per un colloquio lavorativo in Austria. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
         days: |-
-          Scrivendo una mail a post@workitaut.at
+          Scrivi una mail a post@workitaut.at
         cost: <del>€ 120</del> con sconto <b>€ 89</b>
       - name: |-
           Traduzione della lettera di presentazione/motivazionale
-        description: Sapersi esprimere in modo corretto in una lingua straniera significa porre le basi per nuove opportunità lavorative e sentirsi al posto giusto nel momento giusto. Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
+        description: |
+          Sapersi esprimere in modo corretto in una lingua straniera significa porre le basi per nuove opportunità lavorative e sentirsi al posto giusto nel momento giusto. Alle aziende arrivano ogni giorno centinaia di candidature, una lettera di presentazione/motivazionale è importante quanto il CV. Offriamo una traduzione che risponda alle aspettative di un madrelingua tedesco. Nel prezzo del servizio è compreso un incontro preliminare e un debriefing finale.
         days: |-
-          Scrivendo una mail a post@workitaut.at
+          Scrivi una mail a post@workitaut.at
         cost: <del>€ 140</del> con sconto <b>€ 99</b>
       - name: |-
           Traduzione di siti web e documenti per hotel, alberghi, ristoranti e strutture per l'ospitalità
-        description: Non importa se sei il titolare di un'attività alberghiera di alto livello, un agriturismo o un piccolo B&B cittadino. Noi parliamo la lingua dei tuoi ospiti. Comunichiamo in modo efficace e corretto attraverso l’uso di un lessico adeguato al tuo target di clienti. Nel prezzo del servizio sono compresi una riunione preliminare, 2 incontri per revisioni e adattamenti, editing finale.
+        description: |
+          Non importa se sei il titolare di un'attività alberghiera di alto livello, un agriturismo o un piccolo B&B cittadino. Noi parliamo la lingua dei tuoi ospiti. Comunichiamo in modo efficace e corretto attraverso l’uso di un lessico adeguato al tuo target di clienti. Nel prezzo del servizio sono compresi una riunione preliminare, 2 incontri per revisioni e adattamenti, editing finale. 
         days: |-
           INFO post@workitaut.at
         cost: <b>Preventivo su richiesta</b>
