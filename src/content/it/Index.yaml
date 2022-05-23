@@ -9,10 +9,10 @@ hero:
   linkText: lavori in AUT
 cards:
   - title: JUNIORgoPRO
-    subtitle: Attraverso la practica!
+    subtitle: Attraverso la pratica!
     content: |
       È un programma di formazione duale di alta qualità per le professioni alberghiere e della ristorazione. 
-      Esso offre a 12 junior motivati un blended learning system all'avanguardia con contratti di lavoro, uno stipendio con ottime condizioni a partire dall'autunno 22. 
+      Esso offre a 12 junior motivati un blended learning system all'avanguardia con contratti di lavoro, uno stipendio con ottime condizioni a partire dall'autunno 2022. 
       Lavorerai e approfondirai il mestiere in Austria d'inverno e proseguirai il tuo percorso formativo in  Sardegna d'estate presso uno dei nostri grandi alberghi partner di categoria superiore. 
       Da JUNIOR a professionista di alto livello.  
     link: '/it/junior/'
@@ -46,7 +46,7 @@ cards:
       Il nostro obiettivo è sostenere i/le professionisti/e e accompagnare i giovani nei loro primi passi nel mondo del lavoro.
       Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile.
 
-  - title: Scusa, parli Tedesco?
+  - title: Scusa, parli tedesco?
     subtitle: Ja, Danke! Pretzel? Kinder! Aufwiedersehen.
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> fai il test'
@@ -61,9 +61,7 @@ contact:
     <span> <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a> </span>
     <span> <b>Zoom Meeting:</b>
       Se vuoi parlare con noi mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti: <i style="display:inline">
-        venerdì 08:00 - 10:30
-        lunedì e giovedì dalle 12:30 alle 13:30
-        mercoledì 18:45 alle 19:30
+      Orario di ufficio dal lunedi al giovedì 08:00 - 17:00 e venerdì dalle 08:00 - 13:00 
       </i></span> <span> <b>Ufficio:</b> +39 331 222 66 15</span>
     <span> <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a></span>
     </div> 
