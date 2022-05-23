@@ -4,7 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "start": "gridsome develop",
-    "debug": "NODE_ENV=develpment NODE_OPTIONS=--inspect netlify dev",
+    "debug": "NODE_ENV=development NODE_OPTIONS=--inspect netlify dev",
     "explore": "gridsome explore"
   },
   "dependencies": {

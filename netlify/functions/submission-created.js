@@ -1,11 +1,12 @@
-const ADMIN_EMAIL = 'post@workitaut.at'
-const NOTIFICATION_EMAIL = 'elke@workitaut.at'
-const BOT_EMAIL = process.env.EMAIL_USER
-const check_debug = () => 'develpment' == process.env.NODE_ENV
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL ?? 'post@workitaut.at'
+const NOTIFICATION_EMAIL = process.env.NOTIFICATION_EMAIL ?? 'elke@workitaut.at'
+const BOT_EMAIL = process.env.ADMIN_EMAIL ?? process.env.EMAIL_USER
+const check_debug = () => 'development' == process.env.NODE_ENV
 const IS_DEBUG = check_debug()
 // MAIN FUNCTIONS
 exports.handler = function (event, context, callback) {
   // Parse data sent in form hook (email, name etc)
+  if (IS_DEBUG) console.log('event', event)
   const { data: formData } = JSON.parse(event.body).payload
   if (!formData || !formData.email) {
     return callback(null, {
@@ -13,7 +14,7 @@ exports.handler = function (event, context, callback) {
       body: 'Mailing details not provided',
     })
   }
-
+  if (IS_DEBUG) console.log('formData', form)
   let transporter = mailAuth()
 
   let userMailOptions = generateCustomerEmail(formData)
