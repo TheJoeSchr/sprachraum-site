@@ -24,11 +24,11 @@ div
 
   template(v-for='(section, index) in cards' )
     MinorHero(:value="{...section, isLeft: (index % 2 == 0)}" )
-      g-image(v-if="0 == index" src='~/assets/images/Pa1250150-KORR-full.jpg' quality=100 width="500" height="500" position="right" fit="cover")
-      g-image(v-if="1 == index" src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height="400" width="400" fit="cover")
-      g-image(v-if="2 == index" src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height="300" width="300" center="top" fit="outside")
-      g-image(v-if="3 == index" src='~/assets/images/schneemann-119510173.jpg' height="300" width="300" position="left" fit="cover")
-      g-image(v-if="4 == index" src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height="300" width="300" center="top" fit="cover")
+      g-image(v-if="0 == index" src='~/assets/images/home_juniorgopro.jpg' width="400" height="400" position="center" fit="inside" quality=100)
+      g-image(v-if="1 == index" src='~/assets/images/3_Kursprogramm_Sprachraum_1_iStock-1214385234.jpg' height="400" width="400" fit="cover" quality=100)
+      g-image(v-if="2 == index" src='~/assets/images/WORK IT AUT-WORKBEE-LOGO-FINAL.jpg' height="300" width="300" center="top" fit="outside" quality=100)
+      g-image(v-if="3 == index" src='~/assets/images/schneemann-119510173.jpg' height="300" width="300" position="left" fit="cover" quality=100)
+      g-image(v-if="4 == index" src='~/assets/images/kocherei-stock-resort-kulinarik-genusshotel-05.jpg' height="300" width="300" center="top" fit="cover" quality=100)
 
   PartnerLogos
   MinorHero(:value="{...contact, isLeft: true}" v-if="contact")
@@ -46,7 +46,7 @@ export default {
   components: {
     Layout,
     MinorHero,
-    PartnerLogos
+    PartnerLogos,
   },
   props: ['value'],
   data() {
