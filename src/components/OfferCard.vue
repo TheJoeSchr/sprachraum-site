@@ -62,20 +62,20 @@ section(class="pt-2")
           a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{`${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
 </template>
 <script>
-import { toEmailLinebreak } from '~/helpers'
+import {toEmailLinebreak} from '~/helpers'
 import FormWrapper from '~/components/FormWrapper.vue'
 import Modal from '~/components/Modal.vue'
-import { toBr } from '~/helpers'
+import {toBr} from '~/helpers'
 
 export default {
-  name: 'OfferDetail',
+  name: 'OfferCard',
   components: {
     Modal,
     FormWrapper,
   },
   props: ['value'],
   data() {
-    const { hideBooking, messages, ...form } = this.value
+    const {hideBooking, messages, ...form} = this.value
 
     return {
       form,
