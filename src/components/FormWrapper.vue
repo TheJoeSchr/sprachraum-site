@@ -8,6 +8,7 @@
       div(v-if='status["success"] == false').w-full Trouble sending you mail!
     // auto-generate hidden fields for netlify form detection
     // all owned properties of form without "email"
+    input(:value='$refs.formTag.getAttribute("name")' name='form-name' type='hidden')
     input(v-for='(value, propertyName) in form' v-if='form.hasOwnProperty(propertyName) && propertyName != "email"' type='hidden' :name='propertyName' :value='value')
 </template>
 <script>
