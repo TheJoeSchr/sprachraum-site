@@ -1,5 +1,5 @@
 <template lang="pug">
-  form.form-wrapper(method='post' v-on:submit.prevent='handleSubmit' netlify name='email-me' ref='formTag')
+  form.form-wrapper(method='post' v-on:submit.prevent='handleSubmit' netlify :name='formName' ref='formTag')
     slot(name='default')
     slot(name='submit')
       button.w-full.inline-block.px-6.py-2.text-sm.text-white.font-bold.leading-loose.bg-primary-600.rounded.transition.duration-200(class='hover:bg-gray-700' type='submit') Submit
@@ -8,6 +8,7 @@
       div(v-if='status["success"] == false').w-full Trouble sending you mail!
     // auto-generate hidden fields for netlify form detection
     // all owned properties of form without "email"
+    input(:value='formName' name='form-name' type='hidden')
     input(v-for='(value, propertyName) in form' v-if='form.hasOwnProperty(propertyName) && propertyName != "email"' type='hidden' :name='propertyName' :value='value')
 </template>
 <script>
@@ -19,6 +20,7 @@ export default {
     const form = this.value
     return {
       form,
+      formName: 'email-me',
       status: {},
     }
   },

@@ -1,12 +1,12 @@
 <template lang="pug">
 Layout
-  OfferList(:value="{...content, translateLink:'/kursprogramm/'}")
+  OfferList(:value="{...content, translateLink: '/kursprogramm/'}")
 </template>
 
 <script>
 import OfferList from '~/components/OfferList.vue'
 import services from '~/content/it/Services.yaml'
-import { message } from '~/content/it/Interface.yaml'
+import {message as messages} from '~/content/it/Interface.yaml'
 
 export default {
   components: {
@@ -17,12 +17,12 @@ export default {
   },
   data() {
     return {
-      content:{
+      content: {
         list: services,
-        messages: message,
-        hideBooking: true
-      }
+        messages,
+        hideBooking: true,
+      },
     }
-  }
+  },
 }
 </script>
