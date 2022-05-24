@@ -4,6 +4,7 @@ section(class="pt-2")
   #hidden-form(v-show="false")
     form-wrapper(v-model='form')
       input(:value='form.email' name='email' type='hidden')
+      input(:value='form.subtitle' name='subtitle' type='hidden')
   .flex.flex-wrap.max-w-4xl.mx-auto
     .w-full.py-1.mb-1.px-2(class='md:w-full md:mb-2')
       .py-1.border
