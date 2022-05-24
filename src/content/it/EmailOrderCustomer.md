@@ -3,7 +3,7 @@ Per favore, inviaci i tuoi dati personali.
 A breve ti invieremo la e-mail di conferma. 
 
 - CORSO 
-  ${name}: ${tagline}
+  ${name}: ${subtitle}
   ${cost}
 
 - NOME

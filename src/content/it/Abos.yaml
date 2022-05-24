@@ -17,7 +17,7 @@ offers:
     subtitle: TEAM TEACHING | Insegnante con certificazione DAF/DAZ | Enjoy languages - Dialogando, Cagliari.
     courses:
       - name: Corso di tedesco intensivo pre-intermedio
-        tagline: Per le professioni alberghiere | JUNIORgoPRO
+        subtitle: Per le professioni alberghiere | JUNIORgoPRO
         description: |-
           DATE dal 20/09 al 10/11/22
           GIORNI lun/mer/gio 09:00 - 12:00
@@ -39,7 +39,7 @@ offers:
         cost: <b> € 460</b>
 
       - name: Corso di tedesco A1.1 e A1.2 
-        tagline: standard | JUNIORgoPRO
+        subtitle: standard | JUNIORgoPRO
         description: |-
           DATE dal 26/09 al 12/12/22 A1.1
           DATE dal 09/01 al 29/03/23 A1.2
@@ -59,7 +59,7 @@ offers:
         cost: <b> per modulo € 380 </b>
 
       - name: Corso di tedesco pre-intermedio 
-        tagline: conversazione con ospiti/e
+        subtitle: conversazione con ospiti/e
         description: |-
           DATE dal 26/09 al 04/11/22
           GIORNI lun e ven | 09:30 - 12:00
@@ -74,7 +74,7 @@ offers:
         cost: <b> special price € 280 </b>
 
       - name: Analisi delle competenze linguistiche 
-        tagline: per i livelli A1 / A2 / B1 / B2
+        subtitle: per i livelli A1 / A2 / B1 / B2
         description: |-
           DATE dal 23/09 al 25/11/22
           GIORNO ogni venerdì | 14:30 - 17:30 
@@ -90,7 +90,7 @@ offers:
     subtitle:  Blended Learning System per le professioni RISTORAZIONE | CUCINA | HOTELMANAGEMENT
     courses:
       - name: CUCINA***** & lingua 
-        tagline: In 24 mesi da JUNIOR a Super-Chef con certifcazione di tedesco B1, B2 o C1
+        subtitle: In 24 mesi da JUNIOR a Super-Chef con certifcazione di tedesco B1, B2 o C1
         description: |-
           DATE da settembre 2022 ad aprile 2024
           DATE da aprile 2023 a novembre 2024
@@ -128,7 +128,7 @@ offers:
         cost: <b> 4.020 Euro </b> con assegno di studio
          
       - name: Sala***** & lingua
-        tagline: In 24 mesi al JUNIOR dal Super Chef de Rang con certifcazione tedesco B1, B2 o C1
+        subtitle: In 24 mesi al JUNIOR dal Super Chef de Rang con certifcazione tedesco B1, B2 o C1
         description: |-
           DATE da settembre 2022 ad aprile 2024
           DATE da aprile 2023 a novembre 2024
@@ -165,7 +165,7 @@ offers:
         cost: <b> 3.620 Euro </b> con assegno di studio
            
       - name: HOTEL- & HOSPITALITY MANAGEMENT*****  
-        tagline: In collaborazione con WKO e Wifi Innsbruck/Tirolo. In 18 mesi formazione attraverso la pratica. 
+        subtitle: In collaborazione con WKO e Wifi Innsbruck/Tirolo. In 18 mesi formazione attraverso la pratica. 
         description: |-
           DATE Ottobre 2022 - Dicembre 2023
           DATE Marzo 2023 - Giugno 2024
@@ -196,7 +196,7 @@ offers:
     subtitle: I PACCHETTI ONLINE si ripetono tutto l´anno a ciclo continuo e ricominciano di nuovo dopo 14 e/o 24 unità.
     courses:
       - name:  Pacchetto di tedesco pre-intermedio
-        tagline: CONVERSAZIONE per le professioni alberghiere
+        subtitle: CONVERSAZIONE per le professioni alberghiere
         description: |-
           DATE ogni giovedì
           ORARI 14:30 - 16:00
@@ -213,7 +213,7 @@ offers:
         cost: <del>€ 250</del> <b> special price € 199 </b>
 
       - name:  Pacchetto di tedesco intermedio
-        tagline: CONVERSAZIONE per le professioni alberghiere.
+        subtitle: CONVERSAZIONE per le professioni alberghiere.
         description: |-
           DATE ogni martedì
           ORARI 14.30 - 16:00
@@ -230,7 +230,7 @@ offers:
         cost: <del>€ 250</del> <b> special price € 199 </b>
 
       - name:  Pacchetto REFRESHER A2-B1
-        tagline: uso attivo della grammatica.
+        subtitle: uso attivo della grammatica.
         description: |-
           DATE ogni lunedì
           ORARI 11:30 - 13:00
@@ -248,14 +248,14 @@ offers:
     times: 08:00 - 19:00 dal lun al ven
     courses:
       - name: Coaching individuale
-        tagline:  20 unità
+        subtitle:  20 unità
         cost: <b> € 530  </b>
       - name: Coaching individuale
-        tagline:  15 unità
+        subtitle:  15 unità
         cost: <b>€ 390  </b>
       - name: Coaching individuale
-        tagline:  10 unità
+        subtitle:  10 unità
         cost: <b> € 270  </b>
       - name: Coaching individuale
-        tagline: 5 unità
+        subtitle: 5 unità
         cost: <b> € 140  </b>

@@ -12,7 +12,7 @@ section(class="pt-2")
           template(#inline)
             h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.text-center.uppercase(class="w-full" v-html='toBr(form.name)')
             div.px-3.my-6.text-lg.text-gray-900.text-center
-              p.font-bold(v-html='toBr(form.tagline)')
+              p.font-bold(v-html='toBr(form.subheader)')
               p.leading-relaxed.text-sm.px-3.text-gray-800.font-secondary(v-html='toBr(form.days)')
               p.mb-2.leading-relaxed.text-sm.px-3.text-gray-600.font-secondary(v-html='toBr(form.times)')
                 .text-sm.text-gray-900.underline {{ messages.bookingContinue }}
@@ -22,7 +22,7 @@ section(class="pt-2")
           template(#default)
             h3.text-xl.pl-3.mb-1.font-heading.font-bold.font-sans.left-0.uppercase(class="w-full" v-html='toBr(form.name)')
             div.px-3.my-6.text-lg.text-gray-900.text-center
-              p.font-bold(v-html='toBr(form.tagline)')
+              p.font-bold(v-html='toBr(form.subheader)')
             h4.pl-3.mb-3.text-lg.font-heading.text-gray-800.font-medium.font-mono(v-html="toBr(form.description)")
             div.my-5.text-lg.text-gray-900.text-right
               .ml-auto(class="w-full" v-html="toBr(form.cost)")
@@ -38,7 +38,7 @@ section(class="pt-2")
                 .container.px-4.mx-auto
                   .flex.flex-wrap.items-center.-mx-4
                     .w-full.px-4(class='')
-                      span.mx-auto.inline-block.text-xs.text-gray-700.uppercase {{form.tagline}}
+                      span.mx-auto.inline-block.text-xs.text-gray-700.uppercase {{form.subheader}}
                       h2.mx-auto.mt-2.mb-6.text-4xl.text-black.font-bold.font-heading(class='lg:text-5xl') {{form.name}}
                     .w-full.px-4(class='lg:w-1/2')
                       .mx-auto.py-6.px-8.bg-secondary-300.text-center.rounded-lg(class='lg:mr-auto lg:ml-0 lg:max-w-sm')
@@ -62,10 +62,10 @@ section(class="pt-2")
           a(:href='`mailto:${messages.btnBookingEmail}`' v-if='messages && messages.btnBookingAlternative') {{`${messages.btnBookingAlternative} ${messages.btnBookingEmail}`}}
 </template>
 <script>
-import {toEmailLinebreak} from '~/helpers'
+import { toEmailLinebreak } from '~/helpers'
 import FormWrapper from '~/components/FormWrapper.vue'
 import Modal from '~/components/Modal.vue'
-import {toBr} from '~/helpers'
+import { toBr } from '~/helpers'
 
 export default {
   name: 'OfferDetail',
@@ -75,7 +75,7 @@ export default {
   },
   props: ['value'],
   data() {
-    const {hideBooking, messages, ...form} = this.value
+    const { hideBooking, messages, ...form } = this.value
 
     return {
       form,

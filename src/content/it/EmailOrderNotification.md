@@ -1,7 +1,7 @@
 Anmeldung für ${name}
 --------
 
-${email} hat sich interessiert für **${name}: ${tagline}**
+${email} hat sich interessiert für **${name}: ${subtitle}**
 
 - an den Tagen: ${days}
 - aktueller Preis: ${cost}
@@ -23,7 +23,7 @@ offers:
   - ...
   courses:
       - name: Corso di tedesco intensivo pre-intermedio
-        tagline: Per le professioni alberghiere | JUNIORgoPRO
+        subtitle: Per le professioni alberghiere | JUNIORgoPRO
       description: |-
 ```
 
@@ -34,7 +34,7 @@ Name
 
 Subtitle
 ----
-  ${tagline}
+  ${subtitle}
 
 
 
