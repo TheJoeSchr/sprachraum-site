@@ -4,8 +4,8 @@ layout
     .max-w-4xl.mx-auto
       h2.text-4xl.text-center.mb-12.font-heading Allgemeine Geschäftsbedingungen
       div.text-lg.pb-4.
-        Nachstehend die für das Kalenderjahr 2020/2021 gültigen Allgemeinen
-        Geschäftsbedingungen für Sprachraum – Work IT AUT ein in Projekt der KompeTrend
+        Nachstehend die für das Kalenderjahr 2022/2023 gültigen Allgemeinen
+        Geschäftsbedingungen für die Kursangebote von Sprachraum | Work IT AUT ein in Projekt der KompeTrend
         GmbH, Ansfelden OÖ / Österreich. Im folgenden kurz WIA KompeTrend GmbH
 
       .flex.flex-wrap.-mx-8
@@ -32,15 +32,15 @@ layout
             Die Beurteilung des Vorliegens dieser Voraussetzungen liegt einzig im Ermessen von WIA
             KompeTrend GmbH
           p.
-            3.2 Um den entsprechenden Lernerfolg zu erzielen braucht es folgende Voraussetzungen:
+            3.2 Um den entsprechenden Lernerfolg für Onlinekurse zu erzielen braucht es folgende Voraussetzungen:
             Eine stabile Internetverbindung (Fiber etc) und einen geübten Umgang mit dem Computer
             bzw. mit Internetplattformen.
           p.
-            3.3 Für sämtliche Teilnehmer_innen der Deutsch A1 Kurse sind gute Englisch oder
+            3.3 Für sämtliche Teilnehmer_innen an ONLINE Modulen der Deutsch A1 Kurse sind gute Englisch oder
             Italienischkenntnisse notwendig, um den Einstieg in das Kursgeschehen von Anfang an zu
             verstehen. Dies gilt nicht für sprachhomogene Gruppen.
           p.
-            3.3 Für sämtliche Teilnehmer_innen der Deutsch A1 Kurse sind gute Englisch oder
+            3.3 Für sämtliche Teilnehmer_innen der ONLINE Deutsch A1 Kurse sind gute Englisch oder
           p.
             3.4 Es dürfen – ohne ausdrückliche Erlaubnis der Trainer_innen – keine Ton- u.
             Videoaufnahmen gemacht werden.
@@ -48,9 +48,9 @@ layout
           h3.text-lg.mb-1.font-heading.font-semibold 4. Kursangebote &amp; Coachings
           p.
             4.1 Die Zeiteinheit unserer Veranstaltungen sind als „EH“ bei allen Angeboten auf der
-            Website angegeben und umfassen jeweils 50 Minuten.
+            Website angegeben und umfassen jeweils 60 Minuten.
           p.
-            4.2 Online Gruppenkurse sind auf ein Minimum von 4 und auf ein Maximum von 6
+            4.2 Online Gruppenkurse sind auf ein Minimum von 4 und auf ein Maximum von 10
             Teilnehmer_innen beschränkt.
           p.
             4.3 Etwaiige Änderungen sind extra auf dem jeweiligen Angebot gekennzeichnet. Auch die
@@ -113,16 +113,6 @@ layout
             Unsere Stamm-Schüler_innen bekommen ihre Treue belohnt
             ab dem 2. Kurs, eines Coachings oder sonstiger Angebote: minus 5%
             ab dem 4. Kurs, eines Coachings oder sonstiger Angebote: minus 10%
-          p.
-            9.1 Weiter: wenn ein Familienmitglied im selben Kalenderjahr
-            einen Kurs besucht: minus 7%
-          p.
-            9.2 Wenn Sie den Kurs aufgrund eines Arbeitseinsatzes bei einem Partner oder best friend -
-            Unternehmen von WIA KompeTrend GmbH in Österreich absolvieren
-            minus 10%
-          p.
-            9.3 Wenn Sie Mitarbeiter_in eines Partners oder best friend Unternehmens von WIA
-            KompeTrend GmbH in Österreich oder Italien sind: minus 10%
           p.
             9.4 Schüler_innen &amp; Student_innen minus 5 %
             Alle Ermäßigungen gelten ausschließlich für Gruppenkurse. Ermäßigungen für Coachings
