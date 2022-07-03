@@ -1,9 +1,9 @@
 hero:
-  title: Stagione invernale nelle Alpi tirolese 2022/23
+  title: Stagione invernale nelle Alpi tirolesi 2022/23
   subtitle: Grandi opportunità per i/le professionisti/e del settore Turistico-Alberghiero!
   content: |
     Posizioni aperte per i professionisti con esperienza pluriennale e per la categoria JUNIOR JOBS. Potrai crescere in un contesto internazionale e arricchire il curriculum.
-    Scopri le posizioni aperte per il settore alberghiero e ristorazione. 
+    Scopri le posizioni aperte per il settore alberghiero e la ristorazione. 
 
   link: '/it/jobs/'
   linkText: lavori in AUT
@@ -13,7 +13,7 @@ cards:
     content: |
       È un programma di formazione duale di alta qualità per le professioni alberghiere e della ristorazione. 
       Esso offre a 12 junior motivati un blended learning system all'avanguardia con contratti di lavoro, uno stipendio con ottime condizioni a partire dall'autunno 2022. 
-      Lavorerai e approfondirai il mestiere in Austria d'inverno e proseguirai il tuo percorso formativo in  Sardegna d'estate presso uno dei nostri grandi alberghi partner di categoria superiore. 
+      Lavorerai e approfondirai il mestiere in Austria d'inverno e proseguirai il tuo percorso formativo in Sardegna d'estate presso uno dei nostri grandi alberghi partner di categoria superiore. 
       Da JUNIOR a professionista di alto livello.  
     link: '/it/junior/'
     linkText: '>> JUNIORgoPRO'
@@ -34,7 +34,7 @@ cards:
       - un colloquio preliminare sulle posizioni disponibili
       - pianificazione della carriera oppure orientamento professionale
       
-      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e dei vari documenti da presentare durante la candidatura.
+      Offriamo inoltre un servizio di traduzione di CV, lettera di presentazione, lettera motivazionale e vari documenti da presentare durante la candidatura.
     linkText: '>> servizi'
     link: /it/services
 
@@ -47,7 +47,7 @@ cards:
       Mettiamo al primo posto la persona: ti agevoliamo nella ricerca del lavoro adatto, nell'azienda giusta e nella posizione lavorativa migliore possibile.
 
   - title: Scusa, parli tedesco?
-    subtitle: Ja, Danke! Pretzel? Kinder! Aufwiedersehen.
+    subtitle: Ja, Danke! Wiener Schnitel? Sacher Torte! Aufwiedersehen.
     link: 'https://hueber.de/menschen/einstufungstest'
     linkText: '>> fai il test'
     content: |
@@ -60,8 +60,8 @@ contact:
     <div class="text-justify" style="display:inline">
     <span> <b>Email:</b> <a href='mailto:post@workitaut.at'>post@workitaut.at</a> </span>
     <span> <b>Zoom Meeting:</b>
-      Se vuoi parlare con noi mandaci una breve mail scrivendo nome, cognome, data e l'ora che preferisci tra le seguenti: <i style="display:inline">
+      Se vuoi parlare con noi mandaci una breve mail scrivendo ci. Vi risponderemo al più presto!: <i style="display:inline">
       Orario di ufficio dal lunedi al giovedì 08:00 - 17:00 e venerdì dalle 08:00 - 13:00 
-      </i></span> <span> <b>Ufficio:</b> +39 331 222 66 15</span>
+      </i></span> <span> <b>Ufficio:</b> +39 346 400 97 81 o +39 331 222 66 15</span>
     <span> <b>Facebook:</b> <a target=_blank href=https://www.facebook.com/Sprachraum-work-it-aut-264573350889831>Sprachraum | Work-it-aut</a></span>
     </div> 
