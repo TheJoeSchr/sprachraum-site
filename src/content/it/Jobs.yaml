@@ -3,7 +3,7 @@ content: |-
   Dopo un colloquio conoscitivo con noi, ti supportiamo nella candidatura presso le nostre aziende partner.
   Si cercano professionisti/e per tutto il settore alberghiero 4 e 5 stelle.
 dreamjobs:
-  - id: chef_de_rang
+  - id: job_1_chef_de_rang
     title: Chef de Rang
     subtitle: Hotel 5stelle / Sölden
     description: |-
@@ -51,7 +51,7 @@ dreamjobs:
           - Possibilità di formazione professionale e personale
           - Divisa tradizionale austriaca fornita dall hotel
 
-  - id: chef_de_partie
+  - id: job_2_chef_de_rang
     title: Chef de Rang
     subtitle: Hotel 4*superior / Serfaus, Tirolo
     description: |-
@@ -100,7 +100,7 @@ dreamjobs:
           - Lavoro di gruppo in un team aperto e professionale
           - Possibilità di formazione professionale e personale
 
-  - id: demi_chef_de_partie
+  - id: job_3_chef_de_rang
     title: Chef de Rang
     subtitle: Hotel 5stelle / Tirolo 
     description: |-
