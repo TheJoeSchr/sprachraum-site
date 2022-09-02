@@ -35,7 +35,6 @@
     "gridsome-plugin-purgecss": "1.0.12",
     "gridsome-plugin-tailwindcss": "3.0.1",
     "http-server": "14.1.1",
-    "netlify-cli": "10.18.0",
     "postcss": "8.4.16",
     "prettier": "2.7.1",
     "pug": "3.0.2",
