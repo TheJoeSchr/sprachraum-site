@@ -12,7 +12,7 @@
     "@gridsome/source-filesystem": "0.6.2",
     "@gridsome/transformer-yaml": "0.2.1",
     "@gridsome/vue-remark": "0.2.6",
-    "directory-tree": "3.5.0",
+    "directory-tree": "3.5.1",
     "dotenv": "16.0.3",
     "gridsome": "0.7.23",
     "gridsome-plugin-i18n": "1.6.0",
