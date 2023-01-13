@@ -17,7 +17,7 @@
     "gridsome": "0.7.23",
     "gridsome-plugin-i18n": "1.6.0",
     "marked": "4.2.5",
-    "nodemailer": "6.8.0",
+    "nodemailer": "6.9.0",
     "typeface-d-din": "0.0.67",
     "typeface-unica-one": "0.0.72"
   },
