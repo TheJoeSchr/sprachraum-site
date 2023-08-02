@@ -67,7 +67,7 @@ section.dreamjobs {
   @apply mb-8 shadow border rounded overflow-hidden;
 }
 .column-section {
-  @apply .px-4 mb-4 w-full;
+  @apply px-4 mb-4 w-full;
 }
 
 @screen md {
