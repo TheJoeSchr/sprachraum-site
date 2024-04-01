@@ -39,6 +39,6 @@
     "prettier": "2.8.8",
     "pug": "3.0.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "yarn": "1.22.19"
+    "yarn": "1.22.22"
   }
 }
